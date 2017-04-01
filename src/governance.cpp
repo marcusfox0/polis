@@ -16,8 +16,6 @@
 
 CGovernanceManager governance;
 
-std::map<uint256, int64_t> mapAskedForGovernanceObject;
-
 int nSubmittedFinalBudget;
 
 const std::string CGovernanceManager::SERIALIZATION_VERSION_STRING = "CGovernanceManager-Version-11";
@@ -647,25 +645,23 @@ struct sortProposalsByVotes {
     }
 };
 
-void CGovernanceManager::NewBlock()
+void CGovernanceManager::DoMaintenance()
 {
+    // NOTHING TO DO IN LITEMODE
+    if(fLiteMode) {
+        return;
+    }
+
     // IF WE'RE NOT SYNCED, EXIT
     if(!masternodeSync.IsSynced()) return;
 
     if(!pCurrentBlockIndex) return;
-    LOCK(cs);
-
 
     // CHECK OBJECTS WE'VE ASKED FOR, REMOVE OLD ENTRIES
 
-    std::map<uint256, int64_t>::iterator it = mapAskedForGovernanceObject.begin();
-    while(it != mapAskedForGovernanceObject.end()) {
-        if((*it).second > GetTime() - (60*60*24)) {
-            ++it;
-        } else {
-            mapAskedForGovernanceObject.erase(it++);
-        }
-    }
+    CleanOrphanObjects();
+
+    RequestOrphanObjects();
 
     // CHECK AND REMOVE - REPROCESS GOVERNANCE OBJECTS
 
@@ -1029,6 +1025,8 @@ void CGovernanceManager::RequestGovernanceObject(CNode* pfrom, const uint256& nH
         return;
     }
 
+    LogPrint("gobject", "CGovernanceObject::RequestGovernanceObject -- hash = %s (peer=%d)\n", nHash.ToString(), pfrom->GetId());
+
     if(pfrom->nVersion < GOVERNANCE_FILTER_PROTO_VERSION) {
         pfrom->PushMessage(NetMsgType::MNGOVERNANCESYNC, nHash);
         return;
@@ -1038,6 +1036,7 @@ void CGovernanceManager::RequestGovernanceObject(CNode* pfrom, const uint256& nH
     filter.clear();
 
     if(fUseFilter) {
+        LOCK(cs);
         CGovernanceObject* pObj = FindGovernanceObject(nHash);
 
         if(pObj) {
@@ -1066,13 +1065,12 @@ int CGovernanceManager::RequestGovernanceObjectVotes(const std::vector<CNode*>& 
 
     if(vNodesCopy.empty()) return -1;
 
-    LOCK2(cs_main, cs);
-
-    if(mapObjects.empty()) return -2;
-
     int64_t nNow = GetTime();
     int nTimeout = 60 * 60;
     size_t nPeersPerHashMax = 3;
+
+    std::vector<CGovernanceObject*> vpGovObjsTmp;
+    std::vector<CGovernanceObject*> vpGovObjsTriggersTmp;
 
     // This should help us to get some idea about an impact this can bring once deployed on mainnet.
     // Testnet is ~40 times smaller in masternode count, but only ~1000 masternodes usually vote,
@@ -1085,25 +1083,28 @@ int CGovernanceManager::RequestGovernanceObjectVotes(const std::vector<CNode*>& 
         nMaxObjRequestsPerNode = std::max(1, int(nProjectedVotes / std::max(1, mnodeman.size())));
     }
 
-    std::vector<CGovernanceObject*> vpGovObjsTmp;
-    std::vector<CGovernanceObject*> vpGovObjsTriggersTmp;
+    {
+        LOCK2(cs_main, cs);
 
-    for(object_m_it it = mapObjects.begin(); it != mapObjects.end(); ++it) {
-        if(mapAskedRecently.count(it->first)) {
-            std::map<CService, int64_t>::iterator it1 = mapAskedRecently[it->first].begin();
-            while(it1 != mapAskedRecently[it->first].end()) {
-                if(it1->second < nNow) {
-                    mapAskedRecently[it->first].erase(it1++);
-                } else {
-                    ++it1;
+        if(mapObjects.empty()) return -2;
+
+        for(object_m_it it = mapObjects.begin(); it != mapObjects.end(); ++it) {
+            if(mapAskedRecently.count(it->first)) {
+                std::map<CService, int64_t>::iterator it1 = mapAskedRecently[it->first].begin();
+                while(it1 != mapAskedRecently[it->first].end()) {
+                    if(it1->second < nNow) {
+                        mapAskedRecently[it->first].erase(it1++);
+                    } else {
+                        ++it1;
+                    }
                 }
+                if(mapAskedRecently[it->first].size() >= nPeersPerHashMax) continue;
             }
-            if(mapAskedRecently[it->first].size() >= nPeersPerHashMax) continue;
-        }
-        if(it->second.nObjectType == GOVERNANCE_OBJECT_TRIGGER) {
-            vpGovObjsTriggersTmp.push_back(&(it->second));
-        } else {
-            vpGovObjsTmp.push_back(&(it->second));
+            if(it->second.nObjectType == GOVERNANCE_OBJECT_TRIGGER) {
+                vpGovObjsTriggersTmp.push_back(&(it->second));
+            } else {
+                vpGovObjsTmp.push_back(&(it->second));
+            }
         }
     }
 
@@ -1291,13 +1292,60 @@ void CGovernanceManager::UpdatedBlockTip(const CBlockIndex *pindex)
         return;
     }
 
+    {
+        LOCK(cs);
+        pCurrentBlockIndex = pindex;
+        nCachedBlockHeight = pCurrentBlockIndex->nHeight;
+        LogPrint("gobject", "CGovernanceManager::UpdatedBlockTip pCurrentBlockIndex->nHeight: %d\n", pCurrentBlockIndex->nHeight);
+    }
+}
+
+void CGovernanceManager::RequestOrphanObjects()
+{
+    std::vector<CNode*> vNodesCopy = CopyNodeVector();
+
+    std::vector<uint256> vecHashesFiltered;
+    {
+        std::vector<uint256> vecHashes;
+        LOCK(cs);
+        mapOrphanVotes.GetKeys(vecHashes);
+        for(size_t i = 0; i < vecHashes.size(); ++i) {
+            const uint256& nHash = vecHashes[i];
+            if(mapObjects.find(nHash) == mapObjects.end()) {
+                vecHashesFiltered.push_back(nHash);
+            }
+        }
+    }
+
+    LogPrint("gobject", "CGovernanceObject::RequestOrphanObjects -- number objects = %d\n", vecHashesFiltered.size());
+    for(size_t i = 0; i < vecHashesFiltered.size(); ++i) {
+        const uint256& nHash = vecHashesFiltered[i];
+        for(size_t j = 0; j < vNodesCopy.size(); ++j) {
+            CNode* pnode = vNodesCopy[j];
+            if(pnode->fMasternode) {
+                continue;
+            }
+            RequestGovernanceObject(pnode, nHash);
+        }
+    }
+
+    ReleaseNodeVector(vNodesCopy);
+}
+
+void CGovernanceManager::CleanOrphanObjects()
+{
     LOCK(cs);
-    pCurrentBlockIndex = pindex;
-    nCachedBlockHeight = pCurrentBlockIndex->nHeight;
-    LogPrint("gobject", "CGovernanceManager::UpdatedBlockTip pCurrentBlockIndex->nHeight: %d\n", pCurrentBlockIndex->nHeight);
+    const vote_mcache_t::list_t& items = mapOrphanVotes.GetItemList();
 
-    // TO REPROCESS OBJECTS WE SHOULD BE SYNCED
+    int64_t nNow = GetAdjustedTime();
 
-    if(!fLiteMode && masternodeSync.IsSynced())
-        NewBlock();
+    vote_mcache_t::list_cit it = items.begin();
+    while(it != items.end()) {
+        vote_mcache_t::list_cit prevIt = it;
+        ++it;
+        const vote_time_pair_t& pairVote = prevIt->value;
+        if(pairVote.second < nNow) {
+            mapOrphanVotes.Erase(prevIt->key, prevIt->value);
+        }
+    }
 }
