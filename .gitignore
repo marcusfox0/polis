@@ -96,6 +96,9 @@ qrc_*.cpp
 .DS_Store
 build
 
+# Xcode specific
+xcuserdata/
+
 #lcov
 *.gcno
 *.gcda
