@@ -19,6 +19,8 @@
 #include "util.h"
 #include "utilmoneystr.h"
 
+#include "evo/deterministicmns.h"
+
 #include <boost/lexical_cast.hpp>
 
 bool CDarkSendEntry::AddScriptSig(const CTxIn& txin)
