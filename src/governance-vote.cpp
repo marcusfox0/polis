@@ -154,7 +154,7 @@ uint256 CGovernanceVote::GetSignatureHash() const
     return SerializeHash(*this);
 }
 
-bool CGovernanceVote::Sign(const CKey& keyMasternode, const CPubKey& pubKeyMasternode)
+bool CGovernanceVote::Sign(const CKey& keyMasternode, const CKeyID& pubKeyIDMasternode)
 {
     std::string strError;
 
@@ -166,7 +166,7 @@ bool CGovernanceVote::Sign(const CKey& keyMasternode, const CPubKey& pubKeyMaste
             return false;
         }
 
-        if (!CHashSigner::VerifyHash(hash, pubKeyMasternode, vchSig, strError)) {
+        if (!CHashSigner::VerifyHash(hash, pubKeyIDMasternode, vchSig, strError)) {
             LogPrintf("CGovernanceVote::Sign -- VerifyHash() failed, error: %s\n", strError);
             return false;
         }
@@ -180,7 +180,7 @@ bool CGovernanceVote::Sign(const CKey& keyMasternode, const CPubKey& pubKeyMaste
             return false;
         }
 
-        if(!CMessageSigner::VerifyMessage(pubKeyMasternode, vchSig, strMessage, strError)) {
+        if(!CMessageSigner::VerifyMessage(pubKeyIDMasternode, vchSig, strMessage, strError)) {
             LogPrintf("CGovernanceVote::Sign -- VerifyMessage() failed, error: %s\n", strError);
             return false;
         }
@@ -189,21 +189,21 @@ bool CGovernanceVote::Sign(const CKey& keyMasternode, const CPubKey& pubKeyMaste
     return true;
 }
 
-bool CGovernanceVote::CheckSignature(const CPubKey& pubKeyMasternode) const
+bool CGovernanceVote::CheckSignature(const CKeyID& pubKeyIDMasternode) const
 {
     std::string strError;
 
     if (sporkManager.IsSporkActive(SPORK_6_NEW_SIGS)) {
         uint256 hash = GetSignatureHash();
 
-        if (!CHashSigner::VerifyHash(hash, pubKeyMasternode, vchSig, strError)) {
+        if (!CHashSigner::VerifyHash(hash, pubKeyIDMasternode, vchSig, strError)) {
             // could be a signature in old format
             std::string strMessage = masternodeOutpoint.ToStringShort() + "|" + nParentHash.ToString() + "|" +
                 boost::lexical_cast<std::string>(nVoteSignal) + "|" +
                 boost::lexical_cast<std::string>(nVoteOutcome) + "|" +
                 boost::lexical_cast<std::string>(nTime);
 
-            if(!CMessageSigner::VerifyMessage(pubKeyMasternode, vchSig, strMessage, strError)) {
+            if(!CMessageSigner::VerifyMessage(pubKeyIDMasternode, vchSig, strMessage, strError)) {
                 // nope, not in old format either
                 LogPrint("gobject", "CGovernanceVote::IsValid -- VerifyMessage() failed, error: %s\n", strError);
                 return false;
@@ -215,7 +215,7 @@ bool CGovernanceVote::CheckSignature(const CPubKey& pubKeyMasternode) const
             boost::lexical_cast<std::string>(nVoteOutcome) + "|" +
             boost::lexical_cast<std::string>(nTime);
 
-        if(!CMessageSigner::VerifyMessage(pubKeyMasternode, vchSig, strMessage, strError)) {
+        if(!CMessageSigner::VerifyMessage(pubKeyIDMasternode, vchSig, strMessage, strError)) {
             LogPrint("gobject", "CGovernanceVote::IsValid -- VerifyMessage() failed, error: %s\n", strError);
             return false;
         }
@@ -253,7 +253,7 @@ bool CGovernanceVote::IsValid(bool fSignatureCheck) const
 
     if(!fSignatureCheck) return true;
 
-    return CheckSignature(infoMn.pubKeyMasternode);
+    return CheckSignature(infoMn.pubKeyIDMasternode);
 }
 
 bool operator==(const CGovernanceVote& vote1, const CGovernanceVote& vote2)
