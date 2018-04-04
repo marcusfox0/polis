@@ -15,7 +15,7 @@ AC_CONFIG_HEADERS([src/config/polis-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
-BITCOIN_DAEMON_NAME=d
+BITCOIN_DAEMON_NAME=polisd
 BITCOIN_GUI_NAME=polis-qt
 BITCOIN_CLI_NAME=polis-cli
 BITCOIN_TX_NAME=polis-tx
