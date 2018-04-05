@@ -49,7 +49,7 @@ public:
 };
 
 //
-// CGovernanceVote - Allow a masternode node to vote and broadcast throughout the network
+// CGovernanceVote - Allow a masternode to vote and broadcast throughout the network
 //
 
 class CGovernanceVote
@@ -92,9 +92,9 @@ public:
 
     void SetSignature(const std::vector<unsigned char>& vchSigIn) { vchSig = vchSigIn; }
 
-    bool Sign(const CKey& keyMasternode, const CKeyID& pubKeyIDMasternode);
-    bool CheckSignature(const CKeyID& pubKeyIDMasternode) const;
-    bool IsValid(bool fSignatureCheck) const;
+    bool Sign(const CKey& key, const CKeyID& pubKeyID);
+    bool CheckSignature(const CKeyID& pubKeyID) const;
+    bool IsValid(bool useVotingKey) const;
     void Relay(CConnman& connman) const;
 
     std::string GetVoteString() const {

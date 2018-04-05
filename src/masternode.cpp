@@ -60,7 +60,9 @@ bool CMasternode::UpdateFromNewBroadcast(CMasternodeBroadcast& mnb, CConnman& co
     if(mnb.sigTime <= sigTime && !mnb.fRecovery) return false;
 
     pubKeyMasternode = mnb.pubKeyMasternode;
-    pubKeyIDMasternode = mnb.pubKeyMasternode.GetID();
+    keyIDOwner = mnb.pubKeyMasternode.GetID();
+    keyIDOperator = mnb.pubKeyMasternode.GetID();
+    keyIDVoting = mnb.pubKeyMasternode.GetID();
     sigTime = mnb.sigTime;
     vchSig = mnb.vchSig;
     nProtocolVersion = mnb.nProtocolVersion;
@@ -74,7 +76,7 @@ bool CMasternode::UpdateFromNewBroadcast(CMasternodeBroadcast& mnb, CConnman& co
         mnodeman.mapSeenMasternodePing.insert(std::make_pair(lastPing.GetHash(), lastPing));
     }
     // if it matches our Masternode privkey...
-    if(fMasternodeMode && pubKeyIDMasternode == activeMasternode.pubKeyIDMasternode) {
+    if(fMasternodeMode && keyIDOperator == activeMasternode.keyIDOperator) {
         nPoSeBanScore = -MASTERNODE_POSE_BAN_MAX_SCORE;
         if(nProtocolVersion == PROTOCOL_VERSION) {
             // ... and PROTOCOL_VERSION, then we've been remotely activated ...
@@ -188,7 +190,7 @@ void CMasternode::Check(bool fForce)
     }
 
     int nActiveStatePrev = nActiveState;
-    bool fOurMasternode = fMasternodeMode && activeMasternode.pubKeyIDMasternode == pubKeyIDMasternode;
+    bool fOurMasternode = fMasternodeMode && activeMasternode.keyIDOperator == keyIDOperator;
 
                    // masternode doesn't meet payment protocol requirements ...
     bool fRequireUpdate = nProtocolVersion < mnpayments.GetMinMasternodePaymentsProto() ||
@@ -397,7 +399,7 @@ bool CMasternodeBroadcast::Create(const COutPoint& outpoint, const CService& ser
     // wait for reindex and/or import to finish
     if (fImporting || fReindex) return false;
 
-    LogPrint("masternode", "CMasternodeBroadcast::Create -- pubKeyCollateralAddressNew = %s, pubKeyIDMasternode = %s\n",
+    LogPrint("masternode", "CMasternodeBroadcast::Create -- pubKeyCollateralAddressNew = %s, keyIDOperator = %s\n",
              CBitcoinAddress(pubKeyCollateralAddressNew.GetID()).ToString(),
              pubKeyMasternodeNew.GetID().ToString());
 
@@ -467,10 +469,10 @@ bool CMasternodeBroadcast::SimpleCheck(int& nDos)
     }
 
     CScript pubkeyScript2;
-    pubkeyScript2 = GetScriptForDestination(pubKeyIDMasternode);
+    pubkeyScript2 = GetScriptForDestination(keyIDOperator);
 
     if(pubkeyScript2.size() != 25) {
-        LogPrintf("CMasternodeBroadcast::SimpleCheck -- pubKeyIDMasternode has the wrong size\n");
+        LogPrintf("CMasternodeBroadcast::SimpleCheck -- keyIDOperator has the wrong size\n");
         nDos = 100;
         return false;
     }
@@ -524,7 +526,7 @@ bool CMasternodeBroadcast::Update(CMasternode* pmn, int& nDos, CConnman& connman
     }
 
     // if ther was no masternode broadcast recently or if it matches our Masternode privkey...
-    if(!pmn->IsBroadcastedWithin(MASTERNODE_MIN_MNB_SECONDS) || (fMasternodeMode && pubKeyIDMasternode == activeMasternode.pubKeyIDMasternode)) {
+    if(!pmn->IsBroadcastedWithin(MASTERNODE_MIN_MNB_SECONDS) || (fMasternodeMode && keyIDOperator == activeMasternode.keyIDOperator)) {
         // take the newest entry
         LogPrintf("CMasternodeBroadcast::Update -- Got UPDATED Masternode entry: addr=%s\n", addr.ToString());
         if(pmn->UpdateFromNewBroadcast(*this, connman)) {
@@ -541,7 +543,7 @@ bool CMasternodeBroadcast::CheckOutpoint(int& nDos)
 {
     // we are a masternode with the same outpoint (i.e. already activated) and this mnb is ours (matches our Masternode privkey)
     // so nothing to do here for us
-    if(fMasternodeMode && outpoint == activeMasternode.outpoint && pubKeyIDMasternode == activeMasternode.pubKeyIDMasternode) {
+    if(fMasternodeMode && outpoint == activeMasternode.outpoint && keyIDOperator == activeMasternode.keyIDOperator) {
         return false;
     }
 
@@ -647,7 +649,7 @@ bool CMasternodeBroadcast::Sign(const CKey& keyCollateralAddress)
         }
     } else {
         std::string strMessage = addr.ToString(false) + boost::lexical_cast<std::string>(sigTime) +
-                        pubKeyIDCollateralAddress.ToString() + pubKeyIDMasternode.ToString() +
+                        pubKeyIDCollateralAddress.ToString() + keyIDOperator.ToString() +
                         boost::lexical_cast<std::string>(nProtocolVersion);
 
         if (!CMessageSigner::SignMessage(strMessage, vchSig, keyCollateralAddress)) {
@@ -675,7 +677,7 @@ bool CMasternodeBroadcast::CheckSignature(int& nDos) const
         if (!CHashSigner::VerifyHash(hash, pubKeyIDCollateralAddress, vchSig, strError)) {
             // maybe it's in old format
             std::string strMessage = addr.ToString(false) + boost::lexical_cast<std::string>(sigTime) +
-                            pubKeyIDCollateralAddress.ToString() + pubKeyIDMasternode.ToString() +
+                            pubKeyIDCollateralAddress.ToString() + keyIDOperator.ToString() +
                             boost::lexical_cast<std::string>(nProtocolVersion);
 
             if (!CMessageSigner::VerifyMessage(pubKeyIDCollateralAddress, vchSig, strMessage, strError)){
@@ -687,7 +689,7 @@ bool CMasternodeBroadcast::CheckSignature(int& nDos) const
         }
     } else {
         std::string strMessage = addr.ToString(false) + boost::lexical_cast<std::string>(sigTime) +
-                        pubKeyIDCollateralAddress.ToString() + pubKeyIDMasternode.ToString() +
+                        pubKeyIDCollateralAddress.ToString() + keyIDOperator.ToString() +
                         boost::lexical_cast<std::string>(nProtocolVersion);
 
         if(!CMessageSigner::VerifyMessage(pubKeyIDCollateralAddress, vchSig, strMessage, strError)){
@@ -748,7 +750,7 @@ CMasternodePing::CMasternodePing(const COutPoint& outpoint)
     nDaemonVersion = CLIENT_VERSION;
 }
 
-bool CMasternodePing::Sign(const CKey& keyMasternode, const CKeyID& pubKeyIDMasternode)
+bool CMasternodePing::Sign(const CKey& keyMasternode, const CKeyID& keyIDOperator)
 {
     std::string strError;
 
@@ -762,7 +764,7 @@ bool CMasternodePing::Sign(const CKey& keyMasternode, const CKeyID& pubKeyIDMast
             return false;
         }
 
-        if (!CHashSigner::VerifyHash(hash, pubKeyIDMasternode, vchSig, strError)) {
+        if (!CHashSigner::VerifyHash(hash, keyIDOperator, vchSig, strError)) {
             LogPrintf("CMasternodePing::Sign -- VerifyHash() failed, error: %s\n", strError);
             return false;
         }
@@ -775,7 +777,7 @@ bool CMasternodePing::Sign(const CKey& keyMasternode, const CKeyID& pubKeyIDMast
             return false;
         }
 
-        if(!CMessageSigner::VerifyMessage(pubKeyIDMasternode, vchSig, strMessage, strError)) {
+        if(!CMessageSigner::VerifyMessage(keyIDOperator, vchSig, strMessage, strError)) {
             LogPrintf("CMasternodePing::Sign -- VerifyMessage() failed, error: %s\n", strError);
             return false;
         }
@@ -784,7 +786,7 @@ bool CMasternodePing::Sign(const CKey& keyMasternode, const CKeyID& pubKeyIDMast
     return true;
 }
 
-bool CMasternodePing::CheckSignature(CKeyID& pubKeyIDMasternode, int &nDos) const
+bool CMasternodePing::CheckSignature(CKeyID& keyIDOperator, int &nDos) const
 {
     std::string strError = "";
     nDos = 0;
@@ -792,11 +794,11 @@ bool CMasternodePing::CheckSignature(CKeyID& pubKeyIDMasternode, int &nDos) cons
     if (sporkManager.IsSporkActive(SPORK_6_NEW_SIGS)) {
         uint256 hash = GetSignatureHash();
 
-        if (!CHashSigner::VerifyHash(hash, pubKeyIDMasternode, vchSig, strError)) {
+        if (!CHashSigner::VerifyHash(hash, keyIDOperator, vchSig, strError)) {
             std::string strMessage = CTxIn(masternodeOutpoint).ToString() + blockHash.ToString() +
                         boost::lexical_cast<std::string>(sigTime);
 
-            if(!CMessageSigner::VerifyMessage(pubKeyIDMasternode, vchSig, strMessage, strError)) {
+            if(!CMessageSigner::VerifyMessage(keyIDOperator, vchSig, strMessage, strError)) {
                 LogPrintf("CMasternodePing::CheckSignature -- Got bad Masternode ping signature, masternode=%s, error: %s\n", masternodeOutpoint.ToStringShort(), strError);
                 nDos = 33;
                 return false;
@@ -806,7 +808,7 @@ bool CMasternodePing::CheckSignature(CKeyID& pubKeyIDMasternode, int &nDos) cons
         std::string strMessage = CTxIn(masternodeOutpoint).ToString() + blockHash.ToString() +
                     boost::lexical_cast<std::string>(sigTime);
 
-        if (!CMessageSigner::VerifyMessage(pubKeyIDMasternode, vchSig, strMessage, strError)) {
+        if (!CMessageSigner::VerifyMessage(keyIDOperator, vchSig, strMessage, strError)) {
             LogPrintf("CMasternodePing::CheckSignature -- Got bad Masternode ping signature, masternode=%s, error: %s\n", masternodeOutpoint.ToStringShort(), strError);
             nDos = 33;
             return false;
@@ -890,7 +892,7 @@ bool CMasternodePing::CheckAndUpdate(CMasternode* pmn, bool fFromNewBroadcast, i
         return false;
     }
 
-    if (!CheckSignature(pmn->pubKeyIDMasternode, nDos)) return false;
+    if (!CheckSignature(pmn->keyIDOperator, nDos)) return false;
 
     // so, ping seems to be ok
 
