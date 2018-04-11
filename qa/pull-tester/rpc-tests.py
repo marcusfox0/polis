@@ -166,6 +166,7 @@ testScripts = [
     'rpcnamedargs.py',
     'listsinceblock.py',
     'p2p-leaktests.py',
+    'p2p-compactblocks.py',
 ]
 if ENABLE_ZMQ:
     testScripts.append('zmq_test.py')
@@ -183,7 +184,6 @@ testScriptsExt = [
     'p2p-timeouts.py',
     # vv Tests less than 60s vv
     'bip9-softforks.py',
-    'p2p-feefilter.py',
     'rpcbind_test.py',
     # vv Tests less than 30s vv
     'bip65-cltv.py',

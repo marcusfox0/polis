@@ -322,9 +322,9 @@ public:
 
         // The best chain should have at least this much work.
         consensus.nMinimumChainWork = uint256S("0x"); // 37900
-
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x"); // 37900
+
 
         pchMessageStart[0] = 0xce;
         pchMessageStart[1] = 0xe2;
