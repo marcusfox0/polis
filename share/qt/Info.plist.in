@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>polis-Qt</string>
+  <string>Polis-Qt</string>
   
   <key>CFBundleName</key>
-  <string>polis-Qt</string>
+  <string>Polis-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.polis.polis-Qt</string>
+  <string>org.polis.Polis-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>

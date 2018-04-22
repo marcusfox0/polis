@@ -7,7 +7,7 @@
 #  spendfrom.py  # Lists available funds
 #  spendfrom.py --from=ADDRESS --to=ADDRESS --amount=11.00
 #
-# Assumes it will talk to a polisd or polis-Qt running
+# Assumes it will talk to a polisd or Polis-Qt running
 # on localhost.
 #
 # Depends on jsonrpc

@@ -53,7 +53,7 @@ Description: peer-to-peer network based digital currency - Qt GUI
  and issuing money are carried out collectively by the network. polis Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides polis-Qt, a GUI for polis based on Qt.
+ This package provides Polis-Qt, a GUI for polis based on Qt.
 
 Package: polis-tx
 Architecture: any

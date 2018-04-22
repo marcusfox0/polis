@@ -22,7 +22,7 @@ Unpack the files into a directory, and then run polis-qt.exe.
 
 ### OS X
 
-Drag polis-Qt to your applications folder, and then run polis-Qt.
+Drag Polis-Qt to your applications folder, and then run Polis-Qt.
 
 ### Need Help?
 
