@@ -17,8 +17,10 @@ QT_TS = \
   qt/locale/polis_fr.ts \
   qt/locale/polis_it.ts \
   qt/locale/polis_ja.ts \
+  qt/locale/polis_nl.ts \
   qt/locale/polis_pl.ts \
   qt/locale/polis_pt.ts \
+  qt/locale/polis_pt_BR.ts \
   qt/locale/polis_ru.ts \
   qt/locale/polis_sk.ts \
   qt/locale/polis_sv.ts \

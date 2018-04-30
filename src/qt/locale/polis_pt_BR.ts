@@ -1,249 +1,249 @@
-<TS language="pl" version="2.1">
+<TS language="pt_BR" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Kliknij prawym przyciskiem myszki, aby edytować adres lub etykietę</translation>
+        <translation>Clique com o botão direito para editar o endereço ou o rótulo</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Stwórz nowy adres</translation>
+        <translation>Criar um novo endereço</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Nowy</translation>
+        <translation>&amp;Novo</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Skopiuj aktualnie wybrany adres do schowka</translation>
+        <translation>Copiar o endereço selecionado para a área de transferência do sistema</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopiuj</translation>
+        <translation>&amp;Copiar</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Usuń obecnie zaznaczony adres z listy</translation>
+        <translation>Excluir os endereços selecionados da lista</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Usuń</translation>
+        <translation>E&amp;xcluir</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Eksportuj dane z aktywnej karty do pliku</translation>
+        <translation>Exportar os dados na aba atual para um arquivo</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Eksportuj</translation>
+        <translation>&amp;Exportar</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>Z&amp;amknij</translation>
+        <translation>&amp;Fechar</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wybierz adres, na który wyślesz monety</translation>
+        <translation>Escolha o endereço no qual receberá as moedas</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wybierz adres do otrzymania monet.</translation>
+        <translation>Escolha o endereço para receber moedas com ele</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>W&amp;ybierz</translation>
+        <translation>E&amp;scolha</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Adres do wysyłania</translation>
+        <translation>Endereços de envio</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Adres odbiorczy</translation>
+        <translation>Endereços de recebimento</translation>
     </message>
     <message>
         <source>These are your Dash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To są twoje adresy Dash, na które wysyłasz płatności. Zanim wyślesz środki, zawsze upewnij się, że kwota i adres są prawidłowe.</translation>
+        <translation>Esses são os seus endereços para enviar pagamentos. Sempre cheque a quantia e o endereço de recebimento antes de enviar moedas,</translation>
     </message>
     <message>
         <source>These are your Dash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To są twoje adresy do otrzymywania Dashów. Zaleca się tworzyć nowy adres dla każdej transakcji.</translation>
+        <translation>Estes são os seus endereços para receber pagamentos. É recomendado usar um novo para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Kopiuj adres</translation>
+        <translation>&amp;Copiar Endereço</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Kopiuj &amp;Etykietę</translation>
+        <translation>Copiar &amp;Rótulo</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Edytuj</translation>
+        <translation>&amp;Editar</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Eksportuj listę adresów</translation>
+        <translation>Exportar lista de endereço</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Wartości rozdzielone przecinkami (*.csv)</translation>
+        <translation>Arquivo separado por vírgulas (*. csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Próba eksportu nie powiodła się</translation>
+        <translation>Falha ao exportar</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Wystąpił błąd podczas próby zapisu listy adresów do %1. Spróbuj ponownie.</translation>
+        <translation>Houve um erro ao tentar salvar a lista de endereços em %1. Por favor tente novamente.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Etykieta</translation>
+        <translation>Rótulo</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>Endereço</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(brak etykiety)</translation>
+        <translation>(sem rótulo)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Okienko Hasła</translation>
+        <translation>Janela da Frase de Segurança</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Wpisz hasło</translation>
+        <translation>Digite a frase de segurança</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nowe hasło</translation>
+        <translation>Nova frase de segurança</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Powtórz nowe hasło</translation>
+        <translation>Repita a nova frase de segurança</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Wprowadź nowe hasło dla twojego portfela.&lt;br/&gt;Proszę używać hasła o długości co najmniej &lt;b&gt;dziesięciu losowych znaków&lt;/b&gt; lub &lt;b&gt;co najmniej 8 słów&lt;/b&gt;.</translation>
+        <translation>Insira a nova senha para a carteira.&lt;br/&gt;Favor usar uma senha com &lt;b&gt;dez ou mais caracteres aleatórios&lt;/b&gt;, ou &lt;b&gt;oito ou mais palavras&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Zaszyfruj portfel</translation>
+        <translation>Criptografar carteira</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Ta operacja wymaga hasła do odblokowania portfela.</translation>
+        <translation>Esta operação precisa da sua senha para desbloquear a carteira.</translation>
     </message>
     <message>
         <source>Unlock wallet for mixing only</source>
-        <translation>Odblokuj portfel tylko dla miksowania monet</translation>
+        <translation>Desbloquear carteira appenas para misturar</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Odblokuj portfel</translation>
+        <translation>Desbloquear carteira</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Ta operacja wymaga hasła do odszyfrowania portfela.</translation>
+        <translation>Esta operação precisa da sua senha para descriptografar a carteira</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Odszyfruj portfel</translation>
+        <translation>Descriptografar carteira</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Zmień hasło</translation>
+        <translation>Alterar frase de segurança</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Wpisz stare i nowe hasło dla portfela.</translation>
+        <translation>Insira a senha antiga e a nova para a carteira.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Potwierdź zaszyfrowanie portfela</translation>
+        <translation>Confirmar criptografia da carteira</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DASH&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeśli zaszyfrujesz swój portfel i zgubisz hasło, &lt;b&gt;STRACISZ WSZYSTKIE ŚRODKI&lt;/b&gt;</translation>
+        <translation>Aviso: Se você encriptar sua wallet e perder sua senha, você vai &lt;b&gt;PERDER TODAS AS SUAS DASH&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Jesteś pewien, że chcesz zaszyfrować portfel?</translation>
+        <translation>Tem certeza de que deseja criptografar sua carteira?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Portfel zaszyfrowany</translation>
+        <translation>Carteira criptografada</translation>
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your funds from being stolen by malware infecting your computer.</source>
-        <translation>%1 zostanie teraz zamknięty aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie gwarantuje pełnej ochrony przed kradzieżą twoich monet przez złośliwe oprogramowanie.</translation>
+        <translation>A %1 irá fechar agora para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não fará com que seus Dash estejam totalmente a salvo de serem roubados por malwares que infectem seu computador.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. Previous backups of the unencrypted wallet file contain the same HD seed and still have full access to all your funds just like the new, encrypted wallet.</source>
-        <translation>WAŻNE: Wszystkie wykonane wcześniej kopie pliku portfela powinny być zamienione na nowe, zaszyfrowany plik portfela. Poprzednie kopie zapasowe niezaszyfrowanego porfela dalej mają dostęp do frazy HD oraz twoich funduszy tak samo jak nowy, zaszyfrowany portfel.</translation>
+        <translation>IMPORTANTE: Todos os backups anteriores feitos do seu arquivo de carteira devem ser substituídos pelo arquivo de carteira criptografado recém-gerado. Os backups anteriores do arquivo de carteira não criptografada contêm a mesma semente HD e ainda têm acesso total a todos os seus fundos, assim como a nova carteira criptografada.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>WAŻNE: Wszystkie wykonane wcześniej kopie zapasowe portfela należy zamienić na nowe, szyfrowane pliki. Z powodów bezpieczeństwa, poprzednie niezaszyfrowane kopie portfela staną się bezużyteczne, gdy tylko zaczniesz korzystać z nowego, zaszyfrowanego portfela.</translation>
+        <translation>IMPORTANTE: Qualquer backup prévio que você tenha feito da sua carteira deve ser substituído pelo novo e encriptado arquivo gerado. Por razões de segurança, qualquer backup do arquivo não criptografado se tornará inútil assim que você começar a usar uma nova carteira criptografada.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Szyfrowanie portfela nie powiodło się</translation>
+        <translation>A criptografia da carteira falhou</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Szyfrowanie portfela nie powiodło się z powodu wewnętrznego błędu. Twój portfel nie został zaszyfrowany.</translation>
+        <translation>Falha na criptografia devido a um erro inerno. Sua carteira não foi criptografada.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Podane hasła nie są takie same.</translation>
+        <translation>A frase de segurança fornecida não confere.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Odblokowanie portfela nie powiodło się</translation>
+        <translation>O desbloqueio da carteira falhou</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Wprowadzone hasło do odszyfrowania portfela jest niepoprawne.</translation>
+        <translation>A senha inserida para descriptografar a carteira está incorreta.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Odszyfrowanie portfela nie powiodło się</translation>
+        <translation>A descriptografia da carteira falhou</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Hasło portfela zostało pomyślnie zmienione.</translation>
+        <translation>A frase de segurança da carteira foi alterada com êxito.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Uwaga: Klawisz Caps Lock jest włączony!</translation>
+        <translation>Atenção: A tecla Caps Lock está ligada!</translation>
     </message>
 </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP/Netmask</translation>
+        <translation>IP/Máscara de rede</translation>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>Zablokowany do</translation>
+        <translation>Banido até</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
-        <translation>Wystąpił błąd krytyczny. Dash Core nie może bezpiecznie kontynuować i zostanie zamknięty.</translation>
+        <translation>Ocorreu um erro fatal. A Dash não pode mais continuar de forma segura, e irá fechar</translation>
     </message>
     <message>
         <source>Dash Core</source>
@@ -251,343 +251,343 @@
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Portfel</translation>
+        <translation>carteira</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Węzeł</translation>
+        <translation>Nó</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>P&amp;odsumowanie</translation>
+        <translation>&amp;Visão geral</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Pokazuje ogólne podsumowanie portfela</translation>
+        <translation>Mostrar visão geral da carteira</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>Wyślij</translation>
+        <translation>&amp;Enviar</translation>
     </message>
     <message>
         <source>Send coins to a Dash address</source>
-        <translation>Wyślij monety na adres Dash</translation>
+        <translation>Envie moedas para um endereço Dash</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>Odbie&amp;rz</translation>
+        <translation>&amp;Receber</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Poproś o płatności (generuje kod QR oraz dash: link)</translation>
+        <translation>Solicitações de pagamentos (gera códigos QR e Dash: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transakcje</translation>
+        <translation>&amp;Transações</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Przeglądaj historię transakcji</translation>
+        <translation>Navegar pelo histórico de transações</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
-        <translation>&amp;Masternody</translation>
+        <translation>&amp;Masternodes</translation>
     </message>
     <message>
         <source>Browse masternodes</source>
-        <translation>Przeglądaj masternody</translation>
+        <translation>Exibir masternodes</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;Zakończ</translation>
+        <translation>S&amp;air</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Zamknij program</translation>
+        <translation>Sair da aplicação</translation>
     </message>
     <message>
         <source>Show information about Dash Core</source>
-        <translation>Pokaż informacje o Dash Core</translation>
+        <translation>Exibe informações sobre Dash Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>O &amp;Qt</translation>
+        <translation>Sobre &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Pokaż informacje o Qt</translation>
+        <translation>Exibe informações sobre Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Opcje...</translation>
+        <translation>&amp;Opções...</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>&amp;O %1</translation>
+        <translation>&amp;Sobre %1</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>Zmień opcje konfiguracji dla %1</translation>
+        <translation>Modificar opções de configuração para o %1</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Pokaż / Ukryj</translation>
+        <translation>&amp;Exibir/Ocultar</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Pokazuje lub ukrywa główne okno</translation>
+        <translation>Mostrar ou esconder a Janela Principal.</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Zaszyfruj Portf&amp;el</translation>
+        <translation>&amp;Criptografar Carteira...</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Szyfruj klucze prywatne, dla twojego portfela</translation>
+        <translation>Criptografar as chaves privadas que pertencem à sua carteira</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Wykonaj kopię zapasową...</translation>
+        <translation>Fazer &amp;Backup da Carteira...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Zapisz kopię zapasową portfela w innym miejscu</translation>
+        <translation>Faça o Backup da carteira para outro local</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Zmień hasło...</translation>
+        <translation>Alterar frase de segurança</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Zmień hasło użyte do zaszyfrowania portfela</translation>
+        <translation>Mudar a frase de segurança utilizada na criptografia da carteira</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>Odblok&amp;uj Portfel</translation>
+        <translation>&amp;Desbloquear carteira...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Odblokuj portfel</translation>
+        <translation>Desbloquear carteira</translation>
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>Zab&amp;lokuj Porftel</translation>
+        <translation>Bloquear carteira</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Podpisz wiado&amp;mość...</translation>
+        <translation>Assinar &amp;Mensagem...</translation>
     </message>
     <message>
         <source>Sign messages with your Dash addresses to prove you own them</source>
-        <translation>Podpisz wiadomości swoim adresem Dash, aby udowodnić, że jesteś ich właścicielem. </translation>
+        <translation>Assine mensagens com seus endereços Dash para provar que você é dono delas</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Zweryfikuj wiadomość...</translation>
+        <translation>&amp;Verificar mensagem...</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Dash addresses</source>
-        <translation>Zweryfikuj wiadomości, aby upewnić się, że zostały one podpisane wybranym adresem Dash</translation>
+        <translation>Verifique as mensagens para ter certeza de que elas foram assinadas com o endereço da Dash especificado</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informacje</translation>
+        <translation>&amp;Informação</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
-        <translation>Pokaż informacje diagnostyczne</translation>
+        <translation>Mostrar informação de diagnóstico</translation>
     </message>
     <message>
         <source>&amp;Debug console</source>
-        <translation>Konsola &amp;debugowania</translation>
+        <translation>&amp;Console de depuração</translation>
     </message>
     <message>
         <source>Open debugging console</source>
-        <translation>Otwórz konsolę debugowania</translation>
+        <translation>Abrir o console de depuração</translation>
     </message>
     <message>
         <source>&amp;Network Monitor</source>
-        <translation>Mo&amp;nitor Sieci</translation>
+        <translation>&amp;Monitor de Rede</translation>
     </message>
     <message>
         <source>Show network monitor</source>
-        <translation>Pokaż monitor sieci</translation>
+        <translation>Exibe o monitor de rede</translation>
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>&amp;lista peerów</translation>
+        <translation>&amp;Peers</translation>
     </message>
     <message>
         <source>Show peers info</source>
-        <translation>Pokaż informacje a peerach</translation>
+        <translation>mostrar informações dos peers</translation>
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation>Naprawa po&amp;rfela</translation>
+        <translation>&amp;Reparar carteira</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
-        <translation>Pokaż opcje naprawy portfela</translation>
+        <translation>Mostrar opções de reparação da carteira</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
-        <translation>Otwórz Plik &amp;Konfiguracyjny Portfela</translation>
+        <translation>Abrir arquivo de &amp;Configuração da carteira</translation>
     </message>
     <message>
         <source>Open configuration file</source>
-        <translation>Otworz plik konfiguracji </translation>
+        <translation>Abrir arquivo de configuração</translation>
     </message>
     <message>
         <source>Open &amp;Masternode Configuration File</source>
-        <translation>Otwórz Plik &amp;Konfiguracyjny Masternoda</translation>
+        <translation>Abrir arquivo de configuração do &amp;Masternode</translation>
     </message>
     <message>
         <source>Open Masternode configuration file</source>
-        <translation>Otwórz plik konfiguracyjny Masternoda</translation>
+        <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
-        <translation>Pokaż automatyczne kopie zapasowe (&amp;Backups)</translation>
+        <translation>Mostrar &amp;backups automáticos</translation>
     </message>
     <message>
         <source>Show automatically created wallet backups</source>
-        <translation>Pokaż automatycznie utworzone kopie zapasowe portfela.</translation>
+        <translation>Mostrar backups da carteira criados automaticamente </translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>Adres wysyłania</translation>
+        <translation>Endereço&amp;s de envio...</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Pokaż listę użytych adresów wysyłających i etykiety</translation>
+        <translation>Mostrar a lista de endereços de envio e rótulos usados</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>Adres odbiorczy</translation>
+        <translation>Endereços de &amp;recebimento...</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Pokaż listę użytych adresów odbiorczych i etykiety</translation>
+        <translation>Mostrar a lista de endereços de recebimento usados ​​e rótulos</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Otwórz &amp;URI...</translation>
+        <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
         <source>Open a dash: URI or payment request</source>
-        <translation>Otwórz dash: Link lub żądanie zapłaty</translation>
+        <translation>Abrir um Dash: URI ou cobrança</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;Opcje konsoli</translation>
+        <translation>Opções de linha de &amp;comando</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Dash command-line options</source>
-        <translation>Pokaż pomoc %1 aby zobaczyć listę wszystkich opcji lnii poleceń.</translation>
+        <translation>Mostrar a mensagem de ajuda do %1 para obter uma lista com possíveis opções de linha de comando Dash</translation>
     </message>
     <message>
         <source>%1 client</source>
-        <translation>%1 klient</translation>
+        <translation>%1 cliente</translation>
     </message>
     <message>
         <source>&amp;PrivateSend information</source>
-        <translation>Informacje &amp;PrivateSend</translation>
+        <translation>Informação de Envio&amp;Privado</translation>
     </message>
     <message>
         <source>Show the PrivateSend basic information</source>
-        <translation>Pokaż podstawowe informacje PrivateSend</translation>
+        <translation>Mostra informações básicas de EnvioPrivado</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Plik</translation>
+        <translation>&amp;Arquivo</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>P&amp;referencje</translation>
+        <translation>&amp;Configurações</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>&amp;Narzędzia</translation>
+        <translation>&amp;Ferramentas</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>Pomo&amp;c</translation>
+        <translation>&amp;Ajuda</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Pasek zakładek</translation>
+        <translation>Barra de ferramentas</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Dash network</source>
-        <translation><numerusform>%n aktywne połączenie z siecią Dash</numerusform><numerusform>%n aktywne połączenia z siecią Dash</numerusform><numerusform>%n aktywnych połączeń z siecią Dash</numerusform><numerusform>%n aktywne połączenia z siecią Dash</numerusform></translation>
+        <translation><numerusform>%n conexões ativas com a rede Dash</numerusform><numerusform>%n conexões ativas com a rede Dash</numerusform></translation>
     </message>
     <message>
         <source>Network activity disabled</source>
-        <translation>Aktywność sieci jest wyłączona</translation>
+        <translation>Atividade da rede disativada</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
-        <translation>Synchronizacja nagłówków (%1%)...</translation>
+        <translation>Sincronizando cabeçahos (%1%)...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synchronizacja z siecią...</translation>
+        <translation>Sincronizando com a rede...</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>Indeksowanie bloków na dysku...</translation>
+        <translation>Indexando blocos no disco...</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>Przetwarzanie bloków na dysku...</translation>
+        <translation>Processando blocos no disco...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Ponowne indeksowanie bloków na dysku...</translation>
+        <translation>Reindexando blocos no disco...</translation>
     </message>
     <message>
         <source>Connecting to peers...</source>
-        <translation>Łączenie z peerami</translation>
+        <translation>Conectando...</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Pobrano %n blok z historią transakcji.</numerusform><numerusform>Pobranych zostało %n bloki z historią transakcji.</numerusform><numerusform>Pobranych zostało %n bloków z historią transakcji.</numerusform><numerusform>Pobrano %n bloków z historią transakcji.</numerusform></translation>
+        <translation><numerusform>Processados %n blocos do histórico de transações.</numerusform><numerusform>Processados %n blocos do histórico de transações.</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 wstecz</translation>
+        <translation>%1 atrás</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Pobieranie bloków ...</translation>
+        <translation>Recuperando o atraso ...</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Ostatni otrzymany blok został wygenerowany %1 temu.</translation>
+        <translation>Último bloco recebido foi gerado %1 atrás.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transakcje po tym momencie nie będą jeszcze widoczne.</translation>
+        <translation>Transações após isso ainda não estão visíveis.</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Aktualny</translation>
+        <translation>Atualizado</translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
-        <translation>Synchronizuję dodatkowe dane: %p%</translation>
+        <translation>Sincronizando dados adicionais: %p%</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Błąd</translation>
+        <translation>Erro</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Ostrzeżenie</translation>
+        <translation>Atenção</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informacja</translation>
+        <translation>Informação</translation>
     </message>
     <message>
         <source>Date: %1
@@ -598,136 +598,136 @@
     <message>
         <source>Amount: %1
 </source>
-        <translation>Ilość: %1
+        <translation>Quantia: %1
 </translation>
     </message>
     <message>
         <source>Type: %1
 </source>
-        <translation>Typ: %1
+        <translation>Tipo: %1
 </translation>
     </message>
     <message>
         <source>Label: %1
 </source>
-        <translation>Etykieta: %1
+        <translation>Rótulo: %1
 </translation>
     </message>
     <message>
         <source>Address: %1
 </source>
-        <translation>Adres: %1
+        <translation>Endereço: %1
 </translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Transakcja wysłana</translation>
+        <translation>Transação enviada</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Transakcja przychodząca</translation>
+        <translation>Transação recebida</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>Generowanie kluczy HD jest &lt;b&gt;włączone&lt;/b&gt;</translation>
+        <translation>Geração de chave HD está &lt;b&gt;ativada&lt;/b&gt;</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>Generowanie kluczy HD jest &lt;b&gt;wyłączone&lt;/b&gt;</translation>
+        <translation>Geração de chave HD está &lt;b&gt;desativada&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Portfel jest &lt;b&gt;zaszyfrowany&lt;/b&gt; i obecnie &lt;b&gt;niezablokowany&lt;/b&gt;</translation>
+        <translation>Carteira está &lt;b&gt;criptografada&lt;/b&gt; e atualmente &lt;b&gt;desbloqueada&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for mixing only</source>
-        <translation>Portfel jest &lt;b&gt;zaszyfrowany&lt;/b&gt; i obecnie &lt;b&gt;odblokowany&lt;/b&gt; tylko w celu miksowania</translation>
+        <translation>A carteira está &lt;b&gt;encriptada&lt;/b&gt; e atualmente &lt;b&gt;desbloqueada&lt;/b&gt; apenas para anonimização</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Portfel jest &lt;b&gt;zaszyfrowany&lt;/b&gt; i obecnie &lt;b&gt;zablokowany&lt;/b&gt;</translation>
+        <translation>Carteira está &lt;b&gt;criptografada&lt;/b&gt; e atualmente &lt;b&gt;bloqueada&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
         <source>Total: %1 (PS compatible: %2 / Enabled: %3)</source>
-        <translation>Razem: %1 (zgodne z PS: %2 / włączone: %3)</translation>
+        <translation>Total: %1 (Compatível c/ EP: %2 / Habilitado: %3)</translation>
     </message>
     <message>
         <source>Network Alert</source>
-        <translation>Sieć Alert</translation>
+        <translation>Alerta da Rede</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Ilość:</translation>
+        <translation>Quantidade:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bajtów:</translation>
+        <translation>Bytes:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Kwota:</translation>
+        <translation>Quantia:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Opłata:</translation>
+        <translation>Taxa:</translation>
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>Wybór Monet</translation>
+        <translation>Seleção da Moeda</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Pył:</translation>
+        <translation>Poeira:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Po opłacie:</translation>
+        <translation>Depois da taxa:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Reszta:</translation>
+        <translation>trocar</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>Zaznacz/Odznacz wszystko</translation>
+        <translation>(de)selecionar tudo</translation>
     </message>
     <message>
         <source>toggle lock state</source>
-        <translation>odwróć stan blokady</translation>
+        <translation>alternar estado de bloqueio</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Widok drzewa</translation>
+        <translation>Modo árvore</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Widok listy</translation>
+        <translation>Modo lista</translation>
     </message>
     <message>
         <source>(1 locked)</source>
-        <translation>(1 zablokowana)</translation>
+        <translation>(1 travado)</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Kwota</translation>
+        <translation>Quantidade</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Otrzymane z etykietą</translation>
+        <translation>Recebido com rótulo</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Otrzymano z adresem</translation>
+        <translation>Recebido com endereço</translation>
     </message>
     <message>
         <source>PS Rounds</source>
-        <translation>Rundy PS</translation>
+        <translation>Rounds de EP</translation>
     </message>
     <message>
         <source>Date</source>
@@ -735,255 +735,255 @@
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Potwierdzenia</translation>
+        <translation>Confirmações</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Potwierdzony</translation>
+        <translation>Confirmado</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopiuj adres</translation>
+        <translation>Copie endereço</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiuj etykietę</translation>
+        <translation>Copiar rótulo</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiuj kwotę</translation>
+        <translation>Copie quantia</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Skopiuj ID transakcji</translation>
+        <translation>Copie ID da transação</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Zablokuj</translation>
+        <translation>Bloquear não gasto</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Odblokuj</translation>
+        <translation>Desbloquear não gasto</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Skopiuj ilość</translation>
+        <translation>Copiar quantidade</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Skopiuj opłatę</translation>
+        <translation>Copie taxa</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Skopiuj ilość po opłacie</translation>
+        <translation>Copiar pós taxa</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Skopiuj ilość bajtów</translation>
+        <translation>Copiar bytes</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopiuj pył (kwota poniżej 5460 duffów)</translation>
+        <translation>Copiar poeira</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Skopiuj resztę</translation>
+        <translation>Copiar troco</translation>
     </message>
     <message>
         <source>Please switch to "List mode" to use this function.</source>
-        <translation>W celu użycia tej funkcji, przełącz na "Tryb Listy"</translation>
+        <translation>Por favor alterne para "Modo lista" para usar essa função.</translation>
     </message>
     <message>
         <source>Non-anonymized input selected. &lt;b&gt;PrivateSend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use PrivateSend, please deselect all non-nonymized inputs first and then check PrivateSend checkbox again.</source>
-        <translation>Wybrano niezanonimizowane środki. &lt;b&gt; PrivateSend  zostanie wyłączony.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Jeśli nadal chcesz użyć PrivateSend, cofnij wybór niezanonimizowanych środków, a następnie zaznacz pole wyboru PrivateSend.</translation>
+        <translation>Entrada não anônima selecionada. &lt;b&gt;O PrivateSend será desativado.&lt;/b&gt; &lt;br&gt; &lt;br&gt; Se você ainda quiser usar o PrivateSend, desmarque primeiro todas as entradas não modificadas e marque a caixa de seleção PrivateSend novamente.</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 zablokowane)</translation>
+        <translation>(%1 bloqueado)</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>tak</translation>
+        <translation>sim</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>nie</translation>
+        <translation>não</translation>
     </message>
     <message>
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Etykieta staje się czerwona, jeżeli któryś z odbiorców otrzymuje kwotę mniejszą niż obecna granica pyłu.</translation>
+        <translation>Este texto fica vermelho se qualquer destinatário receber uma quantidade menor que que o dust.</translation>
     </message>
     <message>
         <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Może się różnić około +/- %1 duff(ów) na transację.</translation>
+        <translation>Pode variar +/- %1 duff(s) por entrada.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez etykiety)</translation>
+        <translation>(sem rótulo)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>reszta z %1 (%2)</translation>
+        <translation>troco de %1 (%2)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(reszta)</translation>
+        <translation>(troco)</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>nie dotyczy</translation>
+        <translation>n/d</translation>
     </message>
 </context>
 <context>
     <name>DarksendConfig</name>
     <message>
         <source>Configure PrivateSend</source>
-        <translation>Skonfiguruj PrivateSend</translation>
+        <translation>Configurar ProvateSend</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
-        <translation>Podstawowa prywatność</translation>
+        <translation>Privacidade Básica</translation>
     </message>
     <message>
         <source>High Privacy</source>
-        <translation>Wysoka prywatność</translation>
+        <translation>Alta Privacidade</translation>
     </message>
     <message>
         <source>Maximum Privacy</source>
-        <translation>Maksymalna prywatność</translation>
+        <translation>Privacidade Máxima</translation>
     </message>
     <message>
         <source>Please select a privacy level.</source>
-        <translation>Proszę wybrać poziom prywatności.</translation>
+        <translation>Por favor, escolha um nível de privacidade.</translation>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Użyj 2 oddzielnych masternodów, aby wymieszać środki max. do 1000 DASH</translation>
+        <translation>Usar 2 Masternodes separados para fazer a mixagem de fundos até 1000 DASH</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Użyj 8 oddzielnych masternodów, aby wymieszać środki max. do 1000 DASH</translation>
+        <translation>Usar 8 Masternodes separados para fazer a mixagem de fundos até 1000 DASH</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
-        <translation>Użyj 16 oddzielnych masternodów</translation>
+        <translation>Usar 16 Masternodes separados</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 DASH to anonymize 1000 DASH</source>
-        <translation>Ta opcja jest najszybsza i kosztuje około 0.025 DASH za zanonimizowanie 1000 DASH</translation>
+        <translation>Esta é a opção mais rápida e custará em torno de ~0,025 DASH para anonimizar 1000 DASH</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 DASH to anonymize 1000 DASH</source>
-        <translation>Ta opcja jest w miarę szybka i kosztuje około 0.05 DASH za zanonimizowanie 1000 DASH</translation>
+        <translation>Esta opção é moderadamente rápida e custará em torno de ~0,05 DASH para anonimizar 1000 DASH</translation>
     </message>
     <message>
         <source>0.1 DASH per 1000 DASH you anonymize.</source>
-        <translation>0.1 DASH za każde 1000 DASH, które zanonimizujesz.</translation>
+        <translation>0,1 DASH por cada 1000 DASH que você anonimizar.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Jest to najwolniejsza, lecz najbardziej bezpieczna opcja. Maksymalny poziom zanonimizowania będzie kosztować</translation>
+        <translation>Esta é a opção mais lenta e mais segura. Usar o máximo de anonimidade custará</translation>
     </message>
     <message>
         <source>PrivateSend Configuration</source>
-        <translation>Konfiguracja PrivateSend</translation>
+        <translation>Configuração EnvioPrivado</translation>
     </message>
     <message>
         <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>PrivateSend pomyślnie ustawiono na poziom podstawowy (%1 oraz 2 rundy). Możesz to zmienić w każdej chwili, otwierając ekran konfiguracji Dash.</translation>
+        <translation>O PrivateSend foi ajustado com sucesso para básico (%1 e 2 rodadas). Você pode alterar esse ajuste a qualquer momento, abrindo a tela de configuração da Dash.</translation>
     </message>
     <message>
         <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>PrivateSend pomyślnie ustawiono na poziom wysoki (%1 oraz 8 rund). Możesz to zmienić w każdej chwili, otwierając ekran konfiguracji Dash.</translation>
+        <translation>O PrivateSend foi ajustado com sucesso para alto(%1 e 8 rodadas). Você pode alterar esse ajuste a qualquer momento, abrindo a tela de configuração da Dash.</translation>
     </message>
     <message>
         <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>PrivateSend pomyślnie ustawiono na poziom najwyższy (%1 oraz 16 rund). Możesz to zmienić w każdej chwili, otwierając ekran konfiguracji Dash.</translation>
+        <translation>O PrivateSend foi ajustado com sucesso para máximo (%1 e 16 rodadas). Você pode alterar esse ajuste a qualquer momento, abrindo a tela de configuração da Dash.</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Edytuj adres</translation>
+        <translation>Editar Endereço</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Etykieta</translation>
+        <translation>&amp;Rótulo</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Etykieta skojarzona z tym wpisem na liście adresów</translation>
+        <translation>O rótulo associado a esta entrada na lista de endereços</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Adres</translation>
+        <translation>&amp;Endereço</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Ten adres jest skojarzony z wpisem na liście adresów. Może być zmodyfikowany jedynie dla adresów wysyłających.</translation>
+        <translation>O endereço associado a esta lista de endereços de entrada. Isso só pode ser modificado para o envio de endereços.</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Nowy adres odbiorczy</translation>
+        <translation>Novo endereço de recebimento</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Nowy adres wysyłania</translation>
+        <translation>Novo endereço de envio</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Zmień adres odbiorczy</translation>
+        <translation>Editar endereço de recebimento</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Zmień adres wysyłania</translation>
+        <translation>Editar endereço de envio</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Dash address.</source>
-        <translation>Wprowadzony adres "%1" nie jest właściwym adresem Dash.</translation>
+        <translation>O endereço digitado "%1" não é um endereço válido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>Wprowadzony adres "%1" już istnieje w książce adresowej.</translation>
+        <translation>O endereço digitado "%1" já se encontra no catálogo de endereços.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Nie można było odblokować portfela.</translation>
+        <translation>Não foi possível desbloquear a carteira.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Tworzenie nowego klucza nie powiodło się.</translation>
+        <translation>Falha na geração de nova chave.</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Utworzono nowy folder danych.</translation>
+        <translation>Um novo diretório de dados será criado.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>nazwa</translation>
+        <translation>nome</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Katalog już istnieje. Dodaj %1, jeśli masz zamiar utworzyć tutaj nowy katalog.</translation>
+        <translation>O diretório já existe. Adicione %1 se você pretende criar um novo diretório aqui.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Ścieżka już istnieje i nie wskazuje na folder.</translation>
+        <translation>Esta pasta já existe, e não é um diretório.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Nie można było tutaj utworzyć folderu.</translation>
+        <translation>Não é possível criar um diretório de dados aqui</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>wersja</translation>
+        <translation>versão</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -991,125 +991,121 @@
     </message>
     <message>
         <source>About %1</source>
-        <translation>Informacje o %1</translation>
+        <translation>Sobre %1</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Opcje lini poleceń</translation>
+        <translation>opções da linha de comando</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Użycie:</translation>
+        <translation>Uso:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>opcje konsoli</translation>
+        <translation>opções da linha de comando</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>Opcje wyglądu</translation>
+        <translation>opções da UI</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
-        <translation>Przy uruchomieniu wybierz folder danych  (domyślnie: %u)</translation>
+        <translation>Escolher diretório de dados na inicialização (padrão: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Ustaw Język, na przykład "pl_PL" (domyślnie: systemowy)</translation>
+        <translation>Definir idioma, por exemplo "de_DE" (padrão: idioma do sistema)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Uruchom zminimalizowany</translation>
+        <translation>Iniciar minimizado</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Ustaw główne cerytfikaty SSL dla żądań płatności (domyślnie: -system-)</translation>
+        <translation>Definir certificados de root SSL para requisições de pagamento (padrão: -sistema-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>Przy uruchamianiu pokaż ekran powitalny (domyślnie: %u)</translation>
+        <translation>Exibir tela de abertura na inicialização (padrão: %u)</translation>
     </message>
     <message>
         <source>Reset all settings changed in the GUI</source>
-        <translation>Resetuj wszystkie ustawienia zmienione w graficznym interfejsie użytkownika</translation>
+        <translation>Resetar todas as configuraçãoes do GUI</translation>
     </message>
     <message>
         <source>PrivateSend information</source>
-        <translation>Informacje o PrivateSend</translation>
+        <translation>Informação de Envio&amp;Privado</translation>
     </message>
-    <message>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Dash in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 DASH, 0.1 DASH, 1 DASH and 10 DASH -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;Podstawy PrivateSend&lt;/h3&gt; PrivateSend zapewnia prawdziwą prywatność poprzez ukrycie pochodzenia środków. Wszystkie dashe w twoim portfelu składają się z różnych "kwot wejściowych", które można traktować jako oddzielne, indywidualne monety.&lt;br&gt; PrivateSend wykorzystuje rewolucyjny proces mieszania twoich "kwot wejściowych" z "kwotami wejściowymi" dwóch innych  użytkowników, przy czym twoje środki nigdy nie opuszczają twojego portfela. W każdej chwili zachowujesz nad nimi pełną kontrolę.&lt;hr&gt; &lt;b&gt;Proces PrivateSend przebiega w następujący sposób:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;Najpierw PrivateSend dzieli twoje kwoty wejściowe twoich transakcji na standardowe nominały. Są kwoty 0.01 DASH, 0.1 DASH, 1 DASH oraz 10 DASH – mniej  więcej jak banknoty, których codziennie używasz.&lt;/li&gt; &lt;li&gt;Następnie twój portfel wysyła żądania do specjalnie skonfigurowanych węzłów sieci, zwanych "masternodami." Masternody otrzymują komunikat, że jesteś zainteresowany wymieszaniem określonego nominału. Masternody nie otrzymują żadnych informacji pozwalających na identyfikację, w związku z tym nigdy nie wiedzą "kim" jesteś.&lt;/li&gt; &lt;li&gt;Kiedy dwaj inni użytkownicy wyślą podobne komunikaty, z żądanie wymieszanie takiego samego nominału, rozpocznie się sesja mieszania. Masternod wymiesza kwoty wejściowe i nakaże portfelom takich trzech użytkowników wypłacić sobie samemu przetworzone kwoty wejściowe. Twój portfel wpłaci dany nominał do siebie samego, jednak na inny adres (tzw. adres reszty).&lt;/li&gt; &lt;li&gt;W celu pełnego zaciemnienia pochodzenia środków, twój portfel musi powtórzyć te czynności dla każdego nominału określoną ilość razy.  Każde wykonanie tego procesu określamy mianem "rundy." Każda runda procesu PrivateSend wykładniczo zwiększa trudność ustalenia pochodzenia twoich środków.&lt;/li&gt; &lt;li&gt;Proces mieszania odbywa się w tle, bez dodatkowego zaangażowania z twojej strony. Kiedy zechcesz wykonać transakcję, twoje środki będą już zanonimizowane. Nie będzie konieczne dodatkowe oczekiwanie.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;UWAGA:&lt;/b&gt; Portfel zawiera tylko 1000 "adresów reszty." Każde mieszanie zużywa do 9 adresów. Oznacza to, że po 100 mieszaniach zużyjesz ok. 1000 adresów. Po wykorzystaniu 900 adresów, portfel musi wygenerować nowe adresy. Może not nastąpić jedynie, jeżeli włączone jest automatyczne tworzenie kopii zapasowych.&lt;br&gt; Dlatego też, PrivateSend jest wyłączone, jeżeli użytkownik wyłączył automatyczne tworzenie kopii zapasowych. &lt;hr&gt;Więcej informacji znajdziesz na stronie &lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Witaj</translation>
+        <translation>Bem-vindo</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
-        <translation>Witaj w %1.</translation>
+        <translation>Bem vindo ao %1</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>Ponieważ jest to pierwsze uruchomienie programu, możesz wybrać gdzie %1 będzie przechowywał swoje dane.</translation>
+        <translation>Como essa é a primeira vez que o programa é executado, você pode escolher onde %1 armazenará seus dados.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Dash block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 ściągnie i zapisze kopię łańcucha bloków-blockchain na twoim dysku. Co najmniej %2GB danych zostanie zapisanych w tym katalogu, a z upływem czasu blockchain będzie stopniowo wymagał coraz więcej miejsca. Twój portfel również zostanie zapisany w tym katalogu.</translation>
+        <translation>%1 fará o download e armazenará uma cópia da cadeia de blocos do Dash. Pelo menos %2GB de dados serão armazenados neste diretório e crescerão com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Użyj domyślnego folderu danych</translation>
+        <translation>Use o diretório de dados padrão</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Użyj wybranego folderu dla danych</translation>
+        <translation>Use um diretório de dados personalizado:</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Wystąpił błąd: Katalog "%1" nie może zostać stworzony.</translation>
+        <translation>Erro: Diretório de dados "%1" não pode ser criado.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Błąd</translation>
+        <translation>Erro</translation>
     </message>
     <message>
         <source>%1 GB of free space available</source>
-        <translation>%1 GB wolnego miejsca na dysku</translation>
+        <translation>%1 GB de espaço livre disponível </translation>
     </message>
     <message>
         <source>(of %1 GB needed)</source>
-        <translation>(z %1GB potrzebnego)</translation>
+        <translation>(Mais de %1GB necessário)</translation>
     </message>
 </context>
 <context>
     <name>MasternodeList</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>Formulário</translation>
     </message>
     <message>
         <source>My Masternodes</source>
-        <translation>Moje masternody</translation>
+        <translation>Meus Masternodes</translation>
     </message>
     <message>
         <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your masternode should be running but you still do not see "ENABLED" in "Status" field.</source>
-        <translation>Uwaga! Status twoich masternodów w lokalnym portfelu potencjalnie może być niezupełnie poprawny.&lt;br /&gt;Jeżeli twój masternode powinien być uruchomiony, ale nadal nie widzisz słowa "WŁĄCZONY" w polu "Status", &lt;br /&gt;zawsze poczekaj na zsynchronizowanie danych dodatkowych i porównaj z danymi z innego węzła.</translation>
+        <translation>Nota: O status de seus masternodes na carteira local pode potencialmente ser ligeiramente incorreto. &lt;br /&gt;Sempre espere que a carteira sincronize dados adicionais e depois cheque novamente de outro nó &lt;br /&gt;, se o seu masternode estiver em execução, mas você ainda não vê "ATIVADO" no campo "Status".</translation>
     </message>
     <message>
         <source>Alias</source>
-        <translation>Alias</translation>
+        <translation>Apelido</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>Endereço</translation>
     </message>
     <message>
         <source>Protocol</source>
-        <translation>Protokół</translation>
+        <translation>Protocolo</translation>
     </message>
     <message>
         <source>Status</source>
@@ -1117,43 +1113,43 @@
     </message>
     <message>
         <source>Active</source>
-        <translation>Aktywny</translation>
+        <translation>Ativo</translation>
     </message>
     <message>
         <source>Last Seen</source>
-        <translation>Ostatnio widziany</translation>
+        <translation>visto pela última vez</translation>
     </message>
     <message>
         <source>Payee</source>
-        <translation>Odbiorca</translation>
+        <translation>Payee</translation>
     </message>
     <message>
         <source>S&amp;tart alias</source>
-        <translation>U&amp;ruchom alias</translation>
+        <translation>Iniciar Apelido</translation>
     </message>
     <message>
         <source>Start &amp;all</source>
-        <translation>Uruchom &amp;wszystkie</translation>
+        <translation>Iniciar tudo</translation>
     </message>
     <message>
         <source>Start &amp;MISSING</source>
-        <translation>Uruchom &amp;brakujące</translation>
+        <translation>Iniciar &amp;FALTANTES</translation>
     </message>
     <message>
         <source>&amp;Update status</source>
-        <translation>&amp;Aktualizuj status</translation>
+        <translation>&amp;Update status</translation>
     </message>
     <message>
         <source>Show additional Masternode information</source>
-        <translation>Pokaż dodatkowe informacje na temat Masternode</translation>
+        <translation>Mostrar informações adicionais do Masternode</translation>
     </message>
     <message>
         <source>Show &amp;Info...</source>
-        <translation>Pokaż &amp;informacje...</translation>
+        <translation>Mostrar &amp;Info...</translation>
     </message>
     <message>
         <source>Status will be updated automatically in (sec):</source>
-        <translation>Czas (w sekundach) do automatycznej aktualizacji statusu:</translation>
+        <translation>O estado será atualizado automaticamente em (seg):</translation>
     </message>
     <message>
         <source>0</source>
@@ -1161,71 +1157,71 @@
     </message>
     <message>
         <source>All Masternodes</source>
-        <translation>Wszystkie Masternody</translation>
+        <translation>Todos os Masternodes</translation>
     </message>
     <message>
         <source>Filter List:</source>
-        <translation>Filtruj listę:</translation>
+        <translation>Filtrar Lista:</translation>
     </message>
     <message>
         <source>Filter masternode list</source>
-        <translation>Filtruj listę masternodów</translation>
+        <translation>Filtrar lista de masternodes</translation>
     </message>
     <message>
         <source>Node Count:</source>
-        <translation>Liczba węzłów:</translation>
+        <translation>Contagem de Masternodes</translation>
     </message>
     <message>
         <source>Start alias</source>
-        <translation>Uruchom alias</translation>
+        <translation>Iniciar apelido</translation>
     </message>
     <message>
         <source>Confirm masternode start</source>
-        <translation>Potwierdź start masternoda</translation>
+        <translation>Confirmar início de masternode</translation>
     </message>
     <message>
         <source>Are you sure you want to start masternode %1?</source>
-        <translation>Czy na pewno chcesz wystartować masternod %1?</translation>
+        <translation>Tem certeza de que deseja iniciar o masternode %1?</translation>
     </message>
     <message>
         <source>Confirm all masternodes start</source>
-        <translation>Potwierdź start wszystkich masternodów</translation>
+        <translation>Confirmar inicialização de todos masternodes</translation>
     </message>
     <message>
         <source>Are you sure you want to start ALL masternodes?</source>
-        <translation>Czy na pewno chcesz wystartować WSZYSTKIE masternody?</translation>
+        <translation>Tem certeza que quer inicializar TODOS os masternodes?</translation>
     </message>
     <message>
         <source>Command is not available right now</source>
-        <translation>Obecnie komenda jest niedostępna.</translation>
+        <translation>Esse comando não está disponível nesse momento</translation>
     </message>
     <message>
         <source>You can't use this command until masternode list is synced</source>
-        <translation>Nie możesz użyć tej komendy przed zsynchronizowaniem listy masternodów.</translation>
+        <translation>Você não pode usar este comando até que a lista do masternode seja sincronizada</translation>
     </message>
     <message>
         <source>Confirm missing masternodes start</source>
-        <translation>Potwierdź uruchomienie zagubionego masternoda</translation>
+        <translation>Confirmar inicialização dos masternodes faltantes</translation>
     </message>
     <message>
         <source>Are you sure you want to start MISSING masternodes?</source>
-        <translation>Czy na pewno chcesz wystartować BRAKUJĄCE masternody?</translation>
+        <translation>Tem certeza que quer inicializar os masternodes FALTANTES?</translation>
     </message>
     <message>
         <source>Additional information for Masternode %1</source>
-        <translation>Dodatkowe nformacje na temat Masternode %1</translation>
+        <translation>Informações adicionais para o Masternode %1</translation>
     </message>
     <message>
         <source>Masternode Private Key</source>
-        <translation>Klucz Prywatny Masternoda</translation>
+        <translation>Chave Privada Masternode</translation>
     </message>
     <message>
         <source>Private Key</source>
-        <translation>Klucz Prywatny</translation>
+        <translation>Chave Privada</translation>
     </message>
     <message>
         <source>Collateral</source>
-        <translation>Zastaw</translation>
+        <translation>Garantia</translation>
     </message>
     <message>
         <source>IP</source>
@@ -1233,11 +1229,11 @@
     </message>
     <message>
         <source>Version</source>
-        <translation>Wersja</translation>
+        <translation>Versão</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Nieznany</translation>
+        <translation>Desconhecido</translation>
     </message>
     <message>
         <source>Sentinel</source>
@@ -1252,58 +1248,58 @@
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
-        <translation>Ostatnie transakcje mogą jeszcze być niewidoczne i dlatego saldo portfela może być niepoprawne. Poprawne informacje pojawią się po zakończeniu synchronizacji z siecią Dash. Stan synchronizacji widzisz poniżej.</translation>
+        <translation>Transações recentes podem não estar visíveis ainda, portanto o seu saldo pode estar incorreto. Esta informação será corrigida assim que sua carteira for sincronizada com a rede, como detalhado abaixo.</translation>
     </message>
     <message>
         <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Próba wydania środków z transakcji wykonanych, ale jeszcze niewidocznych, nie zostanie zaakceptowana przez sieć.</translation>
+        <translation>A tentativa de gastar o Dash que é afetado por transações ainda não exibidas não será aceita pela rede.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
-        <translation>Ilość pozostałych bloków</translation>
+        <translation>Número de blocos que faltam</translation>
     </message>
     <message>
         <source>Unknown...</source>
-        <translation>Nieznany...</translation>
+        <translation>Desconhecido...</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Czas ostatniego bloku</translation>
+        <translation>Hora do último bloco</translation>
     </message>
     <message>
         <source>Progress</source>
-        <translation>Postęp</translation>
+        <translation>Progresso</translation>
     </message>
     <message>
         <source>Progress increase per hour</source>
-        <translation>Wzrost postępu na godzinę</translation>
+        <translation>Aumento do progresso por hora</translation>
     </message>
     <message>
         <source>calculating...</source>
-        <translation>obliczanie...</translation>
+        <translation>calculando</translation>
     </message>
     <message>
         <source>Estimated time left until synced</source>
-        <translation>Przybliżony czas do synchronizacji</translation>
+        <translation>Tempo estimado para sincronizar</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Ukryj</translation>
+        <translation>Esconder</translation>
     </message>
     <message>
         <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Nieznane. Synchronizacja nagłówków (%1)...</translation>
+        <translation>Desconhecido. Sincronizando cabeçalhos (%1)...</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>Otwórz URI:</translation>
+        <translation>Abrir URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Otwórz żądanie zapłaty z URI lub pliku</translation>
+        <translation>Cobrança aberta de URI ou arquivo</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -1311,26 +1307,26 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Otwórz żądanie zapłaty z pliku</translation>
+        <translation>Selecione o arquivo de cobrança</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Wybierz plik żądania zapłaty do otwarcia</translation>
+        <translation>Selecione o arquivo de cobrança para ser aberto</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Opcje</translation>
+        <translation>Opções</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>Główne</translation>
+        <translation>Principal</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Rozmiar &amp;pamięci podręcznej bazy danych.</translation>
+        <translation>Tamanho do banco de &amp;dados do cache</translation>
     </message>
     <message>
         <source>MB</source>
@@ -1338,151 +1334,151 @@
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Liczba wątków &amp;weryfikacji skryptu</translation>
+        <translation>Número de threads do script de &amp;verificação</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0=auto, &lt;0 = zostaw tyle wolnych rdzeni)</translation>
+        <translation>(0 = automático, &lt;0 = número de cores deixados livres)</translation>
     </message>
     <message>
         <source>Amount of Dash to keep anonymized</source>
-        <translation>Ilość Dashów, które mają pozostać anonimowe.</translation>
+        <translation>Quantidade de dashs para manter anonimizado</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>Portfel</translation>
+        <translation>C&amp;arteira</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
-        <translation>Pokaż dodatkową zakładkę z listą Twoich wszystkich masternodów w pierwszej podzakładce &lt;br/&gt; oraz listą wszystkich masternodów sieci w drugiej podzakładce .</translation>
+        <translation>Mostre uma guia adicional listando todos os seus masternodes na primeira subposição &lt;br/&gt; e todos os masternodes na rede na segunda sub-guia.</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
-        <translation>Pokaż Zakładkę Mastenodów</translation>
+        <translation>Mostrar a aba Masternodes</translation>
     </message>
     <message>
         <source>Show additional information and buttons for PrivateSend on overview screen.</source>
-        <translation>Pokazuj dodatkowe informacje i przyciski dla PrivateSend na ekranie przeglądu.</translation>
+        <translation>Mostre informações adicionais e botões para PrivateSend na tela.</translation>
     </message>
     <message>
         <source>Enable advanced PrivateSend interface</source>
-        <translation>Włącz zaawansowany interfejs PrivateSend</translation>
+        <translation>Ativar interface avançada PrivateSend</translation>
     </message>
     <message>
         <source>Show warning dialog when PrivateSend detects that wallet has very low number of keys left.</source>
-        <translation>Pokaż ostrzeżenie, kiedy PrivateSend wykryje, że w portfelu pozostało już niewiele kluczy.</translation>
+        <translation>Mostrar mensagem de aviso quando o PrivateSend detectar que a carteira tem um número muito baixo de chaves restantes.</translation>
     </message>
     <message>
         <source>Warn if PrivateSend is running out of keys</source>
-        <translation>Ostrzegaj, jeżeli wyczerpują się klucze PrivateSend</translation>
+        <translation>Avisar se o PrivateSend estiver sem as chaves</translation>
     </message>
     <message>
         <source>Whether to use experimental PrivateSend mode with multiple mixing sessions per block.&lt;br/&gt;Note: You must use this feature carefully.&lt;br/&gt;Make sure you always have recent wallet (auto)backup in a safe place!</source>
-        <translation>Czy użyć eksperymentalnego trybu PrivateSend z wielokrotnymi sesjami miksowania na blok?&lt;br/&gt;Uwaga: Korzystaj z tego trybu rozważnie.&lt;br/&gt;Zawsze sprawdź czy masz w bezpiecznym miejscu najnowszą (automatyczną) kopię zapasową!</translation>
+        <translation>Se você deseja usar o modo PrivateSend com várias sessões de mixagem por bloco. &lt;br/&gt; Nota: Você deve usar este recurso com cuidado. &lt;br/&gt; Certifique-se de ter sempre um backup  recente de sua  carteira em um local seguro.</translation>
     </message>
     <message>
         <source>Enable PrivateSend &amp;multi-session</source>
-        <translation>Włącz multi-sesję dla PrivateSend</translation>
+        <translation>Ativar PrivateSend &amp;multi-sessão</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Jeśli wyłączysz możliwość wydawania niepotwierdzonej reszty, to reszta z transakcji&lt;br/&gt; nie może zostać użyta dopóki nie ma przynajmniej jednego potwierdzona.&lt;br/&gt; To również wpływa na to, jak wyliczane jest twoje saldo.</translation>
+        <translation>Se você desabilitar o gasto de um troco não confirmado, o troco da transação&lt;br/&gt;não poderá ser utilizado até a transação ter pelo menos uma confirmação.&lt;br/&gt;Isso também afeta seu saldo computado.</translation>
     </message>
     <message>
         <source>PrivateSend rounds to use</source>
-        <translation>Ilość rund PrivateSend to użycia</translation>
+        <translation>PrivateSend rodadas para usar</translation>
     </message>
     <message>
         <source>This amount acts as a threshold to turn off PrivateSend once it's reached.</source>
-        <translation>Ta kwota działa jako próg po którego przekroczeniu PrivateSend zostaje wyłączony.</translation>
+        <translation>Esse valor atua como um limite para desativar o PrivateSend assim que ele for atingido.</translation>
     </message>
     <message>
         <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatycznie otwórz port klienta Dash Core na ruterze. Opcja działa jedynie, jeżeli router obsługuje UPnP i funkcja UPnP jest włączona.</translation>
+        <translation>Abre automaticamente a porta para o cliente Dash Core no roteador. Essa função apenas funciona se o seu roteador oferece suporte a UPnP e a opção estiver habilitada.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Akceptuj połączenia z zewnątrz</translation>
+        <translation>Aceitar conexões externas</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Zezwól na przychodzące połączenia</translation>
+        <translation>Permitir conexões de entrada</translation>
     </message>
     <message>
         <source>Connect to the Dash network through a SOCKS5 proxy.</source>
-        <translation>Połącz się z siecią Dash przez proxy SOCKS5.</translation>
+        <translation>Conecta à rede Dash através de um proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>Połą&amp;cz się przez SOCKS5 proxy (opcja domyślna):</translation>
+        <translation>&amp;Conectar via proxy SOCKS5 (proxy padrão):</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimalizuje zamiast zakończyć działanie programu przy zamknięciu okna. Kiedy ta opcja jest włączona, program zakończy działanie po wybraniu Zamknij w menu.</translation>
+        <translation>Minimizar em vez de sair do aplicativo quando a janela for fechada. Quando esta opção está ativada, o aplicativo só será fechado selecionando Sair no menu.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL do zewnętrznych seriwsó(np. eksplorator bloków), które pojawiają się w zakładce transakcji jako pozycje w menu kontekstowym.&lt;br/&gt; %s w URL jest zastąpione przez hash transakcji. Wielokrotne URL są oddzielane przez pionową poprzeczkę |.</translation>
+        <translation>As URLs de terceiros (por exemplo, um explorador de blocos) que aparecem na guia de transações como itens de menu de contexto. &lt;br/&gt;%s na URL são substituídos por hash de transação. Vários URLs são separados pela barra vertical |.</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>Ekspert</translation>
+        <translation>Avançado</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>Tutaj możesz ustawić liczbę masternodów, przez które transakcja zostanie przepuszczona.&lt;br/&gt;Im większa liczba masternodów tym większy poziom anonimowości, ale opłata jest również wyższa.</translation>
+        <translation>Esta configuração determina a quantidade de Masternodes individuais através dos quais um input será anonimizado. &lt;br/&gt;Mais rodadas de anonimização garantem um maior grau de privacidade, mas também custarão mais em fees.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Czy pokazać funkcje kontroli monet czy nie.</translation>
+        <translation>Mostrar ou não opções de controle da moeda.</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
-        <translation>Automatycznie uruchom %1 po zalogowaniu do systemu.</translation>
+        <translation>Executar o %1 automaticamente ao iniciar o sistema.</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
-        <translation>Uruchamiaj %1 wraz z zalogowaniem do &amp;systemu</translation>
+        <translation>&amp;Iniciar %1 ao fazer login no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Włącz funkcje &amp;kontroli monet</translation>
+        <translation>Habilitar opções de &amp;controle de moedas</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Wydaj niepotwierdzoną resztę</translation>
+        <translation>Ga&amp;star mudança não confirmada</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Sieć</translation>
+        <translation>Rede</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Mapuj port używając &amp;UPnP</translation>
+        <translation>Mapear porta usando &amp;UPnP</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP: </translation>
+        <translation>&amp;IP do proxy:</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>Adres IP serwera proxy (np. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>Endereço de IP do proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Port:</translation>
+        <translation>&amp;Porta:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Port proxy (np. 9050)</translation>
+        <translation>Porta do serviço de proxy (ex. 9050)</translation>
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation>Używane do połączenia z peerami przez: </translation>
+        <translation>Usado para alcançar peers através de:</translation>
     </message>
     <message>
         <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Pokazuje czy podane domyślnie SOCKS5 proxy jest używane do połączenia z peerami przez ten rodzaj sieci.</translation>
+        <translation>Mostra, se o proxy SOCKS5 padrão fornecido for usado para alcançar pares através deste tipo de rede.</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1498,85 +1494,85 @@
     </message>
     <message>
         <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Połącz się z siecią Dash przez oddzielne proxy SOCKS5 dla ukrytych usług Tor.</translation>
+        <translation>Conecte-se à rede Dash através de um proxy SOCKS5 separado para serviços ocultos Tor</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Użyj osobnego proxy SOCK5 aby połączyć się z peerami przez sieć Tor:</translation>
+        <translation>Usar proxy SOCKS5 separado para alcançar pares via serviços ocultos Tor:</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Okno</translation>
+        <translation>&amp;Janela</translation>
     </message>
     <message>
         <source>&amp;Hide the icon from the system tray.</source>
-        <translation>&amp;Ukryj ikonę na pasku zadań.</translation>
+        <translation>&amp;Ocultar o ícone da bandeja do sistema.</translation>
     </message>
     <message>
         <source>Hide tray icon</source>
-        <translation>Ukryj ikonę na pasku zadań</translation>
+        <translation>Ocultar ícone da bandeja</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Pokazuj tylko ikonę przy zegarku po zminimalizowaniu okna.</translation>
+        <translation>Mostrar apenas um ícone na bandeja ao minimizar a janela.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimalizuj do paska przy zegarku zamiast do paska zadań</translation>
+        <translation>&amp;Minimizar para a bandeja em vez da barra de tarefas.</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimalizuj przy zamknięciu</translation>
+        <translation>M&amp;inimizar ao sair</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Wyświetlanie</translation>
+        <translation>&amp;Mostrar</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Język &amp;Użytkownika:</translation>
+        <translation>&amp;Língua da interface com usuário:</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
-        <translation>Można tu ustawić język interfejsu uzytkownika. Ustawienie przyniesie skutek po ponownym uruchomieniu %1.</translation>
+        <translation>O idioma da interface pode ser definido aqui. Essa configuração terá efeito após reiniciar o %1.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/projects/p/dash/</source>
-        <translation>Dash Core nie został przetłumaczony na twój język? Tłumaczenie jest niepełne lub niepoprawne? Możesz pomóc nam tłumaczyć tutaj:
+        <translation>Idioma inexistente ou tradução incompleta? Contribua com a tradução aqui:
 https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
-        <translation>Motyw interefejsu użytkownika:</translation>
+        <translation>Tema da Interface do usuário:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Jednostka pokazywana przy kwocie:</translation>
+        <translation>&amp;Unidade usada para mostrar quantidades:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Wybierz podział jednostki pokazywany w interfejsie  oraz podczas wysyłania monet</translation>
+        <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar bitcoins.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
-        <translation>Cyfry po przecinku</translation>
+        <translation>Dígitos decimais</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>URL transakcji osób trzecich</translation>
+        <translation>URLs da transação de terceiros</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Aktywne opcje linii komend, które nadpisują powyższe opcje:</translation>
+        <translation>Ativa as opções de linha de comando que sobrescreve as opções acima:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Przywróć wszystkie domyślne ustawienia klienta.</translation>
+        <translation>Redefinir todas as opções do cliente para opções padrão.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>Z&amp;resetuj Ustawienia</translation>
+        <translation>&amp;Redefinir opções</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1584,106 +1580,106 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Anuluj</translation>
+        <translation>&amp;Cancelar</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>domyślny</translation>
+        <translation>padrão</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>żaden</translation>
+        <translation>Nenhum</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Potwierdź reset ustawień</translation>
+        <translation>Confirmar redefinição de opções</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Wymagany restart programu, aby uaktywnić zmiany.</translation>
+        <translation>Reinicialização do aplicativo necessária para efetivar alterações.</translation>
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Klient zostanie zamknięty. Kontynuować?</translation>
+        <translation>O programa será encerrado. Deseja continuar?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Ta zmiana może wymagać ponownego uruchomienia klienta.</translation>
+        <translation>Essa mudança requer uma reinicialização do aplicativo.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adres podanego proxy jest nieprawidłowy</translation>
+        <translation>O endereço proxy fornecido é inválido.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>Formulário</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
-        <translation>Wyświetlona informacja może być przedawniona. Twój portfel automatycznie zsynchronizuje się z siecią Dash, gdy tylko zostanie ustanowione połączenie, jednak proces ten jeszcze się nie zakończył.</translation>
+        <translation>A informação exibida pode estar desatualizada. Sua wallet é sincronizada automaticamente com a rede Dash tão logo uma conexão se estabeleça, entrtanto esse processo ainda não está completo.</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>Dostępne:</translation>
+        <translation>Disponível:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Twoje obecne dostępne saldo</translation>
+        <translation>Seu saldo atual spendable</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>Oczekiwanie:</translation>
+        <translation>Pendente:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Suma transakcji, które nie zostały jeszcze potwierdzone, a które nie zostały wliczone do twojego obecnego salda</translation>
+        <translation>Total de transações que ainda têm de ser confirmados, e ainda não contam para o equilíbrio spendable</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Niedojrzały: </translation>
+        <translation>Imaturo:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Balans wydobycia, który jeszcze nie dojrzał</translation>
+        <translation>Saldo minerado que ainda não maturou</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>Salda</translation>
+        <translation>Saldos</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Niepotwierdzone transakcje do adresów mogących być jedynie do odczytu.</translation>
+        <translation>Transações não confirmadas para endereços apenas para exibição</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>Wykopane fundusze  jeszcze nie gotowe będące w adresie tylko do odczytu.</translation>
+        <translation>Saldo minerado em endereços somente para observação que ainda não maturou</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>Wynosi ogółem:</translation>
+        <translation>Total:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Twoje obecne saldo całkowite</translation>
+        <translation>Seu saldo total atual</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Obecny stan konta adresu tylko do odczytu.</translation>
+        <translation>Saldo total atual em endereços de monitoração</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Tylko do podglądu:</translation>
+        <translation>Observar apenas:</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Twój obecny stan konta w adresie tylko do odczytu</translation>
+        <translation>Seu saldo atual em endereços somente de monitoração</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Dostępne do wydania:</translation>
+        <translation>Saldo disponível:</translation>
     </message>
     <message>
         <source>PrivateSend</source>
@@ -1695,299 +1691,299 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
-        <translation>Włączony/Wyłączony</translation>
+        <translation>Ativado/Desativado</translation>
     </message>
     <message>
         <source>Completion:</source>
-        <translation>Ukończone:</translation>
+        <translation>Conclusão:</translation>
     </message>
     <message>
         <source>Try to manually submit a PrivateSend request.</source>
-        <translation>Spróbuj ręcznie zażądać PrivateSend.</translation>
+        <translation>Tente enviar manualmente uma solicitação PrivateSend.</translation>
     </message>
     <message>
         <source>Reset the current status of PrivateSend (can interrupt PrivateSend if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Zresetuj obecny stan PrivateSend (może przerwać PrivateSend, jeżeli jest w trakcie mieszania. Może Cię to kosztować! )</translation>
+        <translation>Reseta o estado atual do PrivateSend (pode interromper o PrivateSend se este estiver em processo de Mixing, isso pode te custar dinheiro!)</translation>
     </message>
     <message>
         <source>Information about PrivateSend and Mixing</source>
-        <translation>Informacje o PrivateSend i Mieszaniu.</translation>
+        <translation>Informações sobre PrivateSend e Mixing</translation>
     </message>
     <message>
         <source>Info</source>
-        <translation>Informacje</translation>
+        <translation>Info</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
-        <translation>Ilość oraz Rundy:</translation>
+        <translation>Quantia e Rodadas:</translation>
     </message>
     <message>
         <source>0 DASH / 0 Rounds</source>
-        <translation>0 DASH / 0 Rund</translation>
+        <translation>0 DASH / 0 Rodadas</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
-        <translation>Zgłoszone denominacje:</translation>
+        <translation>Denom Submetido:</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>nie dotyczy</translation>
+        <translation>n/a</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Ostatnie transakcje</translation>
+        <translation>Transações recentes</translation>
     </message>
     <message>
         <source>Start/Stop Mixing</source>
-        <translation>Uruchom/Zatrzymaj Mieszanie</translation>
+        <translation>Iniciar/Interronper o Mixing</translation>
     </message>
     <message>
         <source>PrivateSend Balance:</source>
-        <translation>Balans PrivateSend</translation>
+        <translation>Saldo PrivateSend</translation>
     </message>
     <message>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>Nominały, które wysłałeś do Masternoda.&lt;br&gt;Aby zostały wymieszane, inni użytkownicy muszą wysłać dokładnie takie same nominały. </translation>
+        <translation>As denominações submetidas por você ao Masternode.&lt;br/&gt;Para a realização do mixing, outros usuários precisam submeter exatamente as mesmas denominações.</translation>
     </message>
     <message>
         <source>(Last Message)</source>
-        <translation>(Ostatnia Wiadomość)</translation>
+        <translation>(Última Mensagem)</translation>
     </message>
     <message>
         <source>Try Mix</source>
-        <translation>Mieszaj</translation>
+        <translation>Tentar o Mixing</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Reset</translation>
+        <translation>Resetar</translation>
     </message>
     <message>
         <source>out of sync</source>
-        <translation>desynchronizacja</translation>
+        <translation>Sem sincronia</translation>
     </message>
     <message>
         <source>Automatic backups are disabled, no mixing available!</source>
-        <translation>Automatyczne kopie zapasowe wyłączone, brak możliwości miksowania</translation>
+        <translation>Backups automáticos estão desabilitados, Mixing não disponível!</translation>
     </message>
     <message>
         <source>Start Mixing</source>
-        <translation>Uruchom miksowanie</translation>
+        <translation>Iniciar o Mixing</translation>
     </message>
     <message>
         <source>Stop Mixing</source>
-        <translation>Zatrzymaj miksowanie</translation>
+        <translation>Interromper o Mixing</translation>
     </message>
     <message>
         <source>No inputs detected</source>
-        <translation>Nie wykryto wejść</translation>
+        <translation>Nenhuma entrada detectada</translation>
     </message>
     <message numerus="yes">
         <source>%n Rounds</source>
-        <translation><numerusform>%n runda</numerusform><numerusform>%n rundy</numerusform><numerusform>%n rund</numerusform><numerusform>%n rund</numerusform></translation>
+        <translation><numerusform>%n Rodadas</numerusform><numerusform>%n Rodadas</numerusform></translation>
     </message>
     <message>
         <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Znaleziono wystarczającą ilość odpowiednich środków aby zanonimizowaź %1</translation>
+        <translation>Encontrou entradas compatíveis para anonimizar %1</translation>
     </message>
     <message>
         <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
-        <translation>Nie ma wystarczającej ilośći środków aby moć dokonać anonimizacji &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;zamiast oryginalnej sumy &lt;spam style='color:red;'&gt;%2&lt;/spam&gt; zostanie zanonimizowanych.</translation>
+        <translation>Não há entradas compatíveis suficientes para anonimizar &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt; vamos anonimizar &lt;span style='color:red;'&gt;%2&lt;/span&gt; em vez disso</translation>
     </message>
     <message>
         <source>Overall progress</source>
-        <translation>Całkowity postęp</translation>
+        <translation>Progresso geral</translation>
     </message>
     <message>
         <source>Denominated</source>
-        <translation>Denominowane</translation>
+        <translation>Denominado</translation>
     </message>
     <message>
         <source>Mixed</source>
-        <translation>Zmiksowane</translation>
+        <translation>Misturado</translation>
     </message>
     <message>
         <source>Anonymized</source>
-        <translation>Zanonimowane</translation>
+        <translation>Anonimizado</translation>
     </message>
     <message numerus="yes">
         <source>Denominated inputs have %5 of %n rounds on average</source>
-        <translation><numerusform>Denonimowane wejścia mają średnio %5 rundę z %n </numerusform><numerusform>Denonimowane wejścia mają średnio %5 rundy z %n </numerusform><numerusform>Denonimowane wejścia mają średnio %5 rund z %n</numerusform><numerusform>Denonimowane wejścia mają średnio %5 z %n rund</numerusform></translation>
+        <translation><numerusform>Os insumos denominados têm %5 de %n rodadas em média</numerusform><numerusform>Os insumos denominados têm %5 de %n rodadas em média</numerusform></translation>
     </message>
     <message>
         <source>keys left: %1</source>
-        <translation>ilość pozostałych kluczy: %1</translation>
+        <translation>Chaves restantes: %1</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation>Wyłączony</translation>
+        <translation>Desativado</translation>
     </message>
     <message>
         <source>Very low number of keys left since last automatic backup!</source>
-        <translation>Od czasu ostatniego automatycznego backupu pozostało bardzo mało kluczy!</translation>
+        <translation>Número muito baixo de chaves deixadas desde o último backup automático!</translation>
     </message>
     <message>
         <source>We are about to create a new automatic backup for you, however &lt;span style='color:red;'&gt; you should always make sure you have backups saved in some safe place&lt;/span&gt;!</source>
-        <translation>Utworzymy nową automatyczną kopię zapasową, jednak&lt;span style='color:red;'&gt; zawsze musisz zapisywać swoje kopie zapasowe w bezpiecznym miejscu &lt;/span&gt;!</translation>
+        <translation>Estamos prestes a criar um novo backup automático para você, no entanto&lt;span style='color:red;'&gt;, você deve sempre garantir que você tenha backups salvos em algum lugar seguro&lt;/span&gt;!</translation>
     </message>
     <message>
         <source>Note: You turn this message off in options.</source>
-        <translation>Uwaga: Ten komunikat możesz wyłączyć w Opcjach.</translation>
+        <translation>Nota: Você desliga esta mensagem nas opções.</translation>
     </message>
     <message>
         <source>WARNING! Something went wrong on automatic backup</source>
-        <translation>UWAGA! Wystąpił błąd przy tworzeniu automatycznej kopii zapasowej</translation>
+        <translation>ALERTA! Algo de errado ocorreu com o backup automático</translation>
     </message>
     <message>
         <source>ERROR! Failed to create automatic backup</source>
-        <translation>BŁĄD! Automatyczne tworzenie kopii zapasowej nie powiodło się</translation>
+        <translation>ERRO! Falha ao criar o backup automático</translation>
     </message>
     <message>
         <source>Mixing is disabled, please close your wallet and fix the issue!</source>
-        <translation>Mieszanie wyłączone! Zamknij portfel i rozwiąż problem.</translation>
+        <translation>Mixing está desabilitado, por favor feche sua carteira e corrija o problema!</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation>Włączony</translation>
+        <translation>Ativado</translation>
     </message>
     <message>
         <source>see debug.log for details.</source>
-        <translation>Szczegóły znajdziesz w pliku debug.log.</translation>
+        <translation>Consulte debug.log para obter detalhes.</translation>
     </message>
     <message>
         <source>WARNING! Failed to replenish keypool, please unlock your wallet to do so.</source>
-        <translation>OSTRZEŻENIE! Nie udało się uzupełnić puli kluczy. W tym celu musisz odblokować portfel.</translation>
+        <translation>ATENÇÃO! Falha ao repor o keypool, desbloqueie sua carteira para fazer isso.</translation>
     </message>
     <message>
         <source>Last PrivateSend message:
 </source>
-        <translation>Ostatnia wiadomość PrivateSend:
+        <translation>Última mensagem do PrivateSend:
 </translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>NIEDOSTĘPNE</translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>PrivateSend was successfully reset.</source>
-        <translation>PrivateSend pomyślnie zresetowano</translation>
+        <translation>PrivateSend foi reiniciado com sucesso.</translation>
     </message>
     <message>
         <source>If you don't want to see internal PrivateSend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>Jeśli nie chcesz widzieć wewnętrznych transakcji/opłat PrivateSend to w zakładce "Transakcje" wybierz opcję "Najpopularniejsza" jako rodzaj transakcji.</translation>
+        <translation>Se você não quiser ver as taxas / transações internas do PrivateSend selecione "Mais comum" como Tipo na guia "Transações".</translation>
     </message>
     <message>
         <source>PrivateSend requires at least %1 to use.</source>
-        <translation>PrivateSend wymaga użycia co najmniej %1</translation>
+        <translation>PrivateSend requer pelo menos %1 para usar.</translation>
     </message>
     <message>
         <source>Wallet is locked and user declined to unlock. Disabling PrivateSend.</source>
-        <translation>Portfel jest zablokowany, a użytkownik odmówił odblokowania. PrivateSend został wyłączony.</translation>
+        <translation>A Carteira está bloqueada e o usuário recusou a desbloquear. Desativando o PrivateSend.</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>Błąd żądania płatności</translation>
+        <translation>Erro no pedido de pagamento</translation>
     </message>
     <message>
         <source>Cannot start dash: click-to-pay handler</source>
-        <translation>Nie można włączyć dash: kliknij-aby-zapłacić ubsługującemu.</translation>
+        <translation>Não foi possível iniciar Dash: manipulador click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>Obsługa URI</translation>
+        <translation>Manipulação de URI</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Żądanie płatności podowduje że URL jest niewłaściwy: %1</translation>
+        <translation>URL de cobrança é inválida: %1</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Nieprawidłowy adres płatności %1</translation>
+        <translation>Endereço de pagamento inválido %1</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
-        <translation>URI nie może zostać przeanalizowany! Mogło to być spowodowane przez niewłaściwy adres Dash lub niewłaściwe parametry URI</translation>
+        <translation>A URI não pode ser analisada! Isto pode ser causado por um endereço inválido ou um parâmetro URI malformado.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>Obsługa pliku z żądaniem płatności</translation>
+        <translation>Manipulação de arquivo de cobrança</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Nie można odczytać pliku z żądaniem płatności! Może to być spowodowane przez niewłaściwy plik z żądaniem płatności.</translation>
+        <translation>Arquivo de pedido de pagamento não pode ser lido! Isto pode ser causado por uma requisição de pagamento inválida.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Żądanie płatności zostało odrzucone</translation>
+        <translation>Pedido de pagamento rejeitado</translation>
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>Sieć żądania płatnośc nie pasuje do sieci klienta.</translation>
+        <translation>Rede do pedido de pagamento não corresponde rede do cliente.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Żądanie płatności wygasło.</translation>
+        <translation>Pedido de pagamento expirado.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>Żądanie płatności nie zostało zainicjonowane.</translation>
+        <translation>A requisição do pagamento não foi inicializada.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Niezweryfikowane żądania płatności dla specjalnych skryptów z płatnościami nie są obsługiwane.</translation>
+        <translation>Pedidos de pagamento não verificados para scripts de pagamento personalizados não são suportados.</translation>
     </message>
     <message>
         <source>Invalid payment request.</source>
-        <translation>Nieważne żądanie płatności.</translation>
+        <translation>Pedido de pagamento inválido</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Żądana kwota %1 jest za niska (uznana za pył).</translation>
+        <translation>Valor do pagamento solicitado de %1 é muito pequeno (Considerado poeira).</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>Zwrot z %1</translation>
+        <translation>Reembolso de %1</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Żądanie płatności %1 jest zbyt duże (%2 bitów, maksymalny rozmiar to %3 bitów).</translation>
+        <translation>Pedido de pagamento %1 é muito grande (%2 bytes, permitido %3 bytes).</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>Błąd komunikacji z %1 : %2</translation>
+        <translation>Erro na comunicação com %1: %2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>Żądanie płatności nie może zostać przeanalizowane!</translation>
+        <translation>Pedido de pagamento não pode ser analisado!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Błędna odpowiedź z serwera %1</translation>
+        <translation>Má resposta do servidor %1</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>Błąd żądania sieci</translation>
+        <translation>Erro de solicitação de rede</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Płatność potwierdzona</translation>
+        <translation>Pagamento reconhecido</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>NodeId</source>
-        <translation>NodeId</translation>
+        <translation>ID do nó</translation>
     </message>
     <message>
         <source>Node/Service</source>
-        <translation>Węzeł/Usługa</translation>
+        <translation>Nó/Serviço</translation>
     </message>
     <message>
         <source>User Agent</source>
-        <translation>Agent użytkownika</translation>
+        <translation>User Agent</translation>
     </message>
     <message>
         <source>Ping</source>
@@ -2002,302 +1998,302 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>%1 didn't yet exit safely...</source>
-        <translation>%1 jeszcze się bezpiecznie nie zamknął...</translation>
+        <translation>%1 ainda não terminou com segurança...</translation>
     </message>
     <message>
         <source>Error reading masternode configuration file: %1</source>
-        <translation>Błąd wczytywania pliku konfiguracji masternoda: %1</translation>
+        <translation>Erro ao ler o arquivo de configuração do masternode: %1</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Kwota</translation>
+        <translation>Quantia</translation>
     </message>
     <message>
         <source>Enter a Dash address (e.g. %1)</source>
-        <translation>Wpisz adres Dash (np. %1)</translation>
+        <translation>Informe um endereço Dash (ex: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
-        <translation>%1 dzień</translation>
+        <translation>%1 d</translation>
     </message>
     <message>
         <source>%1 h</source>
-        <translation>%1 godz.</translation>
+        <translation>%1 h</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation>%1 min.</translation>
+        <translation>%1 m</translation>
     </message>
     <message>
         <source>%1 s</source>
-        <translation>%1 sek.</translation>
+        <translation>%1 s</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Żaden</translation>
+        <translation>Nenhum</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>Nieważne</translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>%1 ms</source>
-        <translation>%1 milisec.</translation>
+        <translation>%1 ms</translation>
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekundy</numerusform><numerusform>%n sekund</numerusform><numerusform>%n sek.</numerusform></translation>
+        <translation><numerusform>%n segundos</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minuta</numerusform><numerusform>%n minuty</numerusform><numerusform>%n minut</numerusform><numerusform>%n min.</numerusform></translation>
+        <translation><numerusform>%n minutos</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n godzina</numerusform><numerusform>%n godziny</numerusform><numerusform>%n godzin</numerusform><numerusform>%n godziny</numerusform></translation>
+        <translation><numerusform>%n horas</numerusform><numerusform>%n horas</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n dzień</numerusform><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform></translation>
+        <translation><numerusform>%n dias</numerusform><numerusform>%n dias</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n tydzień</numerusform><numerusform>%n tygodnie</numerusform><numerusform>%n tygodnie</numerusform><numerusform>%n tygodnie</numerusform></translation>
+        <translation><numerusform>%n semanas</numerusform><numerusform>%n semanas</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n rok</numerusform><numerusform>%n lata</numerusform><numerusform>%n lata</numerusform><numerusform>%n lata</numerusform></translation>
+        <translation><numerusform>%n anos</numerusform><numerusform>%n anos</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 oraz %2</translation>
+        <translation>%1 e %2</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>nieznany</translation>
+        <translation>desconhecido</translation>
     </message>
 </context>
 <context>
     <name>QObject::QObject</name>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>Błąd: Określony folder danych "%1" nie istnieje.</translation>
+        <translation>Erro: Diretório de dados especificado "%1" não existe.</translation>
     </message>
     <message>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>Błąd: Nie można przetworzyć pliku konfiguracyjnego: %1. Używaj tylko składni klucz=wartość.</translation>
+        <translation>Erro: Não foi possível interpretar arquivo de configuração: %1. Utilize apenas a sintaxe chave=valor.</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation>Błąd: %1</translation>
+        <translation>Erro: %1</translation>
     </message>
 </context>
 <context>
     <name>QRDialog</name>
     <message>
         <source>QR-Code Title</source>
-        <translation>Tytuł Kodu QR</translation>
+        <translation>QR-Code Titulo</translation>
     </message>
     <message>
         <source>QR Code</source>
-        <translation>Kod QR</translation>
+        <translation>Código QR</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Zapisz obraz...</translation>
+        <translation>&amp;Salvar Imagem...</translation>
     </message>
     <message>
         <source>Error creating QR Code.</source>
-        <translation>Błąd kreowania kodu QR.</translation>
+        <translation>Erro ao criar o QR Code.</translation>
     </message>
 </context>
 <context>
     <name>QRGeneralImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Zapisz obraz...</translation>
+        <translation>&amp;Salvar Imagem...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>&amp;Kopiuj obraz</translation>
+        <translation>&amp;Copiar imagem</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>Zapisz Kod QR</translation>
+        <translation>Salvar código QR</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>Obraz PNG (*.png)</translation>
+        <translation>Imagem PNG (*.png)</translation>
     </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Zapisz obraz...</translation>
+        <translation>&amp;Salvar Imagem...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>&amp;Kopiuj obraz</translation>
+        <translation>&amp;Copiar imagem</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>Zapisz Kod QR</translation>
+        <translation>Salvar código QR</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>Obraz PNG (*.png)</translation>
+        <translation>Imagem PNG (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>Tools window</source>
-        <translation>Okno narzędzi</translation>
+        <translation>Janela de ferramentas</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informacje</translation>
+        <translation>&amp;Informação</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Ogólne</translation>
+        <translation>Geral</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Nazwa</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>NIEDOSTĘPNE</translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Liczba połączeń</translation>
+        <translation>Número de conexões</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Otwórz</translation>
+        <translation>&amp;Abrir</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Czas uruchomienia</translation>
+        <translation>Horário de inicialização</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Sieć</translation>
+        <translation>Rede</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Czas ostatniego bloku</translation>
+        <translation>Horário do último bloco</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Plik logowania debugowania</translation>
+        <translation>Arquivo de log de Depuração</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Aktualna liczba bloków</translation>
+        <translation>Quantidade atual de blocos</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Wersja klienta</translation>
+        <translation>Versão do cliente</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Używana wersja BerkeleyDB</translation>
+        <translation>Usando BerkeleyDB versão</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Ciąg bloków</translation>
+        <translation>Corrente de blocos</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
-        <translation>Liczba masternodów</translation>
+        <translation>Número de Masternodes</translation>
     </message>
     <message>
         <source>Memory Pool</source>
-        <translation>Pula Pamięci</translation>
+        <translation>Pool de memória</translation>
     </message>
     <message>
         <source>Current number of transactions</source>
-        <translation>Aktualna liczba transakcji</translation>
+        <translation>Número atual de transações</translation>
     </message>
     <message>
         <source>Memory usage</source>
-        <translation>Użycie pamięci</translation>
+        <translation>Uso de memória</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Konsola</translation>
+        <translation>&amp;Console</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Wyczyść konsolę</translation>
+        <translation>Limpar console</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>$Ruch sieciowy</translation>
+        <translation>Tráfico de Rede</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Wyczyść</translation>
+        <translation>&amp;Limpar</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Kwota ogólna</translation>
+        <translation>Totais</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Otrzymany</translation>
+        <translation>Recebido</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Wysłany</translation>
+        <translation>Enviado</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;peery</translation>
+        <translation>&amp;Peers</translation>
     </message>
     <message>
         <source>Banned peers</source>
-        <translation>Zablokowane peery</translation>
+        <translation>Nós banidos</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Wybierz peera aby zobaczyć jego szczegółowe informacje.</translation>
+        <translation>Selecione um ponto para ver informações detalhadas.</translation>
     </message>
     <message>
         <source>Whitelisted</source>
-        <translation>Biała lista</translation>
+        <translation>Lista branca</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation>Kierunek</translation>
+        <translation>Direção</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Wersja</translation>
+        <translation>Versão</translation>
     </message>
     <message>
         <source>Starting Block</source>
-        <translation>Początkowy blok</translation>
+        <translation>Bloco inicial</translation>
     </message>
     <message>
         <source>Synced Headers</source>
-        <translation>Zsynchronizowane nagłówki</translation>
+        <translation>Cabeçalhos Sincronizados</translation>
     </message>
     <message>
         <source>Synced Blocks</source>
-        <translation>Zsynchronizowane bloki</translation>
+        <translation>Blocos Sincronizados</translation>
     </message>
     <message>
         <source>Wallet Path</source>
-        <translation>Ścieżka portfela</translation>
+        <translation>Caminho da carteira</translation>
     </message>
     <message>
         <source>User Agent</source>
-        <translation>Agent użytkownika</translation>
+        <translation>Agente de Usuário </translation>
     </message>
     <message>
         <source>Datadir</source>
@@ -2305,171 +2301,171 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otwórz plik dziennika debugowania %1 z obecnego katalogu z danymi. Może to potrwać kilka sekund przy większych plikach.</translation>
+        <translation>Abrir o arquivo de log de depuração do %1 localizado no diretório atual de dados. Isso pode levar alguns segundos para arquivos de log grandes.</translation>
     </message>
     <message>
         <source>Decrease font size</source>
-        <translation>Zmniejsz rozmiar czcionki</translation>
+        <translation>Diminuir o tamanho da fonte</translation>
     </message>
     <message>
         <source>Increase font size</source>
-        <translation>Zwiększ rozmiar czcionki</translation>
+        <translation>Aumentar o tamanho da fonte</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Usługi</translation>
+        <translation>Serviços</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>zablokuj wynik</translation>
+        <translation>Banir pontuação</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Czas Połączenia</translation>
+        <translation>Tempo de conexão</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Ostatnio Wysłane</translation>
+        <translation>Último envio</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Ostatnio Odebrane</translation>
+        <translation>Último recebido</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>czas opóźnienia sieci</translation>
+        <translation>Tempo de Ping</translation>
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
-        <translation>Czas trwania obecnego pinga.</translation>
+        <translation>A duração de um ping excepcional no momento.</translation>
     </message>
     <message>
         <source>Ping Wait</source>
-        <translation>Czekaj Ping</translation>
+        <translation>Espera de ping</translation>
     </message>
     <message>
         <source>Min Ping</source>
-        <translation>Min Ping</translation>
+        <translation>Ping min</translation>
     </message>
     <message>
         <source>Time Offset</source>
-        <translation>Czas</translation>
+        <translation>Offset de tempo</translation>
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
-        <translation>&amp;Naprawa portfela</translation>
+        <translation>&amp;Reparar carteira</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
-        <translation>Ratuj portfel</translation>
+        <translation>Salvar wallet</translation>
     </message>
     <message>
         <source>Rescan blockchain files</source>
-        <translation>Przeskanuj pliki lańcucha</translation>
+        <translation>reescanear o blockchain</translation>
     </message>
     <message>
         <source>Recover transactions 1</source>
-        <translation>Odzyskaj transakcję 1</translation>
+        <translation>Recuperar transações 1</translation>
     </message>
     <message>
         <source>Recover transactions 2</source>
-        <translation>Odzyskaj transakcję 2</translation>
+        <translation>Recuperar transações 2</translation>
     </message>
     <message>
         <source>Upgrade wallet format</source>
-        <translation>Uaktualnij format portfela</translation>
+        <translation>Atualizar formato da carteira</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
-        <translation>Przycisk poniżej zrestartuje portfel z opcjami linii komend służącymi do naprawy portfela, rozwiązywania problemów z plikami łańcucha bloków oraz zgubionych lub nieważnych transakcji .</translation>
+        <translation>Os botões abaixo reiniciarão a carteira com opções de linha de comando para reparar a carteira, corrigir problemas com arquivos blockhain corrompidos ou transações ausentes/obsoletas.</translation>
     </message>
     <message>
         <source>-salvagewallet: Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>-salvagewallet: Próbuje przywrócić prywatne klucze z uszkodzonego portfela.</translation>
+        <translation>-salvagewallet: tenta recuperar chaves privadas de um wallet.dat corrompido.</translation>
     </message>
     <message>
         <source>-rescan: Rescan the block chain for missing wallet transactions.</source>
-        <translation>-rescan: Przeskanuje łańcuch w poszukiwaniu brakujących transakcji portfela.</translation>
+        <translation>-rescan: Reinicia a cadeia de bloco para transações de carteira ausentes.</translation>
     </message>
     <message>
         <source>-zapwallettxes=1: Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation>-zapwallettxes=1: Odzyskaj transakcje z łańcucha bloków (nie zmieniaj meta-danych, np. właściciela konta).</translation>
+        <translation>-zapwallettxes = 1: Recupere as transações do blockchain (mantenha metadados, por exemplo, proprietário da conta).</translation>
     </message>
     <message>
         <source>-zapwallettxes=2: Recover transactions from blockchain (drop meta-data).</source>
-        <translation>-zapwallettxes=2: Odzyskaj transakcje z blockchainu (pozbądź się meta-danych)</translation>
+        <translation>-zapwallettxes = 2: Recupere as transações do blockchain (elimine metadados).</translation>
     </message>
     <message>
         <source>-upgradewallet: Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
-        <translation>-upgradewallet: przeprowadź upgrade portfela do najnowszego formatu podczas uruchomienia. (Nie oznacza to zaktualizowania samego portfela!)</translation>
+        <translation>-upgradewallet: Atualize a carteira para o formato mais recente na inicialização. (Nota: esta não é uma atualização da carteira em si!)</translation>
     </message>
     <message>
         <source>Wallet repair options.</source>
-        <translation>Opcje naprawy portfela.</translation>
+        <translation>Opções de reparação da carteira.</translation>
     </message>
     <message>
         <source>Rebuild index</source>
-        <translation>Przebuduj indeks</translation>
+        <translation> Reconstrução de Índice</translation>
     </message>
     <message>
         <source>-reindex: Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>reindex: Odtwórz index łańcucha bloków z najnowszego pliku blk000??.dat </translation>
+        <translation>-reindex: Reconstrói o índice de cadeia de blocos a partir dos arquivos atuais de dados blk000??.dat .</translation>
     </message>
     <message>
         <source>&amp;Disconnect</source>
-        <translation>&amp;Rozłącz</translation>
+        <translation>&amp;Desconectar</translation>
     </message>
     <message>
         <source>Ban for</source>
-        <translation>Zablokuj na</translation>
+        <translation>Banir por</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
-        <translation>1 &amp;godzinę</translation>
+        <translation>1 &amp;hora</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
-        <translation>1 &amp;dzień</translation>
+        <translation>1 &amp;dia</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1 &amp;tydzień</translation>
+        <translation>1 &amp;semana</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
-        <translation>1 &amp;rok</translation>
+        <translation>1 &amp;ano</translation>
     </message>
     <message>
         <source>&amp;Unban</source>
-        <translation>&amp;Miejski</translation>
+        <translation>&amp;Desbanir</translation>
     </message>
     <message>
         <source>Welcome to the %1 RPC console.</source>
-        <translation>Witaj w konsoli %1 RPC.</translation>
+        <translation>Bem-vindo ao console RPC do %1.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Użyj strzałek do przewijania historii i &lt;b&gt;Ctrl-L&lt;/b&gt; aby wyczyścić ekran</translation>
+        <translation>Use as setas para cima e para baixo para navegar pelo histórico, e &lt;b&gt;Ctrl-L&lt;/b&gt; para limpar a tela.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Wpisz &lt;b&gt;help&lt;/b&gt; aby uzyskać listę dostępnych komend</translation>
+        <translation>Digite &lt;b&gt;help&lt;/b&gt; para uma visão geral dos comandos disponíveis.</translation>
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
-        <translation>UWAGA: Oszuści często mówią użytkownikom aby wpisywali tutaj komendy, co umożliwia im kradzież monet. Nie używaj tej konsoli jeśli w pełni nie rozumiesz funkcji komend których używasz. </translation>
+        <translation>AVISO: Os golpistas estão ativos, dizendo aos usuários para digitar comandos aqui, roubando o conteúdo da carteira. Não use este console sem compreender totalmente o contexto de um comando.</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>Wejście:</translation>
+        <translation>Entrada:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Wyjście:</translation>
+        <translation>Saída:</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
-        <translation>Aktywność sieci jest wyłączona</translation>
+        <translation>Atividade da rede disativada</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2489,157 +2485,157 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>(node id: %1)</source>
-        <translation>(id węzła: %1)</translation>
+        <translation>(id do nó: %1)</translation>
     </message>
     <message>
         <source>via %1</source>
-        <translation>przez %1</translation>
+        <translation>por %1</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>nigdy</translation>
+        <translation>nunca</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>przychodzące</translation>
+        <translation>Entrada</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>wychodzące</translation>
+        <translation>Saída</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Tak</translation>
+        <translation>sim</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Nie</translation>
+        <translation>não</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>nieznane</translation>
+        <translation>Desconhecido</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
-        <translation>Użyj jeden z poprzednio użytych adresów odbiorczych.&lt;br&gt; Podczas ponownego używania adresów występują problemy z bezpieczeństwem i prywatnością.&lt;br&gt; Nie korzystaj z tej opcji, chyba że odtwarzasz żądanie płatności wykonane już wcześniej.</translation>
+        <translation>Reutilize um dos endereços de recebimento usados anteriormente.&lt;br&gt; Os endereços que estão sendo usados têm problemas de segurança e privacidade. &lt;br&gt;Não use isso, a menos que você gere novamente uma solicitação de pagamento feita anteriormente.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>Użyj istniejącego adresu odbiorczego (nie zalecane)</translation>
+        <translation>R&amp;eutilize um endereço de recebimento (não recomendado)</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
-        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania. Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Dash.</translation>
+        <translation>Uma mensagem opcional que será anexada na cobrança e será mostrada quando ela for aberta. Nota: A mensagem não será enviada com o pagamento pela rede Dash.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Wiadomość:</translation>
+        <translation>&amp;Mensagem</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Opcjonalna etykieta do skojarzenia z nowym adresem odbiorczym.</translation>
+        <translation>Um marcador opcional para associar ao novo endereço de recebimento.</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
-        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania.&lt;br&gt; Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Dash.</translation>
+        <translation>Uma mensagem opcional para anexar à solicitação de pagamento, que será exibida quando a solicitação for aberta. &lt;br&gt;Observação: a mensagem não será enviada com o pagamento pela rede do Dash.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Użyj tego formularza do zażądania płatności. Wszystkie pola są &lt;b&gt;opcjonalne&lt;/b&gt;.</translation>
+        <translation>Use esse formulário para fazer cobranças. Todos os campos são &lt;b&gt;opcionais&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Etykieta:</translation>
+        <translation>&amp;Rótulo:</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Opcjonalna kwota żądania. Pozostaw puste pole lub zero, aby nie podawać konkretnej kwoty.</translation>
+        <translation>Uma quantia opcional para cobrar. Deixe vazio ou em branco se o pagador puder especificar a quantia.</translation>
     </message>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;Kwota:</translation>
+        <translation>Qu&amp;antia:</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;Żądaj płatności</translation>
+        <translation>&amp;Requisitar Pagamento</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Wyczyść pola formularza</translation>
+        <translation>Limpa todos os campos do formulário.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Wyczyść</translation>
+        <translation>Limpar</translation>
     </message>
     <message>
         <source>Request InstantSend</source>
-        <translation>Zażądaj InstantSend</translation>
+        <translation>Solicitar o InstantSend</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>Żądanie historii płatności</translation>
+        <translation>Histórico de cobranças</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Pokaż zaznaczone żądanie (działa jak podwójne kliknięcie)</translation>
+        <translation>Mostra a cobrança selecionada (o mesmo que clicar duas vezes em um registro)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Pokaż</translation>
+        <translation>Mostrar</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Usuń zaznaczone z listy</translation>
+        <translation>Remove o registro selecionado da lista</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Usuń</translation>
+        <translation>Remover</translation>
     </message>
     <message>
         <source>Copy URI</source>
-        <translation>Kopiuj URI</translation>
+        <translation>Copiar URI</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiuj etykietę</translation>
+        <translation>Copiar rótulo</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Kopiuj wiadomość</translation>
+        <translation>Copiar mensagem</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiuj kwotę</translation>
+        <translation>Copiar quantia</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>Kod QR</translation>
+        <translation>Código QR</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>Kopiuj &amp;URI</translation>
+        <translation>Copiar &amp;URI</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Kopiuj &amp;adres</translation>
+        <translation>&amp;Copiar Endereço</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Zapisz obraz...</translation>
+        <translation>&amp;Salvar Imagem...</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>Żądaj płatności do %1</translation>
+        <translation>Pedido de pagamento para %1</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>Informacje o płatności</translation>
+        <translation>Informação do pagamento</translation>
     </message>
     <message>
         <source>URI</source>
@@ -2647,39 +2643,39 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>Endereço</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Kwota</translation>
+        <translation>Quantia</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Etykieta</translation>
+        <translation>Rótulo</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Wiadomość</translation>
+        <translation>mensagem</translation>
     </message>
     <message>
         <source>InstantSend</source>
-        <translation>InstantSend</translation>
+        <translation>EnvioInstantâneo</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Tak</translation>
+        <translation>Sim</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Nie</translation>
+        <translation>Não</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Wynikowy URI jest zbyt długi, spróbuj zmniejszyć tekst etykiety / wiadomości</translation>
+        <translation>URI resultante muito longa. Tente reduzir o texto do rótulo ou da mensagem.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Błąd kodowania URI w Kodzie QR.</translation>
+        <translation>Erro ao codigicar o URI em código QR</translation>
     </message>
 </context>
 <context>
@@ -2690,190 +2686,178 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Etykieta</translation>
+        <translation>Rótulo</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Wiadomość</translation>
+        <translation>Mensagem</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez etykiety)</translation>
+        <translation>(sem rótulo)</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(brak wiadomości)</translation>
+        <translation>(sem mensagem)</translation>
     </message>
     <message>
         <source>(no amount requested)</source>
-        <translation>(brak kwoty)</translation>
+        <translation>(nenhuma quantia solicitada)</translation>
     </message>
     <message>
         <source>Requested</source>
-        <translation>Zażądano</translation>
+        <translation>Solicitado</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Wyślij Monety</translation>
+        <translation>Enviar dinheiro</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Funkcje sterowania monetami</translation>
+        <translation>Opções de Controle da Moeda</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>Wejścia...</translation>
+        <translation>Entradas...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>zaznaczone automatycznie</translation>
+        <translation>automaticamente selecionado</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Niewystarczające środki!</translation>
+        <translation>Saldo insuficiente!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Ilość:</translation>
+        <translation>Quantidade:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bajtów:</translation>
+        <translation>Bytes:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Kwota:</translation>
+        <translation>Quantia:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Opłata:</translation>
+        <translation>Taxa:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Pył</translation>
+        <translation>Poeira:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Po opłacie:</translation>
+        <translation>Depois da taxa:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Reszta:</translation>
+        <translation>trocar</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Kiedy ta opcja jest wybrana, ale adres reszty jest pusty lub nieprawidłowy to reszta będzie wysyłana na adres nowo-wygenerowany.</translation>
+        <translation>Se isso estiver ativo e o endereço de troco estiver vazio ou inválido, o troco será enviado a um novo endereço gerado na hora.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Niestandardowe adresy reszty</translation>
+        <translation>Endereço específico de troco</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Opłata za transakcje:</translation>
+        <translation>Taxa de transação</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Wybierz...</translation>
+        <translation>Escolha...</translation>
     </message>
     <message>
         <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until your have validated the complete chain.</source>
-        <translation>Używając opcji fallbackfee może sprawić, że transakcja nie zostanie potwierdzona przez kilka godzin, dni, lub nigdy. Pomyśl nad ręcznym wybraniem wysokości opłaty, lub poczekaj pełną walidację łańcucha.</translation>
+        <translation>Usar o fallbackfee pode resultar no envio de uma transação que levará várias horas ou dias (ou nunca) para confirmação. Considere escolher sua taxa manualmente ou espere até que você tenha validado a cadeia completa.</translation>
     </message>
     <message>
         <source>Warning: Fee estimation is currently not possible.</source>
-        <translation>Uwaga: Oszacowanie opłaty za transakcje jest aktualnie niemożliwe.</translation>
+        <translation>Atenção: Estimativa de taxa não disponível no momento</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>zamknij ustawienia opłat</translation>
+        <translation>Ocultar painel</translation>
     </message>
     <message>
         <source>Confirmation time target:</source>
-        <translation>Docelowy czas potwierdzenia:</translation>
+        <translation>Tempo alvo de confirmação:</translation>
     </message>
     <message>
         <source>PrivateSend</source>
-        <translation>PrivateSend</translation>
+        <translation>EnvioPrivado</translation>
     </message>
     <message>
         <source>InstantSend</source>
-        <translation>InstantSend</translation>
-    </message>
-    <message>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Jeśli ręcznie ustalona opłata wynosi 1000 Duffów, a sama transakcja ma tylko 250 bajtów, to opłata "za kilobajt" wynosi tylko 250 duffów. &lt;br/&gt;Dzieje się tak dla każdej transakcji poniżej 1000 duffów. W przypadku transakcji większych niż jeden kilobajt opłata jest naliczana od kilobajta. </translation>
-    </message>
-    <message>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Jeśli ręcznie ustalona opłata wynosi 1000 Duffów, a sama transakcja ma tylko 250 bitów, to opłata "za kilobajt" wynosi tylko 250 duffów.&lt;br/&gt; Dzieje się tak dla każdej transakcji poniżej 1000 duffów. W przypadku transakcji większych niż jeden kilobajt opłata jest naliczana od kilobajta.</translation>
-    </message>
-    <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for dash transactions than the network can process.</source>
-        <translation>Uiszczanie minimalnej opłaty za transakcję jest ok, dopóki ilość transakcji nie przekracza dostępnego miejsca w bloku. &lt;br /&gt;Jeśli zostanie wysłanych więcej transakcji niż sieć może przetworzyć, to może się zdarzyć, że Twoja transakcja nigdy nie zostanie potwierdzona.</translation>
+        <translation>EnvioInstantâneo</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>na kilobajt</translation>
+        <translation>por kilobyte</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Ukryj</translation>
+        <translation>Esconder</translation>
     </message>
     <message>
         <source>total at least</source>
-        <translation>Łączna kwota wynosi co najmniej</translation>
+        <translation>total pelo menos</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(przeczytaj podpowiedź w chmurce)</translation>
+        <translation>(Leia o popup)</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Polecany:</translation>
+        <translation>Recomendado</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Niestandardowo:</translation>
+        <translation>Personalizado:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Opłata smart nie została jeszcze zainicjonowana. Zazwyczaj zajmuje to kilka bloków...)</translation>
+        <translation>(Smart fee não iniciado. Isso requer alguns blocos...)</translation>
     </message>
     <message>
         <source>normal</source>
-        <translation>normalny</translation>
+        <translation>normal</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>szybki</translation>
+        <translation>rápido</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Potwierdź czynność wysyłania</translation>
+        <translation>Confirmar o envio</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>Wy&amp;syłka</translation>
+        <translation>Enviar</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Wyczyść wszystkie pola formularza</translation>
+        <translation>Limpar todos os campos do formulário.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Wyczyść &amp;wszystko</translation>
+        <translation>Limpar Tudo</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Wyślij do wielu odbiorców na raz</translation>
+        <translation>Enviar para vários destinatários de uma só vez</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Dodaj Odbio&amp;rcę</translation>
+        <translation>Adicionar destinatário</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -2881,162 +2865,162 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Skopiuj ilość</translation>
+        <translation>Copiar quantidade</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiuj kwotę</translation>
+        <translation>Copiar quantia</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Skopiuj opłatę</translation>
+        <translation>Copiar taxa</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Skopiuj ilość po opłacie</translation>
+        <translation>Copiar pós taxa</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Skopiuj ilość bajtów</translation>
+        <translation>Copiar bytes</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>skopiuj drobne (poniżej 5460 duffów)</translation>
+        <translation>Copiar poeira</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Skopiuj resztę</translation>
+        <translation>Copiar troco</translation>
     </message>
     <message>
         <source>using</source>
-        <translation>używając</translation>
+        <translation>usando</translation>
     </message>
     <message>
         <source>anonymous funds</source>
-        <translation>anonimowe środki</translation>
+        <translation>fundos anônimos </translation>
     </message>
     <message>
         <source>(privatesend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(privatesend wymaga aby ta kwota została zaokrąglona do najbliżeszej %1).</translation>
+        <translation>(O privatesend exige que esse valor seja arredondado para o próximo %1).</translation>
     </message>
     <message>
         <source>any available funds (not anonymous)</source>
-        <translation>jakiekolwiek dostępne środki (brak anonimowości)</translation>
+        <translation>quaisquer fundos disponíveis (não anônimos)</translation>
     </message>
     <message>
         <source>and InstantSend</source>
-        <translation>oraz InstantSend</translation>
+        <translation>e EnvioInstantâneo</translation>
     </message>
     <message>
         <source>%1 to %2</source>
-        <translation>%1 do %2</translation>
+        <translation>%1 a %2</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Czy na pewno chcesz wysłać?</translation>
+        <translation>Você tem certeza que deseja enviar?</translation>
     </message>
     <message>
         <source>are added as transaction fee</source>
-        <translation>dodane są jako opłata za transakcje</translation>
+        <translation>são adicionadas como taxas de transação</translation>
     </message>
     <message>
         <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
-        <translation>Całkowita ilość = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
+        <translation>Quantidade Total = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
     </message>
     <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(%1 z %2 wyświetlonych wpisów)&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;(%1 de %2 entradas exibidas)&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Potwierdź wysyłanie monet</translation>
+        <translation>Confirme o envio de moedas</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Adres odbiorcy jest nieprawidłowy, proszę poprawić.</translation>
+        <translation>Endereço de envio inváido. Favor checar.</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Kwota do zapłacenia musi być większa od 0.</translation>
+        <translation>A quantia à pagar deve ser maior que 0</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Kwota przekracza twoje saldo.</translation>
+        <translation>A quantia excede o seu saldo</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Suma przekracza twoje saldo, gdy doliczymy %1 prowizji transakcyjnej.</translation>
+        <translation>O total excede o seu saldo quando a taxa da transação %1 é incluída</translation>
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Znaleziono identyczny adres: adres powinien być użyty tylko raz.</translation>
+        <translation>Encontrado endereço duplicado: os endereços deveriam ser usados apenas uma vez cada</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
-        <translation>Utworzenie transakcji nie powiodło się!</translation>
+        <translation>Criação de transação falha</translation>
     </message>
     <message>
         <source>The transaction was rejected with the following reason: %1</source>
-        <translation>Transakcja została odrzucona z następującym powodem: %1</translation>
+        <translation>A transação foi rejeitada com a seguinte razão: %1</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>Opłata wyższa niż %1 jest absurdalnie wysoka.</translation>
+        <translation>Uma taxa maior que %1 é considerada uma taxa absurdamente alta.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Żądanie płatności wygasło.</translation>
+        <translation>Pedido de pagamento expirado</translation>
     </message>
     <message numerus="yes">
         <source>%n block(s)</source>
-        <translation><numerusform>%n blok</numerusform><numerusform>%n bloki</numerusform><numerusform>%n bloków</numerusform><numerusform>%n bloków</numerusform></translation>
+        <translation><numerusform>%n blocos</numerusform><numerusform>%n blocos</numerusform></translation>
     </message>
     <message>
         <source>Pay only the required fee of %1</source>
-        <translation>Uiść jedynie minimalną opłatę %1</translation>
+        <translation>Pagar somente a taxa requerida de %1</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Potwierdzenia zaczną się za około %n blok</numerusform><numerusform>Potwierdzenia zaczną się za około %n bloki</numerusform><numerusform>Potwierdzenia zaczną się za około %n bloków</numerusform><numerusform>Potwierdzenia zaczną się za około %n bloków</numerusform></translation>
+        <translation><numerusform>Estimativa para iniciar a confirmação em %n blocos.</numerusform><numerusform>Estimativa para iniciar a confirmação em %n blocos.</numerusform></translation>
     </message>
     <message>
         <source>Warning: Invalid Dash address</source>
-        <translation>Ostrzeżenie: adres Dash jest nieprawidlowy </translation>
+        <translation>Aviso: Endereço Dash inválido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Ostrzeżenie: Nieznany adres reszty</translation>
+        <translation>Aviso: Endereço de troco inválido</translation>
     </message>
     <message>
         <source>Confirm custom change address</source>
-        <translation>Potwierdź zmianę adresu własnego</translation>
+        <translation>Confirmar endereço de troco personalizado</translation>
     </message>
     <message>
         <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
-        <translation>Adres który wybrałeś dla reszty nie znajduje się w tym porfelu. Część lub wszystkie twoje monety mogą zostać wysłane na ten adres. Jesteś pewien? </translation>
+        <translation>O endereço selecionado para o troco não pertence a esta carteira. Alguns ou todos os fundos da sua carteira modem ser mandados para esse endereço. Tem certeza?</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez etykiety)</translation>
+        <translation>(sem rótulo)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>This is a normal payment.</source>
-        <translation>To jest standardowa płatność</translation>
+        <translation>Este é um pagamento normal.</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Zapłać &amp;dla:</translation>
+        <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
         <source>The Dash address to send the payment to</source>
-        <translation>Adres Dash na który wysłać fundusze</translation>
+        <translation>O endereço Dash para enviar o pagamento a</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Wybierz wcześniej użyty adres </translation>
+        <translation>Escolher endereço usado anteriormente</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -3044,7 +3028,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Wklej adres ze schowka</translation>
+        <translation>Colar o endereço da área de transferência</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -3052,96 +3036,96 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Usuń ten wpis</translation>
+        <translation>Remover esta entrada</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Etykieta:</translation>
+        <translation>&amp;Rótulo:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Wprowadź etykietę dla tego adresu by dodać go do listy użytych adresów</translation>
+        <translation>Digite um rótulo para este endereço para adicioná-lo no catálogo</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>Su&amp;ma:</translation>
+        <translation>Q&amp;uantidade:</translation>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Dash than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Opłata zostanie odliczona od wysyłanej kwoty. Odbiorca otrzyma mniej, niż wprowadziłeś w polu kwoty. W razie wielu odbiorców, opłata zostanie równo podzielona.</translation>
+        <translation>A taxa será deduzida do valor enviado. O destinatário receberá uma quantidade menor de Dash do que você insere no campo de valor. Se vários destinatários forem selecionados, a taxa será dividida igualmente.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
-        <translation>Odejm&amp;ij opłatę od kwoty</translation>
+        <translation>&amp;Retirar taxa da quantia</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Wiadomość:</translation>
+        <translation>Mensagem:</translation>
     </message>
     <message>
         <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>Wiadomość, która została dołączona do dash: Link, który zostanie zapisany wraz z transakcją do wglądu w przyszłości. Zauważ, że sama wiadomość nie zostanie wysłana przez sieć Dash.</translation>
+        <translation>A mensagem que foi anexada ao Dash: URI na qual será gravada na transação para sua referência. Nota: Essa mensagem não será gravada publicamente na rede Dash.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
-        <translation>To żądane zapłaty nie zostało uwierzytelnione.</translation>
+        <translation>Esta é uma cobrança não autenticada.</translation>
     </message>
     <message>
         <source>This is an authenticated payment request.</source>
-        <translation>To żądanie zapłaty jest uwierzytelnione.</translation>
+        <translation>Esta é uma cobrança autenticada.</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Wpłać do:</translation>
+        <translation>Pague Para:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>Notatka:</translation>
+        <translation>Memorizar:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Wprowadź etykietę dla tego adresu by dodać go do książki adresowej</translation>
+        <translation>Digite um rótulo para este endereço para adicioná-lo ao catálogo de endereços</translation>
     </message>
 </context>
 <context>
     <name>SendConfirmationDialog</name>
     <message>
         <source>Yes</source>
-        <translation>Tak</translation>
+        <translation>Sim</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
         <source>%1 is shutting down...</source>
-        <translation>%1 się zamyka...</translation>
+        <translation>%1 está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Nie wyłączaj komputera, dopóki to okno nie zniknie.</translation>
+        <translation>Não desligue o computador até essa janela desaparecer.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Podpisy - Podpisz / zweryfikuj wiadomość</translation>
+        <translation>Assinaturas - Assinar / Verificar uma mensagem</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>Podpi&amp;sz Wiadomość</translation>
+        <translation>&amp;Assinar Mensagem</translation>
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive Dash sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Możesz podpisywać wiadomości swoimi adresami aby udowodnić, że jesteś ich właścicielem. Uważaj, aby nie podpisywać niczego co wzbudza Twoje podejrzenia, ponieważ ktoś może stosować phishing próbując nakłonić Cię do ich podpisania. Akceptuj i podpisuj tylko w pełni zrozumiałe komunikaty i wiadomości.</translation>
+        <translation>Você pode assinar mensagens/acordos com seus endereços para provar que pode receber o Dash enviado para eles. Tenha cuidado para não assinar nada vago ou aleatório, pois os ataques de phishing podem tentar convencê-lo a assinar sua identidade para eles. Assine apenas declarações totalmente detalhadas com as quais você concorda.</translation>
     </message>
     <message>
         <source>The Dash address to sign the message with</source>
-        <translation>Adres Dash do podpisu wiadomości</translation>
+        <translation>O endereço Dash que assinará a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Wybierz wcześniej użyty adres</translation>
+        <translation>Escolha um endereço usado anteriormente</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -3149,7 +3133,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Wklej adres ze schowka</translation>
+        <translation>Colar o endereço da área de transferência</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -3157,107 +3141,107 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Wprowadź wiadomość, którą chcesz podpisać, tutaj</translation>
+        <translation>Entre a mensagem que você quer assinar aqui</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>Podpis</translation>
+        <translation>Assinatura</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopiuje aktualny podpis do schowka systemowego</translation>
+        <translation>Copiar a assinatura para a área de transferência do sistema</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Dash address</source>
-        <translation>Podpisz wiadomość, aby udowodnić, że jesteś właścicielem adresu Dash.</translation>
+        <translation>Assinar mensagem para provar que você é dono deste endereço Dash</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Podpisz Wiado&amp;mość</translation>
+        <translation>Assinar &amp;Mensagem</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Zresetuj wszystkie pola podpisanej wiadomości</translation>
+        <translation>Limpar todos os campos de assinatura da mensagem</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Wyczyść &amp;wszystko</translation>
+        <translation>Limpar Tudo</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Zweryfikuj wiadomość</translation>
+        <translation>&amp;Verificar Mensagem</translation>
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Wpisz adres odbiorcy, podaj wiadomość (upewnij się, że dokładnie skopiujesz wszystkie zakończenia linii, spacje, tabulacje itp.) oraz podpis poniżej by sprawdzić wiadomość. Uważaj by nie dodać więcej do podpisu niż do samej podpisywanej wiadomości by uniknąć ataku man-in-the-middle (człowiek pośrodku)</translation>
+        <translation>Coloque o endereço do autor, a mensagem (certifique-se de copiar toda a mensagem, incluindo quebras de linha, espaços, tabulações, etc.) e a assinatura embaixo para verificar a mensagem. Cuidado para não ler mais da assinatura do que está assinado na mensagem, para evitar ser enganado pelo ataque man-in-the-middle. Note que isso somente prova a propriedade de um endereço, e não o remetende de qualquer transação.</translation>
     </message>
     <message>
         <source>The Dash address the message was signed with</source>
-        <translation>Adres Dash, którym wiadomość została podpisana</translation>
+        <translation>O endereço Dash que foi usado para assinar a mensagem</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Dash address</source>
-        <translation>Zweryfikuj wiadomość, aby upewnić się, że została zapisana przez konkretny adres Dash</translation>
+        <translation>Verifique a mensagem para se assegurar de que foi assinada pelo endereço Dash específicado</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Zweryfikuj Wiado&amp;mość</translation>
+        <translation>Verificar &amp;Mensagem</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Resetuje wszystkie pola weryfikacji wiadomości</translation>
+        <translation>Limpar todos os campos de assinatura da mensagem</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Kliknij "Podpisz Wiadomość" żeby uzyskać podpis</translation>
+        <translation>Clique em "Assinar mensagem" para gerar a assinatura</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Podany adres jest nieprawidłowy.</translation>
+        <translation>O endereço digitado é inválido</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Proszę sprawdzić adres i spróbować ponownie.</translation>
+        <translation>Favor checar o endereço e tente novamente</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Wprowadzony adres nie odnosi się do klucza.</translation>
+        <translation>O endereço fornecido não se refere a uma chave.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Odblokowanie portfela zostało anulowane.</translation>
+        <translation>O desbloqueio da carteira foi cancelado</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Klucz prywatny dla podanego adresu nie jest dostępny</translation>
+        <translation>A chave privada para o endereço disponibilizado não está disponível.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Podpisanie wiadomości nie powiodło się</translation>
+        <translation>Assinatura da mensagem falhou.</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Wiadomość podpisana.</translation>
+        <translation>Mensagem assinada.</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>Podpis nie może zostać zdekodowany.</translation>
+        <translation>A assinatura não pôde ser decodificada.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>Sprawdź podpis i spróbuj ponownie.</translation>
+        <translation>Por favor, cheque a assinatura e tente novamente.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>Podpis nie odpowiadał streszczeniu wiadomości</translation>
+        <translation>A assinatura não corresponde a mensagem</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Weryfikacja wiadomości nie powiodła się.</translation>
+        <translation>Falha na verificação da mensagem</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Wiadomość zweryfikowana.</translation>
+        <translation>Mensagem verificada</translation>
     </message>
 </context>
 <context>
@@ -3268,7 +3252,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Wersja %1</translation>
+        <translation>Versão %1</translation>
     </message>
 </context>
 <context>
@@ -3282,15 +3266,15 @@ https://www.transifex.com/projects/p/dash/</translation>
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Otwórz na %n dodatkowy blok</numerusform><numerusform>Otwórz na %n dodatkowe bloki</numerusform><numerusform>Otwórz na %n dodatkowych bloków</numerusform><numerusform>Otwórz na %n dodatkowych bloków</numerusform></translation>
+        <translation><numerusform>Aberto para %n mais blocos</numerusform><numerusform>Aberto para %n mais blocos</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Otwórz do %1</translation>
+        <translation>Aberto até %1</translation>
     </message>
     <message>
         <source>conflicted</source>
-        <translation>konflikt</translation>
+        <translation>Conflitado</translation>
     </message>
     <message>
         <source>%1/offline</source>
@@ -3298,39 +3282,39 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>0/unconfirmed, %1</source>
-        <translation>0/niepotwierdzone, %1</translation>
+        <translation>0/não confirmado, %1</translation>
     </message>
     <message>
         <source>in memory pool</source>
-        <translation>w puli pamięci</translation>
+        <translation>na memória</translation>
     </message>
     <message>
         <source>not in memory pool</source>
-        <translation>brak w puli pamięci</translation>
+        <translation>não na memóra</translation>
     </message>
     <message>
         <source>abandoned</source>
-        <translation>porzucony</translation>
+        <translation>abandonado</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/niezatwierdzone</translation>
+        <translation>%1/não confirmado</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 potwierdzeń</translation>
+        <translation>%1 confirmações</translation>
     </message>
     <message>
         <source>verified via InstantSend</source>
-        <translation>potwierdzono przez InstantSend</translation>
+        <translation>verificado via InstantSend</translation>
     </message>
     <message>
         <source>InstantSend verification in progress - %1 of %2 signatures</source>
-        <translation>InstantSend jest weryfikowane - %1 z %2 sygnatur.</translation>
+        <translation>Confirmação InstantSend em andamento - %1 de  %2 assinaturas</translation>
     </message>
     <message>
         <source>InstantSend verification failed</source>
-        <translation>Potwierdzenie InstantSend nieudane</translation>
+        <translation>A confirmação do InstantSend falhou</translation>
     </message>
     <message>
         <source>Status</source>
@@ -3338,11 +3322,11 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, nie został jeszcze pomyślnie wyemitowany</translation>
+        <translation>, ainda não foi propagada na rede com êxito.</translation>
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, rozgłoś poprzez %n węzeł</numerusform><numerusform>, rozgłoś poprzez %n węzły</numerusform><numerusform>, rozgłoś poprzez %n węzłów</numerusform><numerusform>, rozgłoś poprzez %n węzłów</numerusform></translation>
+        <translation><numerusform>, transmissão por %n nós</numerusform><numerusform>, transmissão por %n nós</numerusform></translation>
     </message>
     <message>
         <source>Date</source>
@@ -3350,130 +3334,130 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Źródło</translation>
+        <translation>Fonte</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>Wygenerowano</translation>
+        <translation>Gerado</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>Od</translation>
+        <translation>De</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>nieznany</translation>
+        <translation>desconhecido</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>Do</translation>
+        <translation>Para</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>własny adres</translation>
+        <translation>endereço próprio</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>Tylko do podglądu</translation>
+        <translation>Monitorado</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>etykieta</translation>
+        <translation>Rótulo</translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>Uznanie</translation>
+        <translation>Crédito</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>Dojrzewa w ciągu %n bloku</numerusform><numerusform>Dojrzewa w ciągu %n bloków</numerusform><numerusform>Dojrzewa w ciągu %n bloków</numerusform><numerusform>Dojrzewa w ciągu %n bloków</numerusform></translation>
+        <translation><numerusform>Maduro em %n blocos</numerusform><numerusform>Maduro em %n blocos</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>niezaakceptowane</translation>
+        <translation>não aceito</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>Obciążenie</translation>
+        <translation>Débito</translation>
     </message>
     <message>
         <source>Total debit</source>
-        <translation>Obciążenia razem</translation>
+        <translation>Débito total</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>Wpływy razem</translation>
+        <translation>Crédito total</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Prowizja transakcji</translation>
+        <translation>Taxa da transação</translation>
     </message>
     <message>
         <source>Net amount</source>
-        <translation>Kwota netto</translation>
+        <translation>Valor líquido</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Wiadomość</translation>
+        <translation>Mensagem</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Komentarz</translation>
+        <translation>Comentário</translation>
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>ID transakcji</translation>
+        <translation>ID da transação</translation>
     </message>
     <message>
         <source>Output index</source>
-        <translation>Indeks wyjściowy</translation>
+        <translation>Index da saída</translation>
     </message>
     <message>
         <source>Transaction total size</source>
-        <translation>Całkowity rozmiar transakcji</translation>
+        <translation>Tamanho transacional total</translation>
     </message>
     <message>
         <source>Merchant</source>
-        <translation>Kupiec</translation>
+        <translation>Mercador</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Wygenerowane monety muszą dojrzeć przez %1 bloków zanim będzie można je wysłać. Gdy wygenerowałeś ten blok, został on ogłoszony w sieci i dodany do łańcucha bloków. Jeżeli nie uda mu się wejść do łańcucha, jego status zostanie zmieniony na "nie zaakceptowano" i nie będzie można go wydać. To czasem zdarza się, gdy inny węzeł wygeneruje blok kilka sekund przed tobą.</translation>
+        <translation>Moedas recém minerados precisam aguardar %1 blocos antes de serem gastos. Quando o bloco foi gerado, ele foi disseminado pela rede para ser adicionado à blockchain. Se ele falhar em ser inserido na cadeia, seu estado será modificado para "não aceito" e ele não poderá ser gasto. Isso pode acontecer eventualmente quando blocos são gerados quase que simultaneamente.</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>Informacje debugowania</translation>
+        <translation>Depurar informação</translation>
     </message>
     <message>
         <source>Transaction</source>
-        <translation>Transakcja</translation>
+        <translation>Transação</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Wejścia</translation>
+        <translation>Entradas</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Kwota</translation>
+        <translation>Quantia</translation>
     </message>
     <message>
         <source>true</source>
-        <translation>prawda</translation>
+        <translation>verdadeiro</translation>
     </message>
     <message>
         <source>false</source>
-        <translation>fałsz</translation>
+        <translation>falso</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Ten panel pokazuje szczegółowy opis transakcji</translation>
+        <translation>Este painel mostra uma descrição detalhada da transação</translation>
     </message>
     <message>
         <source>Details for %1</source>
-        <translation>Szczegóły %1</translation>
+        <translation>Detalhes para %1</translation>
     </message>
 </context>
 <context>
@@ -3484,19 +3468,19 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <source>Address / Label</source>
-        <translation>Adres / Etykieta</translation>
+        <translation>Endereço / Etiqueta</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Otwórz na %n dodatkowy blok</numerusform><numerusform>Otwórz na %n dodatkowe bloki</numerusform><numerusform>Otwórz na %n dodatkowych bloków</numerusform><numerusform>Otwórz na %n dodatkowych bloków</numerusform></translation>
+        <translation><numerusform>Aberto para %n mais blocos</numerusform><numerusform>Aberto para %n mais blocos</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Otwórz do %1</translation>
+        <translation>Aberto até %1</translation>
     </message>
     <message>
         <source>Offline</source>
@@ -3504,250 +3488,250 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Niepotwierdzone:</translation>
+        <translation>Não confirmado</translation>
     </message>
     <message>
         <source>Abandoned</source>
-        <translation>Porzucone</translation>
+        <translation>Abandonado</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Potwierdzanie (%1 z %2 rekomendowanych potwierdzeń)</translation>
+        <translation>Confirmando (%1 de %2 confirmações recomendadas)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Zatwierdzony (%1 potwierdzeń)</translation>
+        <translation>Confirmado (%1 confirmações)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>Konflikt</translation>
+        <translation>Conflitante</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Niedojrzały (%1 potwierdzenia, będzie dostępny po %2)</translation>
+        <translation>Recém-criado (%1 confirmações, disponível somente após %2)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ten blok nie został odebrany przez jakikolwiek inny węzeł i prawdopodobnie nie zostanie zaakceptowany!</translation>
+        <translation>Este bloco não foi recebido por nenhum outro participante da rede e provavelmente não será aceito!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
-        <translation>Wygenerowano, ale nie zaakceptowano</translation>
+        <translation>Gerado mas não aceito</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Otrzymane przez</translation>
+        <translation>Recebido</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Odebrano od</translation>
+        <translation>Recebido</translation>
     </message>
     <message>
         <source>Received via PrivateSend</source>
-        <translation>Otrzymano przez PrivateSend</translation>
+        <translation>Recebido via EnvioPrivado</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Wysłano do</translation>
+        <translation>Enviado</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Płatność do siebie</translation>
+        <translation>Pagamento a si mesmo</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Wydobyto</translation>
+        <translation>Minerado</translation>
     </message>
     <message>
         <source>PrivateSend Denominate</source>
-        <translation>Denominuj PrivateSend</translation>
+        <translation>PrivateSend Denominate</translation>
     </message>
     <message>
         <source>PrivateSend Collateral Payment</source>
-        <translation>Płatność zabezpieczająca PrivateSend</translation>
+        <translation>PrivateSend Pagamento de Garantia</translation>
     </message>
     <message>
         <source>PrivateSend Make Collateral Inputs</source>
-        <translation>PrivateSend Stwórz wejscia transakcji zastawu.</translation>
+        <translation>PrivateSend fazer insumos colaterais</translation>
     </message>
     <message>
         <source>PrivateSend Create Denominations</source>
-        <translation>PrivateSend Stwórz Denominacje</translation>
+        <translation>PrivateSend Criar Denominações</translation>
     </message>
     <message>
         <source>PrivateSend</source>
-        <translation>PrivateSend</translation>
+        <translation>EnvioPrivado</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>Tylko do podgądu</translation>
+        <translation>Monitorado</translation>
     </message>
     <message>
         <source>(n/a)</source>
-        <translation>(brak)</translation>
+        <translation>(n/a)</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(brak etykiegy)</translation>
+        <translation>(sem rótulo)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Status transakcji. Najedź na pole, aby zobaczyć liczbę potwierdzeń.</translation>
+        <translation>Status da transação. Passe o mouse sobre este campo para mostrar o número de confirmações.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Data i czas odebrania transakcji.</translation>
+        <translation>Data e hora que a transação foi recebida.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Rodzaj transakcji.</translation>
+        <translation>Tipo de transação.</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Bez względu na to czy adres tylko do odczytu jest zawarty w tej transakcji.</translation>
+        <translation>Mostrar ou não endereços monitorados na lista de transações.</translation>
     </message>
     <message>
         <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Określony przez użytkownika cel transakcji.</translation>
+        <translation>Intenção/Propósito definido pelo usuário para a transação</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Kwota usunięta z lub dodana do konta.</translation>
+        <translation>Quantidade debitada ou creditada ao saldo.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Wszystko</translation>
+        <translation>Todos</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Dzisiaj</translation>
+        <translation>Hoje</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation>W tym tygodniu</translation>
+        <translation>Essa semana</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>W tym miesiącu</translation>
+        <translation>Esse mês</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>W zeszłym miesiącu</translation>
+        <translation>Último mês</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>W tym roku</translation>
+        <translation>Esse ano</translation>
     </message>
     <message>
         <source>Range...</source>
-        <translation>Zakres...</translation>
+        <translation>Intervalo...</translation>
     </message>
     <message>
         <source>Most Common</source>
-        <translation>Najbardziej powszechne</translation>
+        <translation>Mais comum</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Otrzymane przez</translation>
+        <translation>Recebido com</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Wysłano do</translation>
+        <translation>Enviado para</translation>
     </message>
     <message>
         <source>PrivateSend</source>
-        <translation>PrivateSend</translation>
+        <translation>EnvioPrivado</translation>
     </message>
     <message>
         <source>PrivateSend Make Collateral Inputs</source>
-        <translation>PrivateSend Stwórz wejscia transakcji zastawu.</translation>
+        <translation>PrivateSend fazer insumos colaterais</translation>
     </message>
     <message>
         <source>PrivateSend Create Denominations</source>
-        <translation>PrivateSend Stwórz Denominacje</translation>
+        <translation>PrivateSend Criar Denominações</translation>
     </message>
     <message>
         <source>PrivateSend Denominate</source>
-        <translation>PrivateSend Denominuj</translation>
+        <translation>PrivateSend Denominate</translation>
     </message>
     <message>
         <source>PrivateSend Collateral Payment</source>
-        <translation>Płatność zabezpieczająca PrivateSend</translation>
+        <translation>PrivateSend Pagamento de Garantia</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>Do siebie</translation>
+        <translation>Para você mesmo</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Wydobyto</translation>
+        <translation>Minerado</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Inne</translation>
+        <translation>Outro</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>Wprowadź adres albo etykietę żeby wyszukać</translation>
+        <translation>Procure um endereço ou etiqueta</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>Min suma</translation>
+        <translation>Quantia mínima</translation>
     </message>
     <message>
         <source>Abandon transaction</source>
-        <translation>Porzuć transakcję</translation>
+        <translation>Abandonar transação</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopiuj adres</translation>
+        <translation>Copiar endereço</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiuj etykietę</translation>
+        <translation>Copiar rótulo</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiuj kwotę</translation>
+        <translation>Copias quantia</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Skopiuj ID transakcji</translation>
+        <translation>Copiar ID da transação</translation>
     </message>
     <message>
         <source>Copy raw transaction</source>
-        <translation>Kopiuj surowa transakcje</translation>
+        <translation>Copiar o raw da transação</translation>
     </message>
     <message>
         <source>Copy full transaction details</source>
-        <translation>Skopiuj wszystkie szczegóły transakcji.</translation>
+        <translation>Copiar dados completos da transação</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Zmień etykietę</translation>
+        <translation>Editar rótulo</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>Pokaż szczegóły transakcji</translation>
+        <translation>Mostrar detalhes da transação</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>Eksport historii transakcji</translation>
+        <translation>Exportar histórico de transações</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>CSV (rozdzielany przecinkami)</translation>
+        <translation>Comma separated file (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Potwierdzony</translation>
+        <translation>Confirmado</translation>
     </message>
     <message>
         <source>Watch-only</source>
-        <translation>Tylko do odczytu</translation>
+        <translation>Monitorado</translation>
     </message>
     <message>
         <source>Date</source>
@@ -3755,15 +3739,15 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Etykieta</translation>
+        <translation>Rótulo</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>Endereço</translation>
     </message>
     <message>
         <source>ID</source>
@@ -3771,1174 +3755,1074 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Błąd przy próbie eksportu</translation>
+        <translation>Falha na exportação</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Wystąpił błąd przy próbie zapisu historii transakcji do %1.</translation>
+        <translation>Ocorreu um erro ao tentar salvar o histórico de transações em %1.</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation>Eksport powiódł się</translation>
+        <translation>Exportação feita com êxito</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>Historia transakcji została zapisana do %1.</translation>
+        <translation>O histórico de transação foi gravado com êxito em %1.</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>Zakres:</translation>
+        <translation>Intervalo: </translation>
     </message>
     <message>
         <source>to</source>
-        <translation>do</translation>
+        <translation>para</translation>
     </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Jednostki w których wyrażane są kwoty. Kliknij aby wybrać inną jednostkę. </translation>
+        <translation>Unidade para mostrar. Clique para selecionar outra unidade.</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Nie załadowano żadnego portfela.</translation>
+        <translation>Nenhuma carteira carregada</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Wyślij płatność</translation>
+        <translation>Enviar moedas</translation>
     </message>
     <message>
         <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
-        <translation>InstantSend nie obsługuje jeszcze tak wielkich kwot. Transakcje są obecnie ograniczone do %1 DASH</translation>
+        <translation>EnvioInstantâneo não suporta o envio de valores tão altos ainda. As transações são limitadas a %1 DASH.</translation>
     </message>
     <message>
         <source>Used way too many inputs (&gt;%1) for this InstantSend transaction, fees could be huge.</source>
-        <translation>Dla tej transakcji InstantSend użyto zbyt wielu wejść (&gt;%1). Opłata może być bardzo wysoka.</translation>
+        <translation>Usado demais entradas (&gt;%1) para esta transação do InstantSend, as taxas podem ser enormes.</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Eksportuj</translation>
+        <translation>&amp;Exportar</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Eksportuj dane z aktywnej karty do pliku</translation>
+        <translation>Exportar os dados da guia atual para um arquivo</translation>
     </message>
     <message>
         <source>Selected amount:</source>
-        <translation>Zaznaczona ilość:</translation>
+        <translation>Quantidade selecionada:</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Kopia Zapasowa Portfela</translation>
+        <translation>Backup da carteira</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Dane Portfela (*.dat)</translation>
+        <translation>Dados da carteira (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Nie udało się wykonać kopii zapasowej</translation>
+        <translation>Falha no backup</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Wystąpił błąd przy próbie zapisu pliku portfela do %1.</translation>
+        <translation>Ocorreu um erro ao tentar salvar os dados da carteira em %1.</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>Wykonano Kopię Zapasową</translation>
+        <translation>Backup bem sucedido</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>Plik portfela został zapisany do %1.</translation>
+        <translation>Os dados da carteira foram salvos com êxito em %1.</translation>
     </message>
 </context>
 <context>
     <name>dash-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Związany z danym adresem oraz zawsze prowadzący na nim nasłuch.  Użyj [host]:oznaczenie dla IPv6</translation>
+        <translation>Vincular ao endereço fornecido e sempre escutar nele. Use a notação [host]:port para IPv6</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Błąd: Nie powiodło się nasłuchiwanie połączeń przychodzących (nasłuch zwrócił błąd %s)</translation>
+        <translation>Erro: Aceitar conexões de entrada falhou (retornou erro %s)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Wykonaj komendę po otrzymaniu odpowiedniego zawiadomienia lub po obserwacji bardzo długiego rozszczepienia (%s w konsoli jest zastąpiony przez wiadomość)</translation>
+        <translation>Executa um comando quando um alerta relevante é recebido ou vemos uma longa segregação (%s é substituída pela mensagem)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Wykonaj komendę kiedy zmienia się transakcja portfela (%s w konsoli jest zastąpione przez TxID)</translation>
+        <translation>Executa um comando quando uma transação da carteira mudar (%s no comando será substituído por TxID)</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Wykonaj komendę przy zmianie najlepszego bloku (%s w konsoli jest zastąpione przez hasz bloku)</translation>
+        <translation>Executa um comando quando o melhor bloco mudar (%s no comando será substituído pelo hash do bloco)</translation>
     </message>
     <message>
         <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
-        <translation>Nazwa służąca do stworzenia linka do KeePass w którym trzymane jest hasło portfela</translation>
+        <translation>Nome para construir url para a entrada do KeePass que armazena a senha da carteira</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Ustaw maksymalny rozmiar transakcji o wysokim/niskim priorytecie w bajtach (domyślny: %d)</translation>
+        <translation>Definir tamanho máximo de transações de alta prioridade/baixa taxa em bytes (padrão: %d)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Ustaw liczbę wątków weryfikacji skryptu (%u do %d, 0 = auto, &lt;0 = zostaw tyle rdzeni wolnych, domyślnie: %d)</translation>
+        <translation>Define o número de threads de verificação de script (%u a %d, 0 = automático, &lt;0 = número de cores deixados livres, padrão: %d)</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Ta wersja nie jest jeszcze gotowa na oficjalne wydanie - używaj jej na własne ryzyko - nie używaj tej wersji do kopania monet lub do świadczenia usług komercyjnych.</translation>
+        <translation>Este é um build de teste pré-lançamento - use por sua conta e risco - não use para mineração ou comércio.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Uwaga: Wygląda na to, że istnieją pewne rozbieżności w sieci! Możliwe, że niektórzy kopacze doświadczają problemów technicznych. </translation>
+        <translation>Atenção: A rede não parecem concordar plenamente! Alguns mineiros parecem estar enfrentando problemas.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>dadf</translation>
+        <translation>Atenção: Nós não parecemos concordar plenamente com nossos nós! Você pode precisar atualizar ou outros nós podem precisar atualizar.</translation>
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Musisz sprecyzować masternodeprivkey w konfiguracji. Proszę przeglądnij dokumentacje w celu pomocy.</translation>
+        <translation>Você deve especificar um masternodeprivkey na configuração. Por favor, consulte a documentação para obter ajuda.</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Zaakceptuj linie poleceń oraz polecenia JSON-RPC </translation>
+        <translation>Aceitar linha de comando e comandos JSON-RPC</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Dodaj węzeł do połączenia się oraz spróbuj utrzymać połączenie otwarte</translation>
+        <translation>Adicionar um nó com o qual se conectar e tentar manter a conexão ativa</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Pozwól na wyszukiwanie DNS dla -addnode, -seednode oraz -connect</translation>
+        <translation>Permitir consultas DNS para -addnode, -seednode e -connect</translation>
     </message>
     <message>
         <source>Already have that input.</source>
-        <translation>Ta wartość wejściowa już istnieje</translation>
+        <translation>Já tem essa entrada.</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Opcje tworzenia bloku</translation>
+        <translation>Opções de criação de bloco:</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Nie można obniżyć wersji portfela</translation>
+        <translation>Não é possível fazer downgrade da carteira</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Nie można zapisać domyślnych adresów</translation>
+        <translation>Não foi possível escrever no endereço padrão</translation>
     </message>
     <message>
         <source>Collateral not valid.</source>
-        <translation>Transakcja pod zastaw jest nie niewłaściwa.</translation>
+        <translation>Colateral inválido.</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Podłącz do węzła aby odzyskać adresy peerów, a potem odłącz</translation>
+        <translation>Conectar a um nó para receber endereços de participantes, e desconectar.</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Opcje połączenia:</translation>
+        <translation>Opções de conexão:</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Wykryto uszkodzoną bazę danych bloków</translation>
+        <translation>Detectada database de bloco corrompida</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Opcje debugowania/testowania:</translation>
+        <translation>Opções de depuração/teste:</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Nie wczytuj portfela oraz wyłącz połączenia RPC</translation>
+        <translation>Não carrega a carteira e desabilita as chamadas RPC para a carteira</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Czy chcesz teraz przebudować bazę danych bloków?</translation>
+        <translation>Você quer reconstruir o banco de dados de blocos agora?</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Wczytywanie zakończone</translation>
+        <translation>Carregamento completo</translation>
     </message>
     <message>
         <source>Entries are full.</source>
-        <translation>Wpisy są pełne.</translation>
+        <translation>Entradas estão cheias.</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Błąd podczas inicjowania bazy dancyh bloku</translation>
+        <translation>Erro ao inicializar a database do bloco</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Błąd podczas inicjowania środowiska bazy danych portfela %s!</translation>
+        <translation>Erro ao inicializar ambiente de banco de dados de carteira %s!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Błąd wczytywania bloku bazy danych</translation>
+        <translation>Erro ao carregar banco de dados de blocos</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Błąd otwarcia bloku bazy danych</translation>
+        <translation>Erro ao abrir banco de dados de blocos</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Błąd odczytu bazy danych, następuje zamknięcie.</translation>
+        <translation>Erro ao ler o banco de dados. Finalizando.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Błąd</translation>
+        <translation>Erro</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Błąd: Przestrzeń dyskowa jest niska!</translation>
+        <translation>Erro: Pouco espaço em disco!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Nie powiódł się nasłuch żadnego z portów. Użyj -listen=0 jeśli chcesz.</translation>
+        <translation>Falha ao escutar em qualquer porta. Use -listen=0 se você quiser isso.</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = zaochwaj metadane np. informacje właściciela konta oraz żądania zapłat, 2 = pozbądź się matadanych tx)</translation>
+        <translation>(1 = manter metadados tx e.g. informação do dono da conta e requisição de pagamente, 2 = descartar metadados tx)</translation>
     </message>
     <message>
         <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>-maxtxfee jest bardzo wysoka! Tak duże opłaty mogą być uiszczone przy wysłaniu jednej transakcji.</translation>
+        <translation>-maxtxfee é muito alto! Essa quantia poderia ser paga em uma única transação.</translation>
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
-        <translation>Opłata (w %s/kB) jaka zostanie użyta jeśli oszacowanie wysokości opłaty jest niemożliwe (domyślnie %s)</translation>
+        <translation>A variação da taxa (em %s/kB) que será usada quando não houver dados suficientes para se estimar a taxa (default: %s)</translation>
     </message>
     <message>
         <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
-        <translation>Akceptuj retransmitowaną tranasakcje od peerów z białej listy, nwet jeśli nie retransmitujesz transakcji. (domyślnie: %d)</translation>
+        <translation>Aceita transações retransmitidas advindas de pares em lista branca, mesmo quando não estiver retransmitindo transações (padrão: %d)</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Pozwól na połączenia JSON-RPC z konkretnego źródła. Ważne dla &lt;ip&gt; pojedyńczego IP (np. 1.2.3.4), sieci/maski sieci (np. 1.2.3.4/255.255.255.0) lub  sieci/CIDR (np. 1.2.3.4/24). Opcja to może być ustawiana wielokrotnie</translation>
+        <translation>Permitir conexões JSON-RPC de uma fonte específica. Válido para um único ip (ex. 1.2.3.4), até uma rede/máscara (ex. 1.2.3.4/255.255.255.0) ou uma rede/CIDR (ex. 1.2.3.4/24). Esta opção pode ser usada múltiplas vezes</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>Zwiąż z danym adresem oraz wpisz łączących się peerów na białą liste. Użyj notacji [host]:port dla IPv6</translation>
-    </message>
-    <message>
-        <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Zwiąż z danym adresem oraz wpisz łączących się peerów na białą liste. Użyj notacji [host]:port dla IPv6. Opcja ta może być ustawiana wielokrotnie (domyślnie: połącz z wszystkimi interfejsami)</translation>
+        <translation>Vincular ao endereço fornecido e sempre escutar nele. Use a notação [host]:port para IPv6</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Zamiast demaskowania 077, stwórz nowe pliki z domyślnymi pozwoleniami systemu (możliwe tylko z wyłączoną funkcją porfela)</translation>
+        <translation>Criar novos arquivos com permissões padrão do sistema, em vez de umask 077 (apenas efetivo com funcionalidade de carteira desabilitada)</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Usuń wszystkie transakcje portfela i odzyskaj tylko te części blockchainu - zeskanuj powonie na starcie.</translation>
+        <translation>Apaga todas as transações da carteira e somente recupera essas partes da blockchain usando o comando -rescan na inicialização</translation>
     </message>
     <message>
         <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
-        <translation>Błąd podczas wczytywania %s: Niemożliwe jest zmienienie zwykłego porfela w porfel HD</translation>
+        <translation>Erro ao carregar %s: você não pode ativar o HD em uma carteira não HD já existente</translation>
     </message>
     <message>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
-        <translation>Znaleziono niepotwierdzone denominowane transakcje wyjściowe, poczekam aż zostaną one potwierdzone aby móc kontynuować dalej.</translation>
+        <translation>Encontrado saídas não confirmadas, esperará até que confirme para continuar.</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>Jak dokładna ma być weryfikacja bloku -chceckblocks (0-4, domyślnie: %u)</translation>
+        <translation>Quão completa a verificação de blocos do -checkblocks é (0-4, padrão: %u)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Jeśli opłata za transakcję (paytxfee) nie jest ustawiona, dodaj wystarczającą opłatę aby proces potwierdzenia rozpoczął się średnio w przeciągu n bloków (domyślnie: %u)</translation>
+        <translation>Se paytxfee não estiver definida, incluir comissão suficiente para que as transações comecem a ter confirmações em média dentro de N blocos (padrão %u)</translation>
     </message>
     <message>
         <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
-        <translation>Jeśli ten blok jest w łańcuchu załóż, że on i poprzednie bloki są prawidłowe i potencjalnie pomiń weryfikację skryptu (0 aby weryfikować wszystkie, domyślnie: %s, testnet: %s)</translation>
+        <translation>Se este bloco está no blockchain, assume-se que ele e seus ancestrais são válidos e podem ignorar a verificação de scripts (0 para verificar todos, padrão: %s, testnet: %s)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Nieprawidłowa kwota za -maxtxfee=&lt;amount&gt;: '%s' (musi ona wynosić co najmniej tyle co minimalna opłata za retransmisje %s aby zapobiec utknięciu transakcji)</translation>
+        <translation>Valor inválido para -maxtxfee=&lt;valor&gt;: '%s' (precisa ser pelo menos a taxa mínima de %s para prevenir que a transação nunca seja confirmada)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Utrzymuj pełny index transakcji używany przez getrawtransaction rpc call (domyślnie: %u)</translation>
+        <translation>Mantém um índice completo de transações, usado pela chamada rpc getrawtransaction (padrão: %u)</translation>
     </message>
     <message>
         <source>Make sure to encrypt your wallet and delete all non-encrypted backups after you verified that wallet works!</source>
-        <translation>Jeśli już zweryfikowałeś że porfel działa jak należy, to nie zapomnij zaszyfrować porfel oraz usunąć wszystkie niezaszyfrowane kopie zapasowe.</translation>
+        <translation>Certifique-se de criptografar sua carteira e excluir todos os backups não criptografados depois de verificar se a carteira funciona!</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maksymalny rozmiar danych w wykopanych i retransmitowanych transakcjach przesyłanych przez operatora (domyślnie: %u)</translation>
+        <translation>Tamanho máximo de dados em transações de dados de operadora (padrão %u)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Ilość czasu liczonego w sekundach jaki musi upłynąć zanim wadliwy peer znowu może spróbować nawiązać połączenie (domyślnie: %u)</translation>
+        <translation>Número de segundos para impedir que peers mal comportados reconectem (padrão %u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Informacje na temat debugowania danych wyjściowych (domyślnie: %u, podanie &lt;category&gt; jest opcjonalne)</translation>
+        <translation>Informação de saída de debug (padrão: %u, definir &lt;category&gt; é opcional)</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Użyj osobnego proxy SOCK5 aby połączyć się z peerami przez sieć Tor (domyślnie: %s)</translation>
-    </message>
-    <message>
-        <source>User defined mnemonic for HD wallet (bip39). Only has effect during wallet creation/first start (default: randomly generated)</source>
-        <translation>Lista słów dla porfela HD stworzona przez użytkownika (bip39). Tyczy się jedynie kiedy tworzysz nowy porfel (domyślnie: tworozne losowo)</translation>
+        <translation>Use um proxy SOCKS5 separado para alcançar participantes da rede via serviços ocultos Tor (padrão: %s)</translation>
     </message>
     <message>
         <source>User defined seed for HD wallet (should be in hex). Only has effect during wallet creation/first start (default: randomly generated)</source>
-        <translation>Lista słów dla porfela HD stworzona przez użytkownika (powinna być w formie hex). Tyczy się jedynie kiedy tworzysz nowy porfel. (domyślnie: tworzone losowo)</translation>
+        <translation>Semente definida pelo usuário para carteira HD (deve estar em hex). Só tem efeito durante a criação / início da carteira (padrão: gerado aleatoriamente)</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Peery z białej listy nie mogą zostać zbanowane a ich transakcje są zawsze retransmitowane, nawet jeśli już są w pamięci zbiorowej (mempool). Jest to przydatne np. dla bramek wyjściowych</translation>
+        <translation>Peers permitidos não podem ser banidos do DoS e suas transações sempre são transmitidas, até mesmo se eles já estão no pool de memória, útil, por exemplo, para um gateway</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>Musisz odnowić bazę danych używając -reindex-chainstate aby zmienić -txindex</translation>
+        <translation>Você precisa reconstruir o banco de dados usando -reindex-chainstate para alterar -txindex</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(domyślnie: %s)</translation>
+        <translation>(padão: %s)</translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Akceptuj publiczne żądania REST (domyślnie: %u)</translation>
+        <translation>Aceitar pedidos restantes públicas (padrão: %u)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Zawsze wysyłaj zapytanie o adres peera przez podgląd DNS (domyślnie: %u)</translation>
+        <translation>Sempre pergunte pelo endereço de peer via pesquisa DNS (padrão: %u)</translation>
     </message>
     <message>
         <source>Can't mix: no compatible inputs found!</source>
-        <translation>Mieszanie jest niemożliwe: nie znaleziono odpowiednich wartości wejściowych.</translation>
+        <translation>Não é possível misturar: não foram encontradas entradas compatíveis!</translation>
     </message>
     <message>
         <source>Chain selection options:</source>
-        <translation>Opcje wyboru łańcucha:</translation>
+        <translation>Opções de seleção de cadeia:</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Połączenie poprzez SOCKS5 proxy</translation>
+        <translation>Conecte através do proxy SOCKS5</translation>
     </message>
     <message>
         <source>Connect to KeePassHttp on port &lt;port&gt; (default: %u)</source>
-        <translation>Podłącz do KeePassHttp na porcie &lt;port&gt; (domyślny: %u)</translation>
-    </message>
-    <message>
-        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
-        <translation>Upoważnia klienta aby działał jako masternode (0-1, domyślnie: %u)</translation>
+        <translation>Conecte-se ao KeePassHttp na porta&lt;port&gt; (padrão: %u) </translation>
     </message>
     <message>
         <source>Entry exceeds maximum size.</source>
-        <translation>Przekracza maksymalny rozmiar.</translation>
-    </message>
-    <message>
-        <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
-        <translation>Błąd podczas wczytywania %s: Niemożliwe jest zmienienie porfela HD w standarodowy porfel.</translation>
+        <translation>Entrada excede o tamanho máximo.</translation>
     </message>
     <message>
         <source>Failed to load fulfilled requests cache from</source>
-        <translation>Nieudane ładowanie bufora zrealizowanych żądań z</translation>
+        <translation>Falha ao carregar o cache de solicitações preenchidas de</translation>
     </message>
     <message>
         <source>Failed to load governance cache from</source>
-        <translation>Nieudane ładowanie bufora governance z</translation>
+        <translation>Falha ao carregar o cache de governança de</translation>
     </message>
     <message>
         <source>Failed to load masternode cache from</source>
-        <translation>Nieudane ładowanie bufora masternodów z</translation>
+        <translation>Falha ao carregar o cache masternode de</translation>
     </message>
     <message>
         <source>Failed to load masternode payments cache from</source>
-        <translation>Nieudane ładowanie bufora płatności masternodów z</translation>
+        <translation>Falha ao carregar o cache de pagamentos do masternode</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
-        <translation>Znaleziono wystarczającą ilość użytkowników, trwa podoposywanie ( poczekaj %s )</translation>
+        <translation>Encontrou usuários suficientes, assinando ( esperando %s )</translation>
     </message>
     <message>
         <source>Found enough users, signing ...</source>
-        <translation>Znaleziono wystarczającą ilość użytkowników, zapisuje ...</translation>
+        <translation>Encontrou usuários suficientes, assinando ...</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Ile bloków sprawdzić podczas uruchomienia (domyślnie: %u, 0 = wszystkie)</translation>
+        <translation>Quantos blocos devem ser checados ao iniciar (padrão: %u, 0 = todos)</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Importuje...</translation>
+        <translation>Importando...</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>Załącz adres IP do wyników debugowania (domyślnie: %u)</translation>
+        <translation>Incluir endereço IP na saída de depuração (padrão: %u)</translation>
     </message>
     <message>
         <source>Incompatible mode.</source>
-        <translation>Niekompatybilny tryb.</translation>
+        <translation>Modo incompatível.</translation>
     </message>
     <message>
         <source>Incompatible version.</source>
-        <translation>Niekompatybilna wersja.</translation>
+        <translation>Versão incompatível. </translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Znaleziono nieprawidłowy blok lub brak bloku początkowego. Nieprawidłowy katalog danych dla sieci</translation>
+        <translation>Bloco gênese incorreto ou não encontrado. Datadir errado para a rede?</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informacja</translation>
+        <translation>Informação</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
-        <translation>Transakcja wejściowa jest niewłaściwa.</translation>
+        <translation>A entrada não é válida.</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
-        <translation>Niewystarczające środki</translation>
+        <translation>Saldo insuficiente. </translation>
     </message>
     <message>
         <source>Invalid -onion address: '%s'</source>
-        <translation>Nieprawidłowy adres -onion: '%s'</translation>
+        <translation>Endereço -onion inválido: '%s'</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
-        <translation>Nieprawidłowy adres -proxy: '%s'</translation>
+        <translation>Endereço - proxy inválido: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Nieprawidłowa kwota dla -paytxfee=&lt;amount&gt;: '%s' (musi wynosić co najmniej %s)</translation>
+        <translation>Valor inválido para -paytxfee=&lt;amount&gt;: '%s' (precisa ser no mínimo %s)</translation>
     </message>
     <message>
         <source>Keypool ran out, please call keypoolrefill first</source>
-        <translation>Wyczerpana pula kluczy, najpierw wywołaj keypoolrefill</translation>
+        <translation>Erro na Keypool, favor executar keypoolrefill primeiro</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Nasłuchuj połączeń JSON-RPC na &lt;port&gt; (domyślnie: %u lub testnet: %u)</translation>
+        <translation>Escutar por conexões JSON-RPC na porta &lt;port&gt; (padrão: %u ou testnet: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Nasłuchuj połączeń na &lt;port&gt; (domyślnie: %u lub testnet: %u)</translation>
+        <translation>Aguardar por conexões na porta &lt;port&gt; (padrão: %u ou testnet: %u)</translation>
     </message>
     <message>
         <source>Loading banlist...</source>
-        <translation>Ładuję listę blokowanych...</translation>
+        <translation>Carregando lista de banidos...</translation>
     </message>
     <message>
         <source>Loading fulfilled requests cache...</source>
-        <translation>Ładuję bufor zrealizowanych żądań...</translation>
+        <translation>Carregando o cache de solicitações atendidas ...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
-        <translation>Ładuję pamięć podręczną masternoda...</translation>
+        <translation>Carregando o cache do masternode ...</translation>
     </message>
     <message>
         <source>Loading masternode payment cache...</source>
-        <translation>Ładuję pamięć podręczną płatności masternodów...</translation>
+        <translation>Carregando o cache de pagamento do masternode ...</translation>
     </message>
     <message>
         <source>Lock is already in place.</source>
-        <translation>Transakcja została już zamknięta.</translation>
-    </message>
-    <message>
-        <source>Lock masternodes from masternode configuration file (default: %u)</source>
-        <translation>Zamknij masternody z pliku konfiguracji (domyślnie: %u)</translation>
+        <translation>Bloqueio já está no lugar.</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksymalny bufor odbierający na każde połączenie, &lt;n&gt;*1000 bajtów (domyślny: %u)</translation>
+        <translation>Buffer máximo de recebimento por conexão, &lt;n&gt;*1000 bytes (padrão: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksymalny bufor wysyłania na każde połączenie, &lt;n&gt;*1000 bajtów (domyślny: %u)</translation>
+        <translation>Buffer máximo de envio por conexão, &lt;n&gt;*1000 bytes (padrão: %u)</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>
-        <translation>W trakcie mieszania...</translation>
-    </message>
-    <message>
-        <source>Mnemonic passphrase is too long, must be at most 256 characters</source>
-        <translation>Fraza przypominająca zbyt długa - maksymalna długość to 256 znaków</translation>
+        <translation>Mixing em progresso...</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Musisz wyznaczyć port z -whitebind: '%s'</translation>
+        <translation>Necessário informar uma porta com -whitebind: '%s'</translation>
     </message>
     <message>
         <source>No Masternodes detected.</source>
-        <translation>Nie wykryto żadnego Masternoda.</translation>
+        <translation>Nenhum Masternode detectado.</translation>
     </message>
     <message>
         <source>No compatible Masternode found.</source>
-        <translation>Nie znalezione zadnego kompatybilnego Masternoda.</translation>
+        <translation>Nenhum Masternode compatível encontrado.</translation>
     </message>
     <message>
         <source>Not in the Masternode list.</source>
-        <translation>Nie istnieje na liście masternodów.</translation>
+        <translation>Não está na lista de Masternode.</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Łącz się tylko z węzłami w sieci &lt;net&gt; (ipv4, ipv6 lub onion)</translation>
+        <translation>Somente conectar a clientes na rede &lt;net&gt; (ipv4, ipv6 ou onion)</translation>
     </message>
     <message>
         <source>Port: %d</source>
-        <translation>Port: %d</translation>
+        <translation>Porta: %d</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Poprzedź wyniki debugowania datą i godziną (domyślnie: %u)</translation>
+        <translation>Adiciona timestamp como prefixo no debug (padrão: %u)</translation>
     </message>
     <message>
         <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
-        <translation>Odbuduj stan łańcucha i indeks bloków z plików blk*.dat na dysku</translation>
+        <translation>Reconstruir índice de cadeia de bloco a partir dos arquivos blk*.dat no disco</translation>
     </message>
     <message>
         <source>Rebuild chain state from the currently indexed blocks</source>
-        <translation>Odbuduj stan łańcucha z obecnie zaindeksowanych bloków</translation>
-    </message>
-    <message>
-        <source>Send trace/debug info to debug.log file (default: %u)</source>
-        <translation>Wyślij informacje o debugowaniu/śladach do pliku debug.log (domyślnie: %u)</translation>
-    </message>
-    <message>
-        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Wyślij transakcje jako darmowe jeśli istnieje taka możliwość (domyślnie: %u)</translation>
+        <translation>Reconstruir estado a partir dos blocos indexados</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Ustaw ilość kluczy w key pool na &lt;n&gt; (domyślny: %u)</translation>
+        <translation>Defina o tamanho da chave para piscina&lt;n&gt; (padrão: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Ustaw liczbę wątków dla usługi połączen RPC (domyślny: %d)</translation>
+        <translation>Defina o número de threads para chamadas do serviço RPC (padrão: %d)</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Ustaw plik konfiguracji (domyślnie: %s)</translation>
+        <translation>Especificar arquivo de configuração (padrão: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>ustaw limit czasu połączenia w milisekundach (minimum: 1, domyślnie: %d)</translation>
-    </message>
-    <message>
-        <source>Specify masternode configuration file (default: %s)</source>
-        <translation>Ustaw plik konfiguracji masternoda (domyślnie: %s)</translation>
+        <translation>Especificar tempo para desistência de conexões, em mili segundos (mínimo: 1, padrão: %d)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Sprecyjzuj plik pid (domyślny: %s)</translation>
+        <translation>Especificar arquivo pid (padrão: %s)</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Wydaj niepotwierdzoną resztę podczas wysyłania transakcji (domuślnie: %u)</translation>
-    </message>
-    <message>
-        <source>Submitted following entries to masternode: %u / %d</source>
-        <translation>Następujące wpisy zostały przesłane do masternoda: %u / %d</translation>
-    </message>
-    <message>
-        <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
-        <translation>Zapisano do masternoda, czekam na więcej wejść ( %u / %d ) %s</translation>
+        <translation>Gastar troco não confirmado quando enviar transações (padrão: %u)</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting in queue %s</source>
-        <translation>Przesłano do masterdnoda, czekaj na swoją kolej %s</translation>
+        <translation>Enviado para o masternode, esperando na fila %s</translation>
     </message>
     <message>
         <source>Synchroning blockchain...</source>
-        <translation>Synchronizuję łańcuch bloków...</translation>
+        <translation>Sincronizando blockchain...</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
-        <translation>Synchronizacja nie powiodła się</translation>
+        <translation>Sincronização falhou</translation>
     </message>
     <message>
         <source>Synchronization finished</source>
-        <translation>Synchronizacja zakończona</translation>
+        <translation>Sincronização finalizada</translation>
     </message>
     <message>
         <source>Synchronizing masternodes...</source>
-        <translation>Synchronizuję masternody...</translation>
+        <translation>Sincronizando masternodes...</translation>
     </message>
     <message>
         <source>This is not a Masternode.</source>
-        <translation>To nie jest Masternode.</translation>
+        <translation>Este não é um Masternode.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Próg dla niewłaściwie działających, odłączających sie peerów (domyślnie: %u)</translation>
+        <translation>Limite para desconectar peers mal comportados (padrão: %u)</translation>
     </message>
     <message>
         <source>Too many %f denominations, removing.</source>
-        <translation>Zbyt wiele %f nominałów, usuwam.</translation>
+        <translation>Muitas %f denominações, removendo.</translation>
     </message>
     <message>
         <source>Tor control port password (default: empty)</source>
-        <translation>Hasło do kontroli portu Tor (domyślnie: puste)</translation>
+        <translation>Senha da porta de controle do Tor (padrão: vazio)</translation>
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Używany port kontrolny Tora  jeśli włączony jest nasłuch onion (domyślnie %s)</translation>
+        <translation>Porta de controle a ser usada se o monitoramento onion estiver habilitado (padrão: %s)</translation>
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Uruchomienie serwera HTTP nieudane. Szczegóły znajdziesz w dzienniku debugowania.</translation>
+        <translation>Não foi possível iniciar o servidor HTTP. Veja o log de debug para detalhes.</translation>
     </message>
     <message>
         <source>Unknown response.</source>
-        <translation>Nieznana odpowiedź.</translation>
+        <translation>Resposta desconhecida.</translation>
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Nieobsługiwany argument - benchmark został zignorowany, użyj -debug=bench.</translation>
+        <translation>Argument -benchmark não suportado e ignorado, use -debug=bench.</translation>
     </message>
     <message>
         <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Znaleziono nieobsługiwany argument -debugnet zignorowano, użyj -debug=net.</translation>
+        <translation>Argument -debugnet não suportado e ignorado, use -debug=net.</translation>
     </message>
     <message>
         <source>Unsupported argument -tor found, use -onion.</source>
-        <translation>Znaleziono nieobsługiwany argument -tor, użyj -onion.</translation>
+        <translation>O argumento -tor não é suportado, use -onion.</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup</source>
-        <translation>Przy uruchomieniu zaktualizuj portfel do najnowszego formatu</translation>
-    </message>
-    <message>
-        <source>Use KeePass 2 integration using KeePassHttp plugin (default: %u)</source>
-        <translation>Użyj integracji KeePass 2 z wtyczką KeePass Http (domyślnie: %u)</translation>
+        <translation>Atualizar carteira para o formato mais recente ao iniciar</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Użyj UPnP aby zmapować port nasłuchu (domyślnie: %u)</translation>
+        <translation>Usar UPnP para mapear a porta de entrada (padrão: %u)</translation>
     </message>
     <message>
         <source>Use the test chain</source>
-        <translation>Użyj łańcucha testowego</translation>
+        <translation>Use a cadeia de teste</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>
-        <translation>Komentarz agenta użytkownika (%s) zawiera znaki które nie są bezpieczne.</translation>
+        <translation>Comentário User Agent (%s) contém caracteres inseguros.</translation>
     </message>
     <message>
         <source>Will retry...</source>
-        <translation>Spróbuje ponownie...</translation>
+        <translation>Será feita nova tentativa...</translation>
     </message>
     <message>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
-        <translation>Nieprawidłowy klucz prywatny masternoda. Przeczytaj dokumentację.</translation>
+        <translation>masternodeprivkey inválida. Por favor, consulte a documentação.</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
-        <translation>Nie można znaleźć przypadkowego masternoda.</translation>
+        <translation>Não é possível encontrar o Masternode aleatório.</translation>
     </message>
     <message>
         <source>Can't mix while sync in progress.</source>
-        <translation>Nie możesz miksować w trakcie  synchronizacji.</translation>
+        <translation>Não é possível misturar enquanto a sincronização está em progresso.</translation>
     </message>
     <message>
         <source>Could not parse masternode.conf</source>
-        <translation>Nie można analizować masternode.conf</translation>
+        <translation>Impossível avaliar masternode.conf</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Niewłaściwa maska sieci w -whitelist: '%s'</translation>
+        <translation>Máscara de rede inválida detectada em -whitelist: '%s'</translation>
     </message>
     <message>
         <source>Invalid port detected in masternode.conf</source>
-        <translation>Wykryto niewłaściwy port w masternode.conf</translation>
+        <translation>Porta inválida detectada em masternode.conf</translation>
     </message>
     <message>
         <source>Invalid script detected.</source>
-        <translation>Wykryto nieprawidłowy skrypt.</translation>
+        <translation>Detectado script inválido.</translation>
     </message>
     <message>
         <source>KeePassHttp id for the established association</source>
-        <translation>ID KeePassHttp dla ustanowionego skojażenia</translation>
-    </message>
-    <message>
-        <source>KeePassHttp key for AES encrypted communication with KeePass</source>
-        <translation>Klucz KeePassHttp dla zaszyfrowanego metodą AES połączenia z KeePass</translation>
+        <translation>KeePassHttp id para a associação estabelecida</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Utrzymuj najwyżej &lt;n&gt; niepodłączalnych transakcji w pamięci (domyślny: %u)</translation>
-    </message>
-    <message>
-        <source>Disable all Dash specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Wyłącz wszystkie funkcjonalności charakterystyczne dla Dash (Masternody, PrivateSend, InstantSend, Governance) (0-1, domyślnie: %u)</translation>
+        <translation>Manter ao máximo &lt;n&gt; transações inconectáveis na memória (padrão: %u)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Wykryj własny adres IP (domyślnie: 1 kiedy nasłuchuje, bez stosowania -externalip lub -proxy)</translation>
+        <translation>Descobrir o próprio IP (padrão: 1 enquanto aguardando conexões e sem -externalip ou -proxy)</translation>
     </message>
     <message>
         <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
-        <translation>Nie trzyma transakcji w puli pamięci dłużej niż &lt;n&gt; godz. (domyślnie: %u)</translation>
-    </message>
-    <message>
-        <source>Enable InstantSend, show confirmations for locked transactions (0-1, default: %u)</source>
-        <translation>Włącz InstantSend, pokazuj potwierdzenia zamkniętych  transakcji (0-1, domyślnie: %u)</translation>
-    </message>
-    <message>
-        <source>Enable multiple PrivateSend mixing sessions per block, experimental (0-1, default: %u)</source>
-        <translation>Włącz wielokrotne sesje mieszające PrivateSend na blok, funkcja eksperymentalna (0-1, domyślnie: %u)</translation>
-    </message>
-    <message>
-        <source>Enable use of automated PrivateSend for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Włącz automatyczne stosowanie PrivateSend dla środków zgromadzonych w tym portfelu (0-1, domyślnie: %u)</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet InstantSend transaction is successfully locked (%s in cmd is replaced by TxID)</source>
-        <translation>Wykonaj komendę, kiedy się transakcja InstantSend  portfela zostanie pomyślnie zamknięta (%s w konsoli jest zastąpione przez TxID)</translation>
+        <translation>Não manter transações na mempool por mais que &lt;n&gt; horas (padrão: %u)</translation>
     </message>
     <message>
         <source>Failed to create backup, file already exists! This could happen if you restarted wallet in less than 60 seconds. You can continue if you are ok with this.</source>
-        <translation>Tworzenie kopii zapasowej nieudane, plik już istnieje! Taka sytuacja może wystąpić, jeżeli minęło mniej niż 60 od ostatniego zamknięcia portfela. Jeżeli Ci to nie przeszkadza, możesz kontynuować.</translation>
+        <translation>Falha em criar o backup, o arquivo já existe! Isso pode ter acontecido se você resetou sua carteira em menos de 60 segundos. Você pode continuar se está ok com isso.</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
-        <translation>Opłaty (%s/kB)  niższe niż ta są równoznaczne z brakiem opłaty za przekazanie, wykopanie i utworzenie transakcji (domyślnie: %s)</translation>
+        <translation>Comissões (em %s/kB) menores serão consideradas como zero para relaying, mineração e criação de transação (padrão %s)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Opłaty (%s/kB) niższe niż ta uważane są za równoznaczne z brakiem opłaty za utworzenie transakcji (domyślnie: %s)</translation>
+        <translation>Comissões (em %s/kB) menores serão consideradas como zero para criação de transação (padrão %s)</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
-        <translation>Jeżeli nie podano &lt;category&gt; lub jeżeli  &lt;category&gt; = 1, pokaż informacje o debugowaniu.</translation>
+        <translation>Se &lt;category&gt; não for suprida ou se &lt;category&gt; = 1, mostrar toda informação de depuração.</translation>
     </message>
     <message>
         <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
-        <translation>InstantSend nie obsługuje jeszcze tak wielkich kwot. Transakcje są obecnie ograniczone do %1 DASH</translation>
-    </message>
-    <message>
-        <source>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>InstantSend potrzebuje aby transakcja wejściowa miała co najmniej %d potwierdzeń. Poczekaj kilka minut i spróbuj ponownie.</translation>
-    </message>
-    <message>
-        <source>Maintain a full address index, used to query for the balance, txids and unspent outputs for addresses (default: %u)</source>
-        <translation>Utrzymuj pełny index adresów, używany do wyszukiwania sald, identyfikatorów transakcji i niewykorzystanych danych wyjściowych dla danych adresów (domyślnie: %u)</translation>
-    </message>
-    <message>
-        <source>Maintain a full spent index, used to query the spending txid and input index for an outpoint (default: %u)</source>
-        <translation>Utrzymuj pełny indeks wydatków, używany do wyszukiwania identyfikatorów transakcji wyjściowych oraz indeks danych wejściowych dla punktu wyjścia (domyślnie: %u)</translation>
-    </message>
-    <message>
-        <source>Maintain a timestamp index for block hashes, used to query blocks hashes by a range of timestamps (default: %u)</source>
-        <translation>Utrzymuj indeks znaczników czasu dla haszy bloku, funkcja wykorzystywana do wyszukiwania haszy bloku według zakresu znaczników czasu (domyślnie: %u)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (temporary service connections excluded) (default: %u)</source>
-        <translation>Utrzymuj nie więcej niż &lt;n&gt; połączeń z peerami (tymczasowe połączenia serwisowe nie są liczone) (domyślnie: %u)</translation>
-    </message>
-    <message>
-        <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>PrivateSend do przesyłania środków używa kwot o konkretnych nominałach, możliwe że musisz zanonimizować trochę więcej monet.</translation>
+        <translation>EnvioInstantâneo não suporta o envio de valores tão altos ainda. As transações são limitadas a %1 DASH.</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>Czyszczenie starych danych ustawiono poniżej minimum %d MiB.  Ustaw wyższą wartość.</translation>
+        <translation>Prune configurado abaixo do mínimo de %d MiB. Por favor use um número mais alto.</translation>
     </message>
     <message>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>Oczyszczanie: ostatnia synchronizacja portfela sięga poza skasowane dane. Użyj -reindex (w razie oczyszczenia węzła, ponownie pobierz cały łańcuch bloków).</translation>
+        <translation>Prune: A ultima sincronização da carteira foi além do dado comprimido. Você precisa reindexar (fazer o download de toda a blockchain novamente)</translation>
     </message>
     <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Dla każdego połączenia proxy wybierz losowe dane uwierzytalniające. Pozwala to na izolacje Tor stream (domyślnie: %u)</translation>
+        <translation>Gerar credenciais aleatórias para cada conexão por proxy. Isto habilita o isolamento de stream do Tor (padrão: %u)</translation>
     </message>
     <message>
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
-        <translation>Ponownie skanowanie jest niemożliwe w trybie oczyszczania. Użyj -reindex, co spowoduje ponowne pobranie całego łańcucha bloków.</translation>
+        <translation>Rescans não são possíveis no modo prune. Você precisa usar -reindex, que irá fazer o download de toda a blockchain novamente.</translation>
     </message>
     <message>
         <source>Specify full path to directory for automatic wallet backups (must exist)</source>
-        <translation>Podaj pełną ścieżkę do (istniejącego) katalogu na automatyczne kopie zapasowe portfela</translation>
+        <translation>Especifique o caminho completo para o diretório de backups automáticos da carteira (deve existir)</translation>
     </message>
     <message>
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>Pozwalaj na filtrowanie bloków i transakcji za pomocą filtrów bloom (domyślnie: %u)</translation>
+        <translation>Suportar filtragem de blocos e transações com filtros bloom (padrão: %u)</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>Baza danych bloków zawiera blok, który zdaje się pochodzić z przyszłości. Taka sytuacja może się zdarzyć, jeżeli zegar Twojego komputera pokazuje niepoprawną datę i godzinę. Przebuduj bazę danych bloków wyłącznie, jeżeli masz pewność, że zegar Twojego komputera pokazuje poprawną datę i godzinę. </translation>
+        <translation>O banco de dados de blocos contém um bloco que parece ser do futuro. Isso pode ser devido à data e hora do seu computador estarem configuradas incorretamente. Apenas reconstrua o banco de dados de blocos se você estiver certo de que a data e hora de seu computador estão corretas.</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>Po odliczeniu opłaty, transakcja jest zbyt niska aby móc ją wysłać.</translation>
+        <translation>O valor da transação é muito pequeno para ser enviado depois que a taxa foi deduzida</translation>
     </message>
     <message>
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>Całkowita długość sieciowej wersji struny (%i) przekracza maksymalną długość (%i). Zredukuj liczbę lub rozmiar uacomments.</translation>
+        <translation>O tamanho total da string de versão da rede (%i) excede o tamanho máximo (%i). Reduza o numero ou tamanho de uacomments.</translation>
     </message>
     <message>
         <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
-        <translation>Próbuje utrzymać wychodzący ruch sieciowy poniżej podanej wartości (MiB/24 h), 0 = bez ograniczeń (domyślnie: %d)</translation>
+        <translation>Tenta manter tráfego fora dos limites dentro do alvo especificado (em MiB por 24h), 0 = sem limite (padrão: %d)</translation>
     </message>
     <message>
         <source>Unable to locate enough PrivateSend denominated funds for this transaction.</source>
-        <translation>Nie znaleziono wystarczających środków PrivateSend o nominałach koniecznych do wykonania tej transakcji.</translation>
+        <translation>Não é possível localizar fundos denominados do PrivateSend suficientes para essa transação.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Błąd: niewspierany argument, znaleziono -socks. Ustawienie wersji SOCKS nie jest już możliwa, wspierane są tylko bramki  proxy SOCKS5.</translation>
+        <translation>Argumento inválido -socks encontrado. Definir a versão do SOCKS não é mais possível, somente proxys SOCK5 são suportados.</translation>
     </message>
     <message>
         <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
-        <translation>niewspierany argument -whitelistalwaysrelay jest ignorowany, używaj -whitelistrelay oraz/lub -whitelistforcerelay.</translation>
+        <translation>Argumento não suportado -whitelistalwaysrelay foi ignorado, utilize -whitelistrelay e/ou -whitelistforcerelay.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>Użyj UPnP aby zmapować porty nasłuchujące (domyślnie: 1 kiedy słucha i nie ma proxy)</translation>
+        <translation>Usar UPnP para mapear a porta de entrada (padrão: 1 quando listening e no -proxy)</translation>
     </message>
     <message>
         <source>WARNING! Failed to replenish keypool, please unlock your wallet to do so.</source>
-        <translation>OSTRZEŻENIE! Nie udało się uzupełnić puli kluczy. W tym celu musisz odblokować portfel.</translation>
-    </message>
-    <message>
-        <source>Wallet is locked, can't replenish keypool! Automatic backups and mixing are disabled, please unlock your wallet to replenish keypool.</source>
-        <translation>Portfel jest zamknięty , nie można uzupełnić pul* kluczy! Automatyczne tworzenie kopi zapasowych oraz miksowanie są wyłączone. Otwórz porfel aby uzupełnić pul* kluczy.</translation>
+        <translation>ATENÇÃO! Falha ao repor o keypool, desbloqueie sua carteira para fazer isso.</translation>
     </message>
     <message>
         <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
-        <translation>Uwaga: Wykopywane są bloki o nieznanej wersji! Możliwe, że zostały aktywowane inne zasady na których opiera się sieć.</translation>
+        <translation>Alerta: Versões de blocos desconhecidas mineradas! É possível que regras desconhecidas estejam ativas</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>Aby wrócić do trybu bez bez obcinki, musisz odtworzyć bazę danych za pomocą komendy -reindex. Cały blockchain zostanie ponownie ściągnięty.</translation>
+        <translation>Você precisa reconstruir o banco de dados usando -reindex para sair do modo prune. Isso irá rebaixar todo o blockchain.</translation>
     </message>
     <message>
         <source>(%d could be used only on mainnet)</source>
-        <translation>(%d może być użyte jedynie na głównej sieci)</translation>
+        <translation>(%d poderia ser usado somente na mainnet)</translation>
     </message>
     <message>
         <source>(default: %u)</source>
-        <translation>(domyślnie: %u)</translation>
+        <translation>(padrão: %u)</translation>
     </message>
     <message>
         <source>(must be %d for mainnet)</source>
-        <translation>(musi być %d dla głównej sieci)</translation>
+        <translation>(precisa ser %d para mainnet)</translation>
     </message>
     <message>
         <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempol musi być przynajmniej %d MB</translation>
+        <translation>-maxmempool deve ser pelo menos %d MB</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt;może być:</translation>
+        <translation>&lt;category&gt; pode ser:</translation>
     </message>
     <message>
         <source>Append comment to the user agent string</source>
-        <translation>Dodaj komentarz do linijek agenta użytkwnika.</translation>
+        <translation>Adicionar comentário à string user agent</translation>
     </message>
     <message>
         <source>Automatic backups disabled</source>
-        <translation>Automatyczne tworzenie kopi zapasowych jest wyłączone</translation>
+        <translation>Backup automáticos desabilitados.</translation>
     </message>
     <message>
         <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Automatycznie stwórz ukrytą usługę Tor (domyślnie: %d)</translation>
+        <translation>Criar automaticamente serviços ocultos do Tor (padrão: %d)</translation>
     </message>
     <message>
         <source>ERROR! Failed to create automatic backup</source>
-        <translation>BŁĄD! Automatyczne tworzenie kopii zapasowej nie powiodło się</translation>
+        <translation>ERRO! Falha ao criar o backup automático</translation>
     </message>
     <message>
         <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>Pozwól na publikację hash bloku w &lt;address&gt;</translation>
+        <translation>Abilitar a publicação da hash do block em &lt;endereço&gt;</translation>
     </message>
     <message>
         <source>Enable publish hash transaction (locked via InstantSend) in &lt;address&gt;</source>
-        <translation>Pozwól na publikację hash transakcji (zabezpiecznona przez InstantSend) w &lt;address&gt;</translation>
+        <translation>Ative a transação de hash de publicação (bloqueada via InstantSend) em&lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>Pozwól na publikację hash transakcji w &lt;address&gt;</translation>
+        <translation>Abilitar a publicação da hash da transação em &lt;endereço&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>Pozwól na publikację surowego bloku w &lt;address&gt;</translation>
+        <translation>Abilitar a publicação dos dados brutos do block em &lt;endereço&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw transaction (locked via InstantSend) in &lt;address&gt;</source>
-        <translation>Włącz publikację surowych danych transakcji (wyłączone przez InstantSend) w &lt;address&gt;</translation>
+        <translation>Ativar publicação de transação bruta (bloqueada via InstantSend) em&lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>Pozwól na publikację czystych danych transakcji w &lt;address&gt;</translation>
+        <translation>Abilitar a publicação dos dados brutos da transação em &lt;endereço&gt;</translation>
     </message>
     <message>
         <source>Enable transaction replacement in the memory pool (default: %u)</source>
-        <translation>Włącz zastępowanie transakcji w memory pool (domyślnie: %u)</translation>
+        <translation>Habilita substituição de transação em memória (padrão: %u)</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Błąd: Wystąpił wewnętrzny błąd krytyczny, szczegóły znajdziesz w pliku debug.log</translation>
+        <translation>Erro: Um erro interno fatal ocorreu, veja debug.log para detalhes</translation>
     </message>
     <message>
         <source>Failed to create backup %s!</source>
-        <translation>Nie powiodło się tworzenie kopii zapasowej %s!</translation>
+        <translation>Falhou ao criar backup %s!</translation>
     </message>
     <message>
         <source>Failed to create backup, error: %s</source>
-        <translation>Tworzenie kopii zapasowej nie powiodło się, błąd: %s</translation>
+        <translation>Falha ao criar backup, erro: %s</translation>
     </message>
     <message>
         <source>Failed to delete backup, error: %s</source>
-        <translation>Skasowanie kopii zapasowej nie powiodło się, błąd: %s</translation>
+        <translation>Falha ao apagar backup, erro: %s</translation>
     </message>
     <message>
         <source>Failed to parse host:port string</source>
-        <translation>Nieudane analizowanie hosta:port string</translation>
+        <translation>Falha ao avaliar a string host:port</translation>
     </message>
     <message>
         <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
-        <translation>Dodanie opłaty (w %s/kB) do twojej transakcji (domyślnie: %s)</translation>
+        <translation>Taxa (em %s/kB) a ser adicionada às transações que você mandar (padrão: %s)</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file on startup</source>
-        <translation>Importuje bloki z zewnętrznego pliku blk000??.dat na starcie</translation>
+        <translation>Importar blocos a partir de arquivo externo blk000??.dat durante a inicialização</translation>
     </message>
     <message>
         <source>InstantSend options:</source>
-        <translation>Opcje InstantSend:</translation>
+        <translation>Opções de EnvioInstantâneo: </translation>
     </message>
     <message>
         <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>Błędna ilość -fallbackfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Valor inválido para -fallbackfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Utrzymuj rozmiar memory pool poniżej &lt;n&gt; megabajtów (domyślnie: %u)</translation>
+        <translation>Mantenha a mempool de transações abaixo de &lt;n&gt; megabytes (padrão: %u)</translation>
     </message>
     <message>
         <source>Last PrivateSend was too recent.</source>
-        <translation>Za mało czasu upłynęło od ostatniej transakcji PrivateSend.</translation>
+        <translation>O último PrivateSend foi muito recente.</translation>
     </message>
     <message>
         <source>Last successful PrivateSend action was too recent.</source>
-        <translation>Zbyt mało czasu upłynęło od ostatniej udanej transakcji PrivateSend. </translation>
+        <translation>A última ação PrivateSend com sucesso foi muito recente.</translation>
     </message>
     <message>
         <source>Line: %d</source>
-        <translation>Linia: %d</translation>
+        <translation>Linha: %d</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Wczytuję adresy...</translation>
+        <translation>Carregando endereços...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Wczytuję indeks bloków</translation>
+        <translation>Carregando índice de blocos...</translation>
     </message>
     <message>
         <source>Loading governance cache...</source>
-        <translation>Wczytuję bufor governance</translation>
+        <translation>Sincronizando cache de governança ....</translation>
     </message>
     <message>
         <source>Loading wallet... (%3.2f %%)</source>
-        <translation>Ładuję portfel... (%3.2f %%)</translation>
+        <translation>Carregando carteira... (%3.2f %%)</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Ładuję portfel...</translation>
+        <translation>Carregando carteira...</translation>
     </message>
     <message>
         <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Miejsce w którym znajduje się ciasteczko auth (domyślnie: data dir)</translation>
+        <translation>Localização do cookie de autenticação (padrão: diretório de dados)</translation>
     </message>
     <message>
         <source>Make the wallet broadcast transactions</source>
-        <translation>Zmuś portfel do wysłania transakcji.</translation>
+        <translation>Criar transações de transmissão de carteira</translation>
     </message>
     <message>
         <source>Masternode cache is empty, skipping payments and governance cache...</source>
-        <translation>Cache masternodów jest pusty, pomijam cache płatności i zarządzania...</translation>
+        <translation>A  cache masternode está vazia, pulando cache de pagamentos e governança...</translation>
     </message>
     <message>
         <source>Masternode options:</source>
-        <translation>Opcje masternodów:</translation>
+        <translation>Opções do Masternode:</translation>
     </message>
     <message>
         <source>Masternode queue is full.</source>
-        <translation>Kolejka masternodów jest pełna.</translation>
+        <translation>A fila do masternode está cheia.</translation>
     </message>
     <message>
         <source>Masternode:</source>
-        <translation>Masternod:</translation>
+        <translation>Masternode:</translation>
     </message>
     <message>
         <source>Minimum bytes per sigop in transactions we relay and mine (default: %u)</source>
-        <translation>Minimalna liczba bajtów na każdą operację podpisu w transakcjach które są przez nas przekazywane i włączne do bloku (domyślnie: %u)</translation>
+        <translation>Mínimo de bytes por sigop nas transações que retransmitimos e mineramos (padrão: %u)</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
-        <translation>Brak informacji o transakcji wejściowej.</translation>
+        <translation>Falta informação da transação de entrada.</translation>
     </message>
     <message>
         <source>No errors detected.</source>
-        <translation>Nie wykryto błędów.</translation>
+        <translation>Nenhum erro detectado.</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
-        <translation>Nie znaleziono nominałów nadających się do miksowania.</translation>
+        <translation>Nenhuma denominação correspondente encontrada para misturar.</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Opcje retransmitujących węzłów:</translation>
+        <translation>Opções de relé nó :</translation>
     </message>
     <message>
         <source>Non-standard public key detected.</source>
-        <translation>Wykryto niestandardowy klucz publiczny.</translation>
+        <translation>Nenhuma chave pública fora do padrão detectada.</translation>
     </message>
     <message>
         <source>Not compatible with existing transactions.</source>
-        <translation>Nie kompatybilny z istniejącymi transakcjami.</translation>
+        <translation>Não é compatível com as transações existentes.</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Dostępny niewystarczający opis pliku.</translation>
+        <translation>Não há descritores de arquivos disponíveis.</translation>
     </message>
     <message>
         <source>Not enough funds to anonymize.</source>
-        <translation>Zbyt mała ilość finduszy aby móc je zanonimizować.</translation>
+        <translation>Não há fundos suficientes para anonimo.</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: %u)</source>
-        <translation>Ilość automatycznych kopi bezpieczeństwa (domyślnie: %u)</translation>
+        <translation>Número de backups automáticos da carteira (padrão: %u)</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Opcje:</translation>
+        <translation>Opções:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Hasło dla połączeń JSON-RPC</translation>
+        <translation>Senha para conexões JSON-RPC</translation>
     </message>
     <message>
         <source>Print version and exit</source>
-        <translation>Wydrukuj wersję i zamknij.</translation>
+        <translation>Versão de impressão e sair</translation>
     </message>
     <message>
         <source>PrivateSend is idle.</source>
-        <translation>PrivateSend jest bezczynny</translation>
+        <translation>PrivateSend está inativo.</translation>
     </message>
     <message>
         <source>PrivateSend options:</source>
-        <translation>Opcje PrivateSend:</translation>
+        <translation>Opções do PrivateSend:</translation>
     </message>
     <message>
         <source>PrivateSend request complete:</source>
-        <translation>Żądanie PrivateSend jest ukończone:</translation>
+        <translation>PrivateSend solicitação completa:</translation>
     </message>
     <message>
         <source>PrivateSend request incomplete:</source>
-        <translation>Żądanie PrivateSend nie powiodło się.</translation>
+        <translation>PrivateSend solicitação incompleta:</translation>
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
-        <translation>Obcinanie nie może zostać skonfigurowane z ujemnymi wartościami.</translation>
+        <translation>O modo prune não pode ser configurado com um valor negativo.</translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Tryb obcinania jest niekompatybilny z -txindex.</translation>
+        <translation>O modo prune é incompatível com -txindex.</translation>
     </message>
     <message>
         <source>Pruning blockstore...</source>
-        <translation>Kasuję stare bloki ...</translation>
+        <translation>Prunando os blocos existentes...</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions on startup</source>
-        <translation>Przeskanuj blockchain ponownie aby zlokalizować zagubione transakcje podczas startu.</translation>
+        <translation>Analise novamente o blockchain para ver se há transações da carteira em falta na inicialização</translation>
     </message>
     <message>
         <source>The wallet will avoid paying less than the minimum relay fee.</source>
-        <translation>Portfel będzie unikał płacenia mniejszej niż przekazana opłaty.</translation>
+        <translation>A carteira irá evitar pagar menos que a taxa mínima de retransmissão.</translation>
     </message>
     <message>
         <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation>Minimalna opłata transakcyjna którą płacisz przy każdej transakcji.</translation>
+        <translation>Esta é a taxa mínima que você paga em todas as transação.</translation>
     </message>
     <message>
         <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>To jest opłata transakcyjna którą zapłacisz jeśli wyślesz transakcję. </translation>
+        <translation>Esta é a taxa que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
         <source>Transaction amounts must not be negative</source>
-        <translation>Kwota transakcji musi być dodatnia</translation>
+        <translation>As quantidades nas transações não podem ser negativas.</translation>
     </message>
     <message>
         <source>Transaction has too long of a mempool chain</source>
-        <translation>Transakcja posiada zbyt długi łańcuch pamięci</translation>
+        <translation>A transação demorou muito na memória</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
-        <translation>Transakcja wymaga co najmniej jednego odbiorcy</translation>
+        <translation>A transação deve ter ao menos um destinatário</translation>
     </message>
     <message>
         <source>Trying to connect...</source>
-        <translation>Staram się połączyć</translation>
+        <translation>Tentando se conectar...</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>Nie można przywiązać do %s na tym komputerze. %s prawdopodobnie jest już uruchomiony.</translation>
+        <translation>Impossível vincular a %s neste computador. O %s provavelmente já está rodando.</translation>
     </message>
     <message>
         <source>Upgrading UTXO database</source>
-        <translation>Aktualizowanie bazy danych UTXO</translation>
+        <translation>Atualizando banco de dados UTXO</translation>
     </message>
     <message>
         <source>Use devnet chain with provided name</source>
-        <translation>Użyj łańcucha devnet z doranym imieniem.</translation>
+        <translation>Use a cadeia devnet com o nome fornecido</translation>
     </message>
     <message>
         <source>Wallet debugging/testing options:</source>
-        <translation>Opcje debugowania/testowania portfela:</translation>
+        <translation>Opções de depuração/teste da Carteira</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart %s to complete</source>
-        <translation>Portfel wymaga przepisania: zrestartuj %s aby ukończyć</translation>
+        <translation>A Carteira precisa ser reescrita: reinicie o %s para completar</translation>
     </message>
     <message>
         <source>Warning: unknown new rules activated (versionbit %i)</source>
-        <translation>Uwaga: aktywowane zostały nowe zasady (versionbit %i)</translation>
+        <translation>Alerta: regras novas desconhecidas ativadas (versionbit %i)</translation>
     </message>
     <message>
         <source>Wasn't able to create wallet backup folder %s!</source>
-        <translation>Nie udało się utworzyć folderu %s na kopie zapasowe portfela!</translation>
+        <translation>Não foi possível criar a pasta para backup da carteira %s!</translation>
     </message>
     <message>
         <source>Whether to operate in a blocks only mode (default: %u)</source>
-        <translation>Czy operować jedynie w trybie bloków (domyślnie: %u)</translation>
+        <translation>Se é para operar em modo somente blocos (padrão: %u)</translation>
     </message>
     <message>
         <source>ZeroMQ notification options:</source>
-        <translation>ZeroMQ opcje powiadomień:</translation>
+        <translation>ZeroMQ notificação opções </translation>
     </message>
     <message>
         <source>no mixing available.</source>
-        <translation>Mieszanie niedostępne.</translation>
+        <translation>mixing não disponível.</translation>
     </message>
     <message>
         <source>see debug.log for details.</source>
-        <translation>Otwórz debug.log jeśli chcesz poznać detale.</translation>
+        <translation>Consulte debug.log para obter detalhes.</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>Opcje serwera RPC:</translation>
+        <translation>Opções do servidor RPC:</translation>
     </message>
     <message>
         <source>Dash Core</source>
@@ -4946,399 +4830,387 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>The %s developers</source>
-        <translation>Deweloperzy %s</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect/-noconnect)</source>
-        <translation>Akceptuj połącznia z zewnątrz (domyślnie: 1 jeśli nie ma proxy lub -connect/noconnect)</translation>
+        <translation>Desenvolvedores do %s</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation>Nie można uzyskać blokady na katalogu z danymi %s. %s najprawdopodobniej jest już uruchomiony.</translation>
-    </message>
-    <message>
-        <source>Connect only to the specified node(s); -noconnect or -connect=0 alone to disable automatic connections</source>
-        <translation>Łącz się tylko z wybranym węzłem(węzłami); -noconnect lb -connect=0 aby wyłączyć automatyczne połączenia</translation>
+        <translation>Não foi possível obter exclusividade de escrita no endereço %s. O %s provavelmente já está sendo executado.</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
-        <translation>Rozprowadzane na licencji MIT, zobacz dołączony plik %s lub %s</translation>
+        <translation>Distribuído sob a licença de software MIT, veja o arquivo %s ou %s</translation>
     </message>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Błąd odczytu %s! Wszystkie klucze zostały odczytane poprawnie, ale może brakować  danych transakcji lub wpisów w książce adresowej, lub mogą one być nieprawidłowe.</translation>
+        <translation>Erro ao ler arquivo %s! Todas as chaves privadas foram lidas corretamente, mas os dados de transação ou o livro de endereços podem estar faltando ou incorretos.</translation>
     </message>
     <message>
         <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
-        <translation>Wymuś przekazywanie transakcji od peerów z białej listy,  nawet jeśli jest to w sprzeczności z lokalnymi ustawieniami (domyślnie: %d)</translation>
+        <translation>Força a retransmissão de transações de pares da lista branca, mesmo quando violam a política local de retransmissão (default: %d)</translation>
     </message>
     <message>
         <source>Incorrect or no devnet genesis block found. Wrong datadir for devnet specified?</source>
-        <translation>Znaleziono błędny lub nie istniejący pierwszy blog devnet. Wybrano zły datadir dla devnet? </translation>
+        <translation>Bloco gênese incorreto ou não encontrado. Datadir errado para a devnet rede?</translation>
     </message>
     <message>
         <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
-        <translation>Dopasowanie maksymalnego przeciętnego czasu peer. Lokalna perspektywa czasu może ulec zmianie przez peery któe znajdują się powyżej lub poniżej tej wartści. (domyślnie: %u sekund)</translation>
+        <translation>Ajuste da média máxima permitida do time offset para um par. A perspectiva local de horário pode ser influenciada por pares à frente ou atrás neste montante. (padrão: %u segundos)</translation>
     </message>
     <message>
         <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
-        <translation>Maksymalna wysokość opłat (w %s) dla jednej transakcji; ustawienie tej wartości za nisko może zatrzymać duże transakcje (domyślnie: %s)</translation>
+        <translation>Total máximo de taxas (em %s) para usar em uma única transação de carteira ou transação crua; especificar um valor muito baixo pode abortar grandes transações (padrão: %s)</translation>
     </message>
     <message>
         <source>Override spork address. Only useful for regtest and devnet. Using this on mainnet or testnet will ban you.</source>
-        <translation>Nadpisz adres spork. Przydatne tylko na regtest oraz devnecie. Użycie tego na normalnje sieci lub testnecie zaskutkuje banem. </translation>
+        <translation>Substituir endereço de spork. Útil apenas para regtest e devnet. Usando isto na mainnet ou testnet irá banir você.</translation>
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>Proszę sprawdzić czy data i czas na Twoim komputerze są poprawne! Jeżeli ustawienia zegara będą złe, %s nie będzie działał prawidłowo.</translation>
+        <translation>Por favor verifique se a data e o horário de seu computador estão corretos. Se o relógio de seu computador estiver incorreto, %s não funcionará corretamente.</translation>
     </message>
     <message>
         <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>Jeśli %s przydatne dla ciebie, wesprzyj nas. Odwiedź %s po więcej informacj na temat tego programu. </translation>
-    </message>
-    <message>
-        <source>Provide liquidity to PrivateSend by infrequently mixing coins on a continual basis (%u-%u, default: %u, 1=very frequent, high fees, %u=very infrequent, low fees)</source>
-        <translation>Dostarczaj PrivateSend płynności przez rzadkie, ale ciągłe mieszanie monet (%u-%u, domyślnie: %u, 1=bardzo często, wysokie opłaty, %u=bardzo rzadko, niskie opłaty)</translation>
+        <translation>Por favor contribua se você entender que %s é útil. Visite %s para mais informações sobre o software.</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
-        <translation>Jeśli pula adresów jest niska, pytaj o adresy peer przez podgląd DNS (domyślnie: 1 chyba że -connect)</translation>
+        <translation>Consulta por endereços de pares via pesquisa de DNS, se baixa nos endereços (default: 1 unless -connect/-noconnect)</translation>
     </message>
     <message>
         <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>
-        <translation>Zmniejsz ilość wymaganego miejsca poprzez czyszczenie (kasowanie) starych bloków.  TPozwala to pruneblockchain RPC na kasowanie wybranych bloków oraz na automatyczne czyszczenie starych bloków jeśli jest ustawiony limit miejsca w MiB. Tryb ten jest niezgodny z -txindex oraz -rescan. Uwaga: Cofnięcie tego ustawienia wymaga ponownego pobrania całego łańcucha bloków. (domyślnie: 0 = kasowanie starych bloków wyłączone, 1 = pozwól na ręczne czyszczenie przez RPC, &gt;%u = automatycznie kasuj bloki aby ilość zabranego miejsca nie przekraczała wybranego limitu w MiB)</translation>
+        <translation>Reduz o requerimente de espaço habiitando a poda (apagando) de blocos antigos. Isso permite chamar o comando pruneblockchain via RPC para apagar blocos específicos, e habiita o poda automático de blocos antigos se o tamanho em MiB for atingido. Esse modo é incompatível com -txindex e -rescan. Aviso: Reverter essa configuração requer baixar novamente o blockchain inteiro. (padrão: 0 = desabilitado, 1 = permite a poda manual via RPC, &gt;%u = poda os blocos para ficar abaixo do especificado, em MiB)</translation>
     </message>
     <message>
         <source>Set lowest fee rate (in %s/kB) for transactions to be included in block creation. (default: %s)</source>
-        <translation>Ustaw najnższą opłatę (in %s/kB) za transakcje aby została ona włączona do bloku. (domyślnie: %s)</translation>
+        <translation>Especificar a taxa miníma (em %s/KiB) para transações para ser incluída na criação de blocos. (padrão: %s)</translation>
     </message>
     <message>
         <source>Show N confirmations for a successfully locked transaction (%u-%u, default: %u)</source>
-        <translation>Pokaż N potwierdzeń dla skutecznie zamkniętej transakcji (%u-%u, domyślnie: %u)</translation>
+        <translation>Mostrar N confirmações para uma transação bloqueada com sucesso (%u-%u, padrão: %u)</translation>
     </message>
     <message>
         <source>This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>To jest prawdopodobny koszt transakcj jeśli szacunki opłat są niedostępne. </translation>
+        <translation>Esta é a taxa que você deve pagar quando a taxa estimada não está disponível.</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Produkt zawiera oprogramowanie stworzone przez OpenSSL Project do użycia w OpensSSL Toolkit %s, oprogramowanie kryptograficzne napisane przez Eric Young oraz oprogramowanie UPnP napisane przez Thomas Bernard.</translation>
+        <translation>Esse produto inclui um software desenvolvido pelo OpenSSL Project para uso na OpenSSL Toolkit %s e software criptográfico escrito por Eric Young e software UPnP escrito por Thomas Bernard. </translation>
     </message>
     <message>
         <source>Unable to locate enough PrivateSend non-denominated funds for this transaction.</source>
-        <translation>Nie znaleziono wystarczających środków PrivateSend o nominałach koniecznych do wykonania tej transakcji.</translation>
+        <translation>Não é possível localizar fundos não-expressos do PrivateSend suficientes para essa transação.</translation>
     </message>
     <message>
         <source>Use N separate masternodes for each denominated input to mix funds (%u-%u, default: %u)</source>
-        <translation>Użyj N osobnych masternodów dla każdej denominowanej wartości wejściowej aby zmiksować fundusze (%u-%u, domyślnie: %u)</translation>
+        <translation>Use N masternodes separados para cada entrada denominada para misturar fundos (%u-%u, padrão: %u)</translation>
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after BIP39/BIP44. Only has effect during wallet creation/first start</source>
-        <translation>Użyj hierarchinie deterministycznego procesu generacji kluczy (HD) po BIP39/BIP44. Tyczy się jedynie kiedy towrzysz nowy portfel.</translation>
+        <translation>Use a geração hierárquica de chaves determinísticas (HD) após o BIP39 / BIP44. Só tem efeito durante a criação / início da carteira</translation>
     </message>
     <message>
         <source>User defined mnemonic passphrase for HD wallet (BIP39). Only has effect during wallet creation/first start (default: empty string)</source>
-        <translation>Fraza przypominająca dla portfela HD (bip39) zdefiniowana przez użytkownika. Działa jedynie przy tworzeniu nowego portfela/przy pierwszym uruchomieniu (domyślnie: pusty ciąg)</translation>
+        <translation>Senha mnemônica definida pelo usuário para carteira HD (BIP39). Só tem efeito durante a criação da carteira / primeira inicialização (padrão: string vazia)</translation>
     </message>
     <message>
         <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</source>
-        <translation>Nazwa użytkownika oraz zhaszowane hasło do połączenia JSON-RPC. Pole &lt;userpw&gt; jest w formacie: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. Kanoniczny skrypt python jest zawarty w share/rpcuser. Klient łączy się normalnie używając rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt;pary argumentów. Opcja ta może zostać wielokrotnie sprecyzowana.</translation>
+        <translation>Nome de usuário e hash da senha para conexões JSON-RPC. O campo &lt;userpw&gt; vem com o formato: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. Um script python canônico é incluído em share/rpcuser. O cliente pode conectar normalmente usando o rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt;. Esta opção pode ser especificado multiplas vezes</translation>
     </message>
     <message>
         <source>Wallet will not create transactions that violate mempool chain limits (default: %u)</source>
-        <translation>Portfel nie stworzy transakcji które są sprzeczne z limitami puli pamięci. (domyślnie: %u)</translation>
+        <translation>A carteira não irá criar transações que violem o limite da mempool chain (padrão: %u)</translation>
     </message>
     <message>
         <source>Warning: At least %d of %d masternodes are running on a newer software version. Please check latest releases, you might need to update too.</source>
-        <translation>Uwaga: Przynajmniej %d z %d masterndów jest na nowszej wersji. Sprawdź najnowsze wydania oprogramowania, możliwe że musisz również dokonać aktualizacji.  </translation>
+        <translation>Aviso: Pelo menos %d de %d masternodes estão sendo executados em uma versão de software mais recente. Por favor, verifique os últimos lançamentos, talvez você precise atualizar também.</translation>
     </message>
     <message>
         <source>Warning: Every masternode (out of %d known ones) is running on a newer software version. Please check latest releases, it's very likely that you missed a major/critical update.</source>
-        <translation>Uwaga: Każdy masternde ( z %d znanych) jest na nowszej wersji. Sprawdź najnowsze wydania oprogramowania, możliwe że przeoczyłeś ważną/krytyczną aktualizację.</translation>
+        <translation>Aviso: Cada masternode (fora de %d conhecidos) está sendo executado em uma versão de software mais recente. Por favor, verifique os últimos lançamentos, é muito provável que você tenha perdido uma atualização importante / crítica.</translation>
     </message>
     <message>
         <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Ostrzeżenie: Odtworzono dane z uszkodzonego pliku portfela! Oryginalny %s został zapisany jako %s w %s; jeśli twoje saldo lub transakcje są niepoprawne powinieneś odtworzyć kopię zapasową.</translation>
+        <translation>Atenção: Arquivo da carteira corrompido, dados recuperados! Original %s salvo como %s em %s; se seu saldo ou transações estiverem incorretos, você deve restaurar o backup.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
-        <translation>Peery z białej listy łączące się z danejgo adresu IP (np. 1.2.3.4) lub CIDR notowanej sieci (np. 1.2.3.0/24). Może byc ustawiane wielokrotnie.</translation>
+        <translation>Inclui na lista branca pares conectando do dado endereço IP (ex: 1.2.3.4) ou rede em notação CIDR (ex: 1.2.3.0/24). Pode ser especificado várias vezes.</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
-        <translation>%s uszkodzony, odtworzenie się nie powiodło</translation>
+        <translation>%s corrompido, recuperação falhou</translation>
     </message>
     <message>
         <source>%s is not a valid backup folder!</source>
-        <translation>%s nie jest ważnym folderem kopi zapasowych!</translation>
+        <translation>%s não é uma pasta de backup válida!</translation>
     </message>
     <message>
         <source>%s is set very high!</source>
-        <translation>%s jest ustawione bardzo wysoko!</translation>
+        <translation>%s está muito alto!</translation>
     </message>
     <message>
         <source>(press q to shutdown and continue later)</source>
-        <translation>(naciśnij q aby zamknąć i kontynuować później)</translation>
+        <translation>(pressione q para desligar e continuar depois)</translation>
     </message>
     <message>
         <source>-devnet can only be specified once</source>
-        <translation>-devnet może zostać ustawiony tylko jeden raz</translation>
+        <translation>-devnet só pode ser especificado uma vez</translation>
     </message>
     <message>
         <source>-port must be specified when -devnet and -listen are specified</source>
-        <translation>kiedy -devnet oraz -listen są ustawione -port też musi być ustawiony</translation>
+        <translation>-rpcport deve ser especificado quando -devnet e -server são especificados</translation>
     </message>
     <message>
         <source>-rpcport must be specified when -devnet and -server are specified</source>
-        <translation>kiedy -devnet oraz -server są ustawione -rpcport też musi być ustawiony</translation>
+        <translation>-rpcport deve ser especificado quando -devnet e -server são especificados</translation>
     </message>
     <message>
         <source>Allow RFC1918 addresses to be relayed and connected to (default: %u)</source>
-        <translation>Pozwól RFC1918 adresom na bycie przekierowanym oraz połączonym do (domyślnie: %u)</translation>
+        <translation>Permitir que os endereços RFC1918 sejam retransmitidos e conectados a (padrão: %u)</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet on startup</source>
-        <translation>Próbuj odzyskać klucze prywatne z uszkodzonego portfela podczas uruchamiania.</translation>
+        <translation>Tenta recuperar as chaves privadas de uma carteira corrompida ao inicializar</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>
-        <translation>Nie można rozpoznać -%s adresu: '%s'</translation>
+        <translation>Não foi possível encontrar o endereço de -%s: '%s'</translation>
     </message>
     <message>
         <source>Change index out of range</source>
-        <translation>Index zmian poza zasięgiem.</translation>
+        <translation>Índice de mudança fora do intervalo</translation>
     </message>
     <message>
         <source>Copyright (C)</source>
-        <translation>Prawo autorskie (C)</translation>
+        <translation>Copyright</translation>
     </message>
     <message>
         <source>Error loading %s</source>
-        <translation>Błąd ładowania %s</translation>
+        <translation>Erro ao carregar %s</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet corrupted</source>
-        <translation>Błąd ładowania %s: Uszkodzony portfel</translation>
+        <translation>Erro ao carregar %s Carteira corrompida</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>Błąd ładowania %s: Portfel wymaga nowszej wersji %s</translation>
+        <translation>Erro ao carregar %s A carteira requer a versão mais nova do %s</translation>
     </message>
     <message>
         <source>Error upgrading chainstate database</source>
-        <translation>Błąd ładowania bazy bloków</translation>
+        <translation>Erro ao atualizar banco de dados do chainstate</translation>
     </message>
     <message>
         <source>Failed to find mixing queue to join</source>
-        <translation>Znalezienie kolejki do mieszania monet zakończyło się niepowodzeniem</translation>
+        <translation>Não foi possível encontrar a fila de mistura para participar</translation>
     </message>
     <message>
         <source>Failed to start a new mixing queue</source>
-        <translation>Próba stworzenia kolejki do mieszania monet zakończyła się niepowodzeniem</translation>
+        <translation>Falha ao iniciar uma nova fila de mistura</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. %s is shutting down.</source>
-        <translation>Wstępna kontrola poprawności nie powiodła się. %s wyłącza się.</translation>
+        <translation>O teste de integridade de inicialização falhou. O %s está sendo desligado.</translation>
     </message>
     <message>
         <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>Nieprawidłowa kwota dla -%s=&lt;amount&gt;: '%s'</translation>
+        <translation>Quantidade inválida para -%s=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid spork address specified with -sporkaddr</source>
-        <translation>Nieważny adres spork ustawiony z -sporkaddr</translation>
+        <translation>Endereço de spork inválido especificado com -sporkaddr</translation>
     </message>
     <message>
         <source>Keep N DASH anonymized (%u-%u, default: %u)</source>
-        <translation>Trzymaj N DASH zanonimizowane (%u-%u, domyślnie: %u)</translation>
+        <translation>Mantenha o N DASH anônimo (%u-%u, padrão: %u)</translation>
     </message>
     <message>
         <source>Print this help message and exit</source>
-        <translation>Wyświetl ten tekst pomocy i wyjdź</translation>
+        <translation>Mostra essa mensagem de ajuda e sai</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>Odbiera i wyświetla P2P alarmy sieci (standardowo: %u)</translation>
+        <translation>Receba e exiba alertas de rede P2P (default: %u)</translation>
     </message>
     <message>
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
-        <translation>Zmniejsz -maxconnections z %d do %d, z powodu ograniczeń systemowych.</translation>
+        <translation>Reduzindo -maxconnections de %d para %d, devido à limitações do sistema.</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Retransmituj i przejrzyj transakcje operatora danych (domyślnie: %u)</translation>
+        <translation>Transações de dados de operadora (padrão: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Retransmituj non-P2SH multisig (doyślnie: %u)</translation>
+        <translation>Retransmitir P2SH não multisig (padrão: %u)</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Ponowne skanowanie...</translation>
+        <translation>Escaneando...</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Działaj w tle jako daemon i akceptuj polecenia</translation>
+        <translation>Executar em segundo plano como um daemon e aceitar comandos</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Wyślij informacje na temat błędów do konsoli zamiast do debug.log file</translation>
+        <translation>Envia informação de trace/debug para o console e não para o arquivo debug.log</translation>
     </message>
     <message>
         <source>Session not complete!</source>
-        <translation>Sesja nie została ukończona!</translation>
+        <translation>Sessão não completa!</translation>
     </message>
     <message>
         <source>Session timed out.</source>
-        <translation>Sesja wygasła</translation>
+        <translation>A sessão expirou.</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Ustaw pamięć podręczną bazy danych w megabajtach (%d to %d, domyślny: %d)</translation>
+        <translation>Define o tamanho da cache em megabytes (%d a %d, padrão: %d)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Ustaw maksymalny rozmiar bloku w bajtach (domyślny: %d)</translation>
+        <translation>Definir tamanho máximo do bloco em bytes (padrão: %d)</translation>
     </message>
     <message>
         <source>Set the masternode private key</source>
-        <translation>Ustaw klucz prywatny masternoda</translation>
+        <translation>Definir a chave privada do masternode</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Pokaż wszystkie opcje debugowania (użyj: --help -help-debug)</translation>
+        <translation>Exibe todas as opçoes de debug (uso: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Zmniejsz plik debug.log podczas włączania klienta (domyślny: 1 kiedy nie ma -debug)</translation>
+        <translation>Compactar arquivo debug.log ao executar o cliente (padrão: 1 sem -debug)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Podpisywanie transakcji nie powiodło się</translation>
+        <translation>A transação assinada falhou</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Sprecyzuj katalog danych</translation>
+        <translation>Especificar diretório de dados</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Sprecyzuj plik wallet (w katalogu danych)</translation>
+        <translation>Especifique o arquivo da carteira (dentro do diretório de dados)</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Sprecyzuj swój adres publiczny</translation>
+        <translation>Especificar seu próprio endereço público</translation>
     </message>
     <message>
         <source>Starting network threads...</source>
-        <translation>Uruchamianie wątków sieciowych...</translation>
+        <translation>Iniciando threads de rede...</translation>
     </message>
     <message>
         <source>Synchronization pending...</source>
-        <translation>Oczekiwanie na synchronizację...</translation>
+        <translation>Sincronização pendente</translation>
     </message>
     <message>
         <source>Synchronizing governance objects...</source>
-        <translation>Synchronizuję obiekty zarządzania...</translation>
+        <translation>Sincronizando objetos de governança ....</translation>
     </message>
     <message>
         <source>Synchronizing masternode payments...</source>
-        <translation>Synchronizacja płatności masternodów...</translation>
+        <translation>Sincronizando pagamentos do masternode...</translation>
     </message>
     <message>
         <source>The source code is available from %s.</source>
-        <translation>Kod źródłowy dostępny jest z %s.</translation>
+        <translation>O código fonte está disponível pelo %s.</translation>
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
-        <translation>Kwota transakcji jest za niska by pokryć opłatę</translation>
+        <translation>O valor da transação é muito pequeno para pagar a taxa</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Jest to oprogramowanie testowe.</translation>
+        <translation>Este é um software experimental.</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Zbyt mała kwota</translation>
+        <translation>Quantia da transação muito pequena</translation>
     </message>
     <message>
         <source>Transaction created successfully.</source>
-        <translation>Skutecznie utworzono transakcję.</translation>
+        <translation>Transação criada com sucesso.</translation>
     </message>
     <message>
         <source>Transaction fees are too high.</source>
-        <translation>Opłaty za transakcję są zbyt wysokie.</translation>
+        <translation>Taxa de transação muito alta.</translation>
     </message>
     <message>
         <source>Transaction not valid.</source>
-        <translation>Transakcja niewłaściwa.</translation>
+        <translation>Transação inválida.</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Transakcja nie mieści się w ramach wyznaczających wielkość opłaty za transakcję</translation>
+        <translation>Transação muito grande para a política de tarifas</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Nie udało się powiązać do %s na tym komputerze (powiązanie zwróciło błąd %s)</translation>
+        <translation>Impossível abrir %s neste computador (bind retornou o erro %s)</translation>
     </message>
     <message>
         <source>Unable to sign spork message, wrong key?</source>
-        <translation>Niemożliwe podpisanie wiadomości spork, nieprawidłowy klucz?</translation>
+        <translation>Impossível assinar mensagem spork, chave incorreta?</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Nieznana sieć określona w -onlynet: '%s'</translation>
+        <translation>Rede desconhecida fornecida em -onlynet: '%s'</translation>
     </message>
     <message>
         <source>Unknown state: id = %u</source>
-        <translation>Status nieznany: id = %u</translation>
+        <translation>Estado desconhecido: id = %u</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Nazwa użytkownika dla połączeń JSON-RPC </translation>
+        <translation>Nome de usuario para conexão JSON-RPC</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Weryfikacja bloków...</translation>
+        <translation>Verificando blocos...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Weryfikacja portfela...</translation>
+        <translation>Verificando carteira...</translation>
     </message>
     <message>
         <source>Very low number of keys left: %d</source>
-        <translation>Pozostało bardzo mało kluczy: %d</translation>
+        <translation>Número muito baixo de chaves restantes: %d</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Plik wallet %s znajduje się poza katalogiem danych %s</translation>
+        <translation>Carteira %s está fora do diretório de dados %s</translation>
     </message>
     <message>
         <source>Wallet is locked.</source>
-        <translation>Portfel jest zamknięty.</translation>
+        <translation>Carteira está bloqueada.</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Opcje portfela:</translation>
+        <translation>Opções da carteira:</translation>
     </message>
     <message>
         <source>Wallet window title</source>
-        <translation>Nazwa okna portfela</translation>
+        <translation>Título da janela da carteira</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Ostrzeżenie</translation>
+        <translation>Atenção</translation>
     </message>
     <message>
         <source>Your entries added successfully.</source>
-        <translation>Twoje wejścia zostały dodane z powodzeniem.</translation>
+        <translation>Suas entradas foram adicionadas com êxito.</translation>
     </message>
     <message>
         <source>Your transaction was accepted into the pool!</source>
-        <translation>Twoja transakcja została dołączona do poola!</translation>
+        <translation>Sua transação foi aceita na pool!</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Zappowanie wszystkich transakcji z portfela</translation>
+        <translation>Fazendo o Zapping de todas as transações da wallet...</translation>
     </message>
 </context>
 </TS>

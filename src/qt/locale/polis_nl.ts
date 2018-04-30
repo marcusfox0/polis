@@ -1,108 +1,108 @@
-<TS language="pl" version="2.1">
+<TS language="nl" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Kliknij prawym przyciskiem myszki, aby edytować adres lub etykietę</translation>
+        <translation>Rechtermuisklik om het adres of het label aan te passen</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Stwórz nowy adres</translation>
+        <translation>Maak een nieuw adres aan</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Nowy</translation>
+        <translation>&amp;Nieuw</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Skopiuj aktualnie wybrany adres do schowka</translation>
+        <translation>Kopieer het huidig geselecteerde adres naar het klembord</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopiuj</translation>
+        <translation>&amp;Kopiëren</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Usuń obecnie zaznaczony adres z listy</translation>
+        <translation>Verwijder het geselecteerde adres van de lijst</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Usuń</translation>
+        <translation>&amp;Verwijderen</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Eksportuj dane z aktywnej karty do pliku</translation>
+        <translation>Exporteer de data in de huidige tab naar een bestand</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Eksportuj</translation>
+        <translation>&amp;Exporteren</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>Z&amp;amknij</translation>
+        <translation>S&amp;luiten</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wybierz adres, na który wyślesz monety</translation>
+        <translation>Kies het adres om Dash naar over te maken</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wybierz adres do otrzymania monet.</translation>
+        <translation>Kies het adres om Dash mee te ontvangen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>W&amp;ybierz</translation>
+        <translation>K&amp;iezen</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Adres do wysyłania</translation>
+        <translation>Verzendadressen</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Adres odbiorczy</translation>
+        <translation>Ontvanstgadressen</translation>
     </message>
     <message>
         <source>These are your Dash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To są twoje adresy Dash, na które wysyłasz płatności. Zanim wyślesz środki, zawsze upewnij się, że kwota i adres są prawidłowe.</translation>
+        <translation>Dit zijn uw Dash adressen om betalingen mee uit te voeren. Controleer altijd het bedrag en ontvangstadres voordat u uw Dash verzendt.</translation>
     </message>
     <message>
         <source>These are your Dash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To są twoje adresy do otrzymywania Dashów. Zaleca się tworzyć nowy adres dla każdej transakcji.</translation>
+        <translation>Dit zijn uw Dash adressen om betalingen me te ontvangen. Het wordt aangeraden om voor elke transactie een niew ontvangstadres te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Kopiuj adres</translation>
+        <translation>Kopieer adres</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Kopiuj &amp;Etykietę</translation>
+        <translation>Kopieer label</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Edytuj</translation>
+        <translation>Bewerken</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Eksportuj listę adresów</translation>
+        <translation>Exporteer adressenlijst</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Wartości rozdzielone przecinkami (*.csv)</translation>
+        <translation>Kommagescheiden bestand (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Próba eksportu nie powiodła się</translation>
+        <translation>Exporteren mislukt</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Wystąpił błąd podczas próby zapisu listy adresów do %1. Spróbuj ponownie.</translation>
+        <translation>Er was een probleem tijdens het opslaan van de adressenlijst naar %1. Probeer het alstublieft opnieuw.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Etykieta</translation>
+        <translation>Label</translation>
     </message>
     <message>
         <source>Address</source>
@@ -110,122 +110,122 @@
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(brak etykiety)</translation>
+        <translation>(zonder label)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Okienko Hasła</translation>
+        <translation>Wachtwoordzinscherm</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Wpisz hasło</translation>
+        <translation>Voer wachtwoordzin in</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nowe hasło</translation>
+        <translation>Nieuw wachtwoordzin</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Powtórz nowe hasło</translation>
+        <translation>Herhaal nieuw wachtwoordzin</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Wprowadź nowe hasło dla twojego portfela.&lt;br/&gt;Proszę używać hasła o długości co najmniej &lt;b&gt;dziesięciu losowych znaków&lt;/b&gt; lub &lt;b&gt;co najmniej 8 słów&lt;/b&gt;.</translation>
+        <translation>Voer het nieuwe wachtwoord voor uw portemonnee in. &lt;br/&gt;Gelieve een wachtwoord te gebruiken van &lt;b&gt;tien of meer willekeurige karakters&lt;/b&gt; of &lt;b&gt;acht of meer woorden&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Zaszyfruj portfel</translation>
+        <translation>Wallet versleutelen</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Ta operacja wymaga hasła do odblokowania portfela.</translation>
+        <translation>Deze actie vereist uw portemonneewachtwoord om de wallet te openen.</translation>
     </message>
     <message>
         <source>Unlock wallet for mixing only</source>
-        <translation>Odblokuj portfel tylko dla miksowania monet</translation>
+        <translation>Ontgrendel portemonnee alleen om te mixen</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Odblokuj portfel</translation>
+        <translation>Ontgrendel portemonnee</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Ta operacja wymaga hasła do odszyfrowania portfela.</translation>
+        <translation>Deze bewerking heeft de wachtwoordzin van je portemonnee nodig om deze te ontgrendelen.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Odszyfruj portfel</translation>
+        <translation>Ontsleutel portemonnee </translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Zmień hasło</translation>
+        <translation>Wijzig wachtwoordzin</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Wpisz stare i nowe hasło dla portfela.</translation>
+        <translation>Voer het oude en het nieuwe wachtwoord in voor uw portemonnee.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Potwierdź zaszyfrowanie portfela</translation>
+        <translation>Bevestig de versleuteling van uw portemonnee</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DASH&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeśli zaszyfrujesz swój portfel i zgubisz hasło, &lt;b&gt;STRACISZ WSZYSTKIE ŚRODKI&lt;/b&gt;</translation>
+        <translation>Waarschuwing: Als u uw portemonnee versleuteld en uw wachtwoord kwijt raakt zult u &lt;b&gt;AL UW DASH KWIJTRAKEN!&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Jesteś pewien, że chcesz zaszyfrować portfel?</translation>
+        <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Portfel zaszyfrowany</translation>
+        <translation>Portemonnee is versleuteld</translation>
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your funds from being stolen by malware infecting your computer.</source>
-        <translation>%1 zostanie teraz zamknięty aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie gwarantuje pełnej ochrony przed kradzieżą twoich monet przez złośliwe oprogramowanie.</translation>
+        <translation>%1 wordt nu afgesloten om de versleuteling te voltooien. Denk eraan dat het versleutelen van uw portemonnee niet volledig kan beschermen tegen diefstal van uw geld door malware op uw computer.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. Previous backups of the unencrypted wallet file contain the same HD seed and still have full access to all your funds just like the new, encrypted wallet.</source>
-        <translation>WAŻNE: Wszystkie wykonane wcześniej kopie pliku portfela powinny być zamienione na nowe, zaszyfrowany plik portfela. Poprzednie kopie zapasowe niezaszyfrowanego porfela dalej mają dostęp do frazy HD oraz twoich funduszy tak samo jak nowy, zaszyfrowany portfel.</translation>
+        <translation>BELANGRIJK: Alle eerder gemaakte back-up van uw portemonneebestand dienen vervangen te worden door het nieuw gegenereerde, versleutelde portemonneebestand. Eerdere back-ups van de niet versleutelde portemonnee bevatten dezelfde HD seed en zullen nog steeds volledig toegang hebben tot uw geld net als de nieuwe, versleutelde portemonnee.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>WAŻNE: Wszystkie wykonane wcześniej kopie zapasowe portfela należy zamienić na nowe, szyfrowane pliki. Z powodów bezpieczeństwa, poprzednie niezaszyfrowane kopie portfela staną się bezużyteczne, gdy tylko zaczniesz korzystać z nowego, zaszyfrowanego portfela.</translation>
+        <translation>BELANGRIJK: Alle vorige backups die je van je portemonnee hebt gemaakt moeten worden vervangen met het nieuw aangemaakte, versleutelde portemonneebestand. Voor veiligheidsredenen, vorige backups van de niet-versleutelde portemonnee worden onbruikbaar zodra je de nieuwe, versleutelde portemonnee gebruikt.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Szyfrowanie portfela nie powiodło się</translation>
+        <translation>Portemonneeversleuteling mislukt</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Szyfrowanie portfela nie powiodło się z powodu wewnętrznego błędu. Twój portfel nie został zaszyfrowany.</translation>
+        <translation>Door een interne fout is de portemonneeversleuteling mislukt. Je portemonnee is niet versleuteld.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Podane hasła nie są takie same.</translation>
+        <translation>De ingegeven wachtwoordzinnen komen niet overeen.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Odblokowanie portfela nie powiodło się</translation>
+        <translation>Portemonnee ontgrendelen mislukt</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Wprowadzone hasło do odszyfrowania portfela jest niepoprawne.</translation>
+        <translation>Het ingevoerde wachtwoord om de portemonnee te ontsleutelen was incorrect.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Odszyfrowanie portfela nie powiodło się</translation>
+        <translation>Het ontsleutelen van de portemonnee is mislukt</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Hasło portfela zostało pomyślnie zmienione.</translation>
+        <translation>Het wachtwoord van de portemonnee is succesvol gewijzigd.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Uwaga: Klawisz Caps Lock jest włączony!</translation>
+        <translation>Waarschuwing: Caps-lock staat aan!</translation>
     </message>
 </context>
 <context>
@@ -236,14 +236,14 @@
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>Zablokowany do</translation>
+        <translation>Geband tot</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
-        <translation>Wystąpił błąd krytyczny. Dash Core nie może bezpiecznie kontynuować i zostanie zamknięty.</translation>
+        <translation>Er heeft zich een fatale fout voorgedaan. Dash Core kan niet veilig worden voortgezet en zal worden afgesloten.</translation>
     </message>
     <message>
         <source>Dash Core</source>
@@ -251,366 +251,366 @@
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Portfel</translation>
+        <translation>Portemonnee</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Węzeł</translation>
+        <translation>Node</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>P&amp;odsumowanie</translation>
+        <translation>&amp;Overzicht</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Pokazuje ogólne podsumowanie portfela</translation>
+        <translation>Toon algemeen overzicht van uw portemonnee</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>Wyślij</translation>
+        <translation>&amp;Verzenden</translation>
     </message>
     <message>
         <source>Send coins to a Dash address</source>
-        <translation>Wyślij monety na adres Dash</translation>
+        <translation>Verstuur Dash naar een Dashadres</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>Odbie&amp;rz</translation>
+        <translation>&amp;Ontvangen</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Poproś o płatności (generuje kod QR oraz dash: link)</translation>
+        <translation>Vraag betaling aan (genereert QR-codes en Dash: URI's)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transakcje</translation>
+        <translation>&amp;Transactis</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Przeglądaj historię transakcji</translation>
+        <translation>Blader door transactiegeschiedenis</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
-        <translation>&amp;Masternody</translation>
+        <translation>&amp;Masternodes</translation>
     </message>
     <message>
         <source>Browse masternodes</source>
-        <translation>Przeglądaj masternody</translation>
+        <translation>Blader door masternodes</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;Zakończ</translation>
+        <translation>A&amp;fsluiten</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Zamknij program</translation>
+        <translation>Sluit applicatie</translation>
     </message>
     <message>
         <source>Show information about Dash Core</source>
-        <translation>Pokaż informacje o Dash Core</translation>
+        <translation>Toon informatie over Dash Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>O &amp;Qt</translation>
+        <translation>Over &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Pokaż informacje o Qt</translation>
+        <translation>Toon informatie over Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Opcje...</translation>
+        <translation>&amp;Opties...</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>&amp;O %1</translation>
+        <translation>&amp;Over %1</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>Zmień opcje konfiguracji dla %1</translation>
+        <translation>Wijzig configuratieopties voor %1</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Pokaż / Ukryj</translation>
+        <translation>&amp;Toon / Verberg</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Pokazuje lub ukrywa główne okno</translation>
+        <translation>Toon of verberg het hoofdscherm</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Zaszyfruj Portf&amp;el</translation>
+        <translation>&amp;Versleutel portemonnee...</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Szyfruj klucze prywatne, dla twojego portfela</translation>
+        <translation>Versleutel de geheime sleutels die behoren tot uw portemonnee</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Wykonaj kopię zapasową...</translation>
+        <translation>&amp;Backup portemonnee...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Zapisz kopię zapasową portfela w innym miejscu</translation>
+        <translation>Backup portemonnee naar een andere locatie</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Zmień hasło...</translation>
+        <translation>&amp;Wijzig wachtwoordzin...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Zmień hasło użyte do zaszyfrowania portfela</translation>
+        <translation>Wijzig de wachtwoordzin die wordt gebruikt voor portemonneeversleuteling</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>Odblok&amp;uj Portfel</translation>
+        <translation>&amp;Ontgrendel portemonnee...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Odblokuj portfel</translation>
+        <translation>Portemonnee ontgrendelen</translation>
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>Zab&amp;lokuj Porftel</translation>
+        <translation>&amp;Portemonnee vergrendelen</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Podpisz wiado&amp;mość...</translation>
+        <translation>Onderteken &amp;bericht</translation>
     </message>
     <message>
         <source>Sign messages with your Dash addresses to prove you own them</source>
-        <translation>Podpisz wiadomości swoim adresem Dash, aby udowodnić, że jesteś ich właścicielem. </translation>
+        <translation>Onderteken berichten met uw Dashadressen om te bewijzen dat u deze adressen bezit.</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Zweryfikuj wiadomość...</translation>
+        <translation>&amp;Verifieer handtekening</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Dash addresses</source>
-        <translation>Zweryfikuj wiadomości, aby upewnić się, że zostały one podpisane wybranym adresem Dash</translation>
+        <translation>Verifieer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Dashadressen.</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informacje</translation>
+        <translation>&amp;Informatie</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
-        <translation>Pokaż informacje diagnostyczne</translation>
+        <translation>Toon diagnostische informatie</translation>
     </message>
     <message>
         <source>&amp;Debug console</source>
-        <translation>Konsola &amp;debugowania</translation>
+        <translation>&amp;Debug console</translation>
     </message>
     <message>
         <source>Open debugging console</source>
-        <translation>Otwórz konsolę debugowania</translation>
+        <translation>Open debugging console</translation>
     </message>
     <message>
         <source>&amp;Network Monitor</source>
-        <translation>Mo&amp;nitor Sieci</translation>
+        <translation>&amp;Networkmonitor</translation>
     </message>
     <message>
         <source>Show network monitor</source>
-        <translation>Pokaż monitor sieci</translation>
+        <translation>Toon networkmonitor</translation>
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>&amp;lista peerów</translation>
+        <translation>&amp;Peers lijst</translation>
     </message>
     <message>
         <source>Show peers info</source>
-        <translation>Pokaż informacje a peerach</translation>
+        <translation>Toon peers info</translation>
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation>Naprawa po&amp;rfela</translation>
+        <translation>Portemonnee &amp;Repareren</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
-        <translation>Pokaż opcje naprawy portfela</translation>
+        <translation>Toon reparatie opties voor de portemonnee</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
-        <translation>Otwórz Plik &amp;Konfiguracyjny Portfela</translation>
+        <translation>Open portemonnee &amp;configuratie bestand</translation>
     </message>
     <message>
         <source>Open configuration file</source>
-        <translation>Otworz plik konfiguracji </translation>
+        <translation>Open configuratie bestand</translation>
     </message>
     <message>
         <source>Open &amp;Masternode Configuration File</source>
-        <translation>Otwórz Plik &amp;Konfiguracyjny Masternoda</translation>
+        <translation>Open &amp;Masternode configuratie bestand</translation>
     </message>
     <message>
         <source>Open Masternode configuration file</source>
-        <translation>Otwórz plik konfiguracyjny Masternoda</translation>
+        <translation>Open Masternode configuratie bestand</translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
-        <translation>Pokaż automatyczne kopie zapasowe (&amp;Backups)</translation>
+        <translation>Toon automatische &amp;backups</translation>
     </message>
     <message>
         <source>Show automatically created wallet backups</source>
-        <translation>Pokaż automatycznie utworzone kopie zapasowe portfela.</translation>
+        <translation>Toon automatisch aangemaakte backups van uw portemonnee</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>Adres wysyłania</translation>
+        <translation>&amp;Verzendadressen</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Pokaż listę użytych adresów wysyłających i etykiety</translation>
+        <translation>Toon de lijst met gebruikte verzendadressen en labels</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>Adres odbiorczy</translation>
+        <translation>&amp;Ontvangstadressen</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Pokaż listę użytych adresów odbiorczych i etykiety</translation>
+        <translation>Toon de lijst met gebruikte ontvangstadressen en labels</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Otwórz &amp;URI...</translation>
+        <translation>Open &amp;URI</translation>
     </message>
     <message>
         <source>Open a dash: URI or payment request</source>
-        <translation>Otwórz dash: Link lub żądanie zapłaty</translation>
+        <translation>Open een dash: URI of betalingsaanvraag</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;Opcje konsoli</translation>
+        <translation>&amp;Command-line opties</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Dash command-line options</source>
-        <translation>Pokaż pomoc %1 aby zobaczyć listę wszystkich opcji lnii poleceń.</translation>
+        <translation>Toon het %1 hulpbericht om een lijst te krijgen met mogelijke Dash commandoregelopties</translation>
     </message>
     <message>
         <source>%1 client</source>
-        <translation>%1 klient</translation>
+        <translation>%1 client</translation>
     </message>
     <message>
         <source>&amp;PrivateSend information</source>
-        <translation>Informacje &amp;PrivateSend</translation>
+        <translation>&amp;PrivateSend informatie</translation>
     </message>
     <message>
         <source>Show the PrivateSend basic information</source>
-        <translation>Pokaż podstawowe informacje PrivateSend</translation>
+        <translation>Toon de PrivateSend basis informatie</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Plik</translation>
+        <translation>&amp;Bestand</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>P&amp;referencje</translation>
+        <translation>&amp;Instellingen</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>&amp;Narzędzia</translation>
+        <translation>&amp;Hulpmiddelen</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>Pomo&amp;c</translation>
+        <translation>&amp;Help</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Pasek zakładek</translation>
+        <translation>Tab-werkbalk</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Dash network</source>
-        <translation><numerusform>%n aktywne połączenie z siecią Dash</numerusform><numerusform>%n aktywne połączenia z siecią Dash</numerusform><numerusform>%n aktywnych połączeń z siecią Dash</numerusform><numerusform>%n aktywne połączenia z siecią Dash</numerusform></translation>
+        <translation><numerusform>%n actieve verbinding met het Dash netwerk</numerusform><numerusform>%n actieve verbindingen met het Dash netwerk</numerusform></translation>
     </message>
     <message>
         <source>Network activity disabled</source>
-        <translation>Aktywność sieci jest wyłączona</translation>
+        <translation>Netwerk activiteit uitgeschakeld</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
-        <translation>Synchronizacja nagłówków (%1%)...</translation>
+        <translation>Kopteksten synchroniseren (%1%)...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synchronizacja z siecią...</translation>
+        <translation>Synchroniseren met het netwerk...</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>Indeksowanie bloków na dysku...</translation>
+        <translation>Bezig met indexeren van blokken op harde schijf...</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>Przetwarzanie bloków na dysku...</translation>
+        <translation>Bezig met verwerken van blokken op harde schijf...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Ponowne indeksowanie bloków na dysku...</translation>
+        <translation>Bezig met herindexeren van blokken op harde schijf...</translation>
     </message>
     <message>
         <source>Connecting to peers...</source>
-        <translation>Łączenie z peerami</translation>
+        <translation>Verbinden met peers...</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Pobrano %n blok z historią transakcji.</numerusform><numerusform>Pobranych zostało %n bloki z historią transakcji.</numerusform><numerusform>Pobranych zostało %n bloków z historią transakcji.</numerusform><numerusform>Pobrano %n bloków z historią transakcji.</numerusform></translation>
+        <translation><numerusform>%n blok van transactiehistorie verwerkt.</numerusform><numerusform>%n blokken van transactiehistorie verwerkt.</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 wstecz</translation>
+        <translation>%1 achter</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Pobieranie bloków ...</translation>
+        <translation>Aan het bijwerken...</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Ostatni otrzymany blok został wygenerowany %1 temu.</translation>
+        <translation>Laatst ontvangen blok was %1 geleden gegenereerd.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transakcje po tym momencie nie będą jeszcze widoczne.</translation>
+        <translation>Transacties na dit moment zullen nu nog niet zichtbaar zijn.</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Aktualny</translation>
+        <translation>Bijgewerkt</translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
-        <translation>Synchronizuję dodatkowe dane: %p%</translation>
+        <translation>Extra data aan het synchroniseren: %p%</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Błąd</translation>
+        <translation>Fout</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Ostrzeżenie</translation>
+        <translation>Waarschuwing</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informacja</translation>
+        <translation>Informatie</translation>
     </message>
     <message>
         <source>Date: %1
 </source>
-        <translation>Data: %1
+        <translation>Datum: %1
 </translation>
     </message>
     <message>
         <source>Amount: %1
 </source>
-        <translation>Ilość: %1
+        <translation>Bedrag: %1
 </translation>
     </message>
     <message>
         <source>Type: %1
 </source>
-        <translation>Typ: %1
+        <translation>Type: %1
 </translation>
     </message>
     <message>
         <source>Label: %1
 </source>
-        <translation>Etykieta: %1
+        <translation>Label: %1
 </translation>
     </message>
     <message>
@@ -621,299 +621,299 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Transakcja wysłana</translation>
+        <translation>Verstuurde transactie</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Transakcja przychodząca</translation>
+        <translation>Binnenkomende transactie</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>Generowanie kluczy HD jest &lt;b&gt;włączone&lt;/b&gt;</translation>
+        <translation>HD sleutel generatie is &lt;b&gt;ingeschakeld&lt;/b&gt;</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>Generowanie kluczy HD jest &lt;b&gt;wyłączone&lt;/b&gt;</translation>
+        <translation>HD sleutel generatie is &lt;b&gt;uitgeschakeld&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Portfel jest &lt;b&gt;zaszyfrowany&lt;/b&gt; i obecnie &lt;b&gt;niezablokowany&lt;/b&gt;</translation>
+        <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;ontgrendeld&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for mixing only</source>
-        <translation>Portfel jest &lt;b&gt;zaszyfrowany&lt;/b&gt; i obecnie &lt;b&gt;odblokowany&lt;/b&gt; tylko w celu miksowania</translation>
+        <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;ontgrendeld&lt;/b&gt; enkel voor mixing</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Portfel jest &lt;b&gt;zaszyfrowany&lt;/b&gt; i obecnie &lt;b&gt;zablokowany&lt;/b&gt;</translation>
+        <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;vergrendeld&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
         <source>Total: %1 (PS compatible: %2 / Enabled: %3)</source>
-        <translation>Razem: %1 (zgodne z PS: %2 / włączone: %3)</translation>
+        <translation>Totaal: %1 (PS compatibel: %2 / ingeschakeld: %3)</translation>
     </message>
     <message>
         <source>Network Alert</source>
-        <translation>Sieć Alert</translation>
+        <translation>Netwerkwaarschuwing</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Ilość:</translation>
+        <translation>Aantal:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bajtów:</translation>
+        <translation>Bytes:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Kwota:</translation>
+        <translation>Bedrag:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Opłata:</translation>
+        <translation>Vergoeding:</translation>
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>Wybór Monet</translation>
+        <translation>Munt selectie</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Pył:</translation>
+        <translation>Stof</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Po opłacie:</translation>
+        <translation>Na vergoeding:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Reszta:</translation>
+        <translation>Wisselgeld:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>Zaznacz/Odznacz wszystko</translation>
+        <translation>(de)selecteer alles</translation>
     </message>
     <message>
         <source>toggle lock state</source>
-        <translation>odwróć stan blokady</translation>
+        <translation>Schakel slot staat</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Widok drzewa</translation>
+        <translation>Boom modus</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Widok listy</translation>
+        <translation>Lijst modus</translation>
     </message>
     <message>
         <source>(1 locked)</source>
-        <translation>(1 zablokowana)</translation>
+        <translation>(1 geblokeerd)</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Kwota</translation>
+        <translation>Bedrag</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Otrzymane z etykietą</translation>
+        <translation>Ontvangen met label</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Otrzymano z adresem</translation>
+        <translation>Ontvangst adressen</translation>
     </message>
     <message>
         <source>PS Rounds</source>
-        <translation>Rundy PS</translation>
+        <translation>PS Rondes</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Potwierdzenia</translation>
+        <translation>Bevestigingen</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Potwierdzony</translation>
+        <translation>Bevestigd</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopiuj adres</translation>
+        <translation>Kopieer adres</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiuj etykietę</translation>
+        <translation>Kopieer Label</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiuj kwotę</translation>
+        <translation>Kopieer bedrag</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Skopiuj ID transakcji</translation>
+        <translation>Kopieer transactie-ID</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Zablokuj</translation>
+        <translation>Blokeer ongebruikte</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Odblokuj</translation>
+        <translation>Deblokkeer ongebruikte</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Skopiuj ilość</translation>
+        <translation>Kopieer aantal</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Skopiuj opłatę</translation>
+        <translation>Kopieer vergoeding</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Skopiuj ilość po opłacie</translation>
+        <translation>Kopieer na vergoeding</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Skopiuj ilość bajtów</translation>
+        <translation>Kopieer bytes</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopiuj pył (kwota poniżej 5460 duffów)</translation>
+        <translation>Kopieer stof</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Skopiuj resztę</translation>
+        <translation>Kopieer wisselgeld</translation>
     </message>
     <message>
         <source>Please switch to "List mode" to use this function.</source>
-        <translation>W celu użycia tej funkcji, przełącz na "Tryb Listy"</translation>
+        <translation>Schakel over naar "Lijst mode" om deze functie te gebruiken.</translation>
     </message>
     <message>
         <source>Non-anonymized input selected. &lt;b&gt;PrivateSend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use PrivateSend, please deselect all non-nonymized inputs first and then check PrivateSend checkbox again.</source>
-        <translation>Wybrano niezanonimizowane środki. &lt;b&gt; PrivateSend  zostanie wyłączony.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Jeśli nadal chcesz użyć PrivateSend, cofnij wybór niezanonimizowanych środków, a następnie zaznacz pole wyboru PrivateSend.</translation>
+        <translation>Niet-anoniem invoer geselecteerd. &lt;b&gt;PrivateSend wordt afgesloten. &lt;/b&gt;&lt;br&gt;&lt;br&gt; Indien u toch PrivateSend wenst te gebruiken, deselecteer dan eerst alle niet-anonieme invoer. Vink daarna PrivateSend opnieuw aan.</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 zablokowane)</translation>
+        <translation>(%1 geblokeerd)</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>tak</translation>
+        <translation>ja</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>nie</translation>
+        <translation>nee</translation>
     </message>
     <message>
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Etykieta staje się czerwona, jeżeli któryś z odbiorców otrzymuje kwotę mniejszą niż obecna granica pyłu.</translation>
+        <translation>Deze label wordt rood als een ontvanger een hoeveelheid kleiner dan de huidige dust-drempel krijgt.</translation>
     </message>
     <message>
         <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Może się różnić około +/- %1 duff(ów) na transację.</translation>
+        <translation>Kan +/- %1 duff(s) per invoer variëren.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez etykiety)</translation>
+        <translation>(geen label)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>reszta z %1 (%2)</translation>
+        <translation>wijzig van %1 (%2)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(reszta)</translation>
+        <translation>(wijzig)</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>nie dotyczy</translation>
+        <translation>N.v.t.</translation>
     </message>
 </context>
 <context>
     <name>DarksendConfig</name>
     <message>
         <source>Configure PrivateSend</source>
-        <translation>Skonfiguruj PrivateSend</translation>
+        <translation>Configureer PrivateSend</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
-        <translation>Podstawowa prywatność</translation>
+        <translation>Eenvoudige Privacy</translation>
     </message>
     <message>
         <source>High Privacy</source>
-        <translation>Wysoka prywatność</translation>
+        <translation>Hoge Privacy</translation>
     </message>
     <message>
         <source>Maximum Privacy</source>
-        <translation>Maksymalna prywatność</translation>
+        <translation>Maximum Privacy</translation>
     </message>
     <message>
         <source>Please select a privacy level.</source>
-        <translation>Proszę wybrać poziom prywatności.</translation>
+        <translation>Kies een privacyniveau</translation>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Użyj 2 oddzielnych masternodów, aby wymieszać środki max. do 1000 DASH</translation>
+        <translation>Gebruik 2 verschillende masternodes om tot en met  100 Dash te mixen</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Użyj 8 oddzielnych masternodów, aby wymieszać środki max. do 1000 DASH</translation>
+        <translation>Gebruik 8 verschillende masternodes om tot en met  1000 Dash te mixen</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
-        <translation>Użyj 16 oddzielnych masternodów</translation>
+        <translation>Gebruik 16 verschillende masternodes</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 DASH to anonymize 1000 DASH</source>
-        <translation>Ta opcja jest najszybsza i kosztuje około 0.025 DASH za zanonimizowanie 1000 DASH</translation>
+        <translation>Deze optie is het snelst en kost ongeveer ~0.025 D om 1000 D te anonimiseren</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 DASH to anonymize 1000 DASH</source>
-        <translation>Ta opcja jest w miarę szybka i kosztuje około 0.05 DASH za zanonimizowanie 1000 DASH</translation>
+        <translation>Deze optie is relatief snel en zal ongeveer 0.05 DASH kosten om 1000 DASH te anonimiseren </translation>
     </message>
     <message>
         <source>0.1 DASH per 1000 DASH you anonymize.</source>
-        <translation>0.1 DASH za każde 1000 DASH, które zanonimizujesz.</translation>
+        <translation>0.1 DASH per 1000 DASH die je anonimiseert.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Jest to najwolniejsza, lecz najbardziej bezpieczna opcja. Maksymalny poziom zanonimizowania będzie kosztować</translation>
+        <translation>Deze optie is het langzaamst en meest veilig. Maximimum anonimiteit kost</translation>
     </message>
     <message>
         <source>PrivateSend Configuration</source>
-        <translation>Konfiguracja PrivateSend</translation>
+        <translation>PrivateSend configuratie</translation>
     </message>
     <message>
         <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>PrivateSend pomyślnie ustawiono na poziom podstawowy (%1 oraz 2 rundy). Możesz to zmienić w każdej chwili, otwierając ekran konfiguracji Dash.</translation>
+        <translation>PrivateSend is succesvol ingesteld op basis (%1 en 2 rondes). U kunt dit op elk gewenst moment wijzigen door het Dash configuratiescherm te openen.</translation>
     </message>
     <message>
         <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>PrivateSend pomyślnie ustawiono na poziom wysoki (%1 oraz 8 rund). Możesz to zmienić w każdej chwili, otwierając ekran konfiguracji Dash.</translation>
+        <translation>PrivateSend is succesvol ingesteld op hoog (%1 en 8 rondes). U kunt dit op elk gewenst moment wijzigen door het Dash configuratiescherm te openen.</translation>
     </message>
     <message>
         <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>PrivateSend pomyślnie ustawiono na poziom najwyższy (%1 oraz 16 rund). Możesz to zmienić w każdej chwili, otwierając ekran konfiguracji Dash.</translation>
+        <translation>PrivateSend is succesvol ingesteld op maximaal (%1 en 16 rondes). U kunt dit op elk gewenst moment wijzigen door het Dash configuratiescherm te openen.</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Edytuj adres</translation>
+        <translation>Bewerk Adres</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Etykieta</translation>
+        <translation>&amp;Label</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Etykieta skojarzona z tym wpisem na liście adresów</translation>
+        <translation>Het label dat bij dit adres item hoort</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -921,69 +921,69 @@
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Ten adres jest skojarzony z wpisem na liście adresów. Może być zmodyfikowany jedynie dla adresów wysyłających.</translation>
+        <translation>Het adres dat bij dit adres item hoort. Dit kan alleen bewerkt worden voor verstuur adressen.</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Nowy adres odbiorczy</translation>
+        <translation>Nieuw ontvangstadres</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Nowy adres wysyłania</translation>
+        <translation>Nieuw verzendadres</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Zmień adres odbiorczy</translation>
+        <translation>Bewerk ontvangstadres</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Zmień adres wysyłania</translation>
+        <translation>Bewerk verzendadres</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Dash address.</source>
-        <translation>Wprowadzony adres "%1" nie jest właściwym adresem Dash.</translation>
+        <translation>Het ingevoerde adres "%1" is geen geldig Dash adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>Wprowadzony adres "%1" już istnieje w książce adresowej.</translation>
+        <translation>Het opgegeven adres "%1" bestaat al in uw adresboek.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Nie można było odblokować portfela.</translation>
+        <translation>Kon de portemonnee niet openen.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Tworzenie nowego klucza nie powiodło się.</translation>
+        <translation>Genereren nieuwe sleutel mislukt.</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Utworzono nowy folder danych.</translation>
+        <translation>Een nieuwe gegevensmap wordt aangemaakt.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>nazwa</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Katalog już istnieje. Dodaj %1, jeśli masz zamiar utworzyć tutaj nowy katalog.</translation>
+        <translation>Map bestaat al. Voeg %1 toe als u van plan bent hier een nieuwe map aan te maken.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Ścieżka już istnieje i nie wskazuje na folder.</translation>
+        <translation>Pad bestaat al en is geen map.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Nie można było tutaj utworzyć folderu.</translation>
+        <translation>Kan hier geen gegevensmap aanmaken.</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>wersja</translation>
+        <translation>Versie</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -991,113 +991,113 @@
     </message>
     <message>
         <source>About %1</source>
-        <translation>Informacje o %1</translation>
+        <translation>Over %1</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Opcje lini poleceń</translation>
+        <translation>opdrachtregelopties</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Użycie:</translation>
+        <translation>Gebruik:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>opcje konsoli</translation>
+        <translation>opdrachtregelopties</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>Opcje wyglądu</translation>
+        <translation>UI-opties:</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
-        <translation>Przy uruchomieniu wybierz folder danych  (domyślnie: %u)</translation>
+        <translation>Kies gegevensmap bij opstarten (standaard: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Ustaw Język, na przykład "pl_PL" (domyślnie: systemowy)</translation>
+        <translation>Stel taal in, bijvoorbeeld "nl_NL" (standaard: systeemlocale)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Uruchom zminimalizowany</translation>
+        <translation>Geminimaliseerd starten</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Ustaw główne cerytfikaty SSL dla żądań płatności (domyślnie: -system-)</translation>
+        <translation>Zet SSL-rootcertificaat voor betalingsverzoeken (standaard: -systeem-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>Przy uruchamianiu pokaż ekran powitalny (domyślnie: %u)</translation>
+        <translation>Toon opstartscherm bij opstarten (standaard: %u)</translation>
     </message>
     <message>
         <source>Reset all settings changed in the GUI</source>
-        <translation>Resetuj wszystkie ustawienia zmienione w graficznym interfejsie użytkownika</translation>
+        <translation>Reset alle wijzigingen aan instellingen gedaan in de GUI</translation>
     </message>
     <message>
         <source>PrivateSend information</source>
-        <translation>Informacje o PrivateSend</translation>
+        <translation>PrivateSend informatie</translation>
     </message>
     <message>
         <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Dash in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 DASH, 0.1 DASH, 1 DASH and 10 DASH -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;Podstawy PrivateSend&lt;/h3&gt; PrivateSend zapewnia prawdziwą prywatność poprzez ukrycie pochodzenia środków. Wszystkie dashe w twoim portfelu składają się z różnych "kwot wejściowych", które można traktować jako oddzielne, indywidualne monety.&lt;br&gt; PrivateSend wykorzystuje rewolucyjny proces mieszania twoich "kwot wejściowych" z "kwotami wejściowymi" dwóch innych  użytkowników, przy czym twoje środki nigdy nie opuszczają twojego portfela. W każdej chwili zachowujesz nad nimi pełną kontrolę.&lt;hr&gt; &lt;b&gt;Proces PrivateSend przebiega w następujący sposób:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;Najpierw PrivateSend dzieli twoje kwoty wejściowe twoich transakcji na standardowe nominały. Są kwoty 0.01 DASH, 0.1 DASH, 1 DASH oraz 10 DASH – mniej  więcej jak banknoty, których codziennie używasz.&lt;/li&gt; &lt;li&gt;Następnie twój portfel wysyła żądania do specjalnie skonfigurowanych węzłów sieci, zwanych "masternodami." Masternody otrzymują komunikat, że jesteś zainteresowany wymieszaniem określonego nominału. Masternody nie otrzymują żadnych informacji pozwalających na identyfikację, w związku z tym nigdy nie wiedzą "kim" jesteś.&lt;/li&gt; &lt;li&gt;Kiedy dwaj inni użytkownicy wyślą podobne komunikaty, z żądanie wymieszanie takiego samego nominału, rozpocznie się sesja mieszania. Masternod wymiesza kwoty wejściowe i nakaże portfelom takich trzech użytkowników wypłacić sobie samemu przetworzone kwoty wejściowe. Twój portfel wpłaci dany nominał do siebie samego, jednak na inny adres (tzw. adres reszty).&lt;/li&gt; &lt;li&gt;W celu pełnego zaciemnienia pochodzenia środków, twój portfel musi powtórzyć te czynności dla każdego nominału określoną ilość razy.  Każde wykonanie tego procesu określamy mianem "rundy." Każda runda procesu PrivateSend wykładniczo zwiększa trudność ustalenia pochodzenia twoich środków.&lt;/li&gt; &lt;li&gt;Proces mieszania odbywa się w tle, bez dodatkowego zaangażowania z twojej strony. Kiedy zechcesz wykonać transakcję, twoje środki będą już zanonimizowane. Nie będzie konieczne dodatkowe oczekiwanie.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;UWAGA:&lt;/b&gt; Portfel zawiera tylko 1000 "adresów reszty." Każde mieszanie zużywa do 9 adresów. Oznacza to, że po 100 mieszaniach zużyjesz ok. 1000 adresów. Po wykorzystaniu 900 adresów, portfel musi wygenerować nowe adresy. Może not nastąpić jedynie, jeżeli włączone jest automatyczne tworzenie kopii zapasowych.&lt;br&gt; Dlatego też, PrivateSend jest wyłączone, jeżeli użytkownik wyłączył automatyczne tworzenie kopii zapasowych. &lt;hr&gt;Więcej informacji znajdziesz na stronie &lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
+        <translation>&lt;h3&gt;Basics van PrivateSend&lt;/h3&gt; PrivateSend geeft u echte financiële privacy door de oorsprong van uw geld te verbergen. Alle Dash in uw wallet bestaat uit verschillende "inputs" die u kunt beschouwen als afzonderlijke, discrete munten.&lt;br&gt; PrivateSend maakt gebruik van een innovatief proces om uw input te mengen met de input van twee andere mensen, zonder dat uw munten ooit uw wallet verlaten . U behoudt te alle tijden de controle over uw geld. &lt;hr&gt; &lt;b&gt;Het PrivateSend-proces werkt als volgt: &lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begint door uw transactie-inputs in standaard denominaties op te breken. Deze denominaties zijn 0,01 DASH, 0,1 DASH, 1 DASH en 10 DASH - eigenlijk net zoals de muntstukken van contant geld dat u elke dag gebruikt.&lt;/li&gt; Uw wallet stuurt daarna verzoeken naar speciaal geconfigureerde softwarenodes op het netwerk, zogenaamde "masternodes." Deze masternodes worden daarmee op de hoogte gesteld dat u geïnteresseerd bent in het mixen van een bepaalde denominatie. Er wordt geen identificeerbare informatie naar de masternodes gestuurd, ze kunnen dus niet weten wie u bent.&lt;/li&gt; &lt;li&gt;Wanneer twee andere mensen vergelijkbare berichten sturen, waarin ze aangeven dat ze dezelfde denominaties willen mixen, begint een mixsessie. De masternode mixt alle invoeren en instrueert de wallets van alle drie de gebruikers om de nu getransformeerde input aan zichzelf terug te betalen. Uw wallet betaalt die denominaties rechtstreeks naar zichzelf, maar met een ander adres (een wisselgeldadres genoemd).&lt;/li&gt; &lt;li&gt;Om uw geld volledig te verbergen, moet uw portemonnee dit proces een aantal keer herhalen voor elke denominatie. Iedere keer dat het proces wordt voltooid, wordt een 'ronde' genoemd. Elke ronde van PrivateSend maakt het exponentieel moeilijker om de herkomst van uw geld te bepalen.&lt;/li&gt; &lt;li&gt;Dit mixproces gebeurt op de achtergrond zonder enige tussenkomst van uw kant. Wanneer u een transactie wenst uit te voeren, zijn uw fondsen al geanonimiseerd. Er is geen extra wachttijd nodig.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;BELANGRIJK:&lt;/b&gt; Uw wallet bevat slechts 1000 van deze "wisselgeldadressen". Elke keer dat er een mixsessie plaatsvindt, worden maximaal 9 van uw adressen opgebruikt. Dit betekent dat deze 1000 adressen volstaan voor ongeveer 100 mixsessies. Wanneer er 900 adressen zijn opgebruikt, moet uw wallet nieuwe adressen aanmaken. Dit kan alleen maar als u automatische back-ups hebt ingeschakeld.&lt;br&gt; Daarom is voor gebruikers die back-ups hebben uitgeschakeld, ook PrivateSend uitgeschakeld. &lt;hr&gt;Voor meer informatie kijk op&lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https: //dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Witaj</translation>
+        <translation>Welkom</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
-        <translation>Witaj w %1.</translation>
+        <translation>Welkom bij %1.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>Ponieważ jest to pierwsze uruchomienie programu, możesz wybrać gdzie %1 będzie przechowywał swoje dane.</translation>
+        <translation>Omdat dit de eerste keer is dat het programma gestart is, kunt u nu kiezen waar %1 de data moet opslaan.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Dash block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 ściągnie i zapisze kopię łańcucha bloków-blockchain na twoim dysku. Co najmniej %2GB danych zostanie zapisanych w tym katalogu, a z upływem czasu blockchain będzie stopniowo wymagał coraz więcej miejsca. Twój portfel również zostanie zapisany w tym katalogu.</translation>
+        <translation>%1 zal een kopie van de Dash-blockchain downloaden en opslaan. Ten minste %2GB aan data zal worden opgeslagen in deze folder, dit zal toenemen in de toekomst. De portemonnee zal ook in deze folder worden opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Użyj domyślnego folderu danych</translation>
+        <translation>Gebruik de standaard gegevensmap</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Użyj wybranego folderu dla danych</translation>
+        <translation>Gebruik een persoonlijke gegevensmap:</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Wystąpił błąd: Katalog "%1" nie może zostać stworzony.</translation>
+        <translation>Fout: De gespecificeerde map "%1" kan niet worden gecreëerd.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Błąd</translation>
+        <translation>Fout</translation>
     </message>
     <message>
         <source>%1 GB of free space available</source>
-        <translation>%1 GB wolnego miejsca na dysku</translation>
+        <translation>%1 GB aan vrije opslagruimte beschikbaar</translation>
     </message>
     <message>
         <source>(of %1 GB needed)</source>
-        <translation>(z %1GB potrzebnego)</translation>
+        <translation>(van %1 GB benodigd)</translation>
     </message>
 </context>
 <context>
     <name>MasternodeList</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>Formulier</translation>
     </message>
     <message>
         <source>My Masternodes</source>
-        <translation>Moje masternody</translation>
+        <translation>Mijn Masternodes</translation>
     </message>
     <message>
         <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your masternode should be running but you still do not see "ENABLED" in "Status" field.</source>
-        <translation>Uwaga! Status twoich masternodów w lokalnym portfelu potencjalnie może być niezupełnie poprawny.&lt;br /&gt;Jeżeli twój masternode powinien być uruchomiony, ale nadal nie widzisz słowa "WŁĄCZONY" w polu "Status", &lt;br /&gt;zawsze poczekaj na zsynchronizowanie danych dodatkowych i porównaj z danymi z innego węzła.</translation>
+        <translation>Opmerking: Status van uw masternodes in de lokale portemonnee kan mogelijk licht afwijkend zijn.&lt;br /&gt;Wacht steeds tot de portemonnee extra gegevens synchroniseert en controleer daarna een ander knooppunt&lt;br /&gt;Als jouw masternode moet werken, maar je ziet nog steeds niet 'Ingeschakeld' in het 'Status' veld.</translation>
     </message>
     <message>
         <source>Alias</source>
@@ -1109,7 +1109,7 @@
     </message>
     <message>
         <source>Protocol</source>
-        <translation>Protokół</translation>
+        <translation>Protocol</translation>
     </message>
     <message>
         <source>Status</source>
@@ -1117,43 +1117,43 @@
     </message>
     <message>
         <source>Active</source>
-        <translation>Aktywny</translation>
+        <translation>Actief</translation>
     </message>
     <message>
         <source>Last Seen</source>
-        <translation>Ostatnio widziany</translation>
+        <translation>Laatst gezien</translation>
     </message>
     <message>
         <source>Payee</source>
-        <translation>Odbiorca</translation>
+        <translation>Begunstigde</translation>
     </message>
     <message>
         <source>S&amp;tart alias</source>
-        <translation>U&amp;ruchom alias</translation>
+        <translation>S&amp;tart alias</translation>
     </message>
     <message>
         <source>Start &amp;all</source>
-        <translation>Uruchom &amp;wszystkie</translation>
+        <translation>Start &amp;alle</translation>
     </message>
     <message>
         <source>Start &amp;MISSING</source>
-        <translation>Uruchom &amp;brakujące</translation>
+        <translation>Start &amp;ONTBREKEND</translation>
     </message>
     <message>
         <source>&amp;Update status</source>
-        <translation>&amp;Aktualizuj status</translation>
+        <translation>&amp;Vernieuw status</translation>
     </message>
     <message>
         <source>Show additional Masternode information</source>
-        <translation>Pokaż dodatkowe informacje na temat Masternode</translation>
+        <translation>Toon aanvullende Masternode informatie</translation>
     </message>
     <message>
         <source>Show &amp;Info...</source>
-        <translation>Pokaż &amp;informacje...</translation>
+        <translation>Toon &amp;Info...</translation>
     </message>
     <message>
         <source>Status will be updated automatically in (sec):</source>
-        <translation>Czas (w sekundach) do automatycznej aktualizacji statusu:</translation>
+        <translation>Status wordt automatisch bijgewerkt in (sec):</translation>
     </message>
     <message>
         <source>0</source>
@@ -1161,71 +1161,71 @@
     </message>
     <message>
         <source>All Masternodes</source>
-        <translation>Wszystkie Masternody</translation>
+        <translation>Alle Masternodes</translation>
     </message>
     <message>
         <source>Filter List:</source>
-        <translation>Filtruj listę:</translation>
+        <translation>Filter Lijst:</translation>
     </message>
     <message>
         <source>Filter masternode list</source>
-        <translation>Filtruj listę masternodów</translation>
+        <translation>Filter masternode lijst</translation>
     </message>
     <message>
         <source>Node Count:</source>
-        <translation>Liczba węzłów:</translation>
+        <translation>Aantal Nodes:</translation>
     </message>
     <message>
         <source>Start alias</source>
-        <translation>Uruchom alias</translation>
+        <translation>Start alias</translation>
     </message>
     <message>
         <source>Confirm masternode start</source>
-        <translation>Potwierdź start masternoda</translation>
+        <translation>Bevestig opstarten van Masternode</translation>
     </message>
     <message>
         <source>Are you sure you want to start masternode %1?</source>
-        <translation>Czy na pewno chcesz wystartować masternod %1?</translation>
+        <translation>Weet u zeker dat u Masternode %1 wenst op te starten?</translation>
     </message>
     <message>
         <source>Confirm all masternodes start</source>
-        <translation>Potwierdź start wszystkich masternodów</translation>
+        <translation>Bevestig het opstarten van alle Masternodes</translation>
     </message>
     <message>
         <source>Are you sure you want to start ALL masternodes?</source>
-        <translation>Czy na pewno chcesz wystartować WSZYSTKIE masternody?</translation>
+        <translation>Weet u zeker dat u ALLE masternodes wenst te starten?</translation>
     </message>
     <message>
         <source>Command is not available right now</source>
-        <translation>Obecnie komenda jest niedostępna.</translation>
+        <translation>Dit commando is momenteel niet beschikbaar</translation>
     </message>
     <message>
         <source>You can't use this command until masternode list is synced</source>
-        <translation>Nie możesz użyć tej komendy przed zsynchronizowaniem listy masternodów.</translation>
+        <translation>U kunt dit commando niet gebruiken totdat de Masternode lijst is gesynchroniseerd</translation>
     </message>
     <message>
         <source>Confirm missing masternodes start</source>
-        <translation>Potwierdź uruchomienie zagubionego masternoda</translation>
+        <translation>Bevestig starten van ontbrekende masternodes</translation>
     </message>
     <message>
         <source>Are you sure you want to start MISSING masternodes?</source>
-        <translation>Czy na pewno chcesz wystartować BRAKUJĄCE masternody?</translation>
+        <translation>Weet u zeker dat u de ONTBREKENDE masternodes wenst te starten?</translation>
     </message>
     <message>
         <source>Additional information for Masternode %1</source>
-        <translation>Dodatkowe nformacje na temat Masternode %1</translation>
+        <translation>Aanvullende informatie voor Masternode %1</translation>
     </message>
     <message>
         <source>Masternode Private Key</source>
-        <translation>Klucz Prywatny Masternoda</translation>
+        <translation>Geheime sleutel van de Masternode</translation>
     </message>
     <message>
         <source>Private Key</source>
-        <translation>Klucz Prywatny</translation>
+        <translation>Geheime sleutel</translation>
     </message>
     <message>
         <source>Collateral</source>
-        <translation>Zastaw</translation>
+        <translation>Onderpand</translation>
     </message>
     <message>
         <source>IP</source>
@@ -1233,11 +1233,11 @@
     </message>
     <message>
         <source>Version</source>
-        <translation>Wersja</translation>
+        <translation>Versie</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Nieznany</translation>
+        <translation>Onbekend</translation>
     </message>
     <message>
         <source>Sentinel</source>
@@ -1248,62 +1248,62 @@
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>Vorm</translation>
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
-        <translation>Ostatnie transakcje mogą jeszcze być niewidoczne i dlatego saldo portfela może być niepoprawne. Poprawne informacje pojawią się po zakończeniu synchronizacji z siecią Dash. Stan synchronizacji widzisz poniżej.</translation>
+        <translation>Recente transacties zijn mogelijk nog niet zichtbaar. De balans van de portemonnee is daarom mogelijk niet correct. Deze informatie is correct van zodra de synchronisatie met het Dash-netwerk werd voltooid, zoals onderaan beschreven.</translation>
     </message>
     <message>
         <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Próba wydania środków z transakcji wykonanych, ale jeszcze niewidocznych, nie zostanie zaakceptowana przez sieć.</translation>
+        <translation>Pogingen om Dash uit te geven die betrokken zijn bij nog-niet-weergegeven transacties zullen niet worden geaccepteerd door het netwerk</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
-        <translation>Ilość pozostałych bloków</translation>
+        <translation>Aantal blokken resterend.</translation>
     </message>
     <message>
         <source>Unknown...</source>
-        <translation>Nieznany...</translation>
+        <translation>Onbekend...</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Czas ostatniego bloku</translation>
+        <translation>Tijd laatste blok</translation>
     </message>
     <message>
         <source>Progress</source>
-        <translation>Postęp</translation>
+        <translation>Vooruitgang</translation>
     </message>
     <message>
         <source>Progress increase per hour</source>
-        <translation>Wzrost postępu na godzinę</translation>
+        <translation>Vooruitgang per uur</translation>
     </message>
     <message>
         <source>calculating...</source>
-        <translation>obliczanie...</translation>
+        <translation>Berekenen...</translation>
     </message>
     <message>
         <source>Estimated time left until synced</source>
-        <translation>Przybliżony czas do synchronizacji</translation>
+        <translation>Geschatte tijd tot volledig synchroon</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Ukryj</translation>
+        <translation>Verbergen</translation>
     </message>
     <message>
         <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Nieznane. Synchronizacja nagłówków (%1)...</translation>
+        <translation>Onbekend. Kopteksten synchroniseren (%1%)...</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>Otwórz URI:</translation>
+        <translation>Open URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Otwórz żądanie zapłaty z URI lub pliku</translation>
+        <translation>Open betalingsverzoek via URI of bestand</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -1311,26 +1311,26 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Otwórz żądanie zapłaty z pliku</translation>
+        <translation>Selecteer betalingsverzoek bestand</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Wybierz plik żądania zapłaty do otwarcia</translation>
+        <translation>Selecteer betalingsverzoekbestand om te openen</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Opcje</translation>
+        <translation>Opties</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>Główne</translation>
+        <translation>&amp;Algemeen</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Rozmiar &amp;pamięci podręcznej bazy danych.</translation>
+        <translation>Grootte van de &amp;database cache</translation>
     </message>
     <message>
         <source>MB</source>
@@ -1338,151 +1338,153 @@
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Liczba wątków &amp;weryfikacji skryptu</translation>
+        <translation>Aantal threads voor &amp;scriptverificatie</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0=auto, &lt;0 = zostaw tyle wolnych rdzeni)</translation>
+        <translation>(0 = auto, &lt;0 = laat dit aantal kernen vrij)</translation>
     </message>
     <message>
         <source>Amount of Dash to keep anonymized</source>
-        <translation>Ilość Dashów, które mają pozostać anonimowe.</translation>
+        <translation>Aantal Dash om geanonimiseerd te houden</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>Portfel</translation>
+        <translation>W&amp;allet</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
-        <translation>Pokaż dodatkową zakładkę z listą Twoich wszystkich masternodów w pierwszej podzakładce &lt;br/&gt; oraz listą wszystkich masternodów sieci w drugiej podzakładce .</translation>
+        <translation>Toon extra tabblad waarin je al jouw masternodes toont in de eerste sub-tab&lt;br/&gt; en alle masternodes op het netwerk in het tweede sub-tabblad.</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
-        <translation>Pokaż Zakładkę Mastenodów</translation>
+        <translation>Toon Masternodes tab</translation>
     </message>
     <message>
         <source>Show additional information and buttons for PrivateSend on overview screen.</source>
-        <translation>Pokazuj dodatkowe informacje i przyciski dla PrivateSend na ekranie przeglądu.</translation>
+        <translation>Toon extra informatie en knoppen voor PrivateSend op het overzichtscherm.</translation>
     </message>
     <message>
         <source>Enable advanced PrivateSend interface</source>
-        <translation>Włącz zaawansowany interfejs PrivateSend</translation>
+        <translation>Schakel de geavanceerde PrivateSend interface in</translation>
     </message>
     <message>
         <source>Show warning dialog when PrivateSend detects that wallet has very low number of keys left.</source>
-        <translation>Pokaż ostrzeżenie, kiedy PrivateSend wykryje, że w portfelu pozostało już niewiele kluczy.</translation>
+        <translation>Toon waarschuwing-dialoog wanneer PrivateSend detecteert dat je portemonnee slechts een klein aantal sleutels over heeft.</translation>
     </message>
     <message>
         <source>Warn if PrivateSend is running out of keys</source>
-        <translation>Ostrzegaj, jeżeli wyczerpują się klucze PrivateSend</translation>
+        <translation>Waarschuw als de sleutels voor PrivateSend dreigen op te raken</translation>
     </message>
     <message>
         <source>Whether to use experimental PrivateSend mode with multiple mixing sessions per block.&lt;br/&gt;Note: You must use this feature carefully.&lt;br/&gt;Make sure you always have recent wallet (auto)backup in a safe place!</source>
-        <translation>Czy użyć eksperymentalnego trybu PrivateSend z wielokrotnymi sesjami miksowania na blok?&lt;br/&gt;Uwaga: Korzystaj z tego trybu rozważnie.&lt;br/&gt;Zawsze sprawdź czy masz w bezpiecznym miejscu najnowszą (automatyczną) kopię zapasową!</translation>
+        <translation>Of je de experimentele PrivateSend-modus wenst te gebruiken met meerdere mengingssessies per blok.&lt;br/&gt;Nota: Je moet deze functie zorgvuldig gebruiken.&lt;br/&gt;Zorg ervoor dat je steeds een recente (auto)backup van jouw portemonnee op een veilige plek hebt!</translation>
     </message>
     <message>
         <source>Enable PrivateSend &amp;multi-session</source>
-        <translation>Włącz multi-sesję dla PrivateSend</translation>
+        <translation>Schakel PrivateSend &amp;multi-sessie in</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Jeśli wyłączysz możliwość wydawania niepotwierdzonej reszty, to reszta z transakcji&lt;br/&gt; nie może zostać użyta dopóki nie ma przynajmniej jednego potwierdzona.&lt;br/&gt; To również wpływa na to, jak wyliczane jest twoje saldo.</translation>
+        <translation>Indien het uitgeven van onbevestigd wisselgeld uitgeschakeld wordt dan kan het wisselgeld van een transactie niet worden gebruikt totdat de transactie ten minste een bevestiging heeft. 
+Dit heeft ook invloed op de manier waarop uw saldo wordt berekend.</translation>
     </message>
     <message>
         <source>PrivateSend rounds to use</source>
-        <translation>Ilość rund PrivateSend to użycia</translation>
+        <translation>PrivateSend rondes te gebruiken</translation>
     </message>
     <message>
         <source>This amount acts as a threshold to turn off PrivateSend once it's reached.</source>
-        <translation>Ta kwota działa jako próg po którego przekroczeniu PrivateSend zostaje wyłączony.</translation>
+        <translation>Dit bedrag fungeert als een drempel om PrivateSend uit te schakelen zodra het werd bereikt.</translation>
     </message>
     <message>
         <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatycznie otwórz port klienta Dash Core na ruterze. Opcja działa jedynie, jeżeli router obsługuje UPnP i funkcja UPnP jest włączona.</translation>
+        <translation>Open automatisch de Dash client poort op de router. Dit werkt alleen als uw router UPnP ondersteunt en dit is ingeschakeld.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Akceptuj połączenia z zewnątrz</translation>
+        <translation>Laat uitgaande verbindingen toe.</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Zezwól na przychodzące połączenia</translation>
+        <translation>Laat binnenkomende verbindingen toe</translation>
     </message>
     <message>
         <source>Connect to the Dash network through a SOCKS5 proxy.</source>
-        <translation>Połącz się z siecią Dash przez proxy SOCKS5.</translation>
+        <translation>Verbind met het Dash netwerk via een SOCKS proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>Połą&amp;cz się przez SOCKS5 proxy (opcja domyślna):</translation>
+        <translation>&amp;Verbind via een SOCKS-proxy (standaardproxy):</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimalizuje zamiast zakończyć działanie programu przy zamknięciu okna. Kiedy ta opcja jest włączona, program zakończy działanie po wybraniu Zamknij w menu.</translation>
+        <translation>Minimaliseren in plaats van de applicatie af te sluiten wanneer het venster is afgesloten. Als deze optie is ingeschakeld, zal de toepassing pas worden afgesloten na het selecteren van Exit in het menu.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL do zewnętrznych seriwsó(np. eksplorator bloków), które pojawiają się w zakładce transakcji jako pozycje w menu kontekstowym.&lt;br/&gt; %s w URL jest zastąpione przez hash transakcji. Wielokrotne URL są oddzielane przez pionową poprzeczkę |.</translation>
+        <translation>Derde partij URL's (bijvoorbeeld block explorer) dat in de transacties tab verschijnen als contextmenu elementen. %s in de URL is vervangen door transactie hash. Verscheidene URL's zijn gescheiden met een verticale streep |.  </translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>Ekspert</translation>
+        <translation>Expert</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>Tutaj możesz ustawić liczbę masternodów, przez które transakcja zostanie przepuszczona.&lt;br/&gt;Im większa liczba masternodów tym większy poziom anonimowości, ale opłata jest również wyższa.</translation>
+        <translation>Deze instelling bepaalt het aantal individuele masternodes waardoor een input zal worden geanonimiseerd. 
+Meer anonimisatie rondes geeft een hoger niveau van privacy, maar kost ook meer aan vergoedingen.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Czy pokazać funkcje kontroli monet czy nie.</translation>
+        <translation>Munt controle functies weergeven of niet.</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
-        <translation>Automatycznie uruchom %1 po zalogowaniu do systemu.</translation>
+        <translation>Start %1 automatisch na inloggen in het systeem.</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
-        <translation>Uruchamiaj %1 wraz z zalogowaniem do &amp;systemu</translation>
+        <translation>&amp;Start %1 bij het inloggen op het systeem</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Włącz funkcje &amp;kontroli monet</translation>
+        <translation>Coin &amp;Control activeren</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Wydaj niepotwierdzoną resztę</translation>
+        <translation>&amp;Spendeer onbevestigd wisselgeld</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Sieć</translation>
+        <translation>&amp;Netwerk</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Mapuj port używając &amp;UPnP</translation>
+        <translation>Portmapping via &amp;UPnP</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP: </translation>
+        <translation>Proxy &amp;IP:</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>Adres IP serwera proxy (np. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>IP-adres van de proxy (bijv. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Port:</translation>
+        <translation>&amp;Poort:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Port proxy (np. 9050)</translation>
+        <translation>Poort van de proxy (bijv. 9050)</translation>
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation>Używane do połączenia z peerami przez: </translation>
+        <translation>Gebruikt om peers te bereiken via:</translation>
     </message>
     <message>
         <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Pokazuje czy podane domyślnie SOCKS5 proxy jest używane do połączenia z peerami przez ten rodzaj sieci.</translation>
+        <translation>Toont of de opgegeven standaard SOCK5 proxy gebruikt is om peers via dit netwerk type te bereiken</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1498,85 +1500,85 @@
     </message>
     <message>
         <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Połącz się z siecią Dash przez oddzielne proxy SOCKS5 dla ukrytych usług Tor.</translation>
+        <translation>Maak verbinding met Dashnetwerk door een aparte SOCKS5-proxy voor verborgen diensten van Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Użyj osobnego proxy SOCK5 aby połączyć się z peerami przez sieć Tor:</translation>
+        <translation>Gebruik aparte SOCK5 proxy om peers via Tor hidden services te bereiken:</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Okno</translation>
+        <translation>&amp;Scherm</translation>
     </message>
     <message>
         <source>&amp;Hide the icon from the system tray.</source>
-        <translation>&amp;Ukryj ikonę na pasku zadań.</translation>
+        <translation>&amp;Verberg het icoon van het systeemvak.</translation>
     </message>
     <message>
         <source>Hide tray icon</source>
-        <translation>Ukryj ikonę na pasku zadań</translation>
+        <translation>Verberg systeemvakicoon</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Pokazuj tylko ikonę przy zegarku po zminimalizowaniu okna.</translation>
+        <translation>Laat alleen een systeemvak-icoon zien wanneer het venster geminimaliseerd is</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimalizuj do paska przy zegarku zamiast do paska zadań</translation>
+        <translation>&amp;Minimaliseer naar het systeemvak in plaats van de taakbalk</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimalizuj przy zamknięciu</translation>
+        <translation>Minimaliseer bij sluiten van het &amp;venster</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Wyświetlanie</translation>
+        <translation>&amp;Interface</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Język &amp;Użytkownika:</translation>
+        <translation>Taal &amp;Gebruikersinterface:</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
-        <translation>Można tu ustawić język interfejsu uzytkownika. Ustawienie przyniesie skutek po ponownym uruchomieniu %1.</translation>
+        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat %1 herstart wordt.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/projects/p/dash/</source>
-        <translation>Dash Core nie został przetłumaczony na twój język? Tłumaczenie jest niepełne lub niepoprawne? Możesz pomóc nam tłumaczyć tutaj:
+        <translation>Is een een taal te kort of een vertaling onvolledig ? Help de vertaling hier: 
 https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
-        <translation>Motyw interefejsu użytkownika:</translation>
+        <translation>Gebruikersinterface thema:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Jednostka pokazywana przy kwocie:</translation>
+        <translation>&amp;Eenheid om bedrag in te tonen:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Wybierz podział jednostki pokazywany w interfejsie  oraz podczas wysyłania monet</translation>
+        <translation>Kies de standaard onderverdelingseenheid om weer te geven in uw programma, en voor het versturen van munten</translation>
     </message>
     <message>
         <source>Decimal digits</source>
-        <translation>Cyfry po przecinku</translation>
+        <translation>Decimalen</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>URL transakcji osób trzecich</translation>
+        <translation>Transactie-URLs van derde partijen</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Aktywne opcje linii komend, które nadpisują powyższe opcje:</translation>
+        <translation>Actieve commandoregelopties die bovenstaande opties overschrijven:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Przywróć wszystkie domyślne ustawienia klienta.</translation>
+        <translation>Reset alle clientopties naar de standaardinstellingen.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>Z&amp;resetuj Ustawienia</translation>
+        <translation>&amp;Resetopties</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1584,106 +1586,106 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Anuluj</translation>
+        <translation>Ann&amp;uleren</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>domyślny</translation>
+        <translation>standaard</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>żaden</translation>
+        <translation>geen</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Potwierdź reset ustawień</translation>
+        <translation>Bevestig reset van alle instellingen</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Wymagany restart programu, aby uaktywnić zmiany.</translation>
+        <translation>Herstart van de client is vereist om aanpassingen door te voeren.</translation>
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Klient zostanie zamknięty. Kontynuować?</translation>
+        <translation>De client zal worden afgesloten, wilt u doorgaan?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Ta zmiana może wymagać ponownego uruchomienia klienta.</translation>
+        <translation>Deze aanpassing vereist een herstart van de client.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adres podanego proxy jest nieprawidłowy</translation>
+        <translation>Het opgegeven proxyadres is ongeldig.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>Vorm</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
-        <translation>Wyświetlona informacja może być przedawniona. Twój portfel automatycznie zsynchronizuje się z siecią Dash, gdy tylko zostanie ustanowione połączenie, jednak proces ten jeszcze się nie zakończył.</translation>
+        <translation>De weergegeven informatie kan achterhaald zijn. De beurs synchroniseert automatisch met het Dash netwerk nadat de verbinding is gelegd, maar dit proces is nog niet beeindigd.</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>Dostępne:</translation>
+        <translation>Beschikbaar:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Twoje obecne dostępne saldo</translation>
+        <translation>Uw beschikbare saldo</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>Oczekiwanie:</translation>
+        <translation>Afwachtend:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Suma transakcji, które nie zostały jeszcze potwierdzone, a które nie zostały wliczone do twojego obecnego salda</translation>
+        <translation>De som van de transacties die nog bevestigd moeten worden, en nog niet meetellen in uw beschikbare saldo</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Niedojrzały: </translation>
+        <translation>Immatuur:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Balans wydobycia, który jeszcze nie dojrzał</translation>
+        <translation>Gedolven saldo dat nog niet tot wasdom is gekomen</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>Salda</translation>
+        <translation>Saldo's</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Niepotwierdzone transakcje do adresów mogących być jedynie do odczytu.</translation>
+        <translation>Onbevestigde transacties naar een alleen-kijken adressen</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>Wykopane fundusze  jeszcze nie gotowe będące w adresie tylko do odczytu.</translation>
+        <translation>Gemijnd saldo in alleen-kijken adressen </translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>Wynosi ogółem:</translation>
+        <translation>Totaal:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Twoje obecne saldo całkowite</translation>
+        <translation>Uw totale saldo</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Obecny stan konta adresu tylko do odczytu.</translation>
+        <translation>Huidig totaal bedrag in alleen-kijken adressen</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Tylko do podglądu:</translation>
+        <translation>Alleen-kijken:</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Twój obecny stan konta w adresie tylko do odczytu</translation>
+        <translation>Jouw huidig totaal bedrag in alleen-kijken adressen</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Dostępne do wydania:</translation>
+        <translation>Uitgeefbaar:</translation>
     </message>
     <message>
         <source>PrivateSend</source>
@@ -1695,67 +1697,68 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
-        <translation>Włączony/Wyłączony</translation>
+        <translation>Ingeschakeld/Uitgeschakeld</translation>
     </message>
     <message>
         <source>Completion:</source>
-        <translation>Ukończone:</translation>
+        <translation>Voltooiing:</translation>
     </message>
     <message>
         <source>Try to manually submit a PrivateSend request.</source>
-        <translation>Spróbuj ręcznie zażądać PrivateSend.</translation>
+        <translation>Probeer handmatig een PrivateSend verzoek in te dienen</translation>
     </message>
     <message>
         <source>Reset the current status of PrivateSend (can interrupt PrivateSend if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Zresetuj obecny stan PrivateSend (może przerwać PrivateSend, jeżeli jest w trakcie mieszania. Może Cię to kosztować! )</translation>
+        <translation>Reset de huidige status van PrivateSend (kan PrivateSend onderbreken indien het Mix proces bezig is, wat u geld kan kosten!)</translation>
     </message>
     <message>
         <source>Information about PrivateSend and Mixing</source>
-        <translation>Informacje o PrivateSend i Mieszaniu.</translation>
+        <translation>Informatie over PrivateSend en mixen</translation>
     </message>
     <message>
         <source>Info</source>
-        <translation>Informacje</translation>
+        <translation>Informatie</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
-        <translation>Ilość oraz Rundy:</translation>
+        <translation>Bedrag en Rondes:</translation>
     </message>
     <message>
         <source>0 DASH / 0 Rounds</source>
-        <translation>0 DASH / 0 Rund</translation>
+        <translation>0 DASH / 0 Rondes</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
-        <translation>Zgłoszone denominacje:</translation>
+        <translation>Ingezonden Denom:</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>nie dotyczy</translation>
+        <translation>niet beschikbaar</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Ostatnie transakcje</translation>
+        <translation>Recente transacties</translation>
     </message>
     <message>
         <source>Start/Stop Mixing</source>
-        <translation>Uruchom/Zatrzymaj Mieszanie</translation>
+        <translation>Start/Stop met Mixen</translation>
     </message>
     <message>
         <source>PrivateSend Balance:</source>
-        <translation>Balans PrivateSend</translation>
+        <translation>PrivateSend-balans:</translation>
     </message>
     <message>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>Nominały, które wysłałeś do Masternoda.&lt;br&gt;Aby zostały wymieszane, inni użytkownicy muszą wysłać dokładnie takie same nominały. </translation>
+        <translation>De denominaties zijn bij de Masternode ingebracht. 
+Om te mixen moeten andere gebruikers exact dezelfde denominaties inbrengen.</translation>
     </message>
     <message>
         <source>(Last Message)</source>
-        <translation>(Ostatnia Wiadomość)</translation>
+        <translation>(Laatste Bericht)</translation>
     </message>
     <message>
         <source>Try Mix</source>
-        <translation>Mieszaj</translation>
+        <translation>Probeer te Mixen</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1763,231 +1766,231 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>out of sync</source>
-        <translation>desynchronizacja</translation>
+        <translation>niet gesynchroniseerd</translation>
     </message>
     <message>
         <source>Automatic backups are disabled, no mixing available!</source>
-        <translation>Automatyczne kopie zapasowe wyłączone, brak możliwości miksowania</translation>
+        <translation>Automatische backups uitgeschakeld, Mixfunctie is niet beschikbaar!</translation>
     </message>
     <message>
         <source>Start Mixing</source>
-        <translation>Uruchom miksowanie</translation>
+        <translation>Start met Mixen</translation>
     </message>
     <message>
         <source>Stop Mixing</source>
-        <translation>Zatrzymaj miksowanie</translation>
+        <translation>Stop met Mixen</translation>
     </message>
     <message>
         <source>No inputs detected</source>
-        <translation>Nie wykryto wejść</translation>
+        <translation>Geen input gedetecteerd</translation>
     </message>
     <message numerus="yes">
         <source>%n Rounds</source>
-        <translation><numerusform>%n runda</numerusform><numerusform>%n rundy</numerusform><numerusform>%n rund</numerusform><numerusform>%n rund</numerusform></translation>
+        <translation><numerusform>%n Ronde</numerusform><numerusform>%n Rondes</numerusform></translation>
     </message>
     <message>
         <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Znaleziono wystarczającą ilość odpowiednich środków aby zanonimizowaź %1</translation>
+        <translation>Genoeg compatible munten om te anonimiseren %1</translation>
     </message>
     <message>
         <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
-        <translation>Nie ma wystarczającej ilośći środków aby moć dokonać anonimizacji &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;zamiast oryginalnej sumy &lt;spam style='color:red;'&gt;%2&lt;/spam&gt; zostanie zanonimizowanych.</translation>
+        <translation>Niet genoeg compatibele inputs &lt;span style='color:red;'&gt;%1&lt;/span&gt;te anonimiseren,&lt;br&gt; zal in plaats daarvan &lt;span style='color:red;'&gt;%2&lt;/span&gt; anonimiseren</translation>
     </message>
     <message>
         <source>Overall progress</source>
-        <translation>Całkowity postęp</translation>
+        <translation>Totale voortgang</translation>
     </message>
     <message>
         <source>Denominated</source>
-        <translation>Denominowane</translation>
+        <translation>Gedenomineerd</translation>
     </message>
     <message>
         <source>Mixed</source>
-        <translation>Zmiksowane</translation>
+        <translation>Gemixt</translation>
     </message>
     <message>
         <source>Anonymized</source>
-        <translation>Zanonimowane</translation>
+        <translation>Geanonimiseerd</translation>
     </message>
     <message numerus="yes">
         <source>Denominated inputs have %5 of %n rounds on average</source>
-        <translation><numerusform>Denonimowane wejścia mają średnio %5 rundę z %n </numerusform><numerusform>Denonimowane wejścia mają średnio %5 rundy z %n </numerusform><numerusform>Denonimowane wejścia mają średnio %5 rund z %n</numerusform><numerusform>Denonimowane wejścia mają średnio %5 z %n rund</numerusform></translation>
+        <translation><numerusform>Gedenomineerde invoeren hebben gemiddeld %5 van %n ronde</numerusform><numerusform>Gedenomineerde inputs hebben gemiddeld %5 van %n rondes</numerusform></translation>
     </message>
     <message>
         <source>keys left: %1</source>
-        <translation>ilość pozostałych kluczy: %1</translation>
+        <translation>sleutels over: %1</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation>Wyłączony</translation>
+        <translation>Uitgeschakeld</translation>
     </message>
     <message>
         <source>Very low number of keys left since last automatic backup!</source>
-        <translation>Od czasu ostatniego automatycznego backupu pozostało bardzo mało kluczy!</translation>
+        <translation>Het aantal overgebleven sleutels sinds de laatste backup is erg laag!</translation>
     </message>
     <message>
         <source>We are about to create a new automatic backup for you, however &lt;span style='color:red;'&gt; you should always make sure you have backups saved in some safe place&lt;/span&gt;!</source>
-        <translation>Utworzymy nową automatyczną kopię zapasową, jednak&lt;span style='color:red;'&gt; zawsze musisz zapisywać swoje kopie zapasowe w bezpiecznym miejscu &lt;/span&gt;!</translation>
+        <translation>We staan op het punt om een nieuwe automatische backup voor u aan te maken, echter &lt;span style='color:red;'&gt;u moet er zelf altijd voor zorgen dat u backups op een veilige locatie heeft opgeslagen!&lt;/span&gt;</translation>
     </message>
     <message>
         <source>Note: You turn this message off in options.</source>
-        <translation>Uwaga: Ten komunikat możesz wyłączyć w Opcjach.</translation>
+        <translation>Opmerking: Dit bericht kan kan worden uitgeschakeld in de instellingen</translation>
     </message>
     <message>
         <source>WARNING! Something went wrong on automatic backup</source>
-        <translation>UWAGA! Wystąpił błąd przy tworzeniu automatycznej kopii zapasowej</translation>
+        <translation>WAARSCHUWING! Er is iets mis gegaan met de automatische backup</translation>
     </message>
     <message>
         <source>ERROR! Failed to create automatic backup</source>
-        <translation>BŁĄD! Automatyczne tworzenie kopii zapasowej nie powiodło się</translation>
+        <translation>FOUT! Het maken van een automatische backup is mislukt</translation>
     </message>
     <message>
         <source>Mixing is disabled, please close your wallet and fix the issue!</source>
-        <translation>Mieszanie wyłączone! Zamknij portfel i rozwiąż problem.</translation>
+        <translation>Mixen is uiteschakeld, gelieve de portemonnee af te sluiten en het probleem op te lossen!</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation>Włączony</translation>
+        <translation>Ingeschakeld</translation>
     </message>
     <message>
         <source>see debug.log for details.</source>
-        <translation>Szczegóły znajdziesz w pliku debug.log.</translation>
+        <translation>zie debug.log voor meer informatie.</translation>
     </message>
     <message>
         <source>WARNING! Failed to replenish keypool, please unlock your wallet to do so.</source>
-        <translation>OSTRZEŻENIE! Nie udało się uzupełnić puli kluczy. W tym celu musisz odblokować portfel.</translation>
+        <translation>WAARSCHUWING! Het aanvullen van de keypool is mislukt, ontgrendel alstublieft uw portemonnee om dit te doen.</translation>
     </message>
     <message>
         <source>Last PrivateSend message:
 </source>
-        <translation>Ostatnia wiadomość PrivateSend:
+        <translation>Laatste PrivateSend bericht:
 </translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>NIEDOSTĘPNE</translation>
+        <translation>N.v.t.</translation>
     </message>
     <message>
         <source>PrivateSend was successfully reset.</source>
-        <translation>PrivateSend pomyślnie zresetowano</translation>
+        <translation>PrivateSend is succesvol gereset</translation>
     </message>
     <message>
         <source>If you don't want to see internal PrivateSend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>Jeśli nie chcesz widzieć wewnętrznych transakcji/opłat PrivateSend to w zakładce "Transakcje" wybierz opcję "Najpopularniejsza" jako rodzaj transakcji.</translation>
+        <translation>Als u de interne PrivateSend transacties/vergoeding niet wilt zien, selecteer dan "Meest gebruikte" als Type in de "Transacties" tab.</translation>
     </message>
     <message>
         <source>PrivateSend requires at least %1 to use.</source>
-        <translation>PrivateSend wymaga użycia co najmniej %1</translation>
+        <translation>PrivateSend benodigd ten minste %1 om te gebruiken.</translation>
     </message>
     <message>
         <source>Wallet is locked and user declined to unlock. Disabling PrivateSend.</source>
-        <translation>Portfel jest zablokowany, a użytkownik odmówił odblokowania. PrivateSend został wyłączony.</translation>
+        <translation>De portemonnee is vergrendeld en de gebruiker heeft geweigerd deze te ontgrendelen. PrivateSend is uitgeschakeld.</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>Błąd żądania płatności</translation>
+        <translation>Fout bij betalingsverzoek</translation>
     </message>
     <message>
         <source>Cannot start dash: click-to-pay handler</source>
-        <translation>Nie można włączyć dash: kliknij-aby-zapłacić ubsługującemu.</translation>
+        <translation>Kan Dash niet starten: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>Obsługa URI</translation>
+        <translation>URI-afhandeling</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Żądanie płatności podowduje że URL jest niewłaściwy: %1</translation>
+        <translation>URL om betalingsverzoek te verkrijgen is ongeldig: %1</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Nieprawidłowy adres płatności %1</translation>
+        <translation>Ongeldig betalingsadres %1</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
-        <translation>URI nie może zostać przeanalizowany! Mogło to być spowodowane przez niewłaściwy adres Dash lub niewłaściwe parametry URI</translation>
+        <translation>URI kan niet verwerkt worden! Dit kan het gevolg zijn van een ongeldig Dash adres of misvormde URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>Obsługa pliku z żądaniem płatności</translation>
+        <translation>Betalingsverzoek bestandsafhandeling</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Nie można odczytać pliku z żądaniem płatności! Może to być spowodowane przez niewłaściwy plik z żądaniem płatności.</translation>
+        <translation>Betalingsverzoekbestand kan niet gelezen of verwerkt worden! Dit kan veroorzaakt worden door een ongeldig betalingsverzoekbestand.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Żądanie płatności zostało odrzucone</translation>
+        <translation>Betalingsverzoek geweigerd</translation>
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>Sieć żądania płatnośc nie pasuje do sieci klienta.</translation>
+        <translation>Betalingsaanvraagnetwerk komt niet overeen met klantennetwerk.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Żądanie płatności wygasło.</translation>
+        <translation>Betalingsverzoek verlopen.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>Żądanie płatności nie zostało zainicjonowane.</translation>
+        <translation>Betalingsaanvraag is niet geïnitialiseerd.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Niezweryfikowane żądania płatności dla specjalnych skryptów z płatnościami nie są obsługiwane.</translation>
+        <translation>Niet-geverifieerde betalingsverzoeken naar aangepaste betalingsscripts worden niet ondersteund.</translation>
     </message>
     <message>
         <source>Invalid payment request.</source>
-        <translation>Nieważne żądanie płatności.</translation>
+        <translation>Ongeldig betalingsverzoek.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Żądana kwota %1 jest za niska (uznana za pył).</translation>
+        <translation>Het gevraagde betalingsbedrag van %1 is te weinig (beschouwd als stof).</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>Zwrot z %1</translation>
+        <translation>Restitutie van %1</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Żądanie płatności %1 jest zbyt duże (%2 bitów, maksymalny rozmiar to %3 bitów).</translation>
+        <translation>Betalingsverzoek %1 is te groot (%2 bytes, toegestaan ​​%3 bytes).</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>Błąd komunikacji z %1 : %2</translation>
+        <translation>Fout bij communiceren met %1: %2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>Żądanie płatności nie może zostać przeanalizowane!</translation>
+        <translation>Betalingsverzoek kan niet worden verwerkt!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Błędna odpowiedź z serwera %1</translation>
+        <translation>Ongeldige respons van server %1</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>Błąd żądania sieci</translation>
+        <translation>Fout bij netwerkverzoek</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Płatność potwierdzona</translation>
+        <translation>Betaling bevestigd</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>NodeId</source>
-        <translation>NodeId</translation>
+        <translation>Node ID</translation>
     </message>
     <message>
         <source>Node/Service</source>
-        <translation>Węzeł/Usługa</translation>
+        <translation>Node/Dienst</translation>
     </message>
     <message>
         <source>User Agent</source>
-        <translation>Agent użytkownika</translation>
+        <translation>User Agent</translation>
     </message>
     <message>
         <source>Ping</source>
@@ -2002,350 +2005,350 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>%1 didn't yet exit safely...</source>
-        <translation>%1 jeszcze się bezpiecznie nie zamknął...</translation>
+        <translation>%1 sloot nog niet veilig af...</translation>
     </message>
     <message>
         <source>Error reading masternode configuration file: %1</source>
-        <translation>Błąd wczytywania pliku konfiguracji masternoda: %1</translation>
+        <translation>Fout in het lezen van masternode configuratie bestand: %1</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Kwota</translation>
+        <translation>Bedrag</translation>
     </message>
     <message>
         <source>Enter a Dash address (e.g. %1)</source>
-        <translation>Wpisz adres Dash (np. %1)</translation>
+        <translation>Voer een Dashadres in (bijv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
-        <translation>%1 dzień</translation>
+        <translation>%1 d</translation>
     </message>
     <message>
         <source>%1 h</source>
-        <translation>%1 godz.</translation>
+        <translation>%1 uur</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation>%1 min.</translation>
+        <translation>%1 m</translation>
     </message>
     <message>
         <source>%1 s</source>
-        <translation>%1 sek.</translation>
+        <translation>%1 s</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Żaden</translation>
+        <translation>Geen</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>Nieważne</translation>
+        <translation>N.v.t.</translation>
     </message>
     <message>
         <source>%1 ms</source>
-        <translation>%1 milisec.</translation>
+        <translation>%1 ms</translation>
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekundy</numerusform><numerusform>%n sekund</numerusform><numerusform>%n sek.</numerusform></translation>
+        <translation><numerusform>%n seconde</numerusform><numerusform>%n seconden</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minuta</numerusform><numerusform>%n minuty</numerusform><numerusform>%n minut</numerusform><numerusform>%n min.</numerusform></translation>
+        <translation><numerusform>%n minuut</numerusform><numerusform>%n minuten</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n godzina</numerusform><numerusform>%n godziny</numerusform><numerusform>%n godzin</numerusform><numerusform>%n godziny</numerusform></translation>
+        <translation><numerusform>%n uur</numerusform><numerusform>%n uren</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n dzień</numerusform><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform></translation>
+        <translation><numerusform>%n dag</numerusform><numerusform>%n dagen</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n tydzień</numerusform><numerusform>%n tygodnie</numerusform><numerusform>%n tygodnie</numerusform><numerusform>%n tygodnie</numerusform></translation>
+        <translation><numerusform>%n week</numerusform><numerusform>%n weken</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n rok</numerusform><numerusform>%n lata</numerusform><numerusform>%n lata</numerusform><numerusform>%n lata</numerusform></translation>
+        <translation><numerusform>%n jaar</numerusform><numerusform>%n jaren</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 oraz %2</translation>
+        <translation>%1 en %2</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>nieznany</translation>
+        <translation>onbekend</translation>
     </message>
 </context>
 <context>
     <name>QObject::QObject</name>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>Błąd: Określony folder danych "%1" nie istnieje.</translation>
+        <translation>Fout: Opgegeven gegevensmap "%1" bestaat niet.</translation>
     </message>
     <message>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>Błąd: Nie można przetworzyć pliku konfiguracyjnego: %1. Używaj tylko składni klucz=wartość.</translation>
+        <translation>Fout: Kan configuratiebestand niet verwerken: %1. Gebruik enkel de key=value syntax.</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation>Błąd: %1</translation>
+        <translation>Fout: %1</translation>
     </message>
 </context>
 <context>
     <name>QRDialog</name>
     <message>
         <source>QR-Code Title</source>
-        <translation>Tytuł Kodu QR</translation>
+        <translation>QR-Code titel</translation>
     </message>
     <message>
         <source>QR Code</source>
-        <translation>Kod QR</translation>
+        <translation>QR-code</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Zapisz obraz...</translation>
+        <translation>&amp;Sla afbeelding op...</translation>
     </message>
     <message>
         <source>Error creating QR Code.</source>
-        <translation>Błąd kreowania kodu QR.</translation>
+        <translation>Fout bij het Creëren van QR Code.</translation>
     </message>
 </context>
 <context>
     <name>QRGeneralImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Zapisz obraz...</translation>
+        <translation>&amp;Sla afbeelding op...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>&amp;Kopiuj obraz</translation>
+        <translation>&amp;Afbeelding kopiëren</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>Zapisz Kod QR</translation>
+        <translation>Sla QR Code op.</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>Obraz PNG (*.png)</translation>
+        <translation>PNG afbeelding (*.png)</translation>
     </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Zapisz obraz...</translation>
+        <translation>&amp;Sla afbeelding op...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>&amp;Kopiuj obraz</translation>
+        <translation>&amp;Afbeelding kopiëren</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>Zapisz Kod QR</translation>
+        <translation>Sla QR-code op</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>Obraz PNG (*.png)</translation>
+        <translation>PNG afbeelding (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>Tools window</source>
-        <translation>Okno narzędzi</translation>
+        <translation>Gereedschapsscherm</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informacje</translation>
+        <translation>&amp;Informatie</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Ogólne</translation>
+        <translation>Algemeen</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Nazwa</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>NIEDOSTĘPNE</translation>
+        <translation>N.v.t.</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Liczba połączeń</translation>
+        <translation>Aantal connecties</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Otwórz</translation>
+        <translation>&amp;Open</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Czas uruchomienia</translation>
+        <translation>Opstarttijd</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Sieć</translation>
+        <translation>Netwerk</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Czas ostatniego bloku</translation>
+        <translation>Tijd laatste blok</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Plik logowania debugowania</translation>
+        <translation>Debug-logbestand</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Aktualna liczba bloków</translation>
+        <translation>Huidig aantal blokken</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Wersja klienta</translation>
+        <translation>Clientversie</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Używana wersja BerkeleyDB</translation>
+        <translation>Gebruikt BerkeleyDB versie</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Ciąg bloków</translation>
+        <translation>Blokketen</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
-        <translation>Liczba masternodów</translation>
+        <translation>Aantal Masternodes</translation>
     </message>
     <message>
         <source>Memory Pool</source>
-        <translation>Pula Pamięci</translation>
+        <translation>Memory Pool</translation>
     </message>
     <message>
         <source>Current number of transactions</source>
-        <translation>Aktualna liczba transakcji</translation>
+        <translation>Huidig aantal transacties</translation>
     </message>
     <message>
         <source>Memory usage</source>
-        <translation>Użycie pamięci</translation>
+        <translation>Geheugengebruik</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Konsola</translation>
+        <translation>&amp;Console</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Wyczyść konsolę</translation>
+        <translation>Maak console leeg</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>$Ruch sieciowy</translation>
+        <translation>&amp;Netwerkverkeer</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Wyczyść</translation>
+        <translation>&amp;Wissen</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Kwota ogólna</translation>
+        <translation>Totalen</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Otrzymany</translation>
+        <translation>Ontvangen</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Wysłany</translation>
+        <translation>Verstuurd</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;peery</translation>
+        <translation>$Peers</translation>
     </message>
     <message>
         <source>Banned peers</source>
-        <translation>Zablokowane peery</translation>
+        <translation>Gebande peers</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Wybierz peera aby zobaczyć jego szczegółowe informacje.</translation>
+        <translation>Selecteer een peer om details te bekijken</translation>
     </message>
     <message>
         <source>Whitelisted</source>
-        <translation>Biała lista</translation>
+        <translation>Toegestaan</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation>Kierunek</translation>
+        <translation>Richting</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Wersja</translation>
+        <translation>Versie</translation>
     </message>
     <message>
         <source>Starting Block</source>
-        <translation>Początkowy blok</translation>
+        <translation>Start Blok</translation>
     </message>
     <message>
         <source>Synced Headers</source>
-        <translation>Zsynchronizowane nagłówki</translation>
+        <translation>Gesynchroniseerde headers</translation>
     </message>
     <message>
         <source>Synced Blocks</source>
-        <translation>Zsynchronizowane bloki</translation>
+        <translation>Gesynchroniseerde blokken</translation>
     </message>
     <message>
         <source>Wallet Path</source>
-        <translation>Ścieżka portfela</translation>
+        <translation>Portemonnee bestandspad</translation>
     </message>
     <message>
         <source>User Agent</source>
-        <translation>Agent użytkownika</translation>
+        <translation>Gebruikers klant</translation>
     </message>
     <message>
         <source>Datadir</source>
-        <translation>Datadir</translation>
+        <translation>Gegevensmap</translation>
     </message>
     <message>
         <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otwórz plik dziennika debugowania %1 z obecnego katalogu z danymi. Może to potrwać kilka sekund przy większych plikach.</translation>
+        <translation>Open het %1 debug-logbestand van de huidige gegevensmap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <source>Decrease font size</source>
-        <translation>Zmniejsz rozmiar czcionki</translation>
+        <translation>Verklein lettergrootte</translation>
     </message>
     <message>
         <source>Increase font size</source>
-        <translation>Zwiększ rozmiar czcionki</translation>
+        <translation>Vergroot lettergrootte</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Usługi</translation>
+        <translation>Services</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>zablokuj wynik</translation>
+        <translation>Verbanningscore</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Czas Połączenia</translation>
+        <translation>Verbindingstijd</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Ostatnio Wysłane</translation>
+        <translation>Laats gestuurd</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Ostatnio Odebrane</translation>
+        <translation>Laatst ontvangen</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>czas opóźnienia sieci</translation>
+        <translation>Pingtijd</translation>
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
-        <translation>Czas trwania obecnego pinga.</translation>
+        <translation>De duur van een momenteel uitstaande ping.</translation>
     </message>
     <message>
         <source>Ping Wait</source>
-        <translation>Czekaj Ping</translation>
+        <translation>Pingwachttijd</translation>
     </message>
     <message>
         <source>Min Ping</source>
@@ -2353,123 +2356,123 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Time Offset</source>
-        <translation>Czas</translation>
+        <translation>Tijdcompensatie</translation>
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
-        <translation>&amp;Naprawa portfela</translation>
+        <translation>&amp;Portemonnee Herstel</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
-        <translation>Ratuj portfel</translation>
+        <translation>Gerede portemonnee</translation>
     </message>
     <message>
         <source>Rescan blockchain files</source>
-        <translation>Przeskanuj pliki lańcucha</translation>
+        <translation>Herscan blokketenbestanden</translation>
     </message>
     <message>
         <source>Recover transactions 1</source>
-        <translation>Odzyskaj transakcję 1</translation>
+        <translation>Herstelde transacties 1</translation>
     </message>
     <message>
         <source>Recover transactions 2</source>
-        <translation>Odzyskaj transakcję 2</translation>
+        <translation>Herstelde transacties 2</translation>
     </message>
     <message>
         <source>Upgrade wallet format</source>
-        <translation>Uaktualnij format portfela</translation>
+        <translation>Upgrade portemonnee formaat</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
-        <translation>Przycisk poniżej zrestartuje portfel z opcjami linii komend służącymi do naprawy portfela, rozwiązywania problemów z plikami łańcucha bloków oraz zgubionych lub nieważnych transakcji .</translation>
+        <translation>De knoppen onderaan zal de portemonnee herstarten met commandoregelopties om de portemonnee te herstellen of om problemen met corrupte blokketenbestanden of ontbrekende transacties te herstellen.</translation>
     </message>
     <message>
         <source>-salvagewallet: Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>-salvagewallet: Próbuje przywrócić prywatne klucze z uszkodzonego portfela.</translation>
+        <translation>-red portemonnee: Poging om geheime sleutels terug te halen uit het beschadigede portemonnee bestand (wallet.dat.)</translation>
     </message>
     <message>
         <source>-rescan: Rescan the block chain for missing wallet transactions.</source>
-        <translation>-rescan: Przeskanuje łańcuch w poszukiwaniu brakujących transakcji portfela.</translation>
+        <translation>-herscan: Herscan de blokketen voor verlopen transacties.</translation>
     </message>
     <message>
         <source>-zapwallettxes=1: Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation>-zapwallettxes=1: Odzyskaj transakcje z łańcucha bloków (nie zmieniaj meta-danych, np. właściciela konta).</translation>
+        <translation>-zapwallettxes=1: Herstelde transacties van de blokketen (behoud metadata; bv. accounteigenaar)</translation>
     </message>
     <message>
         <source>-zapwallettxes=2: Recover transactions from blockchain (drop meta-data).</source>
-        <translation>-zapwallettxes=2: Odzyskaj transakcje z blockchainu (pozbądź się meta-danych)</translation>
+        <translation>-zapwallettxed=2: Herstelde transacties vanuit de blokketen (laat metadata vervallen)</translation>
     </message>
     <message>
         <source>-upgradewallet: Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
-        <translation>-upgradewallet: przeprowadź upgrade portfela do najnowszego formatu podczas uruchomienia. (Nie oznacza to zaktualizowania samego portfela!)</translation>
+        <translation>-upgrade portemonnee= Upgrade portemonnee naar het laatste formaat bij het starten: (Noot: dit is GEEN update van de portemonnee zelf!)</translation>
     </message>
     <message>
         <source>Wallet repair options.</source>
-        <translation>Opcje naprawy portfela.</translation>
+        <translation>Portemonneeherstelopties</translation>
     </message>
     <message>
         <source>Rebuild index</source>
-        <translation>Przebuduj indeks</translation>
+        <translation>Herbouw de index</translation>
     </message>
     <message>
         <source>-reindex: Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>reindex: Odtwórz index łańcucha bloków z najnowszego pliku blk000??.dat </translation>
+        <translation>-herbouw index: Herbouw de blokketen index vanuit de huidige blk000???.dat bestanden.</translation>
     </message>
     <message>
         <source>&amp;Disconnect</source>
-        <translation>&amp;Rozłącz</translation>
+        <translation>&amp;Verbreek verbinding</translation>
     </message>
     <message>
         <source>Ban for</source>
-        <translation>Zablokuj na</translation>
+        <translation>Ban Node voor</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
-        <translation>1 &amp;godzinę</translation>
+        <translation>1 &amp;uur</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
-        <translation>1 &amp;dzień</translation>
+        <translation>1 &amp;dag</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1 &amp;tydzień</translation>
+        <translation>1 &amp;week</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
-        <translation>1 &amp;rok</translation>
+        <translation>1 &amp;jaar</translation>
     </message>
     <message>
         <source>&amp;Unban</source>
-        <translation>&amp;Miejski</translation>
+        <translation>&amp;Maak ban voor Node ongedaan</translation>
     </message>
     <message>
         <source>Welcome to the %1 RPC console.</source>
-        <translation>Witaj w konsoli %1 RPC.</translation>
+        <translation>Welkom bij de %1 RPC-console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Użyj strzałek do przewijania historii i &lt;b&gt;Ctrl-L&lt;/b&gt; aby wyczyścić ekran</translation>
+        <translation>Gebruik de pijltjestoetsen om door de geschiedenis te navigeren, en &lt;b&gt;Ctrl-L&lt;/b&gt; om het scherm leeg te maken.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Wpisz &lt;b&gt;help&lt;/b&gt; aby uzyskać listę dostępnych komend</translation>
+        <translation>Typ &lt;b&gt;help&lt;/b&gt; voor een overzicht van de beschikbare commando's.</translation>
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
-        <translation>UWAGA: Oszuści często mówią użytkownikom aby wpisywali tutaj komendy, co umożliwia im kradzież monet. Nie używaj tej konsoli jeśli w pełni nie rozumiesz funkcji komend których używasz. </translation>
+        <translation>WAARSCHUWING: Er zijn oplichters die gebruikers hier commando's in laten voeren om zo de inhoud van hun portemonnee te stelen. Gebruik deze console niet zonder dat u de gevolgen van uw commando's volledig begrijpt.</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>Wejście:</translation>
+        <translation>In:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Wyjście:</translation>
+        <translation>Uit:</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
-        <translation>Aktywność sieci jest wyłączona</translation>
+        <translation>Netwerkactiviteit uitgeschakeld</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2477,7 +2480,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation>%1 KB</translation>
+        <translation>%1 Kb</translation>
     </message>
     <message>
         <source>%1 MB</source>
@@ -2485,161 +2488,164 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation>%1 GB</translation>
+        <translation>%1 Gb</translation>
     </message>
     <message>
         <source>(node id: %1)</source>
-        <translation>(id węzła: %1)</translation>
+        <translation>(node id: %1)</translation>
     </message>
     <message>
         <source>via %1</source>
-        <translation>przez %1</translation>
+        <translation>via %1</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>nigdy</translation>
+        <translation>nooit</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>przychodzące</translation>
+        <translation>Inkomend</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>wychodzące</translation>
+        <translation>Uitgaand</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Tak</translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Nie</translation>
+        <translation>Nee</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>nieznane</translation>
+        <translation>onbekend</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
-        <translation>Użyj jeden z poprzednio użytych adresów odbiorczych.&lt;br&gt; Podczas ponownego używania adresów występują problemy z bezpieczeństwem i prywatnością.&lt;br&gt; Nie korzystaj z tej opcji, chyba że odtwarzasz żądanie płatności wykonane już wcześniej.</translation>
+        <translation>Gebruik een van de eerder gebruikte ontvangstadressen opnieuw.
+Het opnieuw gebruiken van adressen heeft beveiliging- en privacy problemen. 
+Gebruik dit niet, behalve als er eerder een betalingsverzoek opnieuw gegenereerd is.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>Użyj istniejącego adresu odbiorczego (nie zalecane)</translation>
+        <translation>H&amp;ergebruik en bestaand ontvangstadres (niet aanbevolen)</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
-        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania. Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Dash.</translation>
+        <translation>Een optioneel bericht om aan het betalingsverzoek toe te voegen, die zal worden getoond wanneer het verzoek wordt geopend. Nota: Het bericht zal niet verzonden worden met de betaling over het Dash netwerk.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Wiadomość:</translation>
+        <translation>&amp;Bericht</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Opcjonalna etykieta do skojarzenia z nowym adresem odbiorczym.</translation>
+        <translation>Een optioneel label om te associëren met het nieuwe ontvangende adres</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
-        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania.&lt;br&gt; Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Dash.</translation>
+        <translation>Een optioneel bericht om aan het betalingsverzoek toe te voegen, die zal worden getoond wanneer het verzoek wordt geopend. &lt;br&gt;
+Nota: Het bericht zal niet verzonden worden met de betaling over het Dash netwerk.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Użyj tego formularza do zażądania płatności. Wszystkie pola są &lt;b&gt;opcjonalne&lt;/b&gt;.</translation>
+        <translation>Gebruik dit formulier om te verzoeken tot betaling. Alle velden zijn &lt;b&gt;optioneel&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Etykieta:</translation>
+        <translation>&amp;Label:</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Opcjonalna kwota żądania. Pozostaw puste pole lub zero, aby nie podawać konkretnej kwoty.</translation>
+        <translation>Een optioneel te verzoeken bedrag. Laat dit leeg, of nul, om geen specifiek bedrag aan te vragen.</translation>
     </message>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;Kwota:</translation>
+        <translation>&amp;Bedrag</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;Żądaj płatności</translation>
+        <translation>&amp;Betalingsverzoek</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Wyczyść pola formularza</translation>
+        <translation>Wis alle velden op het formulier.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Wyczyść</translation>
+        <translation>Wissen</translation>
     </message>
     <message>
         <source>Request InstantSend</source>
-        <translation>Zażądaj InstantSend</translation>
+        <translation>Verzoek InstantSend</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>Żądanie historii płatności</translation>
+        <translation>Geschiedenis van de betalingsverzoeken</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Pokaż zaznaczone żądanie (działa jak podwójne kliknięcie)</translation>
+        <translation>Toon het geselecteerde verzoek (doet hetzelfde als dubbelklikken)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Pokaż</translation>
+        <translation>Toon</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Usuń zaznaczone z listy</translation>
+        <translation>Verwijder de geselecteerde items van de lijst</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Usuń</translation>
+        <translation>Verwijder</translation>
     </message>
     <message>
         <source>Copy URI</source>
-        <translation>Kopiuj URI</translation>
+        <translation>Kopieer URI</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiuj etykietę</translation>
+        <translation>Kopieer label</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Kopiuj wiadomość</translation>
+        <translation>Kopieer bericht</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiuj kwotę</translation>
+        <translation>Kopieer bedrag</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>Kod QR</translation>
+        <translation>QR-code</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>Kopiuj &amp;URI</translation>
+        <translation>Kopieer &amp;URI</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Kopiuj &amp;adres</translation>
+        <translation>Kopieer &amp;adres</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Zapisz obraz...</translation>
+        <translation>&amp;Sla afbeelding op...</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>Żądaj płatności do %1</translation>
+        <translation>Betalingsverzoek tot %1</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>Informacje o płatności</translation>
+        <translation>Betalingsinformatie</translation>
     </message>
     <message>
         <source>URI</source>
@@ -2651,15 +2657,15 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Kwota</translation>
+        <translation>Bedrag</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Etykieta</translation>
+        <translation>Label</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Wiadomość</translation>
+        <translation>Bericht</translation>
     </message>
     <message>
         <source>InstantSend</source>
@@ -2667,133 +2673,133 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Tak</translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Nie</translation>
+        <translation>Nee</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Wynikowy URI jest zbyt długi, spróbuj zmniejszyć tekst etykiety / wiadomości</translation>
+        <translation>Resulterende URI te lang, probeer de tekst korter te maken voor het label/bericht.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Błąd kodowania URI w Kodzie QR.</translation>
+        <translation>Fout tijdens encoderen URI in QR-code</translation>
     </message>
 </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Etykieta</translation>
+        <translation>Label</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Wiadomość</translation>
+        <translation>Bericht</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez etykiety)</translation>
+        <translation>(geen label)</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(brak wiadomości)</translation>
+        <translation>(geen bericht)</translation>
     </message>
     <message>
         <source>(no amount requested)</source>
-        <translation>(brak kwoty)</translation>
+        <translation>(geen bedrag aangevraagd)</translation>
     </message>
     <message>
         <source>Requested</source>
-        <translation>Zażądano</translation>
+        <translation>Verzoek ingediend</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Wyślij Monety</translation>
+        <translation>Verstuur munten</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Funkcje sterowania monetami</translation>
+        <translation>Coin controleopties</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>Wejścia...</translation>
+        <translation>Inputs...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>zaznaczone automatycznie</translation>
+        <translation>automatisch geselecteerd</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Niewystarczające środki!</translation>
+        <translation>Onvoldoende fonds!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Ilość:</translation>
+        <translation>Kwantiteit</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bajtów:</translation>
+        <translation>Bytes:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Kwota:</translation>
+        <translation>Bedrag:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Opłata:</translation>
+        <translation>Vergoeding:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Pył</translation>
+        <translation>Stof:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Po opłacie:</translation>
+        <translation>Na vergoeding:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Reszta:</translation>
+        <translation>Wisselgeld:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Kiedy ta opcja jest wybrana, ale adres reszty jest pusty lub nieprawidłowy to reszta będzie wysyłana na adres nowo-wygenerowany.</translation>
+        <translation>Als dit is geactiveerd, maar het wisselgeldadres is leeg of ongeldig, dan wordt het wisselgeld verzonden naar een nieuw gegenereerd adres.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Niestandardowe adresy reszty</translation>
+        <translation>Aangepast wisselgeldadres</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Opłata za transakcje:</translation>
+        <translation>Transactiekosten</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Wybierz...</translation>
+        <translation>Kies...</translation>
     </message>
     <message>
         <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until your have validated the complete chain.</source>
-        <translation>Używając opcji fallbackfee może sprawić, że transakcja nie zostanie potwierdzona przez kilka godzin, dni, lub nigdy. Pomyśl nad ręcznym wybraniem wysokości opłaty, lub poczekaj pełną walidację łańcucha.</translation>
+        <translation>Het gebruik van de terugvalvergoeding kan resulteren in het verzenden van een transactie die meerdere uren of dagen (of nooit) nodig heeft om bevestigd te worden. Overweeg om handmatig een vergoeding te kiezen of wacht totdat de volledige blockchain gevalideerd is.</translation>
     </message>
     <message>
         <source>Warning: Fee estimation is currently not possible.</source>
-        <translation>Uwaga: Oszacowanie opłaty za transakcje jest aktualnie niemożliwe.</translation>
+        <translation>Waarschuwing: Schatting van de transactiekosten is momenteel niet mogelijk.</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>zamknij ustawienia opłat</translation>
+        <translation>Klap de vergoedinginstellingen dicht</translation>
     </message>
     <message>
         <source>Confirmation time target:</source>
-        <translation>Docelowy czas potwierdzenia:</translation>
+        <translation>Bevestigingstijddoel:</translation>
     </message>
     <message>
         <source>PrivateSend</source>
@@ -2805,75 +2811,75 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Jeśli ręcznie ustalona opłata wynosi 1000 Duffów, a sama transakcja ma tylko 250 bajtów, to opłata "za kilobajt" wynosi tylko 250 duffów. &lt;br/&gt;Dzieje się tak dla każdej transakcji poniżej 1000 duffów. W przypadku transakcji większych niż jeden kilobajt opłata jest naliczana od kilobajta. </translation>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 duffs en de transactie is maar 250 bytes, dan wordt bij "per kilobyte" 250 duffs aan toeslag berekend, &lt;br /&gt;terwijl er bij "tenminste" 1000 duffs worden berekend. Voor transacties die groter zijn dan een kilobyte, wordt in beide gevallen per kilobyte de toeslag berekend.</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Jeśli ręcznie ustalona opłata wynosi 1000 Duffów, a sama transakcja ma tylko 250 bitów, to opłata "za kilobajt" wynosi tylko 250 duffów.&lt;br/&gt; Dzieje się tak dla każdej transakcji poniżej 1000 duffów. W przypadku transakcji większych niż jeden kilobajt opłata jest naliczana od kilobajta.</translation>
+        <translation>Als de aangepaste toeslag is ingesteld op 1000 duffs en de transactie is maar 250 bytes, dan wordt bij "per kilobyte" 250 duffs aan toeslag berekend, &lt;br /&gt;terwijl er bij "totaal tenminste" 1000 duffs worden berekend. Voor transacties die groter zijn dan een kilobyte, wordt in beide gevallen per kilobyte de toeslag berekend.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for dash transactions than the network can process.</source>
-        <translation>Uiszczanie minimalnej opłaty za transakcję jest ok, dopóki ilość transakcji nie przekracza dostępnego miejsca w bloku. &lt;br /&gt;Jeśli zostanie wysłanych więcej transakcji niż sieć może przetworzyć, to może się zdarzyć, że Twoja transakcja nigdy nie zostanie potwierdzona.</translation>
+        <translation>Het betalen van de minimale vergoeding is prima zo lang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar houd er rekening mee dat dit kan eindigen in een nooit bevestigde transactie zodra er meer vraag is voor Dash transacties fdan het netwerk kan verwerken.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>na kilobajt</translation>
+        <translation>per kilobyte</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Ukryj</translation>
+        <translation>Verbergen</translation>
     </message>
     <message>
         <source>total at least</source>
-        <translation>Łączna kwota wynosi co najmniej</translation>
+        <translation>minimaal totaal</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(przeczytaj podpowiedź w chmurce)</translation>
+        <translation>(lees de tooltip)</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Polecany:</translation>
+        <translation>Aanbevolen:</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Niestandardowo:</translation>
+        <translation>Aangepast:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Opłata smart nie została jeszcze zainicjonowana. Zazwyczaj zajmuje to kilka bloków...)</translation>
+        <translation>(Slimme kosten zijn nog niet geïnitialiseerd Dit duurt meestal een paar blokken...)</translation>
     </message>
     <message>
         <source>normal</source>
-        <translation>normalny</translation>
+        <translation>normaal</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>szybki</translation>
+        <translation>snel</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Potwierdź czynność wysyłania</translation>
+        <translation>Bevestig de verstuuractie</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>Wy&amp;syłka</translation>
+        <translation>&amp;Verstuur</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Wyczyść wszystkie pola formularza</translation>
+        <translation>Wis alle velden van het formulier.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Wyczyść &amp;wszystko</translation>
+        <translation>Verwijder &amp;Alles</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Wyślij do wielu odbiorców na raz</translation>
+        <translation>Verstuur aan verschillende ontvangers ineens</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Dodaj Odbio&amp;rcę</translation>
+        <translation>Voeg &amp;Ontvanger Toe</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -2881,162 +2887,162 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Skopiuj ilość</translation>
+        <translation>Kopieer aantal</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiuj kwotę</translation>
+        <translation>Kopieer bedrag</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Skopiuj opłatę</translation>
+        <translation>Kopieer vergoeding</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Skopiuj ilość po opłacie</translation>
+        <translation>Kopieer na vergoeding</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Skopiuj ilość bajtów</translation>
+        <translation>Kopieer bytes</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>skopiuj drobne (poniżej 5460 duffów)</translation>
+        <translation>Kopieer stof</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Skopiuj resztę</translation>
+        <translation>Kopieer wijziging</translation>
     </message>
     <message>
         <source>using</source>
-        <translation>używając</translation>
+        <translation>gebruiken</translation>
     </message>
     <message>
         <source>anonymous funds</source>
-        <translation>anonimowe środki</translation>
+        <translation>anonieme geldmiddelen</translation>
     </message>
     <message>
         <source>(privatesend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(privatesend wymaga aby ta kwota została zaokrąglona do najbliżeszej %1).</translation>
+        <translation>(PrivateSend vereist dat dit bedrag afgerond wordt naar dedichtstbijzijnde %1)</translation>
     </message>
     <message>
         <source>any available funds (not anonymous)</source>
-        <translation>jakiekolwiek dostępne środki (brak anonimowości)</translation>
+        <translation>Al het beschikbare geldmiddelen (niet anoniem)</translation>
     </message>
     <message>
         <source>and InstantSend</source>
-        <translation>oraz InstantSend</translation>
+        <translation>en InstantSend</translation>
     </message>
     <message>
         <source>%1 to %2</source>
-        <translation>%1 do %2</translation>
+        <translation>%1 tot %2</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Czy na pewno chcesz wysłać?</translation>
+        <translation>Weet u zeker dat u wilt verzenden?</translation>
     </message>
     <message>
         <source>are added as transaction fee</source>
-        <translation>dodane są jako opłata za transakcje</translation>
+        <translation>worden toegevoegd als transactiekosten</translation>
     </message>
     <message>
         <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
-        <translation>Całkowita ilość = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
+        <translation>Totaal bedrag = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;=%2</translation>
     </message>
     <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(%1 z %2 wyświetlonych wpisów)&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;(%1 van de %2 items weergegeven)&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Potwierdź wysyłanie monet</translation>
+        <translation>Bevestig versturen munten</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Adres odbiorcy jest nieprawidłowy, proszę poprawić.</translation>
+        <translation>Het adres van de ontvanger is niet geldig. Gelieve opnieuw te controleren.</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Kwota do zapłacenia musi być większa od 0.</translation>
+        <translation>Het ingevoerde bedrag moet groter zijn dan 0.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Kwota przekracza twoje saldo.</translation>
+        <translation>Het bedrag is hoger dan uw huidige saldo.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Suma przekracza twoje saldo, gdy doliczymy %1 prowizji transakcyjnej.</translation>
+        <translation>Het totaal overschrijdt uw huidige saldo wanneer de %1 transactie vergoeding wordt meegerekend.</translation>
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Znaleziono identyczny adres: adres powinien być użyty tylko raz.</translation>
+        <translation>Dubbel adres gevonden: adressen mogen maar één keer worden gebruikt worden.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
-        <translation>Utworzenie transakcji nie powiodło się!</translation>
+        <translation>Transactiecreatie mislukt</translation>
     </message>
     <message>
         <source>The transaction was rejected with the following reason: %1</source>
-        <translation>Transakcja została odrzucona z następującym powodem: %1</translation>
+        <translation>De transactie werd afgewezen om de volgende reden: %1</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>Opłata wyższa niż %1 jest absurdalnie wysoka.</translation>
+        <translation>Een vergoeding van meer dan %1 wordt beschouwd als een absurd hoge vergoeding.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Żądanie płatności wygasło.</translation>
+        <translation>Betalingsverzoek verlopen.</translation>
     </message>
     <message numerus="yes">
         <source>%n block(s)</source>
-        <translation><numerusform>%n blok</numerusform><numerusform>%n bloki</numerusform><numerusform>%n bloków</numerusform><numerusform>%n bloków</numerusform></translation>
+        <translation><numerusform>%n blok</numerusform><numerusform>%n blokken</numerusform></translation>
     </message>
     <message>
         <source>Pay only the required fee of %1</source>
-        <translation>Uiść jedynie minimalną opłatę %1</translation>
+        <translation>Betaal alleen de verplichte transactie vergoeding van %1</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Potwierdzenia zaczną się za około %n blok</numerusform><numerusform>Potwierdzenia zaczną się za około %n bloki</numerusform><numerusform>Potwierdzenia zaczną się za około %n bloków</numerusform><numerusform>Potwierdzenia zaczną się za około %n bloków</numerusform></translation>
+        <translation><numerusform>Schatting is dat bevestiging begint binnen %n blok.</numerusform><numerusform>Schatting is dat bevestiging begint binnen %n blokken.</numerusform></translation>
     </message>
     <message>
         <source>Warning: Invalid Dash address</source>
-        <translation>Ostrzeżenie: adres Dash jest nieprawidlowy </translation>
+        <translation>WAARSCHUWING: Ongeldig Dash adres</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Ostrzeżenie: Nieznany adres reszty</translation>
+        <translation>Waarschuwing: Onbekend wisselgeldadres</translation>
     </message>
     <message>
         <source>Confirm custom change address</source>
-        <translation>Potwierdź zmianę adresu własnego</translation>
+        <translation>Bevestig aangepast wisselgeldadres</translation>
     </message>
     <message>
         <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
-        <translation>Adres który wybrałeś dla reszty nie znajduje się w tym porfelu. Część lub wszystkie twoje monety mogą zostać wysłane na ten adres. Jesteś pewien? </translation>
+        <translation>Het wisselgeldadres dat u heeft geselecteerd maakt geen deel uit van deze portemonnee. Een deel of zelfs alle geld in uw portemonnee kan mogelijk naar dit adres worden verzonden. Weet je het zeker?</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez etykiety)</translation>
+        <translation>(geen label)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>This is a normal payment.</source>
-        <translation>To jest standardowa płatność</translation>
+        <translation>Dit is een normale betaling.</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Zapłać &amp;dla:</translation>
+        <translation>Betaal &amp;Aan:</translation>
     </message>
     <message>
         <source>The Dash address to send the payment to</source>
-        <translation>Adres Dash na który wysłać fundusze</translation>
+        <translation>Het Dashadres om betaling aan te versturen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Wybierz wcześniej użyty adres </translation>
+        <translation>Kies een eerder gebruikt adres</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -3044,7 +3050,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Wklej adres ze schowka</translation>
+        <translation>Plak adres vanuit klembord</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -3052,96 +3058,96 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Usuń ten wpis</translation>
+        <translation>Verwijder deze toevoeging</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Etykieta:</translation>
+        <translation>&amp;Label:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Wprowadź etykietę dla tego adresu by dodać go do listy użytych adresów</translation>
+        <translation>Vul een label voor dit adres in om het aan de lijst met gebruikte adressen toe te voegen</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>Su&amp;ma:</translation>
+        <translation>Bedra&amp;g:</translation>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Dash than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Opłata zostanie odliczona od wysyłanej kwoty. Odbiorca otrzyma mniej, niż wprowadziłeś w polu kwoty. W razie wielu odbiorców, opłata zostanie równo podzielona.</translation>
+        <translation>De vergoeding zal worden afgetrokken van het bedrag dat wordt verzonden. De ontvanger zal een lagere hoeveelheid Dash ontvangt dan u in het veld bedrag invoert. Als meerdere ontvangers zijn geselecteerd, wordt de vergoeding gelijk verdeeld.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
-        <translation>Odejm&amp;ij opłatę od kwoty</translation>
+        <translation>Trek de transactiekosten a&amp;f van het bedrag.</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Wiadomość:</translation>
+        <translation>Bericht:</translation>
     </message>
     <message>
         <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>Wiadomość, która została dołączona do dash: Link, który zostanie zapisany wraz z transakcją do wglądu w przyszłości. Zauważ, że sama wiadomość nie zostanie wysłana przez sieć Dash.</translation>
+        <translation>Een boodschap die was bijgevoegd aan de dash: URI die met de transactie voor uw referentie wordt opgeslagen. Opmerking: Dit bericht zal niet over het Dash netwerk worden verzonden.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
-        <translation>To żądane zapłaty nie zostało uwierzytelnione.</translation>
+        <translation>Dit is een niet-geverifieerd betalingsverzoek.</translation>
     </message>
     <message>
         <source>This is an authenticated payment request.</source>
-        <translation>To żądanie zapłaty jest uwierzytelnione.</translation>
+        <translation>Dit is een geverifieerd betalingsverzoek.</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Wpłać do:</translation>
+        <translation>Betaal Aan:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>Notatka:</translation>
+        <translation>Memo:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Wprowadź etykietę dla tego adresu by dodać go do książki adresowej</translation>
+        <translation>Vul een label in voor dit adres om het toe te voegen aan uw adresboek</translation>
     </message>
 </context>
 <context>
     <name>SendConfirmationDialog</name>
     <message>
         <source>Yes</source>
-        <translation>Tak</translation>
+        <translation>Ja</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
         <source>%1 is shutting down...</source>
-        <translation>%1 się zamyka...</translation>
+        <translation>%1 is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Nie wyłączaj komputera, dopóki to okno nie zniknie.</translation>
+        <translation>Sluit de computer niet af totdat dit venster verdwenen is.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Podpisy - Podpisz / zweryfikuj wiadomość</translation>
+        <translation>Handtekeningen - Onderteken een bericht / Verifiëer een handtekening</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>Podpi&amp;sz Wiadomość</translation>
+        <translation>O&amp;nderteken Bericht</translation>
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive Dash sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Możesz podpisywać wiadomości swoimi adresami aby udowodnić, że jesteś ich właścicielem. Uważaj, aby nie podpisywać niczego co wzbudza Twoje podejrzenia, ponieważ ktoś może stosować phishing próbując nakłonić Cię do ich podpisania. Akceptuj i podpisuj tylko w pełni zrozumiałe komunikaty i wiadomości.</translation>
+        <translation>U kunt berichten/overeenkomsten ondertekenen met een van uw adressen om te bewijzen dat u dit adres bezit. Pas op dat u geen onduidelijke of willekeurige dingen ondertekent, want phishingaanvallen zouden u kunnen misleiden om zo uw identiteit te stelen. Onderteken alleen berichten waarmee u het volledig eens bent.</translation>
     </message>
     <message>
         <source>The Dash address to sign the message with</source>
-        <translation>Adres Dash do podpisu wiadomości</translation>
+        <translation>Het Dashadres om bericht mee te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Wybierz wcześniej użyty adres</translation>
+        <translation>Kies een eerder gebruikt adres</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -3149,7 +3155,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Wklej adres ze schowka</translation>
+        <translation>Plak adres vanuit klembord</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -3157,118 +3163,118 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Wprowadź wiadomość, którą chcesz podpisać, tutaj</translation>
+        <translation>Typ hier het bericht dat u wilt ondertekenen</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>Podpis</translation>
+        <translation>Handtekening</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopiuje aktualny podpis do schowka systemowego</translation>
+        <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Dash address</source>
-        <translation>Podpisz wiadomość, aby udowodnić, że jesteś właścicielem adresu Dash.</translation>
+        <translation>Teken het bericht om te bewijzen dat u dit Dash adres bezit</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Podpisz Wiado&amp;mość</translation>
+        <translation>Onderteken &amp;Bericht</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Zresetuj wszystkie pola podpisanej wiadomości</translation>
+        <translation>Verwijder alles in de invulvelden</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Wyczyść &amp;wszystko</translation>
+        <translation>Verwijder &amp;Alles</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Zweryfikuj wiadomość</translation>
+        <translation>&amp;Verifiëer Bericht</translation>
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Wpisz adres odbiorcy, podaj wiadomość (upewnij się, że dokładnie skopiujesz wszystkie zakończenia linii, spacje, tabulacje itp.) oraz podpis poniżej by sprawdzić wiadomość. Uważaj by nie dodać więcej do podpisu niż do samej podpisywanej wiadomości by uniknąć ataku man-in-the-middle (człowiek pośrodku)</translation>
+        <translation>Voer het adres van de ontvanger in, bericht (zorg ervoor dat de regeleinden, spaties, tabs etc. precies kloppen) en onderteken onderaan om het bericht te verifiëren. Wees voorzicht om niet meer in de ondertekening te lezen dan in het getekende bericht zelf, om te voorkomen dat je wordt aangevallen met een man-in-the-middle attack. Houd er mee rekening dat dit alleen de ondertekende partij bewijst met het ontvangen adres, er kan niet bewezen worden dat er een transactie heeft plaatsgevonden!</translation>
     </message>
     <message>
         <source>The Dash address the message was signed with</source>
-        <translation>Adres Dash, którym wiadomość została podpisana</translation>
+        <translation>Het Dashadres waarmee het bericht ondertekend is</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Dash address</source>
-        <translation>Zweryfikuj wiadomość, aby upewnić się, że została zapisana przez konkretny adres Dash</translation>
+        <translation>Verifieer het bericht om zeker te zijn dat het getekend werd met het opgegeven Dash adres</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Zweryfikuj Wiado&amp;mość</translation>
+        <translation>Verifiëer &amp;Bericht</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Resetuje wszystkie pola weryfikacji wiadomości</translation>
+        <translation>Verwijder alles in de invulvelden</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Kliknij "Podpisz Wiadomość" żeby uzyskać podpis</translation>
+        <translation>Klik op "Onderteken Bericht" om de handtekening te genereren</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Podany adres jest nieprawidłowy.</translation>
+        <translation>Het opgegeven adres is ongeldig.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Proszę sprawdzić adres i spróbować ponownie.</translation>
+        <translation>Controleer het adres en probeer het opnieuw.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Wprowadzony adres nie odnosi się do klucza.</translation>
+        <translation>Het opgegeven adres verwijst niet naar een sleutel.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Odblokowanie portfela zostało anulowane.</translation>
+        <translation>Portemonnee-ontsleuteling is geannuleerd.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Klucz prywatny dla podanego adresu nie jest dostępny</translation>
+        <translation>Geheime sleutel voor het ingevoerde adres is niet beschikbaar.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Podpisanie wiadomości nie powiodło się</translation>
+        <translation>Ondertekenen van het bericht is mislukt.</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Wiadomość podpisana.</translation>
+        <translation>Bericht ondertekend.</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>Podpis nie może zostać zdekodowany.</translation>
+        <translation>De handtekening kon niet worden gedecodeerd.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>Sprawdź podpis i spróbuj ponownie.</translation>
+        <translation>Controleer de handtekening en probeer het opnieuw.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>Podpis nie odpowiadał streszczeniu wiadomości</translation>
+        <translation>De handtekening hoort niet bij het bericht.</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Weryfikacja wiadomości nie powiodła się.</translation>
+        <translation>Berichtverificatie mislukt.</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Wiadomość zweryfikowana.</translation>
+        <translation>Bericht geverifiëerd.</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <translation>[testnetwerk]</translation>
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Wersja %1</translation>
+        <translation>Versie %1</translation>
     </message>
 </context>
 <context>
@@ -3282,15 +3288,15 @@ https://www.transifex.com/projects/p/dash/</translation>
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Otwórz na %n dodatkowy blok</numerusform><numerusform>Otwórz na %n dodatkowe bloki</numerusform><numerusform>Otwórz na %n dodatkowych bloków</numerusform><numerusform>Otwórz na %n dodatkowych bloków</numerusform></translation>
+        <translation><numerusform>Open voor nog %n blok</numerusform><numerusform>Open voor nog %n blokken</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Otwórz do %1</translation>
+        <translation>Open tot %1</translation>
     </message>
     <message>
         <source>conflicted</source>
-        <translation>konflikt</translation>
+        <translation>Conflicterend</translation>
     </message>
     <message>
         <source>%1/offline</source>
@@ -3298,39 +3304,39 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>0/unconfirmed, %1</source>
-        <translation>0/niepotwierdzone, %1</translation>
+        <translation>0/onbevestigd, %1</translation>
     </message>
     <message>
         <source>in memory pool</source>
-        <translation>w puli pamięci</translation>
+        <translation>in geheugenpoel</translation>
     </message>
     <message>
         <source>not in memory pool</source>
-        <translation>brak w puli pamięci</translation>
+        <translation>niet in geheugenpoel</translation>
     </message>
     <message>
         <source>abandoned</source>
-        <translation>porzucony</translation>
+        <translation>Opgegeven</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/niezatwierdzone</translation>
+        <translation>%1/onbevestigd</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 potwierdzeń</translation>
+        <translation>%1 bevestigingen</translation>
     </message>
     <message>
         <source>verified via InstantSend</source>
-        <translation>potwierdzono przez InstantSend</translation>
+        <translation>geverifieerd met InstantSend</translation>
     </message>
     <message>
         <source>InstantSend verification in progress - %1 of %2 signatures</source>
-        <translation>InstantSend jest weryfikowane - %1 z %2 sygnatur.</translation>
+        <translation>Bezig met InstantSend verficatie - %1 van %2 ondertekeningen</translation>
     </message>
     <message>
         <source>InstantSend verification failed</source>
-        <translation>Potwierdzenie InstantSend nieudane</translation>
+        <translation>InstantSend verificatie mislukt</translation>
     </message>
     <message>
         <source>Status</source>
@@ -3338,165 +3344,165 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, nie został jeszcze pomyślnie wyemitowany</translation>
+        <translation>, is nog niet met succes uitgezonden</translation>
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, rozgłoś poprzez %n węzeł</numerusform><numerusform>, rozgłoś poprzez %n węzły</numerusform><numerusform>, rozgłoś poprzez %n węzłów</numerusform><numerusform>, rozgłoś poprzez %n węzłów</numerusform></translation>
+        <translation><numerusform>, uitgezonden via %n node</numerusform><numerusform>, uitgezonden via %n nodes</numerusform></translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Źródło</translation>
+        <translation>Bron</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>Wygenerowano</translation>
+        <translation>Gegenereerd</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>Od</translation>
+        <translation>Van</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>nieznany</translation>
+        <translation>onbekend</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>Do</translation>
+        <translation>naar</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>własny adres</translation>
+        <translation>eigen adres</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>Tylko do podglądu</translation>
+        <translation>Alleen-bekijkbaar</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>etykieta</translation>
+        <translation>Label</translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>Uznanie</translation>
+        <translation>Credit</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>Dojrzewa w ciągu %n bloku</numerusform><numerusform>Dojrzewa w ciągu %n bloków</numerusform><numerusform>Dojrzewa w ciągu %n bloków</numerusform><numerusform>Dojrzewa w ciągu %n bloków</numerusform></translation>
+        <translation><numerusform>komt beschikbaar na %n nieuw blok</numerusform><numerusform>komt beschikbaar na %n nieuwe blokken</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>niezaakceptowane</translation>
+        <translation>niet geaccepteerd</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>Obciążenie</translation>
+        <translation>Debet</translation>
     </message>
     <message>
         <source>Total debit</source>
-        <translation>Obciążenia razem</translation>
+        <translation>Totaal debit</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>Wpływy razem</translation>
+        <translation>Totaal credit</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Prowizja transakcji</translation>
+        <translation>Transactiekosten</translation>
     </message>
     <message>
         <source>Net amount</source>
-        <translation>Kwota netto</translation>
+        <translation>Netto bedrag</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Wiadomość</translation>
+        <translation>Bericht</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Komentarz</translation>
+        <translation>Opmerking</translation>
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>ID transakcji</translation>
+        <translation>Transactie-ID</translation>
     </message>
     <message>
         <source>Output index</source>
-        <translation>Indeks wyjściowy</translation>
+        <translation>Output index</translation>
     </message>
     <message>
         <source>Transaction total size</source>
-        <translation>Całkowity rozmiar transakcji</translation>
+        <translation>Transactie totale grootte</translation>
     </message>
     <message>
         <source>Merchant</source>
-        <translation>Kupiec</translation>
+        <translation>Handelaar</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Wygenerowane monety muszą dojrzeć przez %1 bloków zanim będzie można je wysłać. Gdy wygenerowałeś ten blok, został on ogłoszony w sieci i dodany do łańcucha bloków. Jeżeli nie uda mu się wejść do łańcucha, jego status zostanie zmieniony na "nie zaakceptowano" i nie będzie można go wydać. To czasem zdarza się, gdy inny węzeł wygeneruje blok kilka sekund przed tobą.</translation>
+        <translation>Gegenereerde munten moeten %1 blokken rijpen voordat ze kunnen worden besteed. Toen dit blok gegenereerd werd, werd het uitgezonden naar het netwerk om aan de blokketen toegevoegd te worden. Als het niet lukt om in de keten toegevoegd te worden, zal de status te veranderen naar "niet geaccepteerd" en zal het niet besteedbaar zijn. Dit kan soms gebeuren als een ander knooppunt een blok genereert binnen een paar seconden na die van u.</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>Informacje debugowania</translation>
+        <translation>Debug-informatie</translation>
     </message>
     <message>
         <source>Transaction</source>
-        <translation>Transakcja</translation>
+        <translation>Transactie</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Wejścia</translation>
+        <translation>Inputs</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Kwota</translation>
+        <translation>Bedrag</translation>
     </message>
     <message>
         <source>true</source>
-        <translation>prawda</translation>
+        <translation>waar</translation>
     </message>
     <message>
         <source>false</source>
-        <translation>fałsz</translation>
+        <translation>onwaar</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Ten panel pokazuje szczegółowy opis transakcji</translation>
+        <translation>Dit venster laat een uitgebreide beschrijving van de transactie zien</translation>
     </message>
     <message>
         <source>Details for %1</source>
-        <translation>Szczegóły %1</translation>
+        <translation>Details voor %1</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation>Type</translation>
     </message>
     <message>
         <source>Address / Label</source>
-        <translation>Adres / Etykieta</translation>
+        <translation>Adres / Label</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Otwórz na %n dodatkowy blok</numerusform><numerusform>Otwórz na %n dodatkowe bloki</numerusform><numerusform>Otwórz na %n dodatkowych bloków</numerusform><numerusform>Otwórz na %n dodatkowych bloków</numerusform></translation>
+        <translation><numerusform>Open voor nog %n blok</numerusform><numerusform>Open voor nog %n blokken</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Otwórz do %1</translation>
+        <translation>Open tot %1</translation>
     </message>
     <message>
         <source>Offline</source>
@@ -3504,75 +3510,75 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Niepotwierdzone:</translation>
+        <translation>Onbevestigd</translation>
     </message>
     <message>
         <source>Abandoned</source>
-        <translation>Porzucone</translation>
+        <translation>Opgegeven</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Potwierdzanie (%1 z %2 rekomendowanych potwierdzeń)</translation>
+        <translation>Bevestigen (%1 van %2 aanbevolen bevestigingen)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Zatwierdzony (%1 potwierdzeń)</translation>
+        <translation>Bevestigd (%1 bevestigingen)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>Konflikt</translation>
+        <translation>Conflicterend</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Niedojrzały (%1 potwierdzenia, będzie dostępny po %2)</translation>
+        <translation>Niet beschikbaar (%1 bevestigingen, zal beschikbaar zijn na %2)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ten blok nie został odebrany przez jakikolwiek inny węzeł i prawdopodobnie nie zostanie zaakceptowany!</translation>
+        <translation>Dit blok is niet ontvangen bij andere nodes en zal waarschijnlijk niet worden geaccepteerd!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
-        <translation>Wygenerowano, ale nie zaakceptowano</translation>
+        <translation>Gegenereerd maar niet geaccepteerd</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Otrzymane przez</translation>
+        <translation>Ontvangen met</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Odebrano od</translation>
+        <translation>Ontvangen van</translation>
     </message>
     <message>
         <source>Received via PrivateSend</source>
-        <translation>Otrzymano przez PrivateSend</translation>
+        <translation>Ontvangen via PrivateSend</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Wysłano do</translation>
+        <translation>Verzonden aan</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Płatność do siebie</translation>
+        <translation>Betaling aan uzelf</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Wydobyto</translation>
+        <translation>Gedolven</translation>
     </message>
     <message>
         <source>PrivateSend Denominate</source>
-        <translation>Denominuj PrivateSend</translation>
+        <translation>PrivateSend denominatie</translation>
     </message>
     <message>
         <source>PrivateSend Collateral Payment</source>
-        <translation>Płatność zabezpieczająca PrivateSend</translation>
+        <translation>PrivateSend Onderpand Betaling</translation>
     </message>
     <message>
         <source>PrivateSend Make Collateral Inputs</source>
-        <translation>PrivateSend Stwórz wejscia transakcji zastawu.</translation>
+        <translation>PrivateSend Vorm Onderpand Inputs</translation>
     </message>
     <message>
         <source>PrivateSend Create Denominations</source>
-        <translation>PrivateSend Stwórz Denominacje</translation>
+        <translation>PrivateSend Creëer Denominaties</translation>
     </message>
     <message>
         <source>PrivateSend</source>
@@ -3580,82 +3586,82 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>Tylko do podgądu</translation>
+        <translation>Alleen-bekijkbaar</translation>
     </message>
     <message>
         <source>(n/a)</source>
-        <translation>(brak)</translation>
+        <translation>(nvt)</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(brak etykiegy)</translation>
+        <translation>(geen label)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Status transakcji. Najedź na pole, aby zobaczyć liczbę potwierdzeń.</translation>
+        <translation>Transactiestatus. Houd de cursor boven dit veld om het aantal bevestigingen te laten zien.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Data i czas odebrania transakcji.</translation>
+        <translation>Datum en tijd waarop deze transactie is ontvangen.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Rodzaj transakcji.</translation>
+        <translation>Type transactie.</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Bez względu na to czy adres tylko do odczytu jest zawarty w tej transakcji.</translation>
+        <translation>Of er een alleen-bekijken-adres is betrokken bij deze transactie.</translation>
     </message>
     <message>
         <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Określony przez użytkownika cel transakcji.</translation>
+        <translation>Door gebruiker gedefinieerde intentie/doel van de transactie.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Kwota usunięta z lub dodana do konta.</translation>
+        <translation>Bedrag verwijderd van of toegevoegd aan saldo.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Wszystko</translation>
+        <translation>Alles</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Dzisiaj</translation>
+        <translation>Vandaag</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation>W tym tygodniu</translation>
+        <translation>Deze week</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>W tym miesiącu</translation>
+        <translation>Deze maand</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>W zeszłym miesiącu</translation>
+        <translation>Vorige maand</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>W tym roku</translation>
+        <translation>Dit jaar</translation>
     </message>
     <message>
         <source>Range...</source>
-        <translation>Zakres...</translation>
+        <translation>Bereik...</translation>
     </message>
     <message>
         <source>Most Common</source>
-        <translation>Najbardziej powszechne</translation>
+        <translation>Meest Voorkomend</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Otrzymane przez</translation>
+        <translation>Ontvangen met</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Wysłano do</translation>
+        <translation>Verzonden aan</translation>
     </message>
     <message>
         <source>PrivateSend</source>
@@ -3663,103 +3669,103 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>PrivateSend Make Collateral Inputs</source>
-        <translation>PrivateSend Stwórz wejscia transakcji zastawu.</translation>
+        <translation>PrivateSend Vorm Onderpand Inputs</translation>
     </message>
     <message>
         <source>PrivateSend Create Denominations</source>
-        <translation>PrivateSend Stwórz Denominacje</translation>
+        <translation>PrivateSend Creëer Denominaties</translation>
     </message>
     <message>
         <source>PrivateSend Denominate</source>
-        <translation>PrivateSend Denominuj</translation>
+        <translation>PrivateSend Denomineren</translation>
     </message>
     <message>
         <source>PrivateSend Collateral Payment</source>
-        <translation>Płatność zabezpieczająca PrivateSend</translation>
+        <translation>PrivateSend Onderpand Betaling</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>Do siebie</translation>
+        <translation>Aan uzelf</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Wydobyto</translation>
+        <translation>Gedolven</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Inne</translation>
+        <translation>Anders</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>Wprowadź adres albo etykietę żeby wyszukać</translation>
+        <translation>Vul adres of label in om te zoeken</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>Min suma</translation>
+        <translation>Min. bedrag</translation>
     </message>
     <message>
         <source>Abandon transaction</source>
-        <translation>Porzuć transakcję</translation>
+        <translation>Doe afstand van transactie</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopiuj adres</translation>
+        <translation>Kopieer adres</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiuj etykietę</translation>
+        <translation>Kopieer label</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiuj kwotę</translation>
+        <translation>Kopieer bedrag</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Skopiuj ID transakcji</translation>
+        <translation>Kopieer transactie-ID</translation>
     </message>
     <message>
         <source>Copy raw transaction</source>
-        <translation>Kopiuj surowa transakcje</translation>
+        <translation>Kopieer ruwe transactie</translation>
     </message>
     <message>
         <source>Copy full transaction details</source>
-        <translation>Skopiuj wszystkie szczegóły transakcji.</translation>
+        <translation>Kopieer volledige transactiedetials</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Zmień etykietę</translation>
+        <translation>Bewerk label</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>Pokaż szczegóły transakcji</translation>
+        <translation>Toon transactiedetails</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>Eksport historii transakcji</translation>
+        <translation>Exporteer transactiegeschiedenis</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>CSV (rozdzielany przecinkami)</translation>
+        <translation>Kommagescheiden bestand (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Potwierdzony</translation>
+        <translation>Bevestigd</translation>
     </message>
     <message>
         <source>Watch-only</source>
-        <translation>Tylko do odczytu</translation>
+        <translation>Alleen-bekijkbaar</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation>Type</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Etykieta</translation>
+        <translation>Label</translation>
     </message>
     <message>
         <source>Address</source>
@@ -3771,1174 +3777,1174 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Błąd przy próbie eksportu</translation>
+        <translation>Export mislukt</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Wystąpił błąd przy próbie zapisu historii transakcji do %1.</translation>
+        <translation>Er is een fout opgetreden bij het opslaan van de transactiegeschiedenis naar %1.</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation>Eksport powiódł się</translation>
+        <translation>Export succesvol</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>Historia transakcji została zapisana do %1.</translation>
+        <translation>De transactiegeschiedenis was succesvol bewaard in %1.</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>Zakres:</translation>
+        <translation>Bereik:</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>do</translation>
+        <translation>naar</translation>
     </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Jednostki w których wyrażane są kwoty. Kliknij aby wybrać inną jednostkę. </translation>
+        <translation>Eenheid om bedragen uit te drukken. Klik om een andere eenheid te selecteren.</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Nie załadowano żadnego portfela.</translation>
+        <translation>Er is geen portemonnee geladen.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Wyślij płatność</translation>
+        <translation>Verstuur munten</translation>
     </message>
     <message>
         <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
-        <translation>InstantSend nie obsługuje jeszcze tak wielkich kwot. Transakcje są obecnie ograniczone do %1 DASH</translation>
+        <translation>InstantSend ondersteund het verzenden van zulke hoge bedragen nog niet. Transacties zijn momenteel gelimiteerd tot %1 Dash.</translation>
     </message>
     <message>
         <source>Used way too many inputs (&gt;%1) for this InstantSend transaction, fees could be huge.</source>
-        <translation>Dla tej transakcji InstantSend użyto zbyt wielu wejść (&gt;%1). Opłata może być bardzo wysoka.</translation>
+        <translation>Er worden veel te veel inputs (&gt;%1) gebruikt voor deze InstantSend transactie, de vergoeding kan enorm zijn.</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Eksportuj</translation>
+        <translation>&amp;Exporteer</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Eksportuj dane z aktywnej karty do pliku</translation>
+        <translation>Exporteer de data in de huidige tab naar een bestand</translation>
     </message>
     <message>
         <source>Selected amount:</source>
-        <translation>Zaznaczona ilość:</translation>
+        <translation>Gekozen bedrag:</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Kopia Zapasowa Portfela</translation>
+        <translation>Portemonnee backuppen</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Dane Portfela (*.dat)</translation>
+        <translation>Portemonneedata (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Nie udało się wykonać kopii zapasowej</translation>
+        <translation>Backup mislukt</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Wystąpił błąd przy próbie zapisu pliku portfela do %1.</translation>
+        <translation>Er is een fout opgetreden bij het wegschrijven van de portemonneedata naar %1.</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>Wykonano Kopię Zapasową</translation>
+        <translation>Backup succesvol</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>Plik portfela został zapisany do %1.</translation>
+        <translation>De portemonneedata is succesvol opgeslagen in %1.</translation>
     </message>
 </context>
 <context>
     <name>dash-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Związany z danym adresem oraz zawsze prowadzący na nim nasłuch.  Użyj [host]:oznaczenie dla IPv6</translation>
+        <translation>Bind aan opgegeven adres en luister er altijd op. Gebruik [host]:port notatie voor IPv6</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Błąd: Nie powiodło się nasłuchiwanie połączeń przychodzących (nasłuch zwrócił błąd %s)</translation>
+        <translation>Fout: luisteren naar binnenkomende verbindingen mislukt (luisteren gaf foutmelding %s)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Wykonaj komendę po otrzymaniu odpowiedniego zawiadomienia lub po obserwacji bardzo długiego rozszczepienia (%s w konsoli jest zastąpiony przez wiadomość)</translation>
+        <translation>Voer opdracht uit zodra een waarschuwing is ontvangen of wanneer we een erg lange fork detecteren (%s in opdracht wordt vervangen door bericht)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Wykonaj komendę kiedy zmienia się transakcja portfela (%s w konsoli jest zastąpione przez TxID)</translation>
+        <translation>Voer opdracht uit zodra een portemonneetransactie verandert (%s in cmd wordt vervangen door TxID)</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Wykonaj komendę przy zmianie najlepszego bloku (%s w konsoli jest zastąpione przez hasz bloku)</translation>
+        <translation>Voer opdracht uit zodra het beste blok verandert (%s in cmd wordt vervangen door blokhash)</translation>
     </message>
     <message>
         <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
-        <translation>Nazwa służąca do stworzenia linka do KeePass w którym trzymane jest hasło portfela</translation>
+        <translation>Naam om url te vormen voor de KeePass invoer die de wachtwoordzin van de wallet opslaat</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Ustaw maksymalny rozmiar transakcji o wysokim/niskim priorytecie w bajtach (domyślny: %d)</translation>
+        <translation>Stel de maximale grote in van hoge prioriteit/lage kosten transacties in bytes (default: %d)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Ustaw liczbę wątków weryfikacji skryptu (%u do %d, 0 = auto, &lt;0 = zostaw tyle rdzeni wolnych, domyślnie: %d)</translation>
+        <translation>Kies het aantal scriptverificatie processen (%u tot %d, 0 = auto, &lt;0 = laat dit aantal kernen vrij, standaard: %d)</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Ta wersja nie jest jeszcze gotowa na oficjalne wydanie - używaj jej na własne ryzyko - nie używaj tej wersji do kopania monet lub do świadczenia usług komercyjnych.</translation>
+        <translation>Dit is een pre-release testversie - gebruik op eigen risico! Gebruik deze niet voor het delven van munten of handelsdoeleinden</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Uwaga: Wygląda na to, że istnieją pewne rozbieżności w sieci! Możliwe, że niektórzy kopacze doświadczają problemów technicznych. </translation>
+        <translation>Waarschuwing: Het lijkt erop dat het netwerk geen consensus kan vinden! Sommige delvers lijken problemen te ondervinden.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>dadf</translation>
+        <translation>Waarschuwing: Het lijkt erop dat we geen consensus kunnen vinden met onze peers! Mogelijk dient u te upgraden, of andere nodes moeten wellicht upgraden.</translation>
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Musisz sprecyzować masternodeprivkey w konfiguracji. Proszę przeglądnij dokumentacje w celu pomocy.</translation>
+        <translation>U moet een geheime sleutel van een Masternode invoeren. Raadpleeg de documentatie voor hulp.</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Zaakceptuj linie poleceń oraz polecenia JSON-RPC </translation>
+        <translation>Ontvang command-lijn en JSON-RPC commando's.</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Dodaj węzeł do połączenia się oraz spróbuj utrzymać połączenie otwarte</translation>
+        <translation>Voeg een node toe om mee te verbinden en probeer de verbinding open te houden.</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Pozwól na wyszukiwanie DNS dla -addnode, -seednode oraz -connect</translation>
+        <translation>Sta DNS opzoekingen to voor -addnode, -seednode en -connect</translation>
     </message>
     <message>
         <source>Already have that input.</source>
-        <translation>Ta wartość wejściowa już istnieje</translation>
+        <translation>Deze invoer is reeds gekend</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Opcje tworzenia bloku</translation>
+        <translation>Opties bij aanmaken van blokken:</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Nie można obniżyć wersji portfela</translation>
+        <translation>Kan de portemonnee niet verlagen van versie</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Nie można zapisać domyślnych adresów</translation>
+        <translation>Kan niet schrijven naar het standaard adres</translation>
     </message>
     <message>
         <source>Collateral not valid.</source>
-        <translation>Transakcja pod zastaw jest nie niewłaściwa.</translation>
+        <translation>Onderpand niet geldig.</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Podłącz do węzła aby odzyskać adresy peerów, a potem odłącz</translation>
+        <translation>Verbind naar een node om het peer adres op te halen en verbreek.</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Opcje połączenia:</translation>
+        <translation>Verbindingsopties:</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Wykryto uszkodzoną bazę danych bloków</translation>
+        <translation>Corrupte blok database gedetecteerd</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Opcje debugowania/testowania:</translation>
+        <translation>Debug-/testopties:</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Nie wczytuj portfela oraz wyłącz połączenia RPC</translation>
+        <translation>Laad geen portemonnee en laat geen RPC berichten toe</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Czy chcesz teraz przebudować bazę danych bloków?</translation>
+        <translation>Wil je de blokken database nu herbouwen?</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Wczytywanie zakończone</translation>
+        <translation>Klaar met laden</translation>
     </message>
     <message>
         <source>Entries are full.</source>
-        <translation>Wpisy są pełne.</translation>
+        <translation>Ingaven zijn vol</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Błąd podczas inicjowania bazy dancyh bloku</translation>
+        <translation>Fout bij het initialiseren van de  blokken database</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Błąd podczas inicjowania środowiska bazy danych portfela %s!</translation>
+        <translation>Fout bij het initialiseren van de  portenomnee database omgeving %s!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Błąd wczytywania bloku bazy danych</translation>
+        <translation>Fout tijdens laden van blokdatabase</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Błąd otwarcia bloku bazy danych</translation>
+        <translation>Fout bij het openen van de blokken database</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Błąd odczytu bazy danych, następuje zamknięcie.</translation>
+        <translation>Fout bij het lezen van de database, programma wordt beëindigd.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Błąd</translation>
+        <translation>Fout</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Błąd: Przestrzeń dyskowa jest niska!</translation>
+        <translation>Fout: Schijfruimte is laag!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Nie powiódł się nasłuch żadnego z portów. Użyj -listen=0 jeśli chcesz.</translation>
+        <translation>Het is mislukt om naar gelijk welke poort te luisteren. Gebruik -listen=0 als je dit wil</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = zaochwaj metadane np. informacje właściciela konta oraz żądania zapłat, 2 = pozbądź się matadanych tx)</translation>
+        <translation>(1 = behoudt tx meta data bijv. account eigenaar en betalingsverzoek informatie, 2. sla tx meta data niet op)</translation>
     </message>
     <message>
         <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>-maxtxfee jest bardzo wysoka! Tak duże opłaty mogą być uiszczone przy wysłaniu jednej transakcji.</translation>
+        <translation>-maxtxfee staat zeer hoog! Transactiekosten van deze grootte kunnen worden gebruikt in een enkele transactie.</translation>
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
-        <translation>Opłata (w %s/kB) jaka zostanie użyta jeśli oszacowanie wysokości opłaty jest niemożliwe (domyślnie %s)</translation>
+        <translation>Een transactietarief (in %s/kB) dat gebruikt wordt als de transactiekosten schatting niet genoeg data heeft. (normaal: %s)</translation>
     </message>
     <message>
         <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
-        <translation>Akceptuj retransmitowaną tranasakcje od peerów z białej listy, nwet jeśli nie retransmitujesz transakcji. (domyślnie: %d)</translation>
+        <translation>Accepteer doorgestuurde transacties ontvangen van goedgekeurde peers, ook wanneer je zelf geen transacties doorstuurt (standaard: %d)</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Pozwól na połączenia JSON-RPC z konkretnego źródła. Ważne dla &lt;ip&gt; pojedyńczego IP (np. 1.2.3.4), sieci/maski sieci (np. 1.2.3.4/255.255.255.0) lub  sieci/CIDR (np. 1.2.3.4/24). Opcja to może być ustawiana wielokrotnie</translation>
+        <translation>Sta JSON-RPC verbindingen toe vanuit een gespecificeerde bron. Geldig voor &lt;ip&gt; zijn een enkel IP (bijv. 1.2.3.4), een netwerk/netmask (bijv. 1.2.3.4/255.255.255.0) of een netwerk/CIDR (bijv. 1.2.3.4/24). Deze optie kan meerdere keren gespecificeerd worden.</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>Zwiąż z danym adresem oraz wpisz łączących się peerów na białą liste. Użyj notacji [host]:port dla IPv6</translation>
+        <translation>Bind aan opgegeven adres en keur peers die ermee verbinden goed. Gebruik [host]:poort notatie voor IPv6</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Zwiąż z danym adresem oraz wpisz łączących się peerów na białą liste. Użyj notacji [host]:port dla IPv6. Opcja ta może być ustawiana wielokrotnie (domyślnie: połącz z wszystkimi interfejsami)</translation>
+        <translation>Bind aan opgegeven adres om te luisteren naar JSON-RPC connecties. Gebruik [host]:port notatie voor IPv6. Deze instelling kan meerdere keren worden opgegeven (standaard: bind aan alle interfaces)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Zamiast demaskowania 077, stwórz nowe pliki z domyślnymi pozwoleniami systemu (możliwe tylko z wyłączoną funkcją porfela)</translation>
+        <translation>Creër nieuwe bestanden met standaard systeem bestandsrechten in plaats van umask 077 (alleen effectief met uitgeschakelde portemonnee functionaliteit)</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Usuń wszystkie transakcje portfela i odzyskaj tylko te części blockchainu - zeskanuj powonie na starcie.</translation>
+        <translation>Verwijder alle transacties van de portemonnee en herstel alleen de delen van de blokketen door -rescan tijdens het opstarten</translation>
     </message>
     <message>
         <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
-        <translation>Błąd podczas wczytywania %s: Niemożliwe jest zmienienie zwykłego porfela w porfel HD</translation>
+        <translation>Fout bij het laden van %s: U kunt HD niet inschakelen op een al bestaande non-HD wallet</translation>
     </message>
     <message>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
-        <translation>Znaleziono niepotwierdzone denominowane transakcje wyjściowe, poczekam aż zostaną one potwierdzone aby móc kontynuować dalej.</translation>
+        <translation>Niet-bevestigde denominatie outputs gevonden, voortzetting zal worden  gepauseerd totdat deze zijn bevestigd.</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>Jak dokładna ma być weryfikacja bloku -chceckblocks (0-4, domyślnie: %u)</translation>
+        <translation>Hoe grondig de blokverificatie van -checkblocks is (0-4, standaard: %u)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Jeśli opłata za transakcję (paytxfee) nie jest ustawiona, dodaj wystarczającą opłatę aby proces potwierdzenia rozpoczął się średnio w przeciągu n bloków (domyślnie: %u)</translation>
+        <translation>Als paytxfee niet is ingesteld, voeg voldoende vergoeding toe zodat transacties starten met bevestigingen binnen n blokken (standaard: %u)</translation>
     </message>
     <message>
         <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
-        <translation>Jeśli ten blok jest w łańcuchu załóż, że on i poprzednie bloki są prawidłowe i potencjalnie pomiń weryfikację skryptu (0 aby weryfikować wszystkie, domyślnie: %s, testnet: %s)</translation>
+        <translation>Als dit blok in de keten staat, gaat het ervan uit dat dit blok en zijn voorouders geldig zijn en mogelijk hun script verificatie overslaan (0 om alles te verifiëren, standaard:%s, testnet:%s)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Nieprawidłowa kwota za -maxtxfee=&lt;amount&gt;: '%s' (musi ona wynosić co najmniej tyle co minimalna opłata za retransmisje %s aby zapobiec utknięciu transakcji)</translation>
+        <translation>ongeldig bedrag voor -maxtxfee=&lt;bedrag&gt;: '%s' (moet ten minste de minimale doorgeefvergoeding van %s zijn om vastgelopen transacties te voorkomen)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Utrzymuj pełny index transakcji używany przez getrawtransaction rpc call (domyślnie: %u)</translation>
+        <translation>Onderhoud een volledige transactieindex, gebruikt door de getrawtransaction rpc call (standaard: %u)</translation>
     </message>
     <message>
         <source>Make sure to encrypt your wallet and delete all non-encrypted backups after you verified that wallet works!</source>
-        <translation>Jeśli już zweryfikowałeś że porfel działa jak należy, to nie zapomnij zaszyfrować porfel oraz usunąć wszystkie niezaszyfrowane kopie zapasowe.</translation>
+        <translation>Zorg ervoor dat u uw wallet versleuteld, verwijder alle niet versleutelde backups nadat u getest hebt dat de nieuwe wallet werkt!</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maksymalny rozmiar danych w wykopanych i retransmitowanych transakcjach przesyłanych przez operatora (domyślnie: %u)</translation>
+        <translation>Maximale grootte van de gegevens in gegevensdragertransacties die we doorgeven en mijnen (standaard: %u)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Ilość czasu liczonego w sekundach jaki musi upłynąć zanim wadliwy peer znowu może spróbować nawiązać połączenie (domyślnie: %u)</translation>
+        <translation>Aantal seconden dat zich misdragende peers niet opnieuw kunnen verbinden (standaard: %u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Informacje na temat debugowania danych wyjściowych (domyślnie: %u, podanie &lt;category&gt; jest opcjonalne)</translation>
+        <translation>Output extra debugginginformatie (standaard: %u, het leveren van &lt;categorie&gt; is optioneel)</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Użyj osobnego proxy SOCK5 aby połączyć się z peerami przez sieć Tor (domyślnie: %s)</translation>
+        <translation>Gebruik een aparte SOCKS5 proxy om verborgen diensten van Tor te bereiken (standaard: %s)</translation>
     </message>
     <message>
         <source>User defined mnemonic for HD wallet (bip39). Only has effect during wallet creation/first start (default: randomly generated)</source>
-        <translation>Lista słów dla porfela HD stworzona przez użytkownika (bip39). Tyczy się jedynie kiedy tworzysz nowy porfel (domyślnie: tworozne losowo)</translation>
+        <translation>Door de gebruiker gedefinieerde mnemonic voor HD-wallet (bip39). Werkt alleen tijdens het aanmaken van een wallet/ eerste start (standaard: willekeurig gegenereerd)</translation>
     </message>
     <message>
         <source>User defined seed for HD wallet (should be in hex). Only has effect during wallet creation/first start (default: randomly generated)</source>
-        <translation>Lista słów dla porfela HD stworzona przez użytkownika (powinna być w formie hex). Tyczy się jedynie kiedy tworzysz nowy porfel. (domyślnie: tworzone losowo)</translation>
+        <translation>Door de gebruiker gedefinieerde seed voor HD-wallet (moet in hex zijn). Heeft alleen effect tijdens het aanmaken van een portemonnee / eerste start (standaard: willekeurig gegenereerd)</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Peery z białej listy nie mogą zostać zbanowane a ich transakcje są zawsze retransmitowane, nawet jeśli już są w pamięci zbiorowej (mempool). Jest to przydatne np. dla bramek wyjściowych</translation>
+        <translation>Goedgekeurde peers kunnen niet ge-DoS-banned worden en hun transacties worden altijd doorgegeven, zelfs als ze reeds in de mempool aanwezig zijn, nuttig voor bijv. een gateway</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>Musisz odnowić bazę danych używając -reindex-chainstate aby zmienić -txindex</translation>
+        <translation>U moet de database herbouwen met -reindex-chainstate om -txindex aan te passen</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(domyślnie: %s)</translation>
+        <translation>(standaard: %s)</translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Akceptuj publiczne żądania REST (domyślnie: %u)</translation>
+        <translation>Laat publiek REST vragen toe (standaard %u)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Zawsze wysyłaj zapytanie o adres peera przez podgląd DNS (domyślnie: %u)</translation>
+        <translation>Vind anderen door middel van een DNS-naslag (standaard: %u)</translation>
     </message>
     <message>
         <source>Can't mix: no compatible inputs found!</source>
-        <translation>Mieszanie jest niemożliwe: nie znaleziono odpowiednich wartości wejściowych.</translation>
+        <translation>Kan niet mixen: geen compatibele inputs gevonden!</translation>
     </message>
     <message>
         <source>Chain selection options:</source>
-        <translation>Opcje wyboru łańcucha:</translation>
+        <translation>Keten selectie opties:</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Połączenie poprzez SOCKS5 proxy</translation>
+        <translation>Verbind via SOCKS5 proxy</translation>
     </message>
     <message>
         <source>Connect to KeePassHttp on port &lt;port&gt; (default: %u)</source>
-        <translation>Podłącz do KeePassHttp na porcie &lt;port&gt; (domyślny: %u)</translation>
+        <translation>Verbind naar KeePassHttps via poort &lt;port&gt; (standaard: %u)</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
-        <translation>Upoważnia klienta aby działał jako masternode (0-1, domyślnie: %u)</translation>
+        <translation>Stel de client toe om te handelen als een masternode (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Entry exceeds maximum size.</source>
-        <translation>Przekracza maksymalny rozmiar.</translation>
+        <translation>Invoer overschrijdt de maximale grootte.</translation>
     </message>
     <message>
         <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
-        <translation>Błąd podczas wczytywania %s: Niemożliwe jest zmienienie porfela HD w standarodowy porfel.</translation>
+        <translation>Fout bij het laden van %s: U kunt HD niet uitschakelen op een al bestaande HD wallet</translation>
     </message>
     <message>
         <source>Failed to load fulfilled requests cache from</source>
-        <translation>Nieudane ładowanie bufora zrealizowanych żądań z</translation>
+        <translation>Fout bij het inladen van de fulfilled requests cache uit</translation>
     </message>
     <message>
         <source>Failed to load governance cache from</source>
-        <translation>Nieudane ładowanie bufora governance z</translation>
+        <translation>Fout bij het inladen van de governance cache uit</translation>
     </message>
     <message>
         <source>Failed to load masternode cache from</source>
-        <translation>Nieudane ładowanie bufora masternodów z</translation>
+        <translation>Fout bij het inladen van de masternode cache uit</translation>
     </message>
     <message>
         <source>Failed to load masternode payments cache from</source>
-        <translation>Nieudane ładowanie bufora płatności masternodów z</translation>
+        <translation>Fout bij het inladen van de masternode betalingen cache uit</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
-        <translation>Znaleziono wystarczającą ilość użytkowników, trwa podoposywanie ( poczekaj %s )</translation>
+        <translation>Voldoende gebruikers gevonden, aan het ondertekenen ( wacht %s )</translation>
     </message>
     <message>
         <source>Found enough users, signing ...</source>
-        <translation>Znaleziono wystarczającą ilość użytkowników, zapisuje ...</translation>
+        <translation>Voldoende gebruikers gevonden, aan het ondertekenen ...</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Ile bloków sprawdzić podczas uruchomienia (domyślnie: %u, 0 = wszystkie)</translation>
+        <translation>Aantal te checken blokken bij het opstarten (standaard: %u, 0 = allemaal)</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Importuje...</translation>
+        <translation>Importeren...</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>Załącz adres IP do wyników debugowania (domyślnie: %u)</translation>
+        <translation>IP-adressen toevoegen in de debuguitvoer (standaard: %u)</translation>
     </message>
     <message>
         <source>Incompatible mode.</source>
-        <translation>Niekompatybilny tryb.</translation>
+        <translation>Incompatibele modus.</translation>
     </message>
     <message>
         <source>Incompatible version.</source>
-        <translation>Niekompatybilna wersja.</translation>
+        <translation>Incompatibele versie.</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Znaleziono nieprawidłowy blok lub brak bloku początkowego. Nieprawidłowy katalog danych dla sieci</translation>
+        <translation>Incorrect of geen genesisblok gevonden. Verkeerde gegevensmap voor het netwerk?</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informacja</translation>
+        <translation>Informatie</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
-        <translation>Transakcja wejściowa jest niewłaściwa.</translation>
+        <translation>Inover is ongeldig</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
-        <translation>Niewystarczające środki</translation>
+        <translation>Ontoereikend saldo.</translation>
     </message>
     <message>
         <source>Invalid -onion address: '%s'</source>
-        <translation>Nieprawidłowy adres -onion: '%s'</translation>
+        <translation>Ongeldig -onion adres: '%s'</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
-        <translation>Nieprawidłowy adres -proxy: '%s'</translation>
+        <translation>Ongeldig -proxy adres: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Nieprawidłowa kwota dla -paytxfee=&lt;amount&gt;: '%s' (musi wynosić co najmniej %s)</translation>
+        <translation>Ongeldig bedrag voor -paytxfee=&lt;bedrag&gt;: '%s' (Minimum %s)</translation>
     </message>
     <message>
         <source>Keypool ran out, please call keypoolrefill first</source>
-        <translation>Wyczerpana pula kluczy, najpierw wywołaj keypoolrefill</translation>
+        <translation>Keypool op geraakt, roep alsjeblieft eerst keypoolrefill functie aan</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Nasłuchuj połączeń JSON-RPC na &lt;port&gt; (domyślnie: %u lub testnet: %u)</translation>
+        <translation>Luister naar JSON-RPC-verbindingen op &lt;poort&gt; (standaard: %u of testnet: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Nasłuchuj połączeń na &lt;port&gt; (domyślnie: %u lub testnet: %u)</translation>
+        <translation>Luister naar verbindingen op &lt;poort&gt; (standaard: %u of testnet: %u)</translation>
     </message>
     <message>
         <source>Loading banlist...</source>
-        <translation>Ładuję listę blokowanych...</translation>
+        <translation>Verbanningslijst aan het laden...</translation>
     </message>
     <message>
         <source>Loading fulfilled requests cache...</source>
-        <translation>Ładuję bufor zrealizowanych żądań...</translation>
+        <translation>Laden fulfilled requests chache...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
-        <translation>Ładuję pamięć podręczną masternoda...</translation>
+        <translation>Laden masternode cache...</translation>
     </message>
     <message>
         <source>Loading masternode payment cache...</source>
-        <translation>Ładuję pamięć podręczną płatności masternodów...</translation>
+        <translation>Laden masternode payment cache...</translation>
     </message>
     <message>
         <source>Lock is already in place.</source>
-        <translation>Transakcja została już zamknięta.</translation>
+        <translation>Vergrendeling is al op zijn plaats.</translation>
     </message>
     <message>
         <source>Lock masternodes from masternode configuration file (default: %u)</source>
-        <translation>Zamknij masternody z pliku konfiguracji (domyślnie: %u)</translation>
+        <translation>Vergrendel masternodes vanuit het masternode configuratiebestand (standaard: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksymalny bufor odbierający na każde połączenie, &lt;n&gt;*1000 bajtów (domyślny: %u)</translation>
+        <translation>Maximum per-connectie ontvangstbuffer, &lt;n&gt;*1000 bytes (standaard: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksymalny bufor wysyłania na każde połączenie, &lt;n&gt;*1000 bajtów (domyślny: %u)</translation>
+        <translation>Maximum per-connectie verstuurbuffer, &lt;n&gt;*1000 bytes (standaard: %u)</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>
-        <translation>W trakcie mieszania...</translation>
+        <translation>Bezig met mixen...</translation>
     </message>
     <message>
         <source>Mnemonic passphrase is too long, must be at most 256 characters</source>
-        <translation>Fraza przypominająca zbyt długa - maksymalna długość to 256 znaków</translation>
+        <translation>Mnemonisch wachtwoordzin is te lang: mag maximaal 256 tekens bevatten</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Musisz wyznaczyć port z -whitebind: '%s'</translation>
+        <translation>Verplicht een poort met -whitebind op te geven: '%s'</translation>
     </message>
     <message>
         <source>No Masternodes detected.</source>
-        <translation>Nie wykryto żadnego Masternoda.</translation>
+        <translation>Geen Masternodes gedetecteerd.</translation>
     </message>
     <message>
         <source>No compatible Masternode found.</source>
-        <translation>Nie znalezione zadnego kompatybilnego Masternoda.</translation>
+        <translation>Geen compatibele Masternode gevonden.</translation>
     </message>
     <message>
         <source>Not in the Masternode list.</source>
-        <translation>Nie istnieje na liście masternodów.</translation>
+        <translation>Niet in de Masternode lijst.</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Łącz się tylko z węzłami w sieci &lt;net&gt; (ipv4, ipv6 lub onion)</translation>
+        <translation>Verbind alleen met nodes in netwerk &lt;net&gt; (ipv4, ipv6 of onion)</translation>
     </message>
     <message>
         <source>Port: %d</source>
-        <translation>Port: %d</translation>
+        <translation>Poort: %d</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Poprzedź wyniki debugowania datą i godziną (domyślnie: %u)</translation>
+        <translation>Begin debug output met tijdstempel (standaard: %u)</translation>
     </message>
     <message>
         <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
-        <translation>Odbuduj stan łańcucha i indeks bloków z plików blk*.dat na dysku</translation>
+        <translation>Herbouw ketenstaat en block index met behulp van de blk*.dat bestanden op de harde schijf</translation>
     </message>
     <message>
         <source>Rebuild chain state from the currently indexed blocks</source>
-        <translation>Odbuduj stan łańcucha z obecnie zaindeksowanych bloków</translation>
+        <translation>Herbouw ketenstaat vanuit de huidige geindexeerde blokken</translation>
     </message>
     <message>
         <source>Send trace/debug info to debug.log file (default: %u)</source>
-        <translation>Wyślij informacje o debugowaniu/śladach do pliku debug.log (domyślnie: %u)</translation>
+        <translation>Stuur traceer-/debuginformatie naar debug.log (standaard: %u)</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Wyślij transakcje jako darmowe jeśli istnieje taka możliwość (domyślnie: %u)</translation>
+        <translation>Verstuur transacties als nul-vergoedingtransacties indien mogelijk (standaard: %u)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Ustaw ilość kluczy w key pool na &lt;n&gt; (domyślny: %u)</translation>
+        <translation>Stel sleutelpoelgrootte in op &lt;n&gt; (standaard: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Ustaw liczbę wątków dla usługi połączen RPC (domyślny: %d)</translation>
+        <translation>Stel het aantal threads in om RPC-aanvragen mee te bedienen (standaard: %d)</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Ustaw plik konfiguracji (domyślnie: %s)</translation>
+        <translation>Specificeer configuratiebestand (standaard: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>ustaw limit czasu połączenia w milisekundach (minimum: 1, domyślnie: %d)</translation>
+        <translation>Specificeer de time-out tijd in milliseconden (minimum: 1, standaard: %d)</translation>
     </message>
     <message>
         <source>Specify masternode configuration file (default: %s)</source>
-        <translation>Ustaw plik konfiguracji masternoda (domyślnie: %s)</translation>
+        <translation>Kies masternodeconfiguratiebeastand (standaard: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Sprecyjzuj plik pid (domyślny: %s)</translation>
+        <translation>Specificeer pid-bestand (standaard: %s)</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Wydaj niepotwierdzoną resztę podczas wysyłania transakcji (domuślnie: %u)</translation>
+        <translation>Besteed onbevestigd wisselgeld bij het doen van transacties (standaard: %u)</translation>
     </message>
     <message>
         <source>Submitted following entries to masternode: %u / %d</source>
-        <translation>Następujące wpisy zostały przesłane do masternoda: %u / %d</translation>
+        <translation>De volgende gegevens zijn ingediend bij masternode: %u / %d</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
-        <translation>Zapisano do masternoda, czekam na więcej wejść ( %u / %d ) %s</translation>
+        <translation>Ingediend bij masternode, wachtende op meer gegevens (%u / %d ) %s</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting in queue %s</source>
-        <translation>Przesłano do masterdnoda, czekaj na swoją kolej %s</translation>
+        <translation>Ingediend bij masternode, wachten in de wachtrij %s</translation>
     </message>
     <message>
         <source>Synchroning blockchain...</source>
-        <translation>Synchronizuję łańcuch bloków...</translation>
+        <translation>Blockchain synchroniseren...</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
-        <translation>Synchronizacja nie powiodła się</translation>
+        <translation>Synchronisatie mislukt</translation>
     </message>
     <message>
         <source>Synchronization finished</source>
-        <translation>Synchronizacja zakończona</translation>
+        <translation>Synchronisatie voltooid</translation>
     </message>
     <message>
         <source>Synchronizing masternodes...</source>
-        <translation>Synchronizuję masternody...</translation>
+        <translation>Masternodes synchroniseren...</translation>
     </message>
     <message>
         <source>This is not a Masternode.</source>
-        <translation>To nie jest Masternode.</translation>
+        <translation>Dit is geen Masternode.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Próg dla niewłaściwie działających, odłączających sie peerów (domyślnie: %u)</translation>
+        <translation>Drempel om verbinding te verbreken naar zich misdragende peers (standaard: %u)</translation>
     </message>
     <message>
         <source>Too many %f denominations, removing.</source>
-        <translation>Zbyt wiele %f nominałów, usuwam.</translation>
+        <translation>Te veel %f denominaties, verwijderen.</translation>
     </message>
     <message>
         <source>Tor control port password (default: empty)</source>
-        <translation>Hasło do kontroli portu Tor (domyślnie: puste)</translation>
+        <translation>Tor bepaalt poortwachtwoord (standaard: empty)</translation>
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Używany port kontrolny Tora  jeśli włączony jest nasłuch onion (domyślnie %s)</translation>
+        <translation>Tor bepaalt welke poort te gebruiken als luisteren naar onion wordt gebruikt (standaard: %s)</translation>
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Uruchomienie serwera HTTP nieudane. Szczegóły znajdziesz w dzienniku debugowania.</translation>
+        <translation>Niet mogelijk ok HTTP-server te starten. Zie debuglogboek voor details.</translation>
     </message>
     <message>
         <source>Unknown response.</source>
-        <translation>Nieznana odpowiedź.</translation>
+        <translation>Onbekend reactie.</translation>
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Nieobsługiwany argument - benchmark został zignorowany, użyj -debug=bench.</translation>
+        <translation>Niet-ondersteund argument -benchmark genegeerd, gebruik -debug=bench.</translation>
     </message>
     <message>
         <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Znaleziono nieobsługiwany argument -debugnet zignorowano, użyj -debug=net.</translation>
+        <translation>Niet-ondersteund argument -debugnet genegeerd, gebruik -debug=net</translation>
     </message>
     <message>
         <source>Unsupported argument -tor found, use -onion.</source>
-        <translation>Znaleziono nieobsługiwany argument -tor, użyj -onion.</translation>
+        <translation>Niet-ondersteund argument -tor gevonden, gebruik -onion.</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup</source>
-        <translation>Przy uruchomieniu zaktualizuj portfel do najnowszego formatu</translation>
+        <translation>Upgrade portemonee naar laatste formaat bij opstarten</translation>
     </message>
     <message>
         <source>Use KeePass 2 integration using KeePassHttp plugin (default: %u)</source>
-        <translation>Użyj integracji KeePass 2 z wtyczką KeePass Http (domyślnie: %u)</translation>
+        <translation>Gebruik KeePass 2 integratie met KeePassHttp-plugin (standaard: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Użyj UPnP aby zmapować port nasłuchu (domyślnie: %u)</translation>
+        <translation>Gebruik UPnP om de luisterende poort te mappen (standaard: %u)</translation>
     </message>
     <message>
         <source>Use the test chain</source>
-        <translation>Użyj łańcucha testowego</translation>
+        <translation>Gebruik de test keten</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>
-        <translation>Komentarz agenta użytkownika (%s) zawiera znaki które nie są bezpieczne.</translation>
+        <translation>User Agentcommentaar (%s) bevat onveilige karakters.</translation>
     </message>
     <message>
         <source>Will retry...</source>
-        <translation>Spróbuje ponownie...</translation>
+        <translation>Opnieuw aan het proberen...</translation>
     </message>
     <message>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
-        <translation>Nieprawidłowy klucz prywatny masternoda. Przeczytaj dokumentację.</translation>
+        <translation>Ongeldige geheime sleutel voor de masternode. Raadpleeg de documentatie alstublieft.</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
-        <translation>Nie można znaleźć przypadkowego masternoda.</translation>
+        <translation>Kan Masternode niet vinden.</translation>
     </message>
     <message>
         <source>Can't mix while sync in progress.</source>
-        <translation>Nie możesz miksować w trakcie  synchronizacji.</translation>
+        <translation>Kan niet Mixen tijdens het synchroniseren.</translation>
     </message>
     <message>
         <source>Could not parse masternode.conf</source>
-        <translation>Nie można analizować masternode.conf</translation>
+        <translation>Kan masternode.conf niet lezen</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Niewłaściwa maska sieci w -whitelist: '%s'</translation>
+        <translation>Ongeldig netmask gespecificeerd in -whitelist: '%s'</translation>
     </message>
     <message>
         <source>Invalid port detected in masternode.conf</source>
-        <translation>Wykryto niewłaściwy port w masternode.conf</translation>
+        <translation>Ongeldige poort gevonden in masternode.conf</translation>
     </message>
     <message>
         <source>Invalid script detected.</source>
-        <translation>Wykryto nieprawidłowy skrypt.</translation>
+        <translation>Ongeldig script gevonden.</translation>
     </message>
     <message>
         <source>KeePassHttp id for the established association</source>
-        <translation>ID KeePassHttp dla ustanowionego skojażenia</translation>
+        <translation>KeePassHttp id voor de ingestelde associatie</translation>
     </message>
     <message>
         <source>KeePassHttp key for AES encrypted communication with KeePass</source>
-        <translation>Klucz KeePassHttp dla zaszyfrowanego metodą AES połączenia z KeePass</translation>
+        <translation>KeePassHttp sleutel voor AES versleutelde communicatie met KeePass</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Utrzymuj najwyżej &lt;n&gt; niepodłączalnych transakcji w pamięci (domyślny: %u)</translation>
+        <translation>Houd maximaal &lt;n&gt; onverbonden transacties in geheugen (standaard: %u)</translation>
     </message>
     <message>
         <source>Disable all Dash specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Wyłącz wszystkie funkcjonalności charakterystyczne dla Dash (Masternody, PrivateSend, InstantSend, Governance) (0-1, domyślnie: %u)</translation>
+        <translation>Uitschakelen van alle Dash specifieke functies (Masternodes, PrivateSend, InstantSend, Governance) (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Wykryj własny adres IP (domyślnie: 1 kiedy nasłuchuje, bez stosowania -externalip lub -proxy)</translation>
+        <translation>Ontdek eigen IP-adressen (standaard: 1 voor luisteren en geen -externalip of -proxy)</translation>
     </message>
     <message>
         <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
-        <translation>Nie trzyma transakcji w puli pamięci dłużej niż &lt;n&gt; godz. (domyślnie: %u)</translation>
+        <translation>Bewaar transactie niet langer dan &lt;n&gt; uren in de geheugenpool (standaard: %u)</translation>
     </message>
     <message>
         <source>Enable InstantSend, show confirmations for locked transactions (0-1, default: %u)</source>
-        <translation>Włącz InstantSend, pokazuj potwierdzenia zamkniętych  transakcji (0-1, domyślnie: %u)</translation>
+        <translation>Inschakelen van InstantSend, toon bevestigingen van vastgezette transacties (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Enable multiple PrivateSend mixing sessions per block, experimental (0-1, default: %u)</source>
-        <translation>Włącz wielokrotne sesje mieszające PrivateSend na blok, funkcja eksperymentalna (0-1, domyślnie: %u)</translation>
+        <translation>Inschakel van meerdere PrivateSend mix sessies per blok, experimenteel (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Enable use of automated PrivateSend for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Włącz automatyczne stosowanie PrivateSend dla środków zgromadzonych w tym portfelu (0-1, domyślnie: %u)</translation>
+        <translation>Inschakelen van het automatisch gebruik van PrivateSend voor geld opgeslagen in deze wallet (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Execute command when a wallet InstantSend transaction is successfully locked (%s in cmd is replaced by TxID)</source>
-        <translation>Wykonaj komendę, kiedy się transakcja InstantSend  portfela zostanie pomyślnie zamknięta (%s w konsoli jest zastąpione przez TxID)</translation>
+        <translation>Voer opdracht uit zodra een wallettransactie succesvol vastgezet is (%s in cmd wordt vervangen door TxID)</translation>
     </message>
     <message>
         <source>Failed to create backup, file already exists! This could happen if you restarted wallet in less than 60 seconds. You can continue if you are ok with this.</source>
-        <translation>Tworzenie kopii zapasowej nieudane, plik już istnieje! Taka sytuacja może wystąpić, jeżeli minęło mniej niż 60 od ostatniego zamknięcia portfela. Jeżeli Ci to nie przeszkadza, możesz kontynuować.</translation>
+        <translation>Backup maken is mislukt, het bestand bestaat al! Dit kan gebeuren als u de wallet herstart binnen 60 seconden. U kunt verder gaan als u hier ok mee bent.</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
-        <translation>Opłaty (%s/kB)  niższe niż ta są równoznaczne z brakiem opłaty za przekazanie, wykopanie i utworzenie transakcji (domyślnie: %s)</translation>
+        <translation>Vergoedingen (in %s/kB) kleiner dan dit worden beschouwd als nul-vergoeding voor doorgeven, mijnen en transactiecreatie (standaard: %s)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Opłaty (%s/kB) niższe niż ta uważane są za równoznaczne z brakiem opłaty za utworzenie transakcji (domyślnie: %s)</translation>
+        <translation>Transactiekosten (in %s/kB) kleiner dan dit worden beschouwd dat geen transactiekosten in rekening worden gebracht voor transactiecreatie (standaard: %s)</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
-        <translation>Jeżeli nie podano &lt;category&gt; lub jeżeli  &lt;category&gt; = 1, pokaż informacje o debugowaniu.</translation>
+        <translation>Als er geen &lt;categorie&gt; is opgegeven of als de &lt;categorie&gt; 1 is, laat dan alle debugginginformatie zien.</translation>
     </message>
     <message>
         <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
-        <translation>InstantSend nie obsługuje jeszcze tak wielkich kwot. Transakcje są obecnie ograniczone do %1 DASH</translation>
+        <translation>InstantSend ondersteund het verzenden van zulke hoge bedragen nog niet. Transacties zijn momenteel gelimiteerd tot %1 Dash.</translation>
     </message>
     <message>
         <source>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>InstantSend potrzebuje aby transakcja wejściowa miała co najmniej %d potwierdzeń. Poczekaj kilka minut i spróbuj ponownie.</translation>
+        <translation>InstantSend vereist dat inputs ten minste %d bevestigingen hebben, u zult een paar minuten moeten wachten en opnieuw moeten proberen.</translation>
     </message>
     <message>
         <source>Maintain a full address index, used to query for the balance, txids and unspent outputs for addresses (default: %u)</source>
-        <translation>Utrzymuj pełny index adresów, używany do wyszukiwania sald, identyfikatorów transakcji i niewykorzystanych danych wyjściowych dla danych adresów (domyślnie: %u)</translation>
+        <translation>Hou een volledige transactieindex bij, wordt gebruikt om het balans, txids en niet-uitgegeven outputs voor adresen op te vragen (standaard: %u)</translation>
     </message>
     <message>
         <source>Maintain a full spent index, used to query the spending txid and input index for an outpoint (default: %u)</source>
-        <translation>Utrzymuj pełny indeks wydatków, używany do wyszukiwania identyfikatorów transakcji wyjściowych oraz indeks danych wejściowych dla punktu wyjścia (domyślnie: %u)</translation>
+        <translation>Hou een volledige uitgaveindex bij, wordt gebruikt om de txids van uitgaven en input index voor een outpoint op te vragen (standaard: %u)</translation>
     </message>
     <message>
         <source>Maintain a timestamp index for block hashes, used to query blocks hashes by a range of timestamps (default: %u)</source>
-        <translation>Utrzymuj indeks znaczników czasu dla haszy bloku, funkcja wykorzystywana do wyszukiwania haszy bloku według zakresu znaczników czasu (domyślnie: %u)</translation>
+        <translation>Hou een tijdstempelindex bij voor blok hashes, wordt gebruikt om blokhashes op te vragen voor een bereik aan tijdstempels (standaard: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (temporary service connections excluded) (default: %u)</source>
-        <translation>Utrzymuj nie więcej niż &lt;n&gt; połączeń z peerami (tymczasowe połączenia serwisowe nie są liczone) (domyślnie: %u)</translation>
+        <translation>Onderhoudt maximaal &lt;n&gt; connecties met peers (tijdelijke service connecties uitgezonderd) (standaard: %u)</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>PrivateSend do przesyłania środków używa kwot o konkretnych nominałach, możliwe że musisz zanonimizować trochę więcej monet.</translation>
+        <translation>PrivateSend gebruikt exact gedenomineerde bedragen om geld te versturen, u zult wellicht simpelweg meer geld moeten anonimiseren.</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>Czyszczenie starych danych ustawiono poniżej minimum %d MiB.  Ustaw wyższą wartość.</translation>
+        <translation>Prune is ingesteld op minder dan het minimum van %d MiB. Gebruik a.u.b. een hoger aantal.</translation>
     </message>
     <message>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>Oczyszczanie: ostatnia synchronizacja portfela sięga poza skasowane dane. Użyj -reindex (w razie oczyszczenia węzła, ponownie pobierz cały łańcuch bloków).</translation>
+        <translation>Prune: laatste wallet synchronisatie gaat verder terug dan de middels -prune beperkte data. U moet -reindex gebruiken (downloadt opnieuw de gehele blockchain voor een pruned node)</translation>
     </message>
     <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Dla każdego połączenia proxy wybierz losowe dane uwierzytalniające. Pozwala to na izolacje Tor stream (domyślnie: %u)</translation>
+        <translation>Gebruik willekeurige inloggegevens voor elke proxyverbinding. Dit maakt streamisolatie voor Tor mogelijk (standaard: %u)</translation>
     </message>
     <message>
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
-        <translation>Ponownie skanowanie jest niemożliwe w trybie oczyszczania. Użyj -reindex, co spowoduje ponowne pobranie całego łańcucha bloków.</translation>
+        <translation>Herscannen is niet mogelijk i.c.m. -prune. U moet -reindex gebruiken dat de hele blockchain opnieuw zal downloaden.</translation>
     </message>
     <message>
         <source>Specify full path to directory for automatic wallet backups (must exist)</source>
-        <translation>Podaj pełną ścieżkę do (istniejącego) katalogu na automatyczne kopie zapasowe portfela</translation>
+        <translation>Voer het volledige pad in voor de map met automatische walletbackups (moet al bestaan)</translation>
     </message>
     <message>
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>Pozwalaj na filtrowanie bloków i transakcji za pomocą filtrów bloom (domyślnie: %u)</translation>
+        <translation>Ondersteun filtering van blokken en transacties met bloomfilters (standaard: %u)</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>Baza danych bloków zawiera blok, który zdaje się pochodzić z przyszłości. Taka sytuacja może się zdarzyć, jeżeli zegar Twojego komputera pokazuje niepoprawną datę i godzinę. Przebuduj bazę danych bloków wyłącznie, jeżeli masz pewność, że zegar Twojego komputera pokazuje poprawną datę i godzinę. </translation>
+        <translation>De blokdatabase bevat een blok dat lijkt uit de toekomst te komen. Dit kan gebeuren omdat de datum en tijd van uw computer niet goed staat. Herbouw de blokdatabase pas nadat u de datum en tijd van uw computer correct heeft ingesteld.</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>Po odliczeniu opłaty, transakcja jest zbyt niska aby móc ją wysłać.</translation>
+        <translation>Het transactiebedrag is te klein om te versturen nadat de transactievergoeding in mindering is gebracht</translation>
     </message>
     <message>
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>Całkowita długość sieciowej wersji struny (%i) przekracza maksymalną długość (%i). Zredukuj liczbę lub rozmiar uacomments.</translation>
+        <translation>Totale lengte van netwerkversiestring (%i) overschrijdt maximale lengte (%i). Verminder het aantal of grootte van uacomments.</translation>
     </message>
     <message>
         <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
-        <translation>Próbuje utrzymać wychodzący ruch sieciowy poniżej podanej wartości (MiB/24 h), 0 = bez ograniczeń (domyślnie: %d)</translation>
+        <translation>Pogingen om uitgaand verkeer onder een bepaald doel te houden (in MiB per 24u), 0 = geen limiet (standaard: %d)</translation>
     </message>
     <message>
         <source>Unable to locate enough PrivateSend denominated funds for this transaction.</source>
-        <translation>Nie znaleziono wystarczających środków PrivateSend o nominałach koniecznych do wykonania tej transakcji.</translation>
+        <translation>Kan onvoldoende met PrivateSend gedenomineerd geld vinden voor deze transactie.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Błąd: niewspierany argument, znaleziono -socks. Ustawienie wersji SOCKS nie jest już możliwa, wspierane są tylko bramki  proxy SOCKS5.</translation>
+        <translation>Niet-ondersteund argument -socks gevonden. Instellen van SOCKS-versie is niet meer mogelijk, alleen SOCKS5-proxies worden ondersteund.</translation>
     </message>
     <message>
         <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
-        <translation>niewspierany argument -whitelistalwaysrelay jest ignorowany, używaj -whitelistrelay oraz/lub -whitelistforcerelay.</translation>
+        <translation>Niet ondersteund argument -whitelistalwaysrelay genegeerd, gebruik -whitelistrelay en/of -whitelistforcerelay.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>Użyj UPnP aby zmapować porty nasłuchujące (domyślnie: 1 kiedy słucha i nie ma proxy)</translation>
+        <translation>Gebruik UPnP om de luisterende poort te mappen (standaard: 1 als er geluisterd worden en geen -proxy is meegegeven)</translation>
     </message>
     <message>
         <source>WARNING! Failed to replenish keypool, please unlock your wallet to do so.</source>
-        <translation>OSTRZEŻENIE! Nie udało się uzupełnić puli kluczy. W tym celu musisz odblokować portfel.</translation>
+        <translation>WAARSCHUWING! Het bijvullen van de keypool is mislukt, ontgrendel alstublieft uw wallet om dit te doen. </translation>
     </message>
     <message>
         <source>Wallet is locked, can't replenish keypool! Automatic backups and mixing are disabled, please unlock your wallet to replenish keypool.</source>
-        <translation>Portfel jest zamknięty , nie można uzupełnić pul* kluczy! Automatyczne tworzenie kopi zapasowych oraz miksowanie są wyłączone. Otwórz porfel aby uzupełnić pul* kluczy.</translation>
+        <translation>Wallet is vergrendeld, niet instaat om keypool aan te vullen! Automatische backups en PrivateSend zijn uitgeschakeld, ontgrendel alstublieft uw wallet om de keypool aan te vullen.</translation>
     </message>
     <message>
         <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
-        <translation>Uwaga: Wykopywane są bloki o nieznanej wersji! Możliwe, że zostały aktywowane inne zasady na których opiera się sieć.</translation>
+        <translation>Waarschuwing: Onbekende blok versies worden gemined! Er zijn mogelijk onbekende regels in werking getreden</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>Aby wrócić do trybu bez bez obcinki, musisz odtworzyć bazę danych za pomocą komendy -reindex. Cały blockchain zostanie ponownie ściągnięty.</translation>
+        <translation>U moet de database herbouwen met -reindex om terug te gaan naar de niet-prune modus. Dit zal de gehele blockchain opnieuw downloaden.</translation>
     </message>
     <message>
         <source>(%d could be used only on mainnet)</source>
-        <translation>(%d może być użyte jedynie na głównej sieci)</translation>
+        <translation>(%d kan alleen gebruikt worden op mainnet)</translation>
     </message>
     <message>
         <source>(default: %u)</source>
-        <translation>(domyślnie: %u)</translation>
+        <translation>(default: %u)</translation>
     </message>
     <message>
         <source>(must be %d for mainnet)</source>
-        <translation>(musi być %d dla głównej sieci)</translation>
+        <translation>(moet %d zijn voor mainnet)</translation>
     </message>
     <message>
         <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempol musi być przynajmniej %d MB</translation>
+        <translation>-maxmempool moet minstens %d MB zijn</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt;może być:</translation>
+        <translation>&lt;categorie&gt; kan zijn:</translation>
     </message>
     <message>
         <source>Append comment to the user agent string</source>
-        <translation>Dodaj komentarz do linijek agenta użytkwnika.</translation>
+        <translation>Voeg commentaar toe aan de user agent string</translation>
     </message>
     <message>
         <source>Automatic backups disabled</source>
-        <translation>Automatyczne tworzenie kopi zapasowych jest wyłączone</translation>
+        <translation>Automatische backups uitgeschakeld</translation>
     </message>
     <message>
         <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Automatycznie stwórz ukrytą usługę Tor (domyślnie: %d)</translation>
+        <translation>Creëer automatisch verborgen dienst van Tor (standaard:%d)</translation>
     </message>
     <message>
         <source>ERROR! Failed to create automatic backup</source>
-        <translation>BŁĄD! Automatyczne tworzenie kopii zapasowej nie powiodło się</translation>
+        <translation>FOUT! Het maken van een automatische backup is mislukt</translation>
     </message>
     <message>
         <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>Pozwól na publikację hash bloku w &lt;address&gt;</translation>
+        <translation>Sta toe om hashblok te publiceren in &lt;adres&gt;</translation>
     </message>
     <message>
         <source>Enable publish hash transaction (locked via InstantSend) in &lt;address&gt;</source>
-        <translation>Pozwól na publikację hash transakcji (zabezpiecznona przez InstantSend) w &lt;address&gt;</translation>
+        <translation>Inschakelen publiceren van de hashtransactie (vastgezet met InstantSend) in &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>Pozwól na publikację hash transakcji w &lt;address&gt;</translation>
+        <translation>Sta toe om hashtransactie te publiceren in &lt;adres&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>Pozwól na publikację surowego bloku w &lt;address&gt;</translation>
+        <translation>Sta toe rauw blok te publiceren in &lt;adres&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw transaction (locked via InstantSend) in &lt;address&gt;</source>
-        <translation>Włącz publikację surowych danych transakcji (wyłączone przez InstantSend) w &lt;address&gt;</translation>
+        <translation>Inschakelen het publiceren van de ruwe transactie (vastgezet via InstantSend) in &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>Pozwól na publikację czystych danych transakcji w &lt;address&gt;</translation>
+        <translation>Sta toe ruwe transacties te publiceren in &lt;adres&gt;</translation>
     </message>
     <message>
         <source>Enable transaction replacement in the memory pool (default: %u)</source>
-        <translation>Włącz zastępowanie transakcji w memory pool (domyślnie: %u)</translation>
+        <translation>Transactie vervanging inschakelen in het geheugen (standaard: %u)</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Błąd: Wystąpił wewnętrzny błąd krytyczny, szczegóły znajdziesz w pliku debug.log</translation>
+        <translation>Fout: er is een fout opgetreden,  zie debug.log voor details</translation>
     </message>
     <message>
         <source>Failed to create backup %s!</source>
-        <translation>Nie powiodło się tworzenie kopii zapasowej %s!</translation>
+        <translation>Back-up maken mislukt %s!</translation>
     </message>
     <message>
         <source>Failed to create backup, error: %s</source>
-        <translation>Tworzenie kopii zapasowej nie powiodło się, błąd: %s</translation>
+        <translation>Back-up maken mislukt, foutmelding %s</translation>
     </message>
     <message>
         <source>Failed to delete backup, error: %s</source>
-        <translation>Skasowanie kopii zapasowej nie powiodło się, błąd: %s</translation>
+        <translation>Verwijderen van de back-up is mislukt, foutmelding: %s</translation>
     </message>
     <message>
         <source>Failed to parse host:port string</source>
-        <translation>Nieudane analizowanie hosta:port string</translation>
+        <translation>Inlezen van de host:poort string is mislukt</translation>
     </message>
     <message>
         <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
-        <translation>Dodanie opłaty (w %s/kB) do twojej transakcji (domyślnie: %s)</translation>
+        <translation>Transactievergoeding (in %s/kB) toevoegen aan transacties die u doet (standaard: %s)</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file on startup</source>
-        <translation>Importuje bloki z zewnętrznego pliku blk000??.dat na starcie</translation>
+        <translation>Importeer blokken van externe blk000??.dat-bestand bij opstarten</translation>
     </message>
     <message>
         <source>InstantSend options:</source>
-        <translation>Opcje InstantSend:</translation>
+        <translation>InstantSend-opties:</translation>
     </message>
     <message>
         <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>Błędna ilość -fallbackfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Ongeldig bedrag voor -fallbackfee=&lt;bedrag&gt;: '%s'</translation>
     </message>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Utrzymuj rozmiar memory pool poniżej &lt;n&gt; megabajtów (domyślnie: %u)</translation>
+        <translation>De transactiegeheugenpool moet onder de &lt;n&gt; megabytes blijven (standaard: %u)</translation>
     </message>
     <message>
         <source>Last PrivateSend was too recent.</source>
-        <translation>Za mało czasu upłynęło od ostatniej transakcji PrivateSend.</translation>
+        <translation>Vorige PrivateSend is te recent.</translation>
     </message>
     <message>
         <source>Last successful PrivateSend action was too recent.</source>
-        <translation>Zbyt mało czasu upłynęło od ostatniej udanej transakcji PrivateSend. </translation>
+        <translation>Vorige succesvolle PrivateSend actie is te recent.</translation>
     </message>
     <message>
         <source>Line: %d</source>
-        <translation>Linia: %d</translation>
+        <translation>Lijn: %d</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Wczytuję adresy...</translation>
+        <translation>Laden adresen...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Wczytuję indeks bloków</translation>
+        <translation>Laden blokindex...</translation>
     </message>
     <message>
         <source>Loading governance cache...</source>
-        <translation>Wczytuję bufor governance</translation>
+        <translation>Laden governance cache...</translation>
     </message>
     <message>
         <source>Loading wallet... (%3.2f %%)</source>
-        <translation>Ładuję portfel... (%3.2f %%)</translation>
+        <translation>Laden portemonnee... (%3.2f %%)</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Ładuję portfel...</translation>
+        <translation>Laden portemonnee...</translation>
     </message>
     <message>
         <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Miejsce w którym znajduje się ciasteczko auth (domyślnie: data dir)</translation>
+        <translation>Locatie van de auth cookie (standaard: data dir)</translation>
     </message>
     <message>
         <source>Make the wallet broadcast transactions</source>
-        <translation>Zmuś portfel do wysłania transakcji.</translation>
+        <translation>Laat de portemonnee transacties uitsturen</translation>
     </message>
     <message>
         <source>Masternode cache is empty, skipping payments and governance cache...</source>
-        <translation>Cache masternodów jest pusty, pomijam cache płatności i zarządzania...</translation>
+        <translation>Masternode cache is leeg, betalings- en governancecache worden overgeslagen...</translation>
     </message>
     <message>
         <source>Masternode options:</source>
-        <translation>Opcje masternodów:</translation>
+        <translation>Masternode-opties:</translation>
     </message>
     <message>
         <source>Masternode queue is full.</source>
-        <translation>Kolejka masternodów jest pełna.</translation>
+        <translation>Masternode wachtrij is vol.</translation>
     </message>
     <message>
         <source>Masternode:</source>
-        <translation>Masternod:</translation>
+        <translation>Masternode:</translation>
     </message>
     <message>
         <source>Minimum bytes per sigop in transactions we relay and mine (default: %u)</source>
-        <translation>Minimalna liczba bajtów na każdą operację podpisu w transakcjach które są przez nas przekazywane i włączne do bloku (domyślnie: %u)</translation>
+        <translation>Minimale bytes per sigop in transacties die worden doorgegeven en gemijnd (standaard: %u)</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
-        <translation>Brak informacji o transakcji wejściowej.</translation>
+        <translation>De input transactieinformatie ontbreekt.</translation>
     </message>
     <message>
         <source>No errors detected.</source>
-        <translation>Nie wykryto błędów.</translation>
+        <translation>Geen fouten gevonden</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
-        <translation>Nie znaleziono nominałów nadających się do miksowania.</translation>
+        <translation>Geen overeenkomende denominaties gevonden om mee te mixen.</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Opcje retransmitujących węzłów:</translation>
+        <translation>Node doorgeefopties:</translation>
     </message>
     <message>
         <source>Non-standard public key detected.</source>
-        <translation>Wykryto niestandardowy klucz publiczny.</translation>
+        <translation>Niet-standaard publieke sleutel aangetroffen.</translation>
     </message>
     <message>
         <source>Not compatible with existing transactions.</source>
-        <translation>Nie kompatybilny z istniejącymi transakcjami.</translation>
+        <translation>Niet compatibel met bestaande transacties.</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Dostępny niewystarczający opis pliku.</translation>
+        <translation>Niet genoeg file descriptors beschikbaar.</translation>
     </message>
     <message>
         <source>Not enough funds to anonymize.</source>
-        <translation>Zbyt mała ilość finduszy aby móc je zanonimizować.</translation>
+        <translation>Niet genoeg geld om the anonimiseren.</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: %u)</source>
-        <translation>Ilość automatycznych kopi bezpieczeństwa (domyślnie: %u)</translation>
+        <translation>Aantal automatische wallet back-ups (standaard: %u)</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Opcje:</translation>
+        <translation>Opties:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Hasło dla połączeń JSON-RPC</translation>
+        <translation>Paswoord voor JSON-RPC verbinding</translation>
     </message>
     <message>
         <source>Print version and exit</source>
-        <translation>Wydrukuj wersję i zamknij.</translation>
+        <translation>Print versie en sluit af</translation>
     </message>
     <message>
         <source>PrivateSend is idle.</source>
-        <translation>PrivateSend jest bezczynny</translation>
+        <translation>PrivateSend is niet actief.</translation>
     </message>
     <message>
         <source>PrivateSend options:</source>
-        <translation>Opcje PrivateSend:</translation>
+        <translation>PrivateSend-opties:</translation>
     </message>
     <message>
         <source>PrivateSend request complete:</source>
-        <translation>Żądanie PrivateSend jest ukończone:</translation>
+        <translation>PrivateSend verzoek voltooid:</translation>
     </message>
     <message>
         <source>PrivateSend request incomplete:</source>
-        <translation>Żądanie PrivateSend nie powiodło się.</translation>
+        <translation>PrivateSend aanvraag niet voltooid:</translation>
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
-        <translation>Obcinanie nie może zostać skonfigurowane z ujemnymi wartościami.</translation>
+        <translation>Prune kan niet worden geconfigureerd met een negatieve waarde.</translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Tryb obcinania jest niekompatybilny z -txindex.</translation>
+        <translation>Terugsnoeimodus is niet compatibel met -txindex.</translation>
     </message>
     <message>
         <source>Pruning blockstore...</source>
-        <translation>Kasuję stare bloki ...</translation>
+        <translation>Terugsnoeien blockstore...</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions on startup</source>
-        <translation>Przeskanuj blockchain ponownie aby zlokalizować zagubione transakcje podczas startu.</translation>
+        <translation>Herscan de blokketen voor missende portemonneetransacties bij opstarten</translation>
     </message>
     <message>
         <source>The wallet will avoid paying less than the minimum relay fee.</source>
-        <translation>Portfel będzie unikał płacenia mniejszej niż przekazana opłaty.</translation>
+        <translation>De portemonnee vermijdt minder te betalen dan de minimale doorgeef vergoeding.</translation>
     </message>
     <message>
         <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation>Minimalna opłata transakcyjna którą płacisz przy każdej transakcji.</translation>
+        <translation>Dit is de minimum transactievergoeding dat je betaalt op elke transactie.</translation>
     </message>
     <message>
         <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>To jest opłata transakcyjna którą zapłacisz jeśli wyślesz transakcję. </translation>
+        <translation>Dit is de transactievergoeding dat je betaalt wanneer je een transactie verstuurt.</translation>
     </message>
     <message>
         <source>Transaction amounts must not be negative</source>
-        <translation>Kwota transakcji musi być dodatnia</translation>
+        <translation>Transactiebedragen moeten positief zijn</translation>
     </message>
     <message>
         <source>Transaction has too long of a mempool chain</source>
-        <translation>Transakcja posiada zbyt długi łańcuch pamięci</translation>
+        <translation>Transactie heeft een te lange mempoolketen</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
-        <translation>Transakcja wymaga co najmniej jednego odbiorcy</translation>
+        <translation>Transactie moet ten minste één ontvanger hebben</translation>
     </message>
     <message>
         <source>Trying to connect...</source>
-        <translation>Staram się połączyć</translation>
+        <translation>Proberen te verbinden...</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>Nie można przywiązać do %s na tym komputerze. %s prawdopodobnie jest już uruchomiony.</translation>
+        <translation>Niet in staat om %s te verbinden op deze computer. %s draait waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Upgrading UTXO database</source>
-        <translation>Aktualizowanie bazy danych UTXO</translation>
+        <translation>Upgraden UTXO-database</translation>
     </message>
     <message>
         <source>Use devnet chain with provided name</source>
-        <translation>Użyj łańcucha devnet z doranym imieniem.</translation>
+        <translation>Gebruik Devnet chain met de opgegeven naam</translation>
     </message>
     <message>
         <source>Wallet debugging/testing options:</source>
-        <translation>Opcje debugowania/testowania portfela:</translation>
+        <translation>Portemonee debugging/testing opties:</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart %s to complete</source>
-        <translation>Portfel wymaga przepisania: zrestartuj %s aby ukończyć</translation>
+        <translation>Portemonnee moest herschreven worden: Herstart %s om te voltooien</translation>
     </message>
     <message>
         <source>Warning: unknown new rules activated (versionbit %i)</source>
-        <translation>Uwaga: aktywowane zostały nowe zasady (versionbit %i)</translation>
+        <translation>Waarschuwing: onbekende nieuwe regels geactiveerd (versionbit %i)</translation>
     </message>
     <message>
         <source>Wasn't able to create wallet backup folder %s!</source>
-        <translation>Nie udało się utworzyć folderu %s na kopie zapasowe portfela!</translation>
+        <translation>Was niet in staat om de back-up folder aan te maken %s!</translation>
     </message>
     <message>
         <source>Whether to operate in a blocks only mode (default: %u)</source>
-        <translation>Czy operować jedynie w trybie bloków (domyślnie: %u)</translation>
+        <translation>Om in alleen een blokmodus te opereren (standaard: %u)</translation>
     </message>
     <message>
         <source>ZeroMQ notification options:</source>
-        <translation>ZeroMQ opcje powiadomień:</translation>
+        <translation>ZeroMQ notificatieopties:</translation>
     </message>
     <message>
         <source>no mixing available.</source>
-        <translation>Mieszanie niedostępne.</translation>
+        <translation>Geen Mixen beschikbaar.</translation>
     </message>
     <message>
         <source>see debug.log for details.</source>
-        <translation>Otwórz debug.log jeśli chcesz poznać detale.</translation>
+        <translation>zie debug.log voor meer informatie.</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>Opcje serwera RPC:</translation>
+        <translation>RPC-serveropties:</translation>
     </message>
     <message>
         <source>Dash Core</source>
@@ -4946,399 +4952,399 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>The %s developers</source>
-        <translation>Deweloperzy %s</translation>
+        <translation>De %s ontwikkelaars</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect/-noconnect)</source>
-        <translation>Akceptuj połącznia z zewnątrz (domyślnie: 1 jeśli nie ma proxy lub -connect/noconnect)</translation>
+        <translation>Sta verbindingen van buiten toe (standaard: 1 zonder -proxy of -connect/-noconnect)</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation>Nie można uzyskać blokady na katalogu z danymi %s. %s najprawdopodobniej jest już uruchomiony.</translation>
+        <translation>Kan geen lock verkrijgen op gegevensmap %s. %s draait waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s); -noconnect or -connect=0 alone to disable automatic connections</source>
-        <translation>Łącz się tylko z wybranym węzłem(węzłami); -noconnect lb -connect=0 aby wyłączyć automatyczne połączenia</translation>
+        <translation>Verbindt alleen met opgegeven node(s); -noconnect of -connect=0 alleen bestemd om automatische verbindingen uit te schakelen</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
-        <translation>Rozprowadzane na licencji MIT, zobacz dołączony plik %s lub %s</translation>
+        <translation>Uitgegeven onder de MIT software licentie, zie het bijgevoegde bestand %s of %s</translation>
     </message>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Błąd odczytu %s! Wszystkie klucze zostały odczytane poprawnie, ale może brakować  danych transakcji lub wpisów w książce adresowej, lub mogą one być nieprawidłowe.</translation>
+        <translation>Waarschuwing: Fout bij het lezen van %s! Alle sleutels zijn in goede orde uitgelezen, maar transactiedata of adresboeklemma's zouden kunnen ontbreken of fouten bevatten.</translation>
     </message>
     <message>
         <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
-        <translation>Wymuś przekazywanie transakcji od peerów z białej listy,  nawet jeśli jest to w sprzeczności z lokalnymi ustawieniami (domyślnie: %d)</translation>
+        <translation>Forceer het doorsturen van transacties van goedgekeurde peers, zelfs wanneer deze niet voldoen aan de lokale doorstuurregels (standaard: %d)</translation>
     </message>
     <message>
         <source>Incorrect or no devnet genesis block found. Wrong datadir for devnet specified?</source>
-        <translation>Znaleziono błędny lub nie istniejący pierwszy blog devnet. Wybrano zły datadir dla devnet? </translation>
+        <translation>Onjuiste of geen devnet genesisblok gevonden. Verkeerde devnet gegevensmap opgegeven?</translation>
     </message>
     <message>
         <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
-        <translation>Dopasowanie maksymalnego przeciętnego czasu peer. Lokalna perspektywa czasu może ulec zmianie przez peery któe znajdują się powyżej lub poniżej tej wartści. (domyślnie: %u sekund)</translation>
+        <translation>Maximum toegestane peer tijd compensatie. Lokaal perspectief van tijd mag worden beinvloed door peers die met deze hoeveelheid voor of achter lopen. (standaard: %u seconden)</translation>
     </message>
     <message>
         <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
-        <translation>Maksymalna wysokość opłat (w %s) dla jednej transakcji; ustawienie tej wartości za nisko może zatrzymać duże transakcje (domyślnie: %s)</translation>
+        <translation>Maximum totale transactiekosten (in %s) om te gebruiken in een enkele portemonneetransactie; als dit te laag is ingesteld kunnen grote transacties worden verhinderd (standaard: %s)</translation>
     </message>
     <message>
         <source>Override spork address. Only useful for regtest and devnet. Using this on mainnet or testnet will ban you.</source>
-        <translation>Nadpisz adres spork. Przydatne tylko na regtest oraz devnecie. Użycie tego na normalnje sieci lub testnecie zaskutkuje banem. </translation>
+        <translation>Overschrijf spork adres. Alleen bruikbaar voor regtest en devnet. Dit gebruiken op mainnet of testnet zal u een ban opleveren.</translation>
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>Proszę sprawdzić czy data i czas na Twoim komputerze są poprawne! Jeżeli ustawienia zegara będą złe, %s nie będzie działał prawidłowo.</translation>
+        <translation>Waarschuwing: Controleer dat de datum en tijd van uw computer correct zijn ingesteld! Bij een onjuist ingestelde klok zal %s niet goed werken.</translation>
     </message>
     <message>
         <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>Jeśli %s przydatne dla ciebie, wesprzyj nas. Odwiedź %s po więcej informacj na temat tego programu. </translation>
+        <translation>Gelieve bij te dragen als je %s nuttig vindt. Bezoek %s voor meer informatie over de software.</translation>
     </message>
     <message>
         <source>Provide liquidity to PrivateSend by infrequently mixing coins on a continual basis (%u-%u, default: %u, 1=very frequent, high fees, %u=very infrequent, low fees)</source>
-        <translation>Dostarczaj PrivateSend płynności przez rzadkie, ale ciągłe mieszanie monet (%u-%u, domyślnie: %u, 1=bardzo często, wysokie opłaty, %u=bardzo rzadko, niskie opłaty)</translation>
+        <translation>Voorzie PrivateSend van liquiditeit door niet vaak maar stelselmatig geld te mixen (%u-%u, standaard: %u, 1=heel vaak, hoge vergoedingen, %u=heel zelden, lage vergoedingen)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
-        <translation>Jeśli pula adresów jest niska, pytaj o adresy peer przez podgląd DNS (domyślnie: 1 chyba że -connect)</translation>
+        <translation>Vraag peer adressen aan via DNS-naslag, indien weinig adressen (standaard: 1 tenzij -connect/-noconnect)</translation>
     </message>
     <message>
         <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>
-        <translation>Zmniejsz ilość wymaganego miejsca poprzez czyszczenie (kasowanie) starych bloków.  TPozwala to pruneblockchain RPC na kasowanie wybranych bloków oraz na automatyczne czyszczenie starych bloków jeśli jest ustawiony limit miejsca w MiB. Tryb ten jest niezgodny z -txindex oraz -rescan. Uwaga: Cofnięcie tego ustawienia wymaga ponownego pobrania całego łańcucha bloków. (domyślnie: 0 = kasowanie starych bloków wyłączone, 1 = pozwól na ręczne czyszczenie przez RPC, &gt;%u = automatycznie kasuj bloki aby ilość zabranego miejsca nie przekraczała wybranego limitu w MiB)</translation>
+        <translation>Beperk benodigde opslag door het prunen (verwijderen) van oude blokken in te schakelen. Dit maakt het mogelijk om het pruneblockchain RPC commando aan te roepen om specifieke bloks te verwijderen, en maakt het automatische prunen van oude bloks mogelijk wanneer een doelgrootte in MiB is ingesteld. Deze modus is niet compatibel met -txindex en -rescan. Waarschuwing: ongedaan maken van deze instellingen vereist het opnieuw downloaden van gehele de blokketen. (standaard:0 = uitschakelen prunen, 1 = handmatig prunen via RPC toestaan, &gt;%u = automatisch blokketen bestanden prunen om beneden de gespecificeerde doelgrootte in MiB te blijven)</translation>
     </message>
     <message>
         <source>Set lowest fee rate (in %s/kB) for transactions to be included in block creation. (default: %s)</source>
-        <translation>Ustaw najnższą opłatę (in %s/kB) za transakcje aby została ona włączona do bloku. (domyślnie: %s)</translation>
+        <translation>Specificeer het laagste tarief (in %s/kB) voor transacties die bij het maken van een blok moeten worden in rekening worden gebracht (standaard: %s)</translation>
     </message>
     <message>
         <source>Show N confirmations for a successfully locked transaction (%u-%u, default: %u)</source>
-        <translation>Pokaż N potwierdzeń dla skutecznie zamkniętej transakcji (%u-%u, domyślnie: %u)</translation>
+        <translation>Toon N bevestigingen voor een succesvol vergrendelde transactie (%u-%u, standaard: %u)</translation>
     </message>
     <message>
         <source>This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>To jest prawdopodobny koszt transakcj jeśli szacunki opłat są niedostępne. </translation>
+        <translation>Dit is de transactievergoeding die je mogelijk betaalt indien geschatte tarief niet beschikbaar is</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Produkt zawiera oprogramowanie stworzone przez OpenSSL Project do użycia w OpensSSL Toolkit %s, oprogramowanie kryptograficzne napisane przez Eric Young oraz oprogramowanie UPnP napisane przez Thomas Bernard.</translation>
+        <translation>Dit product bevat software dat ontwikkeld is door het OpenSSL Project voor gebruik in de OpenSSL Toolkit %s en cryptografische software geschreven door Eric Young en UPnP software geschreven door Thomas Bernard.</translation>
     </message>
     <message>
         <source>Unable to locate enough PrivateSend non-denominated funds for this transaction.</source>
-        <translation>Nie znaleziono wystarczających środków PrivateSend o nominałach koniecznych do wykonania tej transakcji.</translation>
+        <translation>Kan onvoldoende met PrivateSend niet-gedenomineerd geld vinden voor deze transactie.</translation>
     </message>
     <message>
         <source>Use N separate masternodes for each denominated input to mix funds (%u-%u, default: %u)</source>
-        <translation>Użyj N osobnych masternodów dla każdej denominowanej wartości wejściowej aby zmiksować fundusze (%u-%u, domyślnie: %u)</translation>
+        <translation>Gebruik N afzonderlijke masternodes voor elke gedenomineerde input om geld te mixen (%u-%u, standaard: %u)</translation>
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after BIP39/BIP44. Only has effect during wallet creation/first start</source>
-        <translation>Użyj hierarchinie deterministycznego procesu generacji kluczy (HD) po BIP39/BIP44. Tyczy się jedynie kiedy towrzysz nowy portfel.</translation>
+        <translation>Gebruik hierarchisch deterministische sleutelgeneratie (HD) na BIP39/BIP44. Heeft alleen effect tijdens het maken van de wallet / eerste start.</translation>
     </message>
     <message>
         <source>User defined mnemonic passphrase for HD wallet (BIP39). Only has effect during wallet creation/first start (default: empty string)</source>
-        <translation>Fraza przypominająca dla portfela HD (bip39) zdefiniowana przez użytkownika. Działa jedynie przy tworzeniu nowego portfela/przy pierwszym uruchomieniu (domyślnie: pusty ciąg)</translation>
+        <translation>Gebruik de door de gebruiker opgegeven mnemonische wachtwoordzin voor HD-wallet (BIP39). Heeft alleen effect tijdens het aanmaken van de portemonnee/eerste start (standaard: empty string)</translation>
     </message>
     <message>
         <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</source>
-        <translation>Nazwa użytkownika oraz zhaszowane hasło do połączenia JSON-RPC. Pole &lt;userpw&gt; jest w formacie: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. Kanoniczny skrypt python jest zawarty w share/rpcuser. Klient łączy się normalnie używając rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt;pary argumentów. Opcja ta może zostać wielokrotnie sprecyzowana.</translation>
+        <translation>Gebruikersnaam en gehasht wachtwoord voor JSON-RPC-verbindingen. Het veld &lt;userpw&gt; is in het formaat: &lt;GEBRUIKERSNAAM&gt;:&lt;SALT&gt;$&lt;HASH&gt;. Een kanoniek Pythonscript is inbegrepen in share/rpcuser. De client verbindt dan normaal via de rpcuser=&lt;GEBRUIKERSNAAM&gt;/rpcpassword=&lt;PASWOORD&gt; argumenten. Deze optie kan meerdere keren worden meegegeven</translation>
     </message>
     <message>
         <source>Wallet will not create transactions that violate mempool chain limits (default: %u)</source>
-        <translation>Portfel nie stworzy transakcji które są sprzeczne z limitami puli pamięci. (domyślnie: %u)</translation>
+        <translation>Portemonnee creëert geen transacties die mempool-ketenlimieten schenden (standaard: %u)</translation>
     </message>
     <message>
         <source>Warning: At least %d of %d masternodes are running on a newer software version. Please check latest releases, you might need to update too.</source>
-        <translation>Uwaga: Przynajmniej %d z %d masterndów jest na nowszej wersji. Sprawdź najnowsze wydania oprogramowania, możliwe że musisz również dokonać aktualizacji.  </translation>
+        <translation>Waarschuwing: Ten minste %d van de %d masternodes werken met een nieuwere softwareversie. Controleer alstublieft de nieuwste releases, misschien moet u ook updaten.</translation>
     </message>
     <message>
         <source>Warning: Every masternode (out of %d known ones) is running on a newer software version. Please check latest releases, it's very likely that you missed a major/critical update.</source>
-        <translation>Uwaga: Każdy masternde ( z %d znanych) jest na nowszej wersji. Sprawdź najnowsze wydania oprogramowania, możliwe że przeoczyłeś ważną/krytyczną aktualizację.</translation>
+        <translation>Waarschuwing: Alle masternodes (van de %d bekende) werken met een nieuwere softwareversie. Controleer alstublieft de nieuwste releases, het is zeer waarschijnlijk dat u een belangrijke/kritische update mist.</translation>
     </message>
     <message>
         <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Ostrzeżenie: Odtworzono dane z uszkodzonego pliku portfela! Oryginalny %s został zapisany jako %s w %s; jeśli twoje saldo lub transakcje są niepoprawne powinieneś odtworzyć kopię zapasową.</translation>
+        <translation>Waarschuwing: portemonnee bestand is corrupt, data is veiliggesteld! Originele %s is opgeslagen als %s in %s; als uw balans of transacties incorrect zijn dient u een backup terug te zetten.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
-        <translation>Peery z białej listy łączące się z danejgo adresu IP (np. 1.2.3.4) lub CIDR notowanej sieci (np. 1.2.3.0/24). Może byc ustawiane wielokrotnie.</translation>
+        <translation>Goedgekeurde peers die verbinden vanaf een bepaald IP adres (vb. 1.2.3.4) of CIDR genoteerd netwerk (vb. 1.2.3.0/24). Kan meerdere keren worden gespecificeerd.</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
-        <translation>%s uszkodzony, odtworzenie się nie powiodło</translation>
+        <translation>%s corrupt, veiligstellen mislukt</translation>
     </message>
     <message>
         <source>%s is not a valid backup folder!</source>
-        <translation>%s nie jest ważnym folderem kopi zapasowych!</translation>
+        <translation>%s is geen geldige back-up map!</translation>
     </message>
     <message>
         <source>%s is set very high!</source>
-        <translation>%s jest ustawione bardzo wysoko!</translation>
+        <translation>%s is zeer hoog ingesteld!</translation>
     </message>
     <message>
         <source>(press q to shutdown and continue later)</source>
-        <translation>(naciśnij q aby zamknąć i kontynuować później)</translation>
+        <translation>(druk op q om af te sluiten en later verder te gaan)</translation>
     </message>
     <message>
         <source>-devnet can only be specified once</source>
-        <translation>-devnet może zostać ustawiony tylko jeden raz</translation>
+        <translation>-devnet kan maar één keer worden opgegeven</translation>
     </message>
     <message>
         <source>-port must be specified when -devnet and -listen are specified</source>
-        <translation>kiedy -devnet oraz -listen są ustawione -port też musi być ustawiony</translation>
+        <translation>-poort moet worden opgegeven wanneer -devnet en -listen worden gebruikt</translation>
     </message>
     <message>
         <source>-rpcport must be specified when -devnet and -server are specified</source>
-        <translation>kiedy -devnet oraz -server są ustawione -rpcport też musi być ustawiony</translation>
+        <translation>-rpcport moet worden opgegeven wanneer -devnet en -server worden gebruikt</translation>
     </message>
     <message>
         <source>Allow RFC1918 addresses to be relayed and connected to (default: %u)</source>
-        <translation>Pozwól RFC1918 adresom na bycie przekierowanym oraz połączonym do (domyślnie: %u)</translation>
+        <translation>Sta toe dat RFC1918 adressen worden doorgegeven en er mee wordt verbonden (standaard: %u)</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet on startup</source>
-        <translation>Próbuj odzyskać klucze prywatne z uszkodzonego portfela podczas uruchamiania.</translation>
+        <translation>Probeer bij het opstarten de geheime sleutel te herstellen van een beschadigde wallet</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>
-        <translation>Nie można rozpoznać -%s adresu: '%s'</translation>
+        <translation>Kan -%s adres niet herleiden: '%s'</translation>
     </message>
     <message>
         <source>Change index out of range</source>
-        <translation>Index zmian poza zasięgiem.</translation>
+        <translation>Wijzigingsindex buiten bereik</translation>
     </message>
     <message>
         <source>Copyright (C)</source>
-        <translation>Prawo autorskie (C)</translation>
+        <translation>Copyright (C)</translation>
     </message>
     <message>
         <source>Error loading %s</source>
-        <translation>Błąd ładowania %s</translation>
+        <translation>Fout bij het laden van %s</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet corrupted</source>
-        <translation>Błąd ładowania %s: Uszkodzony portfel</translation>
+        <translation>Fout bij het laden van %s: Portomonnee corrupt</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>Błąd ładowania %s: Portfel wymaga nowszej wersji %s</translation>
+        <translation>Fout bij laden %s: Portemonnee vereist een nieuwere versie van %s</translation>
     </message>
     <message>
         <source>Error upgrading chainstate database</source>
-        <translation>Błąd ładowania bazy bloków</translation>
+        <translation>Fout bij het upgraden van de ketenstaat database</translation>
     </message>
     <message>
         <source>Failed to find mixing queue to join</source>
-        <translation>Znalezienie kolejki do mieszania monet zakończyło się niepowodzeniem</translation>
+        <translation>Het is niet gelukt om een Mix-wachtrij te vinden om bij aan te sluiten</translation>
     </message>
     <message>
         <source>Failed to start a new mixing queue</source>
-        <translation>Próba stworzenia kolejki do mieszania monet zakończyła się niepowodzeniem</translation>
+        <translation>Het is niet gelukt om een nieuwe Mix-wachtrij te starten</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. %s is shutting down.</source>
-        <translation>Wstępna kontrola poprawności nie powiodła się. %s wyłącza się.</translation>
+        <translation>Initialisatie sanity check mislukt. %s is aan het afsluiten.</translation>
     </message>
     <message>
         <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>Nieprawidłowa kwota dla -%s=&lt;amount&gt;: '%s'</translation>
+        <translation>Ongeldig bedrag voor -%s=&lt;bedrag&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid spork address specified with -sporkaddr</source>
-        <translation>Nieważny adres spork ustawiony z -sporkaddr</translation>
+        <translation>Ongeldig sporkadres opgegeven met -sporkaddr</translation>
     </message>
     <message>
         <source>Keep N DASH anonymized (%u-%u, default: %u)</source>
-        <translation>Trzymaj N DASH zanonimizowane (%u-%u, domyślnie: %u)</translation>
+        <translation>Hou N Dash geanonimiseerd (%u-%u, standaard: %u)</translation>
     </message>
     <message>
         <source>Print this help message and exit</source>
-        <translation>Wyświetl ten tekst pomocy i wyjdź</translation>
+        <translation>Print dit helpbericht en sluit af</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>Odbiera i wyświetla P2P alarmy sieci (standardowo: %u)</translation>
+        <translation>Ontvang en geef P2P network alerts weer (standaard: %u)</translation>
     </message>
     <message>
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
-        <translation>Zmniejsz -maxconnections z %d do %d, z powodu ograniczeń systemowych.</translation>
+        <translation>Verminder -maxconnections van %d naar %d, vanwege systeembeperkingen.</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Retransmituj i przejrzyj transakcje operatora danych (domyślnie: %u)</translation>
+        <translation>Geef gegevensdragertransacties door en mijn ze ook (standaard: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Retransmituj non-P2SH multisig (doyślnie: %u)</translation>
+        <translation>Geef non-P2SH multisig door (standaard: %u)</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Ponowne skanowanie...</translation>
+        <translation>Opnieuw scannen...</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Działaj w tle jako daemon i akceptuj polecenia</translation>
+        <translation>Draai in de achtergrond als daemon en aanvaard opdrachten</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Wyślij informacje na temat błędów do konsoli zamiast do debug.log file</translation>
+        <translation>Verzend trace/debug-info naar de console in plaats van het debug.log-bestand</translation>
     </message>
     <message>
         <source>Session not complete!</source>
-        <translation>Sesja nie została ukończona!</translation>
+        <translation>Sessie niet voltooid!</translation>
     </message>
     <message>
         <source>Session timed out.</source>
-        <translation>Sesja wygasła</translation>
+        <translation>Sessie verlopen.</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Ustaw pamięć podręczną bazy danych w megabajtach (%d to %d, domyślny: %d)</translation>
+        <translation>Zet database cache grootte in megabytes (%d tot %d, standaard: %d)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Ustaw maksymalny rozmiar bloku w bajtach (domyślny: %d)</translation>
+        <translation>Stel de maximale blok grootte in bytes in (standaard: %d)</translation>
     </message>
     <message>
         <source>Set the masternode private key</source>
-        <translation>Ustaw klucz prywatny masternoda</translation>
+        <translation>Stel de masternode private key in</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Pokaż wszystkie opcje debugowania (użyj: --help -help-debug)</translation>
+        <translation>Toon alle foutopsporingsopties (gebruik: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Zmniejsz plik debug.log podczas włączania klienta (domyślny: 1 kiedy nie ma -debug)</translation>
+        <translation>Verklein debug.log-bestand bij het opstarten van de client (standaard: 1 als geen -debug)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Podpisywanie transakcji nie powiodło się</translation>
+        <translation>Ondertekenen van transactie mislukt</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Sprecyzuj katalog danych</translation>
+        <translation>Stel gegevensmap in</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Sprecyzuj plik wallet (w katalogu danych)</translation>
+        <translation>Specificeer het portemonnee bestand (vanuit de gegevensmap)</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Sprecyzuj swój adres publiczny</translation>
+        <translation>Specificeer uw eigen publieke adres</translation>
     </message>
     <message>
         <source>Starting network threads...</source>
-        <translation>Uruchamianie wątków sieciowych...</translation>
+        <translation>Netwerkthread starten...</translation>
     </message>
     <message>
         <source>Synchronization pending...</source>
-        <translation>Oczekiwanie na synchronizację...</translation>
+        <translation>Synchronisatie in behandeling...</translation>
     </message>
     <message>
         <source>Synchronizing governance objects...</source>
-        <translation>Synchronizuję obiekty zarządzania...</translation>
+        <translation>Synchroniseren governance objecten...</translation>
     </message>
     <message>
         <source>Synchronizing masternode payments...</source>
-        <translation>Synchronizacja płatności masternodów...</translation>
+        <translation>Synchroniseren masternode betalingen...</translation>
     </message>
     <message>
         <source>The source code is available from %s.</source>
-        <translation>Kod źródłowy dostępny jest z %s.</translation>
+        <translation>De broncode is beschikbaar van %s.</translation>
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
-        <translation>Kwota transakcji jest za niska by pokryć opłatę</translation>
+        <translation>Het transactiebedrag is te klein om transactiekosten in rekening te brengen</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Jest to oprogramowanie testowe.</translation>
+        <translation>Dit is experimentele software.</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Zbyt mała kwota</translation>
+        <translation>Transactiebedrag te klein</translation>
     </message>
     <message>
         <source>Transaction created successfully.</source>
-        <translation>Skutecznie utworzono transakcję.</translation>
+        <translation>Transactie succesvol aangemaakt.</translation>
     </message>
     <message>
         <source>Transaction fees are too high.</source>
-        <translation>Opłaty za transakcję są zbyt wysokie.</translation>
+        <translation>Transactiekosten zijn te hoog.</translation>
     </message>
     <message>
         <source>Transaction not valid.</source>
-        <translation>Transakcja niewłaściwa.</translation>
+        <translation>Transactie is niet geldig.</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Transakcja nie mieści się w ramach wyznaczających wielkość opłaty za transakcję</translation>
+        <translation>De transactie is te groot voor het transactiekostenbeleid</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Nie udało się powiązać do %s na tym komputerze (powiązanie zwróciło błąd %s)</translation>
+        <translation>Niet in staat om aan %s te binden op deze computer (bind gaf error %s)</translation>
     </message>
     <message>
         <source>Unable to sign spork message, wrong key?</source>
-        <translation>Niemożliwe podpisanie wiadomości spork, nieprawidłowy klucz?</translation>
+        <translation>Niet in staat om het sporkbericht te ondertekenen, verkeerde sleutel?</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Nieznana sieć określona w -onlynet: '%s'</translation>
+        <translation>Onbekend netwerk gespecificeerd in -onlynet: '%s'</translation>
     </message>
     <message>
         <source>Unknown state: id = %u</source>
-        <translation>Status nieznany: id = %u</translation>
+        <translation>Onbekende staat: id = %u</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Nazwa użytkownika dla połączeń JSON-RPC </translation>
+        <translation>Gebruikersnaam voor JSON-RPC-verbindingen</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Weryfikacja bloków...</translation>
+        <translation>Blokken aan het controleren...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Weryfikacja portfela...</translation>
+        <translation>Wallet wordt geverifieerd...</translation>
     </message>
     <message>
         <source>Very low number of keys left: %d</source>
-        <translation>Pozostało bardzo mało kluczy: %d</translation>
+        <translation>Het aantal resterende sleutels is heel laag: %d</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Plik wallet %s znajduje się poza katalogiem danych %s</translation>
+        <translation>Wallet %s bevindt zich buiten de gegevensmap %s</translation>
     </message>
     <message>
         <source>Wallet is locked.</source>
-        <translation>Portfel jest zamknięty.</translation>
+        <translation>Portemonnee zit op slot.</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Opcje portfela:</translation>
+        <translation>Portemonnee-opties</translation>
     </message>
     <message>
         <source>Wallet window title</source>
-        <translation>Nazwa okna portfela</translation>
+        <translation>Wallet venster titel</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Ostrzeżenie</translation>
+        <translation>Waarschuwing</translation>
     </message>
     <message>
         <source>Your entries added successfully.</source>
-        <translation>Twoje wejścia zostały dodane z powodzeniem.</translation>
+        <translation>Uw gegevens zijn succesvol toegevoegd.</translation>
     </message>
     <message>
         <source>Your transaction was accepted into the pool!</source>
-        <translation>Twoja transakcja została dołączona do poola!</translation>
+        <translation>Uw transactie was geaccepteerd in de pool!</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Zappowanie wszystkich transakcji z portfela</translation>
+        <translation>Bezig met het zappen van alle transacties van de portemonnee...</translation>
     </message>
 </context>
 </TS>
