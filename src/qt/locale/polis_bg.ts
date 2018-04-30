@@ -306,17 +306,8 @@
         <translation>Изход от приложението</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>&amp;About polis Core</source>
-        <translation>&amp;За polis ядрото</translation>
-    </message>
-    <message>
-        <source>Show information about polis Core</source>
-        <translation>Покаци информация за polis Core</translation>
-=======
-        <source>Show information about Dash Core</source>
-        <translation>Покаци информация за Dash Core</translation>
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
+        <source>Show information about Polis Core</source>
+        <translation>Покаци информация за Polis Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -331,17 +322,12 @@
         <translation>&amp;Опции...</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Modify configuration options for polis Core</source>
-        <translation>Промяна опциите за конфигуриране на polis Core</translation>
-=======
         <source>&amp;About %1</source>
         <translation>&amp;Относно %1</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
         <translation>Промяна на опциите за конфигурация на %1</translation>
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -496,17 +482,12 @@
         <translation>&amp;Опции на командния ред</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Show the polis Core help message to get a list with possible polis Core command-line options</source>
-        <translation>Покажи съобщението за помощ на polis Core за да получите списък с възможните опции за командния ред на polis Core</translation>
-=======
-        <source>Show the %1 help message to get a list with possible Dash command-line options</source>
-        <translation>Покажи %1 помощното съобщение за да получите списък с възможни Dash команди</translation>
+        <source>Show the %1 help message to get a list with possible Polis command-line options</source>
+        <translation>Покажи %1 помощното съобщение за да получите списък с възможни Polis команди</translation>
     </message>
     <message>
         <source>%1 client</source>
         <translation>%1 клиент</translation>
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
     </message>
     <message>
         <source>&amp;PrivateSend information</source>
@@ -536,13 +517,6 @@
         <source>Tabs toolbar</source>
         <translation>Лента с инструменти</translation>
     </message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-    <message>
-        <source>polis Core client</source>
-        <translation>polis Core клиент</translation>
-    </message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
     <message numerus="yes">
         <source>%n active connection(s) to polis network</source>
         <translation><numerusform>%n активни връзки към polis мрежата</numerusform><numerusform>%n активни връзки към polis мрежата</numerusform></translation>
@@ -1008,13 +982,6 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>polis Core</source>
-        <translation>polis ядро</translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
         <source>version</source>
         <translation>версия</translation>
     </message>
@@ -1023,13 +990,8 @@
         <translation>(%1-битов)</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>About polis Core</source>
-        <translation>За polis ядрото</translation>
-=======
         <source>About %1</source>
         <translation>Относно %1</translation>
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
     </message>
     <message>
         <source>Command-line options</source>
@@ -1087,18 +1049,6 @@
         <translation>Добре дошли</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Welcome to polis Core.</source>
-        <translation>Добре дошли в ядрото на polis.</translation>
-    </message>
-    <message>
-        <source>As this is the first time the program is launched, you can choose where polis Core will store its data.</source>
-        <translation>Тъй като програмата се стартира за първи път вие може да изберете къде polis да съхранява своята информация.</translation>
-    </message>
-    <message>
-        <source>polis Core will download and store a copy of the polis block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>polis ще свали и съхрани копие на polis регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
-=======
         <source>Welcome to %1.</source>
         <translation>Добре дошли в %1.</translation>
     </message>
@@ -1107,9 +1057,8 @@
         <translation>Тъй като това е първият път, когато програмата се стартира, можете да изберете къде %1 да съхранява данните си.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Dash block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 ще свали и съхрани копие на Dash регистъра на блокове. Най-малко %2GB от информацията ще се съхрани в тази директория и ще нараства с времето.  Портфейлът също ще бъде съхранен в тази директория. </translation>
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
+        <source>%1 will download and store a copy of the Polis block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 ще свали и съхрани копие на Polis регистъра на блокове. Най-малко %2GB от информацията ще се съхрани в тази директория и ще нараства с времето.  Портфейлът също ще бъде съхранен в тази директория. </translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1120,13 +1069,6 @@
         <translation>Определете папка по ваш избор:</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>polis Core</source>
-        <translation>polis ядро</translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
         <source>Error: Specified data directory "%1" cannot be created.</source>
         <translation>Грешка: Посочената директория с данни "%1" не може да бъде създадена.</translation>
     </message>
@@ -1411,17 +1353,6 @@
         <translation>П&amp;ортфейл</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Automatically start polis Core after logging in to the system.</source>
-        <translation>Автоматично стартиране на polis Core след влизане в системата.</translation>
-    </message>
-    <message>
-        <source>&amp;Start polis Core on system login</source>
-        <translation>&amp;Стартиране на polis Core при влизане</translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
         <translation>Показване на допълнителен раздел показваш всичките Ви masternodes  в първият подраздел&lt;br/&gt;и всички masternodes в мрежата във вторият подраздел.</translation>
     </message>
@@ -1490,13 +1421,6 @@
         <translation>При затваряне на прозореца приложението остава минимизирано. Ако изберете тази опция, приложението може да се затвори само чрез Изход в менюто.</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>The user interface language can be set here. This setting will take effect after restarting polis Core.</source>
-        <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на polis Core. </translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>URL адреси на трети страни (например block Explorer), които се появяват в раздела с транзакции, като елементи от контекстното меню. %s в URL е заменен с хеша на транзакцията. Отделните URL адреси са разделени с вертикална линия |.</translation>
     </message>
@@ -2085,13 +2009,6 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Грешка при четене конфигурационният файл на masternode : %1</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>polis Core didn't yet exit safely...</source>
-        <translation>polis Core все още не е приключило ...</translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
         <source>Amount</source>
         <translation>Сума</translation>
     </message>
@@ -2311,13 +2228,6 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Използвана памет</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Open the polis Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отваря файла за откриване на грешки на polis Core от текущата папка.  За по-големите файлове това може да отнеме няколко секунди.</translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
         <source>&amp;Console</source>
         <translation>&amp;Конзола</translation>
     </message>
@@ -2534,13 +2444,8 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>&amp;Премахване на бан</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Welcome to the polis Core RPC console.</source>
-        <translation>Добре дошли в polis Core RPC конзолата.</translation>
-=======
         <source>Welcome to the %1 RPC console.</source>
         <translation>Добре дошли в %1 RPC конзолата.</translation>
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -3208,13 +3113,8 @@ https://www.transifex.com/projects/p/polis/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>polis Core is shutting down...</source>
-        <translation>polis ядрото се изключва...</translation>
-=======
         <source>%1 is shutting down...</source>
         <translation>%1 се изключва...</translation>
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3367,27 +3267,9 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>[testnet]</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>polis Core</source>
-        <translation>polis Ядро</translation>
-    </message>
-    <message>
         <source>Version %1</source>
         <translation>Версия %1</translation>
     </message>
-    <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Водещи Bitcoin разработчици</translation>
-    </message>
-    <message>
-        <source>The polis Core developers</source>
-        <translation>Водещи polis разработчици</translation>
-    </message>
-=======
-        <source>Version %1</source>
-        <translation>Версия %1</translation>
-    </message>
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
 </context>
 <context>
     <name>TrafficGraphWidget</name>
@@ -3987,13 +3869,7 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Свързва се с посочения адрес и винаги слуша за него. Използвайте [хост]:порт за изписване при IPv6</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Cannot obtain a lock on data directory %s. polis Core is probably already running.</source>
-        <translation>Не може да се заключи дата директорията %s. polis ядрото вече работи.</translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
+
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation>Грешка: Очакването на входящи връзки е неуспешно (върната грешка %s)</translation>
     </message>
@@ -4026,13 +3902,6 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Това е предварителна тест версия - използвайте я на ваша отговорност - не използвайте за копане или за търговски приложения.</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Unable to bind to %s on this computer. polis Core is probably already running.</source>
-        <translation>Не може да се свърже с %s на този компютър. polis ядрото най-вероятно вече работи.</translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Внимание! Изглежда няма пълно съгласуване в мрежата! Някой копачи изглежда изпитват проблеми.</translation>
     </message>
@@ -4221,29 +4090,6 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Изходяща информация за грешки (по подразбиране: %u, задаването на &lt;category&gt; е опция)</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation>Задай брой заявки, когато се използва генериране (-1 =всички ядра, по подразбиране: %d)</translation>
-    </message>
-    <message>
-        <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Покажи N потвърждения при успешно заключена транзакция (0-9999, по подразбиране: %u)</translation>
-    </message>
-    <message>
-        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Този продукт включва софтуер, разработен от проекта OpenSSL за използване в OpenSSL Toolkit &lt;https://www.openssl.org/&gt; и криптографски софтуер, написан от Eric Young и UPnP софтуер, написан от Thomas Bernard.</translation>
-    </message>
-    <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 polis.</source>
-        <translation>Не са намерени достатъчно  средства за тази транзакция, които не са равни на 1000 polis.</translation>
-    </message>
-    <message>
-        <source>Use hierarchical deterministic key generation (HD) after bip39/bip44. Only has effect during wallet creation/first start</source>
-        <translation>Използвайте йерархично детерминиращо генериране на ключ (HD) след bip39 / bip44. Има ефект само по време на създаване на портфейла / първия старт</translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
         <translation>Използва отделен SOCKS5 прокси, за достигне на пиъри чрез Tor скрити услуги (по подразбиране: %s)</translation>
     </message>
@@ -4292,17 +4138,6 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Свързване към KeePassHttp през порт &lt;port&gt; (по подразбиране: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Запазени права (C) 2009-%i Bitcoin Core разработчици</translation>
-    </message>
-    <message>
-        <source>Copyright (C) 2014-%i The polis Core Developers</source>
-        <translation>Запазени права (C) 2014-%i polis Core разработчиците</translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
         <translation>Активиране на клиента да работи като masternode (0-1, по подразбиране: %u)</translation>
     </message>
@@ -4315,13 +4150,6 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Грешка при зареждане %s: Не може да изключите HD на вече съществуващ HD портфейл</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Error loading wallet.dat: Wallet requires newer version of polis Core</source>
-        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на polis Core</translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
         <source>Failed to load fulfilled requests cache from</source>
         <translation>Неуспешно зареждане на  кеш с изпълнени заявки от</translation>
     </message>
@@ -4374,13 +4202,6 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Информация</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Initialization sanity check failed. polis Core is shutting down.</source>
-        <translation>Инициализационната проверка не успешна. polis ядрото се изключва.</translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
         <source>Input is not valid.</source>
         <translation>Въвеждането е невалидно.</translation>
     </message>
@@ -4613,13 +4434,6 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>User Agent comment (%s) съдържа опасни символи.</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Wallet needed to be rewritten: restart polis Core to complete</source>
-        <translation>Портфейлът трябва да бъде презаписан: рестартирайте polis за да завършите</translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
         <source>Will retry...</source>
         <translation>Ще опита отново...</translation>
     </message>
@@ -4660,13 +4474,6 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>KeePassHttp ключ за  AES криптирана връзка с KeePass</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Keep N polis anonymized (default: %u)</source>
-        <translation>Поддържай N polis анонимизирани (по подразбиране: %u)</translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>Пази поне &lt;n&gt; неосъществени транзакции в паметта (по подразбиране: %u)</translation>
     </message>
@@ -4739,17 +4546,6 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Поддържайте най-много &lt;n&gt; връзки към пиъри(без временните сервизни връзки)(по подразбиране: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Maximum total fees (in %s) to use in a single wallet transaction; setting this too low may abort large transactions (default: %s)</source>
-        <translation>Максимална крайна такса (в %s) използвана в единична транзакция, ако е зададена твърде малка, няма да бъдат възможни големи транзакции (по подразбиране: %s)</translation>
-    </message>
-    <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong polis Core will not work properly.</source>
-        <translation>Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, polis Core няма да работи правилно.</translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
         <translation>PrivateSend използва всички деноминирани наличности за да изпрати сумата, може би ще е необходимо да бъдат анонимизирани  още монети.</translation>
     </message>
@@ -4798,13 +4594,6 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Не са намерени достатъчно PrivateSend деноминирани средства за тази транзакция.</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/polis_bg.ts
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 polis.</source>
-        <translation>Не са намерени достатъчно PrivateSend неденоминирани средства за тази транзакция, които не са равни на 1000 polis.</translation>
-    </message>
-    <message>
-=======
->>>>>>> upstream/develop:src/qt/locale/dash_bg.ts
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
         <translation>Открит е неподдържан аргумент -socks .Настройката SOCKS версия вече не е възможна, само SOCKS5 прокси се поддържа.</translation>
     </message>
@@ -5153,8 +4942,8 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Опции на RPC сървъра:</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Polis Core</source>
+        <translation>Polis Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -5361,8 +5150,8 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Невалиден спорк адрес посочен с -sporkaddr</translation>
     </message>
     <message>
-        <source>Keep N DASH anonymized (%u-%u, default: %u)</source>
-        <translation>Поддържай N DASH анонимизирани (%u-%u, по подразбиране: %u)</translation>
+        <source>Keep N POLIS anonymized (%u-%u, default: %u)</source>
+        <translation>Поддържай N POLIS анонимизирани (%u-%u, по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Print this help message and exit</source>
