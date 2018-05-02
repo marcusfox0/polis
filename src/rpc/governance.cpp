@@ -655,7 +655,7 @@ UniValue gobject(const JSONRPCRequest& request)
 
         // SETUP BLOCK INDEX VARIABLE / RESULTS VARIABLE
 
-        UniValue objResult(UniValue::VOBJ);
+        UniValue objResult(UniValue::VARR);
 
         // GET MATCHING GOVERNANCE OBJECTS
 
@@ -703,7 +703,7 @@ UniValue gobject(const JSONRPCRequest& request)
             bObj.push_back(Pair("fCachedDelete",  pGovObj->IsSetCachedDelete()));
             bObj.push_back(Pair("fCachedEndorsed",  pGovObj->IsSetCachedEndorsed()));
 
-            objResult.push_back(Pair(pGovObj->GetHash().ToString(), bObj));
+            objResult.push_back(bObj);
         }
 
         return objResult;
