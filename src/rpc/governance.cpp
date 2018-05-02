@@ -703,7 +703,7 @@ UniValue gobject(const JSONRPCRequest& request)
             bObj.push_back(Pair("fCachedDelete",  pGovObj->IsSetCachedDelete()));
             bObj.push_back(Pair("fCachedEndorsed",  pGovObj->IsSetCachedEndorsed()));
 
-            objResult.push_back(Pair(bObj));
+            objResult.push_back(bObj);
         }
 
         return objResult;
