@@ -533,14 +533,16 @@ UniValue masternodelist(const JSONRPCRequest& request)
         mnodeman.UpdateLastPaid(pindex);
     }
 
-    UniValue obj(UniValue::VOBJ);
+    UniValue obj(UniValue::VARR);
     if (strMode == "rank") {
         CMasternodeMan::rank_pair_vec_t vMasternodeRanks;
         mnodeman.GetMasternodeRanks(vMasternodeRanks);
         for (const auto& rankpair : vMasternodeRanks) {
+            UniValue objMN(UniValue::VOBJ);
             std::string strOutpoint = rankpair.second.outpoint.ToStringShort();
             if (strFilter !="" && strOutpoint.find(strFilter) == std::string::npos) continue;
-            obj.push_back(Pair(strOutpoint, rankpair.first));
+            objMN.push_back(Pair(strOutpoint, rankpair.first));
+            obj.push_back(objMN);
         }
     } else {
         std::map<COutPoint, CMasternode> mapMasternodes = mnodeman.GetFullMasternodeMap();
@@ -548,24 +550,33 @@ UniValue masternodelist(const JSONRPCRequest& request)
             CMasternode mn = mnpair.second;
             std::string strOutpoint = mnpair.first.ToStringShort();
             if (strMode == "activeseconds") {
+              UniValue objMN(UniValue::VOBJ);
                 if (strFilter !="" && strOutpoint.find(strFilter) == std::string::npos) continue;
-                obj.push_back(Pair(strOutpoint, (int64_t)(mn.lastPing.sigTime - mn.sigTime)));
+                objMN.push_back(Pair(strOutpoint, (int64_t)(mn.lastPing.sigTime - mn.sigTime)));
+                obj.push_back(objMN);
             } else if (strMode == "addr") {
+              UniValue objMN(UniValue::VOBJ);
                 std::string strAddress = mn.addr.ToString();
                 if (strFilter !="" && strAddress.find(strFilter) == std::string::npos &&
                     strOutpoint.find(strFilter) == std::string::npos) continue;
-                obj.push_back(Pair(strOutpoint, strAddress));
+                objMN.push_back(Pair(strOutpoint, strAddress));
+                obj.push_back(objMN);
             } else if (strMode == "daemon") {
+              UniValue objMN(UniValue::VOBJ);
                 std::string strDaemon = mn.lastPing.nDaemonVersion > DEFAULT_DAEMON_VERSION ? FormatVersion(mn.lastPing.nDaemonVersion) : "Unknown";
                 if (strFilter !="" && strDaemon.find(strFilter) == std::string::npos &&
                     strOutpoint.find(strFilter) == std::string::npos) continue;
-                obj.push_back(Pair(strOutpoint, strDaemon));
+                objMN.push_back(Pair(strOutpoint, strDaemon));
+                obj.push_back(objMN);
             } else if (strMode == "sentinel") {
+              UniValue objMN(UniValue::VOBJ);
                 std::string strSentinel = mn.lastPing.nSentinelVersion > DEFAULT_SENTINEL_VERSION ? SafeIntVersionToString(mn.lastPing.nSentinelVersion) : "Unknown";
                 if (strFilter !="" && strSentinel.find(strFilter) == std::string::npos &&
                     strOutpoint.find(strFilter) == std::string::npos) continue;
-                obj.push_back(Pair(strOutpoint, strSentinel));
+                objMN.push_back(Pair(strOutpoint, strSentinel));
+                obj.push_back(objMN);
             } else if (strMode == "full") {
+              UniValue objMN(UniValue::VOBJ);
                 std::ostringstream streamFull;
                 streamFull << std::setw(18) <<
                                mn.GetStatus() << " " <<
@@ -579,8 +590,10 @@ UniValue masternodelist(const JSONRPCRequest& request)
                 std::string strFull = streamFull.str();
                 if (strFilter !="" && strFull.find(strFilter) == std::string::npos &&
                     strOutpoint.find(strFilter) == std::string::npos) continue;
-                obj.push_back(Pair(strOutpoint, strFull));
+                objMN.push_back(Pair(strOutpoint, strFull));
+                obj.push_back(objMN);
             } else if (strMode == "info") {
+              UniValue objMN(UniValue::VOBJ);
                 std::ostringstream streamInfo;
                 streamInfo << std::setw(18) <<
                                mn.GetStatus() << " " <<
@@ -594,8 +607,10 @@ UniValue masternodelist(const JSONRPCRequest& request)
                 std::string strInfo = streamInfo.str();
                 if (strFilter !="" && strInfo.find(strFilter) == std::string::npos &&
                     strOutpoint.find(strFilter) == std::string::npos) continue;
-                obj.push_back(Pair(strOutpoint, strInfo));
+                objMN.push_back(Pair(strOutpoint, strInfo));
+                obj.push_back(objMN);
             } else if (strMode == "json") {
+              UniValue objMN(UniValue::VOBJ);
                 std::ostringstream streamInfo;
                 streamInfo <<  mn.addr.ToString() << " " <<
                                CBitcoinAddress(mn.pubKeyCollateralAddress.GetID()).ToString() << " " <<
@@ -611,7 +626,7 @@ UniValue masternodelist(const JSONRPCRequest& request)
                 std::string strInfo = streamInfo.str();
                 if (strFilter !="" && strInfo.find(strFilter) == std::string::npos &&
                     strOutpoint.find(strFilter) == std::string::npos) continue;
-                UniValue objMN(UniValue::VOBJ);
+                objMN.push_back(Pair("txid", strOutpoint));
                 objMN.push_back(Pair("address", mn.addr.ToString()));
                 objMN.push_back(Pair("payee", CBitcoinAddress(mn.pubKeyCollateralAddress.GetID()).ToString()));
                 objMN.push_back(Pair("status", mn.GetStatus()));
@@ -623,34 +638,48 @@ UniValue masternodelist(const JSONRPCRequest& request)
                 objMN.push_back(Pair("activeseconds", (int64_t)(mn.lastPing.sigTime - mn.sigTime)));
                 objMN.push_back(Pair("lastpaidtime", mn.GetLastPaidTime()));
                 objMN.push_back(Pair("lastpaidblock", mn.GetLastPaidBlock()));
-                obj.push_back(Pair(strOutpoint, objMN));
+                obj.push_back(objMN);
             } else if (strMode == "lastpaidblock") {
+              UniValue objMN(UniValue::VOBJ);
                 if (strFilter !="" && strOutpoint.find(strFilter) == std::string::npos) continue;
-                obj.push_back(Pair(strOutpoint, mn.GetLastPaidBlock()));
+                objMN.push_back(Pair(strOutpoint, mn.GetLastPaidBlock()));
+                obj.push_back(objMN);
             } else if (strMode == "lastpaidtime") {
+              UniValue objMN(UniValue::VOBJ);
                 if (strFilter !="" && strOutpoint.find(strFilter) == std::string::npos) continue;
-                obj.push_back(Pair(strOutpoint, mn.GetLastPaidTime()));
+                objMN.push_back(Pair(strOutpoint, mn.GetLastPaidTime()));
+                obj.push_back(objMN);
             } else if (strMode == "lastseen") {
+              UniValue objMN(UniValue::VOBJ);
                 if (strFilter !="" && strOutpoint.find(strFilter) == std::string::npos) continue;
-                obj.push_back(Pair(strOutpoint, (int64_t)mn.lastPing.sigTime));
+                objMN.push_back(Pair(strOutpoint, (int64_t)mn.lastPing.sigTime));
+                obj.push_back(objMN);
             } else if (strMode == "payee") {
+              UniValue objMN(UniValue::VOBJ);
                 CBitcoinAddress address(mn.pubKeyCollateralAddress.GetID());
                 std::string strPayee = address.ToString();
                 if (strFilter !="" && strPayee.find(strFilter) == std::string::npos &&
                     strOutpoint.find(strFilter) == std::string::npos) continue;
-                obj.push_back(Pair(strOutpoint, strPayee));
+                objMN.push_back(Pair(strOutpoint, strPayee));
+                obj.push_back(objMN);
             } else if (strMode == "protocol") {
+              UniValue objMN(UniValue::VOBJ);
                 if (strFilter !="" && strFilter != strprintf("%d", mn.nProtocolVersion) &&
                     strOutpoint.find(strFilter) == std::string::npos) continue;
-                obj.push_back(Pair(strOutpoint, mn.nProtocolVersion));
+                objMN.push_back(Pair(strOutpoint, mn.nProtocolVersion));
+                obj.push_back(objMN);
             } else if (strMode == "pubkey") {
+              UniValue objMN(UniValue::VOBJ);
                 if (strFilter !="" && strOutpoint.find(strFilter) == std::string::npos) continue;
-                obj.push_back(Pair(strOutpoint, HexStr(mn.pubKeyMasternode)));
+                objMN.push_back(Pair(strOutpoint, HexStr(mn.pubKeyMasternode)));
+                obj.push_back(objMN);
             } else if (strMode == "status") {
+              UniValue objMN(UniValue::VOBJ);
                 std::string strStatus = mn.GetStatus();
                 if (strFilter !="" && strStatus.find(strFilter) == std::string::npos &&
                     strOutpoint.find(strFilter) == std::string::npos) continue;
-                obj.push_back(Pair(strOutpoint, strStatus));
+                objMN.push_back(Pair(strOutpoint, strStatus));
+                obj.push_back(objMN);
             }
         }
     }
