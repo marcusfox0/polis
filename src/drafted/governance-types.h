@@ -16,9 +16,9 @@ enum GovernanceObjectType {
     ValueOverride = 1, 
 
     // -------------------------------
-    // polisNetwork - is the root node
-    polisNetwork = 1000,
-    polisNetworkVariable = 1001,
+    // PolisNetwork - is the root node
+    PolisNetwork = 1000,
+    PolisNetworkVariable = 1001,
     Category = 1002,
 
     // Actors

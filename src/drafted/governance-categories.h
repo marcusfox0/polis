@@ -4,7 +4,7 @@
 
 	* means the category has an associated class
 	
-	CpolisNetwork: polis NETWORK (ROOT)
+	CPolisNetwork: polis NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
 		vector<CpolisProject> vecProjects;
