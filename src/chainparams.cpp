@@ -176,9 +176,9 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_BIP147].nThreshold = 3226; // 80% of 4032
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000000e72e9b868ce8efb7"); // 782700
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000290e31461dcf3bd3ec"); // 83484
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x00000000000015f27f37b2cf6122d5df3fa781d1471258377d9b4d4d7dfa0776"); // 782700
+        consensus.defaultAssumeValid = uint256S("0x00000000000001055896a6bd92c9f6a62927a3ba25c6c3a8ffc6441650f722a6"); // 83484
         /**
          * The message start string is designed to be unlikely to occur in normal data.
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
@@ -247,11 +247,13 @@ public:
             ( 6000, uint256S("0x00000000000027ffb241efa3fafa43a3121216d70e79b28bc2afb8457d84cbfe"))
             ( 7000, uint256S("0x0000000000003a79e1b54fe39070e0d53799cdca901db726eb1c847ce8d0c890"))
             ( 8000, uint256S("0x000000000000045991733d2bc793d17a6fcafd7bfa35adb68b4036813b64fbf1"))
+            ( 70000, uint256S("0x00000000000006fd8cdcc16c6432c8934e8f4b598f447db295851107437647a7"))
+            ( 80000, uint256S("0x0000000000000eaf98251863568f95a865bba9476e060d93dfd7f02f123b0748"))
 
         };
         chainTxData = ChainTxData{
-            1514863421, // * UNIX timestamp of last checkpoint block
-            21000,    // * total number of transactions between genesis and last checkpoint
+            1523977101, // * UNIX timestamp of last checkpoint block
+            192023,    // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             21000        // * estimated number of transactions per day after checkpoint
 
