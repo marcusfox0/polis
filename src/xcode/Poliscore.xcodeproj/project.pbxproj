@@ -34,12 +34,12 @@
 		FBEFB3B61E6553CB000C6EB8 /* csvmodelwriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csvmodelwriter.h; sourceTree = "<group>"; };
 		FBEFB3B71E6553CB000C6EB8 /* darksendconfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = darksendconfig.cpp; sourceTree = "<group>"; };
 		FBEFB3B81E6553CB000C6EB8 /* darksendconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = darksendconfig.h; sourceTree = "<group>"; };
-		FBEFB3B91E6553CB000C6EB8 /* dash-qt */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "dash-qt"; path = "../qt/dash-qt"; sourceTree = "<group>"; };
-		FBEFB3BA1E6553CB000C6EB8 /* dash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dash.cpp; sourceTree = "<group>"; };
-		FBEFB3BB1E6553CB000C6EB8 /* dash.moc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash.moc; sourceTree = "<group>"; };
-		FBEFB3BC1E6553CB000C6EB8 /* dash.qrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash.qrc; sourceTree = "<group>"; };
-		FBEFB3BD1E6553CB000C6EB8 /* dash_locale.qrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_locale.qrc; sourceTree = "<group>"; };
-		FBEFB3BE1E6553CB000C6EB8 /* dashstrings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dashstrings.cpp; sourceTree = "<group>"; };
+		FBEFB3B91E6553CB000C6EB8 /* polis-qt */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "polis-qt"; path = "../qt/polis-qt"; sourceTree = "<group>"; };
+		FBEFB3BA1E6553CB000C6EB8 /* polis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = polis.cpp; sourceTree = "<group>"; };
+		FBEFB3BB1E6553CB000C6EB8 /* polis.moc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis.moc; sourceTree = "<group>"; };
+		FBEFB3BC1E6553CB000C6EB8 /* polis.qrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis.qrc; sourceTree = "<group>"; };
+		FBEFB3BD1E6553CB000C6EB8 /* polis_locale.qrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_locale.qrc; sourceTree = "<group>"; };
+		FBEFB3BE1E6553CB000C6EB8 /* polisstrings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = polisstrings.cpp; sourceTree = "<group>"; };
 		FBEFB3BF1E6553CB000C6EB8 /* editaddressdialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = editaddressdialog.cpp; sourceTree = "<group>"; };
 		FBEFB3C01E6553CB000C6EB8 /* editaddressdialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editaddressdialog.h; sourceTree = "<group>"; };
 		FBEFB3C21E6553CB000C6EB8 /* addressbookpage.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = addressbookpage.ui; sourceTree = "<group>"; };
@@ -85,38 +85,38 @@
 		FBEFB3EA1E6553CB000C6EB8 /* intro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intro.h; sourceTree = "<group>"; };
 		FBEFB3EB1E6553CB000C6EB8 /* intro.moc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = intro.moc; sourceTree = "<group>"; };
 		FBEFB3EC1E6553CB000C6EB8 /* libbitcoinqt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbitcoinqt.a; sourceTree = "<group>"; };
-		FBEFB3EE1E6553CB000C6EB8 /* dash_bg.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_bg.qm; sourceTree = "<group>"; };
-		FBEFB3EF1E6553CB000C6EB8 /* dash_bg.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_bg.ts; sourceTree = "<group>"; };
-		FBEFB3F01E6553CB000C6EB8 /* dash_de.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_de.qm; sourceTree = "<group>"; };
-		FBEFB3F11E6553CB000C6EB8 /* dash_de.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_de.ts; sourceTree = "<group>"; };
-		FBEFB3F21E6553CB000C6EB8 /* dash_en.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_en.qm; sourceTree = "<group>"; };
-		FBEFB3F31E6553CB000C6EB8 /* dash_en.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dash_en.ts; sourceTree = "<group>"; };
-		FBEFB3F41E6553CB000C6EB8 /* dash_es.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_es.qm; sourceTree = "<group>"; };
-		FBEFB3F51E6553CB000C6EB8 /* dash_es.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_es.ts; sourceTree = "<group>"; };
-		FBEFB3F61E6553CB000C6EB8 /* dash_fi.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_fi.qm; sourceTree = "<group>"; };
-		FBEFB3F71E6553CB000C6EB8 /* dash_fi.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_fi.ts; sourceTree = "<group>"; };
-		FBEFB3F81E6553CB000C6EB8 /* dash_fr.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_fr.qm; sourceTree = "<group>"; };
-		FBEFB3F91E6553CB000C6EB8 /* dash_fr.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_fr.ts; sourceTree = "<group>"; };
-		FBEFB3FA1E6553CB000C6EB8 /* dash_it.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_it.qm; sourceTree = "<group>"; };
-		FBEFB3FB1E6553CB000C6EB8 /* dash_it.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_it.ts; sourceTree = "<group>"; };
-		FBEFB3FC1E6553CB000C6EB8 /* dash_ja.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_ja.qm; sourceTree = "<group>"; };
-		FBEFB3FD1E6553CB000C6EB8 /* dash_ja.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_ja.ts; sourceTree = "<group>"; };
-		FBEFB3FE1E6553CB000C6EB8 /* dash_pl.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_pl.qm; sourceTree = "<group>"; };
-		FBEFB3FF1E6553CB000C6EB8 /* dash_pl.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_pl.ts; sourceTree = "<group>"; };
-		FBEFB4001E6553CB000C6EB8 /* dash_pt.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_pt.qm; sourceTree = "<group>"; };
-		FBEFB4011E6553CB000C6EB8 /* dash_pt.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_pt.ts; sourceTree = "<group>"; };
-		FBEFB4021E6553CB000C6EB8 /* dash_ru.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_ru.qm; sourceTree = "<group>"; };
-		FBEFB4031E6553CB000C6EB8 /* dash_ru.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_ru.ts; sourceTree = "<group>"; };
-		FBEFB4041E6553CB000C6EB8 /* dash_sk.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_sk.qm; sourceTree = "<group>"; };
-		FBEFB4051E6553CB000C6EB8 /* dash_sk.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_sk.ts; sourceTree = "<group>"; };
-		FBEFB4061E6553CB000C6EB8 /* dash_sv.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_sv.qm; sourceTree = "<group>"; };
-		FBEFB4071E6553CB000C6EB8 /* dash_sv.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_sv.ts; sourceTree = "<group>"; };
-		FBEFB4081E6553CB000C6EB8 /* dash_vi.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_vi.qm; sourceTree = "<group>"; };
-		FBEFB4091E6553CB000C6EB8 /* dash_vi.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_vi.ts; sourceTree = "<group>"; };
-		FBEFB40A1E6553CB000C6EB8 /* dash_zh_CN.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_zh_CN.qm; sourceTree = "<group>"; };
-		FBEFB40B1E6553CB000C6EB8 /* dash_zh_CN.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_zh_CN.ts; sourceTree = "<group>"; };
-		FBEFB40C1E6553CB000C6EB8 /* dash_zh_TW.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dash_zh_TW.qm; sourceTree = "<group>"; };
-		FBEFB40D1E6553CB000C6EB8 /* dash_zh_TW.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dash_zh_TW.ts; sourceTree = "<group>"; };
+		FBEFB3EE1E6553CB000C6EB8 /* polis_bg.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_bg.qm; sourceTree = "<group>"; };
+		FBEFB3EF1E6553CB000C6EB8 /* polis_bg.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_bg.ts; sourceTree = "<group>"; };
+		FBEFB3F01E6553CB000C6EB8 /* polis_de.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_de.qm; sourceTree = "<group>"; };
+		FBEFB3F11E6553CB000C6EB8 /* polis_de.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_de.ts; sourceTree = "<group>"; };
+		FBEFB3F21E6553CB000C6EB8 /* polis_en.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_en.qm; sourceTree = "<group>"; };
+		FBEFB3F31E6553CB000C6EB8 /* polis_en.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = polis_en.ts; sourceTree = "<group>"; };
+		FBEFB3F41E6553CB000C6EB8 /* polis_es.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_es.qm; sourceTree = "<group>"; };
+		FBEFB3F51E6553CB000C6EB8 /* polis_es.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_es.ts; sourceTree = "<group>"; };
+		FBEFB3F61E6553CB000C6EB8 /* polis_fi.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_fi.qm; sourceTree = "<group>"; };
+		FBEFB3F71E6553CB000C6EB8 /* polis_fi.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_fi.ts; sourceTree = "<group>"; };
+		FBEFB3F81E6553CB000C6EB8 /* polis_fr.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_fr.qm; sourceTree = "<group>"; };
+		FBEFB3F91E6553CB000C6EB8 /* polis_fr.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_fr.ts; sourceTree = "<group>"; };
+		FBEFB3FA1E6553CB000C6EB8 /* polis_it.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_it.qm; sourceTree = "<group>"; };
+		FBEFB3FB1E6553CB000C6EB8 /* polis_it.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_it.ts; sourceTree = "<group>"; };
+		FBEFB3FC1E6553CB000C6EB8 /* polis_ja.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_ja.qm; sourceTree = "<group>"; };
+		FBEFB3FD1E6553CB000C6EB8 /* polis_ja.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_ja.ts; sourceTree = "<group>"; };
+		FBEFB3FE1E6553CB000C6EB8 /* polis_pl.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_pl.qm; sourceTree = "<group>"; };
+		FBEFB3FF1E6553CB000C6EB8 /* polis_pl.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_pl.ts; sourceTree = "<group>"; };
+		FBEFB4001E6553CB000C6EB8 /* polis_pt.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_pt.qm; sourceTree = "<group>"; };
+		FBEFB4011E6553CB000C6EB8 /* polis_pt.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_pt.ts; sourceTree = "<group>"; };
+		FBEFB4021E6553CB000C6EB8 /* polis_ru.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_ru.qm; sourceTree = "<group>"; };
+		FBEFB4031E6553CB000C6EB8 /* polis_ru.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_ru.ts; sourceTree = "<group>"; };
+		FBEFB4041E6553CB000C6EB8 /* polis_sk.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_sk.qm; sourceTree = "<group>"; };
+		FBEFB4051E6553CB000C6EB8 /* polis_sk.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_sk.ts; sourceTree = "<group>"; };
+		FBEFB4061E6553CB000C6EB8 /* polis_sv.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_sv.qm; sourceTree = "<group>"; };
+		FBEFB4071E6553CB000C6EB8 /* polis_sv.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_sv.ts; sourceTree = "<group>"; };
+		FBEFB4081E6553CB000C6EB8 /* polis_vi.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_vi.qm; sourceTree = "<group>"; };
+		FBEFB4091E6553CB000C6EB8 /* polis_vi.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_vi.ts; sourceTree = "<group>"; };
+		FBEFB40A1E6553CB000C6EB8 /* polis_zh_CN.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_zh_CN.qm; sourceTree = "<group>"; };
+		FBEFB40B1E6553CB000C6EB8 /* polis_zh_CN.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_zh_CN.ts; sourceTree = "<group>"; };
+		FBEFB40C1E6553CB000C6EB8 /* polis_zh_TW.qm */ = {isa = PBXFileReference; lastKnownFileType = file; path = polis_zh_TW.qm; sourceTree = "<group>"; };
+		FBEFB40D1E6553CB000C6EB8 /* polis_zh_TW.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polis_zh_TW.ts; sourceTree = "<group>"; };
 		FBEFB40E1E6553CB000C6EB8 /* macdockiconhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macdockiconhandler.h; sourceTree = "<group>"; };
 		FBEFB40F1E6553CB000C6EB8 /* macdockiconhandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = macdockiconhandler.mm; sourceTree = "<group>"; };
 		FBEFB4101E6553CB000C6EB8 /* macnotificationhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macnotificationhandler.h; sourceTree = "<group>"; };
@@ -193,11 +193,11 @@
 		FBEFB4571E6553CB000C6EB8 /* peertablemodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = peertablemodel.h; sourceTree = "<group>"; };
 		FBEFB4581E6553CB000C6EB8 /* platformstyle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = platformstyle.cpp; sourceTree = "<group>"; };
 		FBEFB4591E6553CB000C6EB8 /* platformstyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platformstyle.h; sourceTree = "<group>"; };
-		FBEFB45A1E6553CB000C6EB8 /* qrc_dash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = qrc_dash.cpp; sourceTree = "<group>"; };
-		FBEFB45B1E6553CB000C6EB8 /* qrc_dash_locale.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = qrc_dash_locale.cpp; sourceTree = "<group>"; };
-		FBEFB45C1E6553CB000C6EB8 /* qt_dash_qt-dash.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_dash_qt-dash.o"; sourceTree = "<group>"; };
-		FBEFB45D1E6553CB000C6EB8 /* qt_dash_qt-macdockiconhandler.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_dash_qt-macdockiconhandler.o"; sourceTree = "<group>"; };
-		FBEFB45E1E6553CB000C6EB8 /* qt_dash_qt-macnotificationhandler.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_dash_qt-macnotificationhandler.o"; sourceTree = "<group>"; };
+		FBEFB45A1E6553CB000C6EB8 /* qrc_polis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = qrc_polis.cpp; sourceTree = "<group>"; };
+		FBEFB45B1E6553CB000C6EB8 /* qrc_polis_locale.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = qrc_polis_locale.cpp; sourceTree = "<group>"; };
+		FBEFB45C1E6553CB000C6EB8 /* qt_polis_qt-polis.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_polis_qt-polis.o"; sourceTree = "<group>"; };
+		FBEFB45D1E6553CB000C6EB8 /* qt_polis_qt-macdockiconhandler.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_polis_qt-macdockiconhandler.o"; sourceTree = "<group>"; };
+		FBEFB45E1E6553CB000C6EB8 /* qt_polis_qt-macnotificationhandler.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_polis_qt-macnotificationhandler.o"; sourceTree = "<group>"; };
 		FBEFB45F1E6553CB000C6EB8 /* qt_libbitcoinqt_a-addressbookpage.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_libbitcoinqt_a-addressbookpage.o"; sourceTree = "<group>"; };
 		FBEFB4601E6553CB000C6EB8 /* qt_libbitcoinqt_a-addresstablemodel.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_libbitcoinqt_a-addresstablemodel.o"; sourceTree = "<group>"; };
 		FBEFB4611E6553CB000C6EB8 /* qt_libbitcoinqt_a-askpassphrasedialog.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_libbitcoinqt_a-askpassphrasedialog.o"; sourceTree = "<group>"; };
@@ -272,8 +272,8 @@
 		FBEFB4A61E6553CB000C6EB8 /* qt_libbitcoinqt_a-paymentserver.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_libbitcoinqt_a-paymentserver.o"; sourceTree = "<group>"; };
 		FBEFB4A71E6553CB000C6EB8 /* qt_libbitcoinqt_a-peertablemodel.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_libbitcoinqt_a-peertablemodel.o"; sourceTree = "<group>"; };
 		FBEFB4A81E6553CB000C6EB8 /* qt_libbitcoinqt_a-platformstyle.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_libbitcoinqt_a-platformstyle.o"; sourceTree = "<group>"; };
-		FBEFB4A91E6553CB000C6EB8 /* qt_libbitcoinqt_a-qrc_dash.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_libbitcoinqt_a-qrc_dash.o"; sourceTree = "<group>"; };
-		FBEFB4AA1E6553CB000C6EB8 /* qt_libbitcoinqt_a-qrc_dash_locale.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_libbitcoinqt_a-qrc_dash_locale.o"; sourceTree = "<group>"; };
+		FBEFB4A91E6553CB000C6EB8 /* qt_libbitcoinqt_a-qrc_polis.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_libbitcoinqt_a-qrc_polis.o"; sourceTree = "<group>"; };
+		FBEFB4AA1E6553CB000C6EB8 /* qt_libbitcoinqt_a-qrc_polis_locale.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_libbitcoinqt_a-qrc_polis_locale.o"; sourceTree = "<group>"; };
 		FBEFB4AB1E6553CB000C6EB8 /* qt_libbitcoinqt_a-qvalidatedlineedit.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_libbitcoinqt_a-qvalidatedlineedit.o"; sourceTree = "<group>"; };
 		FBEFB4AC1E6553CB000C6EB8 /* qt_libbitcoinqt_a-qvaluecombobox.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_libbitcoinqt_a-qvaluecombobox.o"; sourceTree = "<group>"; };
 		FBEFB4AD1E6553CB000C6EB8 /* qt_libbitcoinqt_a-receivecoinsdialog.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_libbitcoinqt_a-receivecoinsdialog.o"; sourceTree = "<group>"; };
@@ -309,7 +309,7 @@
 		FBEFB4CD1E6553CC000C6EB8 /* crownium.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = crownium.css; sourceTree = "<group>"; };
 		FBEFB4CE1E6553CC000C6EB8 /* drkblue.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = drkblue.css; sourceTree = "<group>"; };
 		FBEFB4CF1E6553CC000C6EB8 /* light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = light.css; sourceTree = "<group>"; };
-		FBEFB4D01E6553CC000C6EB8 /* dash-qt-res.rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "dash-qt-res.rc"; sourceTree = "<group>"; };
+		FBEFB4D01E6553CC000C6EB8 /* polis-qt-res.rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "polis-qt-res.rc"; sourceTree = "<group>"; };
 		FBEFB4D21E6553CC000C6EB8 /* bitcoin.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = bitcoin.icns; sourceTree = "<group>"; };
 		FBEFB4D31E6553CC000C6EB8 /* bitcoin.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = bitcoin.ico; sourceTree = "<group>"; };
 		FBEFB4D41E6553CC000C6EB8 /* bitcoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoin.png; sourceTree = "<group>"; };
@@ -516,7 +516,7 @@
 		FBEFB5A11E6553CC000C6EB8 /* verify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verify.png; sourceTree = "<group>"; };
 		FBEFB5A41E6553CC000C6EB8 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
 		FBEFB5A51E6553CC000C6EB8 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
-		FBEFB5A61E6553CC000C6EB8 /* dash_logo_horizontal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash_logo_horizontal.png; sourceTree = "<group>"; };
+		FBEFB5A61E6553CC000C6EB8 /* polis_logo_horizontal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = polis_logo_horizontal.png; sourceTree = "<group>"; };
 		FBEFB5A71E6553CC000C6EB8 /* drkblue_downArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drkblue_downArrow.png; sourceTree = "<group>"; };
 		FBEFB5A81E6553CC000C6EB8 /* drkblue_downArrow_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drkblue_downArrow_small.png; sourceTree = "<group>"; };
 		FBEFB5A91E6553CC000C6EB8 /* drkblue_leftArrow_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drkblue_leftArrow_small.png; sourceTree = "<group>"; };
@@ -529,7 +529,7 @@
 		FBEFB5B01E6553CC000C6EB8 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
 		FBEFB5B21E6553CC000C6EB8 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
 		FBEFB5B31E6553CC000C6EB8 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
-		FBEFB5B41E6553CC000C6EB8 /* dash_logo_horizontal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash_logo_horizontal.png; sourceTree = "<group>"; };
+		FBEFB5B41E6553CC000C6EB8 /* polis_logo_horizontal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = polis_logo_horizontal.png; sourceTree = "<group>"; };
 		FBEFB5B51E6553CC000C6EB8 /* drkblue_downArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drkblue_downArrow.png; sourceTree = "<group>"; };
 		FBEFB5B61E6553CC000C6EB8 /* drkblue_downArrow_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drkblue_downArrow_small.png; sourceTree = "<group>"; };
 		FBEFB5B71E6553CC000C6EB8 /* drkblue_leftArrow_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drkblue_leftArrow_small.png; sourceTree = "<group>"; };
@@ -542,7 +542,7 @@
 		FBEFB5BE1E6553CC000C6EB8 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
 		FBEFB5C01E6553CC000C6EB8 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
 		FBEFB5C11E6553CC000C6EB8 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
-		FBEFB5C21E6553CC000C6EB8 /* dash_logo_horizontal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash_logo_horizontal.png; sourceTree = "<group>"; };
+		FBEFB5C21E6553CC000C6EB8 /* polis_logo_horizontal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = polis_logo_horizontal.png; sourceTree = "<group>"; };
 		FBEFB5C31E6553CC000C6EB8 /* drkblue_downArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drkblue_downArrow.png; sourceTree = "<group>"; };
 		FBEFB5C41E6553CC000C6EB8 /* drkblue_downArrow_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drkblue_downArrow_small.png; sourceTree = "<group>"; };
 		FBEFB5C51E6553CC000C6EB8 /* drkblue_leftArrow_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drkblue_leftArrow_small.png; sourceTree = "<group>"; };
@@ -554,7 +554,7 @@
 		FBEFB5CB1E6553CC000C6EB8 /* splash_testnet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_testnet.png; sourceTree = "<group>"; };
 		FBEFB5CC1E6553CC000C6EB8 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
 		FBEFB5CE1E6553CC000C6EB8 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
-		FBEFB5CF1E6553CC000C6EB8 /* dash_logo_horizontal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash_logo_horizontal.png; sourceTree = "<group>"; };
+		FBEFB5CF1E6553CC000C6EB8 /* polis_logo_horizontal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = polis_logo_horizontal.png; sourceTree = "<group>"; };
 		FBEFB5D01E6553CC000C6EB8 /* drkblue_downArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drkblue_downArrow.png; sourceTree = "<group>"; };
 		FBEFB5D11E6553CC000C6EB8 /* drkblue_downArrow_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drkblue_downArrow_small.png; sourceTree = "<group>"; };
 		FBEFB5D21E6553CC000C6EB8 /* drkblue_leftArrow_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drkblue_leftArrow_small.png; sourceTree = "<group>"; };
@@ -631,13 +631,13 @@
 		FBEFB61B1E6553CC000C6EB8 /* splashscreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = splashscreen.cpp; sourceTree = "<group>"; };
 		FBEFB61C1E6553CC000C6EB8 /* splashscreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = splashscreen.h; sourceTree = "<group>"; };
 		FBEFB61F1E6553CC000C6EB8 /* .dirstamp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .dirstamp; sourceTree = "<group>"; };
-		FBEFB6201E6553CC000C6EB8 /* qt_test_test_dash_qt-compattests.Po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "qt_test_test_dash_qt-compattests.Po"; sourceTree = "<group>"; };
-		FBEFB6211E6553CC000C6EB8 /* qt_test_test_dash_qt-moc_compattests.Po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "qt_test_test_dash_qt-moc_compattests.Po"; sourceTree = "<group>"; };
-		FBEFB6221E6553CC000C6EB8 /* qt_test_test_dash_qt-moc_paymentservertests.Po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "qt_test_test_dash_qt-moc_paymentservertests.Po"; sourceTree = "<group>"; };
-		FBEFB6231E6553CC000C6EB8 /* qt_test_test_dash_qt-moc_uritests.Po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "qt_test_test_dash_qt-moc_uritests.Po"; sourceTree = "<group>"; };
-		FBEFB6241E6553CC000C6EB8 /* qt_test_test_dash_qt-paymentservertests.Po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "qt_test_test_dash_qt-paymentservertests.Po"; sourceTree = "<group>"; };
-		FBEFB6251E6553CC000C6EB8 /* qt_test_test_dash_qt-test_main.Po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "qt_test_test_dash_qt-test_main.Po"; sourceTree = "<group>"; };
-		FBEFB6261E6553CC000C6EB8 /* qt_test_test_dash_qt-uritests.Po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "qt_test_test_dash_qt-uritests.Po"; sourceTree = "<group>"; };
+		FBEFB6201E6553CC000C6EB8 /* qt_test_test_polis_qt-compattests.Po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "qt_test_test_polis_qt-compattests.Po"; sourceTree = "<group>"; };
+		FBEFB6211E6553CC000C6EB8 /* qt_test_test_polis_qt-moc_compattests.Po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "qt_test_test_polis_qt-moc_compattests.Po"; sourceTree = "<group>"; };
+		FBEFB6221E6553CC000C6EB8 /* qt_test_test_polis_qt-moc_paymentservertests.Po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "qt_test_test_polis_qt-moc_paymentservertests.Po"; sourceTree = "<group>"; };
+		FBEFB6231E6553CC000C6EB8 /* qt_test_test_polis_qt-moc_uritests.Po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "qt_test_test_polis_qt-moc_uritests.Po"; sourceTree = "<group>"; };
+		FBEFB6241E6553CC000C6EB8 /* qt_test_test_polis_qt-paymentservertests.Po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "qt_test_test_polis_qt-paymentservertests.Po"; sourceTree = "<group>"; };
+		FBEFB6251E6553CC000C6EB8 /* qt_test_test_polis_qt-test_main.Po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "qt_test_test_polis_qt-test_main.Po"; sourceTree = "<group>"; };
+		FBEFB6261E6553CC000C6EB8 /* qt_test_test_polis_qt-uritests.Po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "qt_test_test_polis_qt-uritests.Po"; sourceTree = "<group>"; };
 		FBEFB6271E6553CC000C6EB8 /* .dirstamp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .dirstamp; sourceTree = "<group>"; };
 		FBEFB6291E6553CC000C6EB8 /* compattests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = compattests.cpp; sourceTree = "<group>"; };
 		FBEFB62A1E6553CC000C6EB8 /* compattests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compattests.h; sourceTree = "<group>"; };
@@ -648,14 +648,14 @@
 		FBEFB62F1E6553CC000C6EB8 /* paymentrequestdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paymentrequestdata.h; sourceTree = "<group>"; };
 		FBEFB6301E6553CC000C6EB8 /* paymentservertests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = paymentservertests.cpp; sourceTree = "<group>"; };
 		FBEFB6311E6553CC000C6EB8 /* paymentservertests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paymentservertests.h; sourceTree = "<group>"; };
-		FBEFB6321E6553CC000C6EB8 /* qt_test_test_dash_qt-compattests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_test_test_dash_qt-compattests.o"; sourceTree = "<group>"; };
-		FBEFB6331E6553CC000C6EB8 /* qt_test_test_dash_qt-moc_compattests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_test_test_dash_qt-moc_compattests.o"; sourceTree = "<group>"; };
-		FBEFB6341E6553CC000C6EB8 /* qt_test_test_dash_qt-moc_paymentservertests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_test_test_dash_qt-moc_paymentservertests.o"; sourceTree = "<group>"; };
-		FBEFB6351E6553CC000C6EB8 /* qt_test_test_dash_qt-moc_uritests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_test_test_dash_qt-moc_uritests.o"; sourceTree = "<group>"; };
-		FBEFB6361E6553CC000C6EB8 /* qt_test_test_dash_qt-paymentservertests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_test_test_dash_qt-paymentservertests.o"; sourceTree = "<group>"; };
-		FBEFB6371E6553CC000C6EB8 /* qt_test_test_dash_qt-test_main.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_test_test_dash_qt-test_main.o"; sourceTree = "<group>"; };
-		FBEFB6381E6553CC000C6EB8 /* qt_test_test_dash_qt-uritests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_test_test_dash_qt-uritests.o"; sourceTree = "<group>"; };
-		FBEFB6391E6553CC000C6EB8 /* test_dash-qt */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "test_dash-qt"; sourceTree = "<group>"; };
+		FBEFB6321E6553CC000C6EB8 /* qt_test_test_polis_qt-compattests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_test_test_polis_qt-compattests.o"; sourceTree = "<group>"; };
+		FBEFB6331E6553CC000C6EB8 /* qt_test_test_polis_qt-moc_compattests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_test_test_polis_qt-moc_compattests.o"; sourceTree = "<group>"; };
+		FBEFB6341E6553CC000C6EB8 /* qt_test_test_polis_qt-moc_paymentservertests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_test_test_polis_qt-moc_paymentservertests.o"; sourceTree = "<group>"; };
+		FBEFB6351E6553CC000C6EB8 /* qt_test_test_polis_qt-moc_uritests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_test_test_polis_qt-moc_uritests.o"; sourceTree = "<group>"; };
+		FBEFB6361E6553CC000C6EB8 /* qt_test_test_polis_qt-paymentservertests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_test_test_polis_qt-paymentservertests.o"; sourceTree = "<group>"; };
+		FBEFB6371E6553CC000C6EB8 /* qt_test_test_polis_qt-test_main.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_test_test_polis_qt-test_main.o"; sourceTree = "<group>"; };
+		FBEFB6381E6553CC000C6EB8 /* qt_test_test_polis_qt-uritests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "qt_test_test_polis_qt-uritests.o"; sourceTree = "<group>"; };
+		FBEFB6391E6553CC000C6EB8 /* test_polis-qt */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "test_polis-qt"; sourceTree = "<group>"; };
 		FBEFB63A1E6553CC000C6EB8 /* test_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_main.cpp; sourceTree = "<group>"; };
 		FBEFB63B1E6553CC000C6EB8 /* uritests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uritests.cpp; sourceTree = "<group>"; };
 		FBEFB63C1E6553CC000C6EB8 /* uritests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uritests.h; sourceTree = "<group>"; };
@@ -687,8 +687,8 @@
 		FBEFB6561E6553CC000C6EB8 /* winshutdownmonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = winshutdownmonitor.h; sourceTree = "<group>"; };
 		FBEFB6601E6553CC000C6EB8 /* bench.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bench.cpp; sourceTree = "<group>"; };
 		FBEFB6611E6553CC000C6EB8 /* bench.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bench.h; sourceTree = "<group>"; };
-		FBEFB6651E6553CC000C6EB8 /* bench_dash */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = bench_dash; path = ../bench/bench_dash; sourceTree = "<group>"; };
-		FBEFB6661E6553CC000C6EB8 /* bench_dash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bench_dash.cpp; sourceTree = "<group>"; };
+		FBEFB6651E6553CC000C6EB8 /* bench_polis */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = bench_polis; path = ../bench/bench_polis; sourceTree = "<group>"; };
+		FBEFB6661E6553CC000C6EB8 /* bench_polis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bench_polis.cpp; sourceTree = "<group>"; };
 		FBEFB6671E6553CC000C6EB8 /* Examples.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Examples.cpp; sourceTree = "<group>"; };
 		FBEFB6A61E6553CC000C6EB8 /* accounting_tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = accounting_tests.cpp; sourceTree = "<group>"; };
 		FBEFB6A71E6553CC000C6EB8 /* addrman_tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addrman_tests.cpp; sourceTree = "<group>"; };
@@ -774,9 +774,9 @@
 		FBEFB6F81E6553CC000C6EB8 /* sigopcount_tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sigopcount_tests.cpp; sourceTree = "<group>"; };
 		FBEFB6F91E6553CC000C6EB8 /* skiplist_tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = skiplist_tests.cpp; sourceTree = "<group>"; };
 		FBEFB6FA1E6553CC000C6EB8 /* streams_tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = streams_tests.cpp; sourceTree = "<group>"; };
-		FBEFB6FB1E6553CC000C6EB8 /* test_dash */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = test_dash; path = ../test/test_dash; sourceTree = "<group>"; };
-		FBEFB6FC1E6553CC000C6EB8 /* test_dash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_dash.cpp; sourceTree = "<group>"; };
-		FBEFB6FD1E6553CC000C6EB8 /* test_dash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test_dash.h; sourceTree = "<group>"; };
+		FBEFB6FB1E6553CC000C6EB8 /* test_polis */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = test_polis; path = ../test/test_polis; sourceTree = "<group>"; };
+		FBEFB6FC1E6553CC000C6EB8 /* test_polis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_polis.cpp; sourceTree = "<group>"; };
+		FBEFB6FD1E6553CC000C6EB8 /* test_polis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test_polis.h; sourceTree = "<group>"; };
 		FBEFB7371E6553CC000C6EB8 /* timedata_tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timedata_tests.cpp; sourceTree = "<group>"; };
 		FBEFB7381E6553CC000C6EB8 /* transaction_tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = transaction_tests.cpp; sourceTree = "<group>"; };
 		FBEFB7391E6553CC000C6EB8 /* txvalidationcache_tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = txvalidationcache_tests.cpp; sourceTree = "<group>"; };
@@ -1377,7 +1377,7 @@
 		FBEFBABA1E6553CE000C6EB8 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
 		FBEFBAC31E6553CE000C6EB8 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = ../Makefile; sourceTree = "<group>"; };
 		FBEFBAC41E6553CE000C6EB8 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Makefile.in; path = ../Makefile.in; sourceTree = "<group>"; };
-		FBEFBAC71E6553CE000C6EB8 /* dash-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "dash-config.h"; sourceTree = "<group>"; };
+		FBEFBAC71E6553CE000C6EB8 /* polis-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "polis-config.h"; sourceTree = "<group>"; };
 		FBEFBACA1E6553CE000C6EB8 /* Makefile.test.include */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Makefile.test.include; path = ../Makefile.test.include; sourceTree = "<group>"; };
 		FBEFBACB1E6553CE000C6EB8 /* Makefile.qttest.include */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Makefile.qttest.include; path = ../Makefile.qttest.include; sourceTree = "<group>"; };
 		FBEFBACF1E6553CE000C6EB8 /* activemasternode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = activemasternode.cpp; path = ../activemasternode.cpp; sourceTree = "<group>"; };
@@ -1412,7 +1412,7 @@
 		FBEFBAEC1E6553CF000C6EB8 /* coincontrol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = coincontrol.h; path = ../coincontrol.h; sourceTree = "<group>"; };
 		FBEFBAED1E6553CF000C6EB8 /* coins.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = coins.cpp; path = ../coins.cpp; sourceTree = "<group>"; };
 		FBEFBAEE1E6553CF000C6EB8 /* coins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = coins.h; path = ../coins.h; sourceTree = "<group>"; };
-		FBEFBAEF1E6553CF000C6EB8 /* compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compat.h; path = /Users/samuelw/Documents/src/dash/src/compat.h; sourceTree = "<absolute>"; };
+		FBEFBAEF1E6553CF000C6EB8 /* compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compat.h; path = /Users/samuelw/Documents/src/polis/src/compat.h; sourceTree = "<absolute>"; };
 		FBEFBAF01E6553CF000C6EB8 /* compressor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = compressor.cpp; path = ../compressor.cpp; sourceTree = "<group>"; };
 		FBEFBAF11E6553CF000C6EB8 /* compressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compressor.h; path = ../compressor.h; sourceTree = "<group>"; };
 		FBEFBAF21E6553CF000C6EB8 /* core_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = core_io.h; path = ../core_io.h; sourceTree = "<group>"; };
@@ -1423,12 +1423,12 @@
 		FBEFBAF71E6553CF000C6EB8 /* darksend-relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "darksend-relay.h"; path = "../darksend-relay.h"; sourceTree = "<group>"; };
 		FBEFBAF81E6553CF000C6EB8 /* darksend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = darksend.cpp; path = ../darksend.cpp; sourceTree = "<group>"; };
 		FBEFBAF91E6553CF000C6EB8 /* darksend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = darksend.h; path = ../darksend.h; sourceTree = "<group>"; };
-		FBEFBAFA1E6553CF000C6EB8 /* dash-cli-res.rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "dash-cli-res.rc"; path = "../dash-cli-res.rc"; sourceTree = "<group>"; };
-		FBEFBAFB1E6553CF000C6EB8 /* dash-cli.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "dash-cli.cpp"; path = "../dash-cli.cpp"; sourceTree = "<group>"; };
-		FBEFBAFC1E6553CF000C6EB8 /* dash-tx-res.rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "dash-tx-res.rc"; path = "../dash-tx-res.rc"; sourceTree = "<group>"; };
-		FBEFBAFD1E6553CF000C6EB8 /* dash-tx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "dash-tx.cpp"; path = "../dash-tx.cpp"; sourceTree = "<group>"; };
-		FBEFBAFE1E6553CF000C6EB8 /* dashd-res.rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "dashd-res.rc"; path = "../dashd-res.rc"; sourceTree = "<group>"; };
-		FBEFBAFF1E6553CF000C6EB8 /* dashd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dashd.cpp; path = ../dashd.cpp; sourceTree = "<group>"; };
+		FBEFBAFA1E6553CF000C6EB8 /* polis-cli-res.rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "polis-cli-res.rc"; path = "../polis-cli-res.rc"; sourceTree = "<group>"; };
+		FBEFBAFB1E6553CF000C6EB8 /* polis-cli.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "polis-cli.cpp"; path = "../polis-cli.cpp"; sourceTree = "<group>"; };
+		FBEFBAFC1E6553CF000C6EB8 /* polis-tx-res.rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "polis-tx-res.rc"; path = "../polis-tx-res.rc"; sourceTree = "<group>"; };
+		FBEFBAFD1E6553CF000C6EB8 /* polis-tx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "polis-tx.cpp"; path = "../polis-tx.cpp"; sourceTree = "<group>"; };
+		FBEFBAFE1E6553CF000C6EB8 /* polisd-res.rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "polisd-res.rc"; path = "../polisd-res.rc"; sourceTree = "<group>"; };
+		FBEFBAFF1E6553CF000C6EB8 /* polisd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = polisd.cpp; path = ../polisd.cpp; sourceTree = "<group>"; };
 		FBEFBB001E6553CF000C6EB8 /* dbwrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dbwrapper.cpp; path = ../dbwrapper.cpp; sourceTree = "<group>"; };
 		FBEFBB011E6553CF000C6EB8 /* dbwrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dbwrapper.h; path = ../dbwrapper.h; sourceTree = "<group>"; };
 		FBEFBB031E6553CF000C6EB8 /* governance-categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "governance-categories.h"; sourceTree = "<group>"; };
@@ -1608,11 +1608,11 @@
 				FBEFB3B61E6553CB000C6EB8 /* csvmodelwriter.h */,
 				FBEFB3B71E6553CB000C6EB8 /* darksendconfig.cpp */,
 				FBEFB3B81E6553CB000C6EB8 /* darksendconfig.h */,
-				FBEFB3BA1E6553CB000C6EB8 /* dash.cpp */,
-				FBEFB3BB1E6553CB000C6EB8 /* dash.moc */,
-				FBEFB3BC1E6553CB000C6EB8 /* dash.qrc */,
-				FBEFB3BD1E6553CB000C6EB8 /* dash_locale.qrc */,
-				FBEFB3BE1E6553CB000C6EB8 /* dashstrings.cpp */,
+				FBEFB3BA1E6553CB000C6EB8 /* polis.cpp */,
+				FBEFB3BB1E6553CB000C6EB8 /* polis.moc */,
+				FBEFB3BC1E6553CB000C6EB8 /* polis.qrc */,
+				FBEFB3BD1E6553CB000C6EB8 /* polis_locale.qrc */,
+				FBEFB3BE1E6553CB000C6EB8 /* polisstrings.cpp */,
 				FBEFB3BF1E6553CB000C6EB8 /* editaddressdialog.cpp */,
 				FBEFB3C01E6553CB000C6EB8 /* editaddressdialog.h */,
 				FBEFB3C11E6553CB000C6EB8 /* forms */,
@@ -1700,11 +1700,11 @@
 				FBEFB4571E6553CB000C6EB8 /* peertablemodel.h */,
 				FBEFB4581E6553CB000C6EB8 /* platformstyle.cpp */,
 				FBEFB4591E6553CB000C6EB8 /* platformstyle.h */,
-				FBEFB45A1E6553CB000C6EB8 /* qrc_dash.cpp */,
-				FBEFB45B1E6553CB000C6EB8 /* qrc_dash_locale.cpp */,
-				FBEFB45C1E6553CB000C6EB8 /* qt_dash_qt-dash.o */,
-				FBEFB45D1E6553CB000C6EB8 /* qt_dash_qt-macdockiconhandler.o */,
-				FBEFB45E1E6553CB000C6EB8 /* qt_dash_qt-macnotificationhandler.o */,
+				FBEFB45A1E6553CB000C6EB8 /* qrc_polis.cpp */,
+				FBEFB45B1E6553CB000C6EB8 /* qrc_polis_locale.cpp */,
+				FBEFB45C1E6553CB000C6EB8 /* qt_polis_qt-polis.o */,
+				FBEFB45D1E6553CB000C6EB8 /* qt_polis_qt-macdockiconhandler.o */,
+				FBEFB45E1E6553CB000C6EB8 /* qt_polis_qt-macnotificationhandler.o */,
 				FBEFB45F1E6553CB000C6EB8 /* qt_libbitcoinqt_a-addressbookpage.o */,
 				FBEFB4601E6553CB000C6EB8 /* qt_libbitcoinqt_a-addresstablemodel.o */,
 				FBEFB4611E6553CB000C6EB8 /* qt_libbitcoinqt_a-askpassphrasedialog.o */,
@@ -1779,8 +1779,8 @@
 				FBEFB4A61E6553CB000C6EB8 /* qt_libbitcoinqt_a-paymentserver.o */,
 				FBEFB4A71E6553CB000C6EB8 /* qt_libbitcoinqt_a-peertablemodel.o */,
 				FBEFB4A81E6553CB000C6EB8 /* qt_libbitcoinqt_a-platformstyle.o */,
-				FBEFB4A91E6553CB000C6EB8 /* qt_libbitcoinqt_a-qrc_dash.o */,
-				FBEFB4AA1E6553CB000C6EB8 /* qt_libbitcoinqt_a-qrc_dash_locale.o */,
+				FBEFB4A91E6553CB000C6EB8 /* qt_libbitcoinqt_a-qrc_polis.o */,
+				FBEFB4AA1E6553CB000C6EB8 /* qt_libbitcoinqt_a-qrc_polis_locale.o */,
 				FBEFB4AB1E6553CB000C6EB8 /* qt_libbitcoinqt_a-qvalidatedlineedit.o */,
 				FBEFB4AC1E6553CB000C6EB8 /* qt_libbitcoinqt_a-qvaluecombobox.o */,
 				FBEFB4AD1E6553CB000C6EB8 /* qt_libbitcoinqt_a-receivecoinsdialog.o */,
@@ -1903,38 +1903,38 @@
 		FBEFB3ED1E6553CB000C6EB8 /* locale */ = {
 			isa = PBXGroup;
 			children = (
-				FBEFB3EE1E6553CB000C6EB8 /* dash_bg.qm */,
-				FBEFB3EF1E6553CB000C6EB8 /* dash_bg.ts */,
-				FBEFB3F01E6553CB000C6EB8 /* dash_de.qm */,
-				FBEFB3F11E6553CB000C6EB8 /* dash_de.ts */,
-				FBEFB3F21E6553CB000C6EB8 /* dash_en.qm */,
-				FBEFB3F31E6553CB000C6EB8 /* dash_en.ts */,
-				FBEFB3F41E6553CB000C6EB8 /* dash_es.qm */,
-				FBEFB3F51E6553CB000C6EB8 /* dash_es.ts */,
-				FBEFB3F61E6553CB000C6EB8 /* dash_fi.qm */,
-				FBEFB3F71E6553CB000C6EB8 /* dash_fi.ts */,
-				FBEFB3F81E6553CB000C6EB8 /* dash_fr.qm */,
-				FBEFB3F91E6553CB000C6EB8 /* dash_fr.ts */,
-				FBEFB3FA1E6553CB000C6EB8 /* dash_it.qm */,
-				FBEFB3FB1E6553CB000C6EB8 /* dash_it.ts */,
-				FBEFB3FC1E6553CB000C6EB8 /* dash_ja.qm */,
-				FBEFB3FD1E6553CB000C6EB8 /* dash_ja.ts */,
-				FBEFB3FE1E6553CB000C6EB8 /* dash_pl.qm */,
-				FBEFB3FF1E6553CB000C6EB8 /* dash_pl.ts */,
-				FBEFB4001E6553CB000C6EB8 /* dash_pt.qm */,
-				FBEFB4011E6553CB000C6EB8 /* dash_pt.ts */,
-				FBEFB4021E6553CB000C6EB8 /* dash_ru.qm */,
-				FBEFB4031E6553CB000C6EB8 /* dash_ru.ts */,
-				FBEFB4041E6553CB000C6EB8 /* dash_sk.qm */,
-				FBEFB4051E6553CB000C6EB8 /* dash_sk.ts */,
-				FBEFB4061E6553CB000C6EB8 /* dash_sv.qm */,
-				FBEFB4071E6553CB000C6EB8 /* dash_sv.ts */,
-				FBEFB4081E6553CB000C6EB8 /* dash_vi.qm */,
-				FBEFB4091E6553CB000C6EB8 /* dash_vi.ts */,
-				FBEFB40A1E6553CB000C6EB8 /* dash_zh_CN.qm */,
-				FBEFB40B1E6553CB000C6EB8 /* dash_zh_CN.ts */,
-				FBEFB40C1E6553CB000C6EB8 /* dash_zh_TW.qm */,
-				FBEFB40D1E6553CB000C6EB8 /* dash_zh_TW.ts */,
+				FBEFB3EE1E6553CB000C6EB8 /* polis_bg.qm */,
+				FBEFB3EF1E6553CB000C6EB8 /* polis_bg.ts */,
+				FBEFB3F01E6553CB000C6EB8 /* polis_de.qm */,
+				FBEFB3F11E6553CB000C6EB8 /* polis_de.ts */,
+				FBEFB3F21E6553CB000C6EB8 /* polis_en.qm */,
+				FBEFB3F31E6553CB000C6EB8 /* polis_en.ts */,
+				FBEFB3F41E6553CB000C6EB8 /* polis_es.qm */,
+				FBEFB3F51E6553CB000C6EB8 /* polis_es.ts */,
+				FBEFB3F61E6553CB000C6EB8 /* polis_fi.qm */,
+				FBEFB3F71E6553CB000C6EB8 /* polis_fi.ts */,
+				FBEFB3F81E6553CB000C6EB8 /* polis_fr.qm */,
+				FBEFB3F91E6553CB000C6EB8 /* polis_fr.ts */,
+				FBEFB3FA1E6553CB000C6EB8 /* polis_it.qm */,
+				FBEFB3FB1E6553CB000C6EB8 /* polis_it.ts */,
+				FBEFB3FC1E6553CB000C6EB8 /* polis_ja.qm */,
+				FBEFB3FD1E6553CB000C6EB8 /* polis_ja.ts */,
+				FBEFB3FE1E6553CB000C6EB8 /* polis_pl.qm */,
+				FBEFB3FF1E6553CB000C6EB8 /* polis_pl.ts */,
+				FBEFB4001E6553CB000C6EB8 /* polis_pt.qm */,
+				FBEFB4011E6553CB000C6EB8 /* polis_pt.ts */,
+				FBEFB4021E6553CB000C6EB8 /* polis_ru.qm */,
+				FBEFB4031E6553CB000C6EB8 /* polis_ru.ts */,
+				FBEFB4041E6553CB000C6EB8 /* polis_sk.qm */,
+				FBEFB4051E6553CB000C6EB8 /* polis_sk.ts */,
+				FBEFB4061E6553CB000C6EB8 /* polis_sv.qm */,
+				FBEFB4071E6553CB000C6EB8 /* polis_sv.ts */,
+				FBEFB4081E6553CB000C6EB8 /* polis_vi.qm */,
+				FBEFB4091E6553CB000C6EB8 /* polis_vi.ts */,
+				FBEFB40A1E6553CB000C6EB8 /* polis_zh_CN.qm */,
+				FBEFB40B1E6553CB000C6EB8 /* polis_zh_CN.ts */,
+				FBEFB40C1E6553CB000C6EB8 /* polis_zh_TW.qm */,
+				FBEFB40D1E6553CB000C6EB8 /* polis_zh_TW.ts */,
 			);
 			path = locale;
 			sourceTree = "<group>";
@@ -1943,7 +1943,7 @@
 			isa = PBXGroup;
 			children = (
 				FBEFB4CC1E6553CC000C6EB8 /* css */,
-				FBEFB4D01E6553CC000C6EB8 /* dash-qt-res.rc */,
+				FBEFB4D01E6553CC000C6EB8 /* polis-qt-res.rc */,
 				FBEFB4D11E6553CC000C6EB8 /* icons */,
 				FBEFB5A21E6553CC000C6EB8 /* images */,
 				FBEFB5D91E6553CC000C6EB8 /* movies */,
@@ -2221,7 +2221,7 @@
 			children = (
 				FBEFB5A41E6553CC000C6EB8 /* about.png */,
 				FBEFB5A51E6553CC000C6EB8 /* checked.png */,
-				FBEFB5A61E6553CC000C6EB8 /* dash_logo_horizontal.png */,
+				FBEFB5A61E6553CC000C6EB8 /* polis_logo_horizontal.png */,
 				FBEFB5A71E6553CC000C6EB8 /* drkblue_downArrow.png */,
 				FBEFB5A81E6553CC000C6EB8 /* drkblue_downArrow_small.png */,
 				FBEFB5A91E6553CC000C6EB8 /* drkblue_leftArrow_small.png */,
@@ -2241,7 +2241,7 @@
 			children = (
 				FBEFB5B21E6553CC000C6EB8 /* about.png */,
 				FBEFB5B31E6553CC000C6EB8 /* checked.png */,
-				FBEFB5B41E6553CC000C6EB8 /* dash_logo_horizontal.png */,
+				FBEFB5B41E6553CC000C6EB8 /* polis_logo_horizontal.png */,
 				FBEFB5B51E6553CC000C6EB8 /* drkblue_downArrow.png */,
 				FBEFB5B61E6553CC000C6EB8 /* drkblue_downArrow_small.png */,
 				FBEFB5B71E6553CC000C6EB8 /* drkblue_leftArrow_small.png */,
@@ -2261,7 +2261,7 @@
 			children = (
 				FBEFB5C01E6553CC000C6EB8 /* about.png */,
 				FBEFB5C11E6553CC000C6EB8 /* checked.png */,
-				FBEFB5C21E6553CC000C6EB8 /* dash_logo_horizontal.png */,
+				FBEFB5C21E6553CC000C6EB8 /* polis_logo_horizontal.png */,
 				FBEFB5C31E6553CC000C6EB8 /* drkblue_downArrow.png */,
 				FBEFB5C41E6553CC000C6EB8 /* drkblue_downArrow_small.png */,
 				FBEFB5C51E6553CC000C6EB8 /* drkblue_leftArrow_small.png */,
@@ -2280,7 +2280,7 @@
 			isa = PBXGroup;
 			children = (
 				FBEFB5CE1E6553CC000C6EB8 /* about.png */,
-				FBEFB5CF1E6553CC000C6EB8 /* dash_logo_horizontal.png */,
+				FBEFB5CF1E6553CC000C6EB8 /* polis_logo_horizontal.png */,
 				FBEFB5D01E6553CC000C6EB8 /* drkblue_downArrow.png */,
 				FBEFB5D11E6553CC000C6EB8 /* drkblue_downArrow_small.png */,
 				FBEFB5D21E6553CC000C6EB8 /* drkblue_leftArrow_small.png */,
@@ -2378,14 +2378,14 @@
 				FBEFB62F1E6553CC000C6EB8 /* paymentrequestdata.h */,
 				FBEFB6301E6553CC000C6EB8 /* paymentservertests.cpp */,
 				FBEFB6311E6553CC000C6EB8 /* paymentservertests.h */,
-				FBEFB6321E6553CC000C6EB8 /* qt_test_test_dash_qt-compattests.o */,
-				FBEFB6331E6553CC000C6EB8 /* qt_test_test_dash_qt-moc_compattests.o */,
-				FBEFB6341E6553CC000C6EB8 /* qt_test_test_dash_qt-moc_paymentservertests.o */,
-				FBEFB6351E6553CC000C6EB8 /* qt_test_test_dash_qt-moc_uritests.o */,
-				FBEFB6361E6553CC000C6EB8 /* qt_test_test_dash_qt-paymentservertests.o */,
-				FBEFB6371E6553CC000C6EB8 /* qt_test_test_dash_qt-test_main.o */,
-				FBEFB6381E6553CC000C6EB8 /* qt_test_test_dash_qt-uritests.o */,
-				FBEFB6391E6553CC000C6EB8 /* test_dash-qt */,
+				FBEFB6321E6553CC000C6EB8 /* qt_test_test_polis_qt-compattests.o */,
+				FBEFB6331E6553CC000C6EB8 /* qt_test_test_polis_qt-moc_compattests.o */,
+				FBEFB6341E6553CC000C6EB8 /* qt_test_test_polis_qt-moc_paymentservertests.o */,
+				FBEFB6351E6553CC000C6EB8 /* qt_test_test_polis_qt-moc_uritests.o */,
+				FBEFB6361E6553CC000C6EB8 /* qt_test_test_polis_qt-paymentservertests.o */,
+				FBEFB6371E6553CC000C6EB8 /* qt_test_test_polis_qt-test_main.o */,
+				FBEFB6381E6553CC000C6EB8 /* qt_test_test_polis_qt-uritests.o */,
+				FBEFB6391E6553CC000C6EB8 /* test_polis-qt */,
 				FBEFB63A1E6553CC000C6EB8 /* test_main.cpp */,
 				FBEFB63B1E6553CC000C6EB8 /* uritests.cpp */,
 				FBEFB63C1E6553CC000C6EB8 /* uritests.h */,
@@ -2397,13 +2397,13 @@
 			isa = PBXGroup;
 			children = (
 				FBEFB61F1E6553CC000C6EB8 /* .dirstamp */,
-				FBEFB6201E6553CC000C6EB8 /* qt_test_test_dash_qt-compattests.Po */,
-				FBEFB6211E6553CC000C6EB8 /* qt_test_test_dash_qt-moc_compattests.Po */,
-				FBEFB6221E6553CC000C6EB8 /* qt_test_test_dash_qt-moc_paymentservertests.Po */,
-				FBEFB6231E6553CC000C6EB8 /* qt_test_test_dash_qt-moc_uritests.Po */,
-				FBEFB6241E6553CC000C6EB8 /* qt_test_test_dash_qt-paymentservertests.Po */,
-				FBEFB6251E6553CC000C6EB8 /* qt_test_test_dash_qt-test_main.Po */,
-				FBEFB6261E6553CC000C6EB8 /* qt_test_test_dash_qt-uritests.Po */,
+				FBEFB6201E6553CC000C6EB8 /* qt_test_test_polis_qt-compattests.Po */,
+				FBEFB6211E6553CC000C6EB8 /* qt_test_test_polis_qt-moc_compattests.Po */,
+				FBEFB6221E6553CC000C6EB8 /* qt_test_test_polis_qt-moc_paymentservertests.Po */,
+				FBEFB6231E6553CC000C6EB8 /* qt_test_test_polis_qt-moc_uritests.Po */,
+				FBEFB6241E6553CC000C6EB8 /* qt_test_test_polis_qt-paymentservertests.Po */,
+				FBEFB6251E6553CC000C6EB8 /* qt_test_test_polis_qt-test_main.Po */,
+				FBEFB6261E6553CC000C6EB8 /* qt_test_test_polis_qt-uritests.Po */,
 			);
 			path = .deps;
 			sourceTree = "<group>";
@@ -2420,7 +2420,7 @@
 			children = (
 				FBEFB6601E6553CC000C6EB8 /* bench.cpp */,
 				FBEFB6611E6553CC000C6EB8 /* bench.h */,
-				FBEFB6661E6553CC000C6EB8 /* bench_dash.cpp */,
+				FBEFB6661E6553CC000C6EB8 /* bench_polis.cpp */,
 				FBEFB6671E6553CC000C6EB8 /* Examples.cpp */,
 			);
 			name = bench;
@@ -2487,8 +2487,8 @@
 				FBEFB6F81E6553CC000C6EB8 /* sigopcount_tests.cpp */,
 				FBEFB6F91E6553CC000C6EB8 /* skiplist_tests.cpp */,
 				FBEFB6FA1E6553CC000C6EB8 /* streams_tests.cpp */,
-				FBEFB6FC1E6553CC000C6EB8 /* test_dash.cpp */,
-				FBEFB6FD1E6553CC000C6EB8 /* test_dash.h */,
+				FBEFB6FC1E6553CC000C6EB8 /* test_polis.cpp */,
+				FBEFB6FD1E6553CC000C6EB8 /* test_polis.h */,
 				FBEFB7371E6553CC000C6EB8 /* timedata_tests.cpp */,
 				FBEFB7381E6553CC000C6EB8 /* transaction_tests.cpp */,
 				FBEFB7391E6553CC000C6EB8 /* txvalidationcache_tests.cpp */,
@@ -3583,7 +3583,7 @@
 		FBEFBAC51E6553CE000C6EB8 /* config */ = {
 			isa = PBXGroup;
 			children = (
-				FBEFBAC71E6553CE000C6EB8 /* dash-config.h */,
+				FBEFBAC71E6553CE000C6EB8 /* polis-config.h */,
 			);
 			name = config;
 			path = ../config;
@@ -3608,9 +3608,9 @@
 			isa = PBXGroup;
 			children = (
 				FBEFBB021E6553CF000C6EB8 /* governance-drafted-ref */,
-				FBEFBAFA1E6553CF000C6EB8 /* dash-cli-res.rc */,
-				FBEFBAFC1E6553CF000C6EB8 /* dash-tx-res.rc */,
-				FBEFBAFE1E6553CF000C6EB8 /* dashd-res.rc */,
+				FBEFBAFA1E6553CF000C6EB8 /* polis-cli-res.rc */,
+				FBEFBAFC1E6553CF000C6EB8 /* polis-tx-res.rc */,
+				FBEFBAFE1E6553CF000C6EB8 /* polisd-res.rc */,
 				FBEFBAC31E6553CE000C6EB8 /* Makefile */,
 				FBEFBAC41E6553CE000C6EB8 /* Makefile.in */,
 				FBEFBACA1E6553CE000C6EB8 /* Makefile.test.include */,
@@ -3635,7 +3635,7 @@
 				FBEFB9F01E6553CD000C6EB8 /* consensus */,
 				FBEFB89C1E6553CD000C6EB8 /* crypto */,
 				FBEFBB9B1E657D94000C6EB8 /* blockchain */,
-				FBEFBB9E1E65802B000C6EB8 /* dash */,
+				FBEFBB9E1E65802B000C6EB8 /* polis */,
 				FBEFBADE1E6553CE000C6EB8 /* cachemap.h */,
 				FBEFBADF1E6553CE000C6EB8 /* cachemultimap.h */,
 				FBEFBAE91E6553CE000C6EB8 /* checkqueue.h */,
@@ -3648,9 +3648,9 @@
 				FBEFBAF31E6553CF000C6EB8 /* core_memusage.h */,
 				FBEFBAF41E6553CF000C6EB8 /* core_read.cpp */,
 				FBEFBAF51E6553CF000C6EB8 /* core_write.cpp */,
-				FBEFBAFB1E6553CF000C6EB8 /* dash-cli.cpp */,
-				FBEFBAFD1E6553CF000C6EB8 /* dash-tx.cpp */,
-				FBEFBAFF1E6553CF000C6EB8 /* dashd.cpp */,
+				FBEFBAFB1E6553CF000C6EB8 /* polis-cli.cpp */,
+				FBEFBAFD1E6553CF000C6EB8 /* polis-tx.cpp */,
+				FBEFBAFF1E6553CF000C6EB8 /* polisd.cpp */,
 				FBEFBB001E6553CF000C6EB8 /* dbwrapper.cpp */,
 				FBEFBB011E6553CF000C6EB8 /* dbwrapper.h */,
 				FBEFBB0B1E6553CF000C6EB8 /* dsnotificationinterface.h */,
@@ -3716,9 +3716,9 @@
 		FBEFBB911E65713D000C6EB8 /* executables */ = {
 			isa = PBXGroup;
 			children = (
-				FBEFB6FB1E6553CC000C6EB8 /* test_dash */,
-				FBEFB3B91E6553CB000C6EB8 /* dash-qt */,
-				FBEFB6651E6553CC000C6EB8 /* bench_dash */,
+				FBEFB6FB1E6553CC000C6EB8 /* test_polis */,
+				FBEFB3B91E6553CB000C6EB8 /* polis-qt */,
+				FBEFB6651E6553CC000C6EB8 /* bench_polis */,
 			);
 			name = executables;
 			sourceTree = "<group>";
@@ -3919,7 +3919,7 @@
 			name = rpc;
 			sourceTree = "<group>";
 		};
-		FBEFBB9E1E65802B000C6EB8 /* dash */ = {
+		FBEFBB9E1E65802B000C6EB8 /* polis */ = {
 			isa = PBXGroup;
 			children = (
 				FBEFBB951E657358000C6EB8 /* darksend */,
@@ -3928,53 +3928,53 @@
 				FBEFBB971E657513000C6EB8 /* masternode */,
 				FBEFBB9C1E657DE5000C6EB8 /* spork */,
 			);
-			name = dash;
+			name = polis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		FBEFB32F1E65516F000C6EB8 /* dashd */ = {
+		FBEFB32F1E65516F000C6EB8 /* polisd */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = FBEFB3301E65516F000C6EB8 /* Build configuration list for PBXLegacyTarget "dashd" */;
+			buildConfigurationList = FBEFB3301E65516F000C6EB8 /* Build configuration list for PBXLegacyTarget "polisd" */;
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
-			buildWorkingDirectory = /Users/samuelw/Documents/src/dash/src;
+			buildWorkingDirectory = /Users/samuelw/Documents/src/polis/src;
 			dependencies = (
 			);
-			name = dashd;
+			name = polisd;
 			passBuildSettingsInEnvironment = 1;
-			productName = dashd;
+			productName = polisd;
 		};
-		FBEFBB891E656F88000C6EB8 /* bench_dash */ = {
+		FBEFBB891E656F88000C6EB8 /* bench_polis */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = FBEFBB8A1E656F88000C6EB8 /* Build configuration list for PBXLegacyTarget "bench_dash" */;
+			buildConfigurationList = FBEFBB8A1E656F88000C6EB8 /* Build configuration list for PBXLegacyTarget "bench_polis" */;
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
-			buildWorkingDirectory = /Users/samuelw/Documents/src/dash/src;
+			buildWorkingDirectory = /Users/samuelw/Documents/src/polis/src;
 			dependencies = (
 			);
-			name = bench_dash;
+			name = bench_polis;
 			passBuildSettingsInEnvironment = 1;
-			productName = bench_dash;
+			productName = bench_polis;
 		};
-		FBEFBB8D1E65701D000C6EB8 /* test_dash */ = {
+		FBEFBB8D1E65701D000C6EB8 /* test_polis */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = FBEFBB8E1E65701D000C6EB8 /* Build configuration list for PBXLegacyTarget "test_dash" */;
+			buildConfigurationList = FBEFBB8E1E65701D000C6EB8 /* Build configuration list for PBXLegacyTarget "test_polis" */;
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
-			buildWorkingDirectory = /Users/samuelw/Documents/src/dash/src;
+			buildWorkingDirectory = /Users/samuelw/Documents/src/polis/src;
 			dependencies = (
 			);
-			name = test_dash;
+			name = test_polis;
 			passBuildSettingsInEnvironment = 1;
-			productName = test_dash;
+			productName = test_polis;
 		};
 /* End PBXLegacyTarget section */
 
@@ -4001,7 +4001,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FBEFB32C1E6550F3000C6EB8 /* Build configuration list for PBXProject "Dashcore" */;
+			buildConfigurationList = FBEFB32C1E6550F3000C6EB8 /* Build configuration list for PBXProject "Poliscore" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -4012,9 +4012,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBEFB32F1E65516F000C6EB8 /* dashd */,
-				FBEFBB891E656F88000C6EB8 /* bench_dash */,
-				FBEFBB8D1E65701D000C6EB8 /* test_dash */,
+				FBEFB32F1E65516F000C6EB8 /* polisd */,
+				FBEFBB891E656F88000C6EB8 /* bench_polis */,
+				FBEFBB8D1E65701D000C6EB8 /* test_polis */,
 			);
 		};
 /* End PBXProject section */
@@ -4308,7 +4308,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FBEFB32C1E6550F3000C6EB8 /* Build configuration list for PBXProject "Dashcore" */ = {
+		FBEFB32C1E6550F3000C6EB8 /* Build configuration list for PBXProject "Poliscore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBEFB32D1E6550F3000C6EB8 /* Debug */,
@@ -4317,7 +4317,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBEFB3301E65516F000C6EB8 /* Build configuration list for PBXLegacyTarget "dashd" */ = {
+		FBEFB3301E65516F000C6EB8 /* Build configuration list for PBXLegacyTarget "polisd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBEFB3311E65516F000C6EB8 /* Debug */,
@@ -4326,7 +4326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBEFBB8A1E656F88000C6EB8 /* Build configuration list for PBXLegacyTarget "bench_dash" */ = {
+		FBEFBB8A1E656F88000C6EB8 /* Build configuration list for PBXLegacyTarget "bench_polis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBEFBB8B1E656F88000C6EB8 /* Debug */,
@@ -4335,7 +4335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBEFBB8E1E65701D000C6EB8 /* Build configuration list for PBXLegacyTarget "test_dash" */ = {
+		FBEFBB8E1E65701D000C6EB8 /* Build configuration list for PBXLegacyTarget "test_polis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBEFBB8F1E65701D000C6EB8 /* Debug */,

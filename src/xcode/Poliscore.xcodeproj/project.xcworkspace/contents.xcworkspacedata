@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Dashcore.xcodeproj">
+      location = "self:Poliscore.xcodeproj">
    </FileRef>
 </Workspace>
