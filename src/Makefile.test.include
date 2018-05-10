@@ -32,24 +32,9 @@ EXTRA_DIST += \
 	test/data/txcreatedata1.hex \
 	test/data/txcreatedata1.json \
 	test/data/txcreatedata2.hex \
-	test/data/txcreatedata2.json \
-	test/data/txcreatedata_seq0.hex \
-	test/data/txcreatedata_seq0.json \
-	test/data/txcreatedata_seq1.hex \
-	test/data/txcreatedata_seq1.json \
-	test/data/txcreatemultisig1.hex \
-	test/data/txcreatemultisig1.json \
-	test/data/txcreatemultisig2.hex \
-	test/data/txcreatemultisig2.json \
-	test/data/txcreateoutpubkey1.hex \
-	test/data/txcreateoutpubkey1.json \
-	test/data/txcreatescript1.hex \
-	test/data/txcreatescript1.json \
-	test/data/txcreatescript2.hex \
-	test/data/txcreatescript2.json \
-	test/data/txcreatesignv1.hex \
-	test/data/txcreatesignv1.json \
-	test/data/txcreatesignv2.hex
+	test/data/txcreatesign.hex \
+	test/wallet-utility.py \
+	test/data/wallet.dat
 
 JSON_TEST_FILES = \
   test/data/script_tests.json \
@@ -185,7 +170,11 @@ polis_test_clean : FORCE
 
 check-local:
 	@echo "Running test/bitcoin-util-test.py..."
-	$(AM_V_at)srcdir=$(srcdir) PYTHONPATH=$(builddir)/test $(PYTHON) $(srcdir)/test/bitcoin-util-test.py
+	$(AM_V_at)srcdir=$(srcdir) PYTHONPATH=$(builddir)/test $(srcdir)/test/bitcoin-util-test.py
+if ENABLE_WALLET
+	@echo "Running test/wallet-utility.py..."
+	$(AM_V_at)srcdir=$(srcdir) PYTHONPATH=$(builddir)/test $(srcdir)/test/wallet-utility.py
+endif
 	$(AM_V_at)$(MAKE) $(AM_MAKEFLAGS) -C secp256k1 check
 if EMBEDDED_UNIVALUE
 	$(AM_V_at)$(MAKE) $(AM_MAKEFLAGS) -C univalue check
