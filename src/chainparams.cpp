@@ -207,10 +207,10 @@ public:
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,56);
         // polis private keys start with '3' or 'p'
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,60);
-        // polis BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // polis BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
+        // polis BIP32 pubkeys start with 'ppub' (Polis Prefix)
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0xB2)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
+        // polis BIP32 prvkeys start with 'pprv' (Polis Prefix)
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0xB2)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
         // polis BIP44 coin type is '5'
         nExtCoinType = 5;
