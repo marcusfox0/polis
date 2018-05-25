@@ -213,7 +213,7 @@ public:
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x03)(0xE2)(0x59)(0x45).convert_to_container<std::vector<unsigned char> >();
 
         // polis BIP44 coin type is '5'
-        nExtCoinType = 5;
+        nExtCoinType = 1997;
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
