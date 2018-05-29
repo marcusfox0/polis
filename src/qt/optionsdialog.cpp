@@ -92,11 +92,21 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
     
     /* Theme selector */
+<<<<<<< HEAD
     ui->theme->addItem(QString("polis-light"), QVariant("light"));
     ui->theme->addItem(QString("polis-light-hires"), QVariant("light-hires"));
     ui->theme->addItem(QString("polis-blue"), QVariant("drkblue"));
     ui->theme->addItem(QString("polis-Crownium"), QVariant("crownium"));
     ui->theme->addItem(QString("polis-traditional"), QVariant("trad"));
+=======
+    ui->theme->addItem(QString("DASH-light"), QVariant("light"));
+    ui->theme->addItem(QString("DASH-light-hires"), QVariant("light-hires"));
+    ui->theme->addItem(QString("DASH-light-retro"), QVariant("light-retro"));
+    ui->theme->addItem(QString("DASH-light-hires-retro"), QVariant("light-hires-retro"));
+    ui->theme->addItem(QString("DASH-blue"), QVariant("drkblue"));
+    ui->theme->addItem(QString("DASH-Crownium"), QVariant("crownium"));
+    ui->theme->addItem(QString("DASH-traditional"), QVariant("trad"));
+>>>>>>> upstream/develop
     
     /* Language selector */
     QDir translations(":translations");
