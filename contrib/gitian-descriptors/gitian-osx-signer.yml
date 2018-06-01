@@ -10,7 +10,7 @@ remotes:
 - "url": "https://github.com/polispay/polis-detached-sigs.git"
   "dir": "signature"
 files:
-- "polis-osx-unsigned.tar.gz"
+- "poliscore-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -27,8 +27,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=polis-osx-unsigned.tar.gz
-  SIGNED=polis-osx-signed.dmg
+  UNSIGNED=poliscore-osx-unsigned.tar.gz
+  SIGNED=poliscore-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"
