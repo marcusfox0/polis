@@ -17,6 +17,13 @@ add_custom_target(build-polis ALL
         COMMAND $(MAKE) WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
         COMMAND $(MAKE) install)
 
+add_custom_target(run-test-polis ALL
+        COMMAND ./autogen.sh
+        COMMAND ./configure
+        COMMAND $(MAKE) WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+        COMMAND $(MAKE) install
+        COMMAND $(MAKE) check)
+
 add_custom_target(debug-polisd ALL)
 add_custom_target(debug-polis-qt ALL)
 

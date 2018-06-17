@@ -1,4 +1,5 @@
 ![Polis](https://github.com/polispay/polis/raw/develop/src/qt/res/icons/bitcoin.png "Polis")
+
 POLIS Core integration/staging tree
 =====================================
 [![Build Status](https://travis-ci.org/polispay/polis.svg?branch=develop)](https://travis-ci.org/polispay/polis)
@@ -7,7 +8,7 @@ POLIS Core integration/staging tree
 http://www.polispay.org
 
 - Copyright (c) 2009-2015 Bitcoin Developers
-- Copyright (c) 2014-2017 Polis Developers
+- Copyright (c) 2014-2017 Dash Developers
 - Copyright (c) 2017-2018 Polis Developers
 
 What is Polis?
@@ -77,6 +78,4 @@ Translations are periodically pulled from Transifex and merged into the git repo
 
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
-
-Translators should also follow the [forum](https://www.polispay.org/forum/topic/polis-worldwide-collaboration.88/).
 
