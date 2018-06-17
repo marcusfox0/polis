@@ -1,6 +1,6 @@
 ![Polis](https://github.com/polispay/polis/raw/develop/src/qt/res/icons/bitcoin.png "Polis")
 
-POLIS Core integration/staging tree
+POLIS Core staging tree 1.3.0
 =====================================
 [![Build Status](https://travis-ci.org/polispay/polis.svg?branch=develop)](https://travis-ci.org/polispay/polis)
 
@@ -78,4 +78,3 @@ Translations are periodically pulled from Transifex and merged into the git repo
 
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
-
