@@ -20,7 +20,7 @@ BOOST_AUTO_TEST_CASE(block_subsidy_test)
     CAmount nSubsidy;
 
     // details for block 4249 (subsidy returned will be for block 4250)
-    nPrevBits = 0x1c4a47c4;
+    nPrevBits = 0x1a12e1cc;
     nPrevHeight = 4249;
     nSubsidy = GetBlockSubsidy(nPrevBits, nPrevHeight, consensusParams, false);
     BOOST_CHECK_EQUAL(nSubsidy, 50000000000ULL);
