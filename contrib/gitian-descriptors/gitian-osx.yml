@@ -1,5 +1,5 @@
 ---
-name: "polis-osx-1.3.0"
+name: "poliscore-osx-1.3.1"
 enable_cache: true
 suites:
 - "trusty"

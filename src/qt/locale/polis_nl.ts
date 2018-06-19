@@ -1033,14 +1033,6 @@
         <source>Reset all settings changed in the GUI</source>
         <translation>Reset alle wijzigingen aan instellingen gedaan in de GUI</translation>
     </message>
-    <message>
-        <source>PrivateSend information</source>
-        <translation>PrivateSend informatie</translation>
-    </message>
-    <message>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Polis in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 POLIS, 0.1 POLIS, 1 POLIS and 10 POLIS -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://polispay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://polispay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;Basics van PrivateSend&lt;/h3&gt; PrivateSend geeft u echte financiële privacy door de oorsprong van uw geld te verbergen. Alle Polis in uw wallet bestaat uit verschillende "inputs" die u kunt beschouwen als afzonderlijke, discrete munten.&lt;br&gt; PrivateSend maakt gebruik van een innovatief proces om uw input te mengen met de input van twee andere mensen, zonder dat uw munten ooit uw wallet verlaten . U behoudt te alle tijden de controle over uw geld. &lt;hr&gt; &lt;b&gt;Het PrivateSend-proces werkt als volgt: &lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begint door uw transactie-inputs in standaard denominaties op te breken. Deze denominaties zijn 0,01 POLIS, 0,1 POLIS, 1 POLIS en 10 POLIS - eigenlijk net zoals de muntstukken van contant geld dat u elke dag gebruikt.&lt;/li&gt; Uw wallet stuurt daarna verzoeken naar speciaal geconfigureerde softwarenodes op het netwerk, zogenaamde "masternodes." Deze masternodes worden daarmee op de hoogte gesteld dat u geïnteresseerd bent in het mixen van een bepaalde denominatie. Er wordt geen identificeerbare informatie naar de masternodes gestuurd, ze kunnen dus niet weten wie u bent.&lt;/li&gt; &lt;li&gt;Wanneer twee andere mensen vergelijkbare berichten sturen, waarin ze aangeven dat ze dezelfde denominaties willen mixen, begint een mixsessie. De masternode mixt alle invoeren en instrueert de wallets van alle drie de gebruikers om de nu getransformeerde input aan zichzelf terug te betalen. Uw wallet betaalt die denominaties rechtstreeks naar zichzelf, maar met een ander adres (een wisselgeldadres genoemd).&lt;/li&gt; &lt;li&gt;Om uw geld volledig te verbergen, moet uw portemonnee dit proces een aantal keer herhalen voor elke denominatie. Iedere keer dat het proces wordt voltooid, wordt een 'ronde' genoemd. Elke ronde van PrivateSend maakt het exponentieel moeilijker om de herkomst van uw geld te bepalen.&lt;/li&gt; &lt;li&gt;Dit mixproces gebeurt op de achtergrond zonder enige tussenkomst van uw kant. Wanneer u een transactie wenst uit te voeren, zijn uw fondsen al geanonimiseerd. Er is geen extra wachttijd nodig.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;BELANGRIJK:&lt;/b&gt; Uw wallet bevat slechts 1000 van deze "wisselgeldadressen". Elke keer dat er een mixsessie plaatsvindt, worden maximaal 9 van uw adressen opgebruikt. Dit betekent dat deze 1000 adressen volstaan voor ongeveer 100 mixsessies. Wanneer er 900 adressen zijn opgebruikt, moet uw wallet nieuwe adressen aanmaken. Dit kan alleen maar als u automatische back-ups hebt ingeschakeld.&lt;br&gt; Daarom is voor gebruikers die back-ups hebben uitgeschakeld, ook PrivateSend uitgeschakeld. &lt;hr&gt;Voor meer informatie kijk op&lt;a href="https://polispay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https: //polispay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;</translation>
-    </message>
 </context>
 <context>
     <name>Intro</name>
@@ -1386,7 +1378,7 @@
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Indien het uitgeven van onbevestigd wisselgeld uitgeschakeld wordt dan kan het wisselgeld van een transactie niet worden gebruikt totdat de transactie ten minste een bevestiging heeft. 
+        <translation>Indien het uitgeven van onbevestigd wisselgeld uitgeschakeld wordt dan kan het wisselgeld van een transactie niet worden gebruikt totdat de transactie ten minste een bevestiging heeft.
 Dit heeft ook invloed op de manier waarop uw saldo wordt berekend.</translation>
     </message>
     <message>
@@ -1431,7 +1423,7 @@ Dit heeft ook invloed op de manier waarop uw saldo wordt berekend.</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>Deze instelling bepaalt het aantal individuele masternodes waardoor een input zal worden geanonimiseerd. 
+        <translation>Deze instelling bepaalt het aantal individuele masternodes waardoor een input zal worden geanonimiseerd.
 Meer anonimisatie rondes geeft een hoger niveau van privacy, maar kost ook meer aan vergoedingen.</translation>
     </message>
     <message>
@@ -1545,7 +1537,7 @@ Meer anonimisatie rondes geeft een hoger niveau van privacy, maar kost ook meer 
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/projects/p/polis/</source>
-        <translation>Is een een taal te kort of een vertaling onvolledig ? Help de vertaling hier: 
+        <translation>Is een een taal te kort of een vertaling onvolledig ? Help de vertaling hier:
 https://www.transifex.com/projects/p/polis/</translation>
     </message>
     <message>
@@ -1749,7 +1741,7 @@ https://www.transifex.com/projects/p/polis/</translation>
     </message>
     <message>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>De denominaties zijn bij de Masternode ingebracht. 
+        <translation>De denominaties zijn bij de Masternode ingebracht.
 Om te mixen moeten andere gebruikers exact dezelfde denominaties inbrengen.</translation>
     </message>
     <message>
@@ -1833,7 +1825,7 @@ Om te mixen moeten andere gebruikers exact dezelfde denominaties inbrengen.</tra
         <translation>We staan op het punt om een nieuwe automatische backup voor u aan te maken, echter &lt;span style='color:red;'&gt;u moet er zelf altijd voor zorgen dat u backups op een veilige locatie heeft opgeslagen!&lt;/span&gt;</translation>
     </message>
     <message>
-        <source>Note: You turn this message off in options.</source>
+        <source>Note: You can turn this message off in options.</source>
         <translation>Opmerking: Dit bericht kan kan worden uitgeschakeld in de instellingen</translation>
     </message>
     <message>
@@ -2528,7 +2520,7 @@ Om te mixen moeten andere gebruikers exact dezelfde denominaties inbrengen.</tra
     <message>
         <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
         <translation>Gebruik een van de eerder gebruikte ontvangstadressen opnieuw.
-Het opnieuw gebruiken van adressen heeft beveiliging- en privacy problemen. 
+Het opnieuw gebruiken van adressen heeft beveiliging- en privacy problemen.
 Gebruik dit niet, behalve als er eerder een betalingsverzoek opnieuw gegenereerd is.</translation>
     </message>
     <message>

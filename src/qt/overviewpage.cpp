@@ -318,5 +318,3 @@ void OverviewPage::SetupTransactionList(int nNumItems) {
         ui->listTransactions->setModelColumn(TransactionTableModel::ToAddress);
     }
 }
-
-

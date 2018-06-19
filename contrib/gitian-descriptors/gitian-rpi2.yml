@@ -1,5 +1,5 @@
 ---
-name: "polis-raspberry-1.3.0"
+name: "poliscore-raspberry-1.3.1"
 enable_cache: true
 suites:
 - "trusty"
