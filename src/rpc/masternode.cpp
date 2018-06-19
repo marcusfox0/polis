@@ -13,9 +13,7 @@
 #include "masternodeconfig.h"
 #include "masternodeman.h"
 #ifdef ENABLE_WALLET
-#include "privatesend-client.h"
 #endif // ENABLE_WALLET
-#include "privatesend-server.h"
 #include "rpc/server.h"
 #include "util.h"
 #include "utilmoneystr.h"
@@ -28,44 +26,9 @@ UniValue masternodelist(const JSONRPCRequest& request);
 
 bool EnsureWalletIsAvailable(bool avoidException);
 
-
-UniValue getpoolinfo(const JSONRPCRequest& request)
-{
-    if (request.fHelp || request.params.size() != 0)
-        throw std::runtime_error(
-            "getpoolinfo\n"
-            "Returns an object containing mixing pool related information.\n");
-
 #ifdef ENABLE_WALLET
-    CPrivateSendBase* pprivateSendBase = fMasternodeMode ? (CPrivateSendBase*)&privateSendServer : (CPrivateSendBase*)&privateSendClient;
-
-    UniValue obj(UniValue::VOBJ);
-    obj.push_back(Pair("state",             pprivateSendBase->GetStateString()));
-    obj.push_back(Pair("mixing_mode",       (!fMasternodeMode && privateSendClient.fPrivateSendMultiSession) ? "multi-session" : "normal"));
-    obj.push_back(Pair("queue",             pprivateSendBase->GetQueueSize()));
-    obj.push_back(Pair("entries",           pprivateSendBase->GetEntriesCount()));
-    obj.push_back(Pair("status",            privateSendClient.GetStatus()));
-
-    masternode_info_t mnInfo;
-    if (privateSendClient.GetMixingMasternodeInfo(mnInfo)) {
-        obj.push_back(Pair("outpoint",      mnInfo.outpoint.ToStringShort()));
-        obj.push_back(Pair("addr",          mnInfo.addr.ToString()));
-    }
-
-    if (pwalletMain) {
-        obj.push_back(Pair("keys_left",     pwalletMain->nKeysLeftSinceAutoBackup));
-        obj.push_back(Pair("warnings",      pwalletMain->nKeysLeftSinceAutoBackup < PRIVATESEND_KEYS_THRESHOLD_WARNING
-                                                ? "WARNING: keypool is almost depleted!" : ""));
-    }
-#else // ENABLE_WALLET
-    UniValue obj(UniValue::VOBJ);
-    obj.push_back(Pair("state",             privateSendServer.GetStateString()));
-    obj.push_back(Pair("queue",             privateSendServer.GetQueueSize()));
-    obj.push_back(Pair("entries",           privateSendServer.GetEntriesCount()));
+void EnsureWalletIsUnlocked();
 #endif // ENABLE_WALLET
-
-    return obj;
-}
 
 
 UniValue masternode(const JSONRPCRequest& request)
@@ -221,7 +184,6 @@ UniValue masternode(const JSONRPCRequest& request)
             throw JSONRPCError(RPC_INVALID_PARAMETER, "Please specify an alias");
 
         {
-            LOCK(pwalletMain->cs_wallet);
             EnsureWalletIsUnlocked();
         }
 
@@ -270,7 +232,6 @@ UniValue masternode(const JSONRPCRequest& request)
             return NullUniValue;
 
         {
-            LOCK(pwalletMain->cs_wallet);
             EnsureWalletIsUnlocked();
         }
 
@@ -356,24 +317,6 @@ UniValue masternode(const JSONRPCRequest& request)
 
         return resultObj;
     }
-
-#ifdef ENABLE_WALLET
-    if (strCommand == "outputs") {
-        if (!EnsureWalletIsAvailable(request.fHelp))
-            return NullUniValue;
-
-        // Find possible candidates
-        std::vector<COutput> vPossibleCoins;
-        pwalletMain->AvailableCoins(vPossibleCoins, true, NULL, false, ONLY_1000);
-
-        UniValue obj(UniValue::VOBJ);
-        for (const auto& out : vPossibleCoins) {
-            obj.push_back(Pair(out.tx->GetHash().ToString(), strprintf("%d", out.i)));
-        }
-
-        return obj;
-    }
-#endif // ENABLE_WALLET
 
     if (strCommand == "status")
     {
@@ -697,7 +640,6 @@ UniValue masternodebroadcast(const JSONRPCRequest& request)
             throw JSONRPCError(RPC_INVALID_PARAMETER, "Please specify an alias");
 
         {
-            LOCK(pwalletMain->cs_wallet);
             EnsureWalletIsUnlocked();
         }
 
@@ -749,7 +691,6 @@ UniValue masternodebroadcast(const JSONRPCRequest& request)
             throw JSONRPCError(RPC_INTERNAL_ERROR, "Wait for reindex and/or import to finish");
 
         {
-            LOCK(pwalletMain->cs_wallet);
             EnsureWalletIsUnlocked();
         }
 
@@ -915,7 +856,6 @@ static const CRPCCommand commands[] =
     { "polis",               "masternode",             &masternode,             true,  {} },
     { "polis",               "masternodelist",         &masternodelist,         true,  {} },
     { "polis",               "masternodebroadcast",    &masternodebroadcast,    true,  {} },
-    { "polis",               "getpoolinfo",            &getpoolinfo,            true,  {} },
     { "polis",               "sentinelping",           &sentinelping,           true,  {} },
 };
 

@@ -30,7 +30,7 @@ static const int SPORK_15_MASTERNODE_LOCK_NUMBER                        = 10014;
 
 
 static const int SPORK_START                                            = SPORK_2_INSTANTSEND_ENABLED;
-static const int SPORK_END                                              = SPORK_14_REQUIRE_SENTINEL_FLAG;
+static const int SPORK_END                                              = SPORK_15_MASTERNODE_LOCK_NUMBER;
 
 extern std::map<int, int64_t> mapSporkDefaults;
 extern std::map<uint256, CSporkMessage> mapSporks;

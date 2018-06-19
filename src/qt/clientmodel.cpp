@@ -22,7 +22,6 @@
 
 #include "masternodeman.h"
 #include "masternode-sync.h"
-#include "privatesend.h"
 
 #include <stdint.h>
 

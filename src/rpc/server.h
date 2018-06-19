@@ -18,6 +18,7 @@
 #include <boost/function.hpp>
 
 #include <univalue.h>
+static const int MIN_PRIVATESEND_PEER_PROTO_VERSION = 70208;
 
 class CRPCCommand;
 

@@ -25,7 +25,6 @@
 
 #include "instantx.h"
 #include "spork.h"
-#include "privatesend-client.h"
 
 #include <stdint.h>
 

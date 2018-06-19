@@ -24,7 +24,6 @@
 #include "wallet/walletdb.h"
 
 #include "masternodeconfig.h"
-#include "privatesend-client.h"
 #endif
 
 #include <QNetworkProxy>

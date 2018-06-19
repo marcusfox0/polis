@@ -14,7 +14,6 @@
 #include "netfulfilledman.h"
 #include "netmessagemaker.h"
 #ifdef ENABLE_WALLET
-#include "privatesend-client.h"
 #endif // ENABLE_WALLET
 #include "script/standard.h"
 #include "ui_interface.h"
@@ -721,7 +720,7 @@ void CMasternodeMan::ProcessMasternodeConnections(CConnman& connman)
 
     connman.ForEachNode(CConnman::AllNodes, [](CNode* pnode) {
 #ifdef ENABLE_WALLET
-        if(pnode->fMasternode && !privateSendClient.IsMixingMasternode(pnode)) {
+        if(pnode->fMasternode) {
 #else
         if(pnode->fMasternode) {
 #endif // ENABLE_WALLET
