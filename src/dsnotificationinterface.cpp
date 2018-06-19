@@ -9,7 +9,9 @@
 #include "masternodeman.h"
 #include "masternode-payments.h"
 #include "masternode-sync.h"
+#include "privatesend.h"
 #ifdef ENABLE_WALLET
+#include "privatesend-client.h"
 #endif // ENABLE_WALLET
 
 void CDSNotificationInterface::InitializeCurrentBlockTip()
@@ -45,7 +47,9 @@ void CDSNotificationInterface::UpdatedBlockTip(const CBlockIndex *pindexNew, con
         return;
 
     mnodeman.UpdatedBlockTip(pindexNew);
+    CPrivateSend::UpdatedBlockTip(pindexNew);
 #ifdef ENABLE_WALLET
+    privateSendClient.UpdatedBlockTip(pindexNew);
 #endif // ENABLE_WALLET
     instantsend.UpdatedBlockTip(pindexNew);
     mnpayments.UpdatedBlockTip(pindexNew, connman);
@@ -55,4 +59,5 @@ void CDSNotificationInterface::UpdatedBlockTip(const CBlockIndex *pindexNew, con
 void CDSNotificationInterface::SyncTransaction(const CTransaction &tx, const CBlockIndex *pindex, int posInBlock)
 {
     instantsend.SyncTransaction(tx, pindex, posInBlock);
+    CPrivateSend::SyncTransaction(tx, pindex, posInBlock);
 }
