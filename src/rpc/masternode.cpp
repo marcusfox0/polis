@@ -28,53 +28,6 @@ UniValue masternodelist(const JSONRPCRequest& request);
 
 bool EnsureWalletIsAvailable(bool avoidException);
 
-#ifdef ENABLE_WALLET
-void EnsureWalletIsUnlocked();
-
-UniValue privatesend(const JSONRPCRequest& request)
-{
-    if (!EnsureWalletIsAvailable(request.fHelp))
-        return NullUniValue;
-
-    if (request.fHelp || request.params.size() != 1)
-        throw std::runtime_error(
-            "privatesend \"command\"\n"
-            "\nArguments:\n"
-            "1. \"command\"        (string or set of strings, required) The command to execute\n"
-            "\nAvailable commands:\n"
-            "  start       - Start mixing\n"
-            "  stop        - Stop mixing\n"
-            "  reset       - Reset mixing\n"
-            );
-
-    if(fMasternodeMode)
-        throw JSONRPCError(RPC_INTERNAL_ERROR, "Client-side mixing is not supported on masternodes");
-
-    if(request.params[0].get_str() == "start") {
-        {
-            LOCK(pwalletMain->cs_wallet);
-            if (pwalletMain->IsLocked(true))
-                throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please unlock wallet for mixing with walletpassphrase first.");
-        }
-
-        privateSendClient.fEnablePrivateSend = true;
-        bool result = privateSendClient.DoAutomaticDenominating(*g_connman);
-        return "Mixing " + (result ? "started successfully" : ("start failed: " + privateSendClient.GetStatus() + ", will retry"));
-    }
-
-    if(request.params[0].get_str() == "stop") {
-        privateSendClient.fEnablePrivateSend = false;
-        return "Mixing was stopped";
-    }
-
-    if(request.params[0].get_str() == "reset") {
-        privateSendClient.ResetPool();
-        return "Mixing was reset";
-    }
-
-    return "Unknown command, please see \"help privatesend\"";
-}
-#endif // ENABLE_WALLET
 
 UniValue getpoolinfo(const JSONRPCRequest& request)
 {
@@ -964,9 +917,6 @@ static const CRPCCommand commands[] =
     { "polis",               "masternodebroadcast",    &masternodebroadcast,    true,  {} },
     { "polis",               "getpoolinfo",            &getpoolinfo,            true,  {} },
     { "polis",               "sentinelping",           &sentinelping,           true,  {} },
-#ifdef ENABLE_WALLET
-    { "polis",               "privatesend",            &privatesend,            false, {} },
-#endif // ENABLE_WALLET
 };
 
 void RegisterMasternodeRPCCommands(CRPCTable &t)
