@@ -2397,7 +2397,6 @@ UniValue getwalletinfo(const JSONRPCRequest& request)
             "  \"walletversion\": xxxxx,     (numeric) the wallet version\n"
             "  \"balance\": xxxxxxx,         (numeric) the total confirmed balance of the wallet in " + CURRENCY_UNIT + "\n"
             + (!fLiteMode ?
-            "  \"privatesend_balance\": xxxxxx, (numeric) the anonymized polis balance of the wallet in " + CURRENCY_UNIT + "\n" : "") +
             "  \"unconfirmed_balance\": xxx, (numeric) the total unconfirmed balance of the wallet in " + CURRENCY_UNIT + "\n"
             "  \"immature_balance\": xxxxxx, (numeric) the total immature balance of the wallet in " + CURRENCY_UNIT + "\n"
             "  \"txcount\": xxxxxxx,         (numeric) the total number of transactions in the wallet\n"
@@ -2430,8 +2429,6 @@ UniValue getwalletinfo(const JSONRPCRequest& request)
     UniValue obj(UniValue::VOBJ);
     obj.push_back(Pair("walletversion", pwalletMain->GetVersion()));
     obj.push_back(Pair("balance",       ValueFromAmount(pwalletMain->GetBalance())));
-    if(!fLiteMode)
-        obj.push_back(Pair("privatesend_balance",       ValueFromAmount(pwalletMain->GetAnonymizedBalance())));
     obj.push_back(Pair("unconfirmed_balance", ValueFromAmount(pwalletMain->GetUnconfirmedBalance())));
     obj.push_back(Pair("immature_balance",    ValueFromAmount(pwalletMain->GetImmatureBalance())));
     obj.push_back(Pair("txcount",       (int)pwalletMain->mapWallet.size()));
@@ -2667,7 +2664,6 @@ UniValue listunspent(const JSONRPCRequest& request)
         entry.push_back(Pair("confirmations", out.nDepth));
         entry.push_back(Pair("spendable", out.fSpendable));
         entry.push_back(Pair("solvable", out.fSolvable));
-        entry.push_back(Pair("ps_rounds", pwalletMain->GetOutpointPrivateSendRounds(COutPoint(out.tx->GetHash(), out.i))));
         results.push_back(entry);
     }
 

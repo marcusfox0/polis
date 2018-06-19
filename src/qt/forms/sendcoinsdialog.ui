@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>850</width>
-    <height>526</height>
+    <height>575</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -587,8 +587,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>830</width>
-        <height>104</height>
+        <width>824</width>
+        <height>72</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,1">
@@ -761,14 +761,14 @@
           </item>
           <item>
            <widget class="QLabel" name="fallbackFeeWarningLabel">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="toolTip">
              <string>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until your have validated the complete chain.</string>
-            </property>
-            <property name="font">
-            <font>
-                <weight>75</weight>
-                <bold>true</bold>
-            </font>
             </property>
             <property name="text">
              <string>Warning: Fee estimation is currently not possible.</string>
@@ -1276,22 +1276,6 @@
         <number>3</number>
        </property>
        <item>
-        <widget class="QCheckBox" name="checkUsePrivateSend">
-         <property name="minimumSize">
-          <size>
-           <width>95</width>
-           <height>0</height>
-          </size>
-         </property>
-         <property name="text">
-          <string>PrivateSend</string>
-         </property>
-         <property name="checked">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
         <widget class="QCheckBox" name="checkUseInstantSend">
          <property name="enabled">
           <bool>true</bool>
@@ -1341,15 +1325,15 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>QValidatedLineEdit</class>
-   <extends>QLineEdit</extends>
-   <header>qvalidatedlineedit.h</header>
-  </customwidget>
-  <customwidget>
    <class>BitcoinAmountField</class>
    <extends>QLineEdit</extends>
    <header>bitcoinamountfield.h</header>
    <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QValidatedLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qvalidatedlineedit.h</header>
   </customwidget>
  </customwidgets>
  <resources>
@@ -1357,7 +1341,7 @@
  </resources>
  <connections/>
  <buttongroups>
-  <buttongroup name="groupCustomFee"/>
   <buttongroup name="groupFee"/>
+  <buttongroup name="groupCustomFee"/>
  </buttongroups>
 </ui>

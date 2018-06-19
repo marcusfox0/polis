@@ -55,7 +55,6 @@ UniValue getinfo(const JSONRPCRequest& request)
             "  \"protocolversion\": xxxxx,   (numeric) the protocol version\n"
             "  \"walletversion\": xxxxx,     (numeric) the wallet version\n"
             "  \"balance\": xxxxxxx,         (numeric) the total polis balance of the wallet\n"
-            "  \"privatesend_balance\": xxxxxx, (numeric) the anonymized polis balance of the wallet\n"
             "  \"blocks\": xxxxxx,           (numeric) the current number of blocks processed in the server\n"
             "  \"timeoffset\": xxxxx,        (numeric) the time offset\n"
             "  \"connections\": xxxxx,       (numeric) the number of connections\n"
@@ -90,8 +89,6 @@ UniValue getinfo(const JSONRPCRequest& request)
     if (pwalletMain) {
         obj.push_back(Pair("walletversion", pwalletMain->GetVersion()));
         obj.push_back(Pair("balance",       ValueFromAmount(pwalletMain->GetBalance())));
-        if(!fLiteMode)
-            obj.push_back(Pair("privatesend_balance",       ValueFromAmount(pwalletMain->GetAnonymizedBalance())));
     }
 #endif
     obj.push_back(Pair("blocks",        (int)chainActive.Height()));
@@ -122,7 +119,7 @@ UniValue debug(const JSONRPCRequest& request)
             "debug ( 0|1|addrman|alert|bench|coindb|db|lock|rand|rpc|selectcoins|mempool"
             "|mempoolrej|net|proxy|prune|http|libevent|tor|zmq|"
 
-            "polis|privatesend|instantsend|masternode|spork|keepass|mnpayments|gobject )\n"
+            "polis|instantsend|masternode|spork|keepass|mnpayments|gobject )\n"
             "Change debug category on the fly. Specify single category or use '+' to specify many.\n"
             "\nExamples:\n"
             + HelpExampleCli("debug", "polis")
