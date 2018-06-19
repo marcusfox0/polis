@@ -27,6 +27,7 @@
 #include "instantx.h"
 #include "masternode-sync.h"
 #include "masternodeman.h"
+#include "privatesend.h"
 
 #ifdef WIN32
 #include <string.h>
@@ -2607,7 +2608,8 @@ bool CConnman::DisconnectNode(NodeId id)
 void CConnman::RelayTransaction(const CTransaction& tx)
 {
     uint256 hash = tx.GetHash();
-    int nInv = (instantsend.HasTxLockRequest(hash) ? MSG_TXLOCK_REQUEST : MSG_TX);
+    int nInv = static_cast<bool>(CPrivateSend::GetDSTX(hash)) ? MSG_DSTX :
+                (instantsend.HasTxLockRequest(hash) ? MSG_TXLOCK_REQUEST : MSG_TX);
     CInv inv(nInv, hash);
     LOCK(cs_vNodes);
     BOOST_FOREACH(CNode* pnode, vNodes)
