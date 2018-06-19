@@ -38,9 +38,7 @@
 #include "masternode-sync.h"
 #include "masternodeman.h"
 #ifdef ENABLE_WALLET
-#include "privatesend-client.h"
 #endif // ENABLE_WALLET
-#include "privatesend-server.h"
 
 #include <boost/thread.hpp>
 
@@ -946,9 +944,6 @@ bool static AlreadyHave(const CInv& inv) EXCLUSIVE_LOCKS_REQUIRED(cs_main)
     case MSG_MASTERNODE_PING:
         return mnodeman.mapSeenMasternodePing.count(inv.hash);
 
-    case MSG_DSTX: {
-        return static_cast<bool>(CPrivateSend::GetDSTX(inv.hash));
-    }
 
     case MSG_GOVERNANCE_OBJECT:
     case MSG_GOVERNANCE_OBJECT_VOTE:
@@ -1208,13 +1203,6 @@ void static ProcessGetData(CNode* pfrom, const Consensus::Params& consensusParam
                     }
                 }
 
-                if (!push && inv.type == MSG_DSTX) {
-                    CDarksendBroadcastTx dstx = CPrivateSend::GetDSTX(inv.hash);
-                    if(dstx) {
-                        connman.PushMessage(pfrom, msgMaker.Make(NetMsgType::DSTX, dstx));
-                        push = true;
-                    }
-                }
 
                 if (!push && inv.type == MSG_GOVERNANCE_OBJECT) {
                     LogPrint("net", "ProcessGetData -- MSG_GOVERNANCE_OBJECT: inv = %s\n", inv.ToString());
@@ -1954,10 +1942,6 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
             }
         } else if (strCommand == NetMsgType::DSTX) {
             uint256 hashTx = tx.GetHash();
-            if(CPrivateSend::GetDSTX(hashTx)) {
-                LogPrint("privatesend", "DSTX -- Already have %s, skipping...\n", hashTx.ToString());
-                return true; // not an error
-            }
 
             CMasternode mn;
 
@@ -1966,17 +1950,7 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
                 return false;
             }
 
-            if(!mn.fAllowMixingTx) {
-                LogPrint("privatesend", "DSTX -- Masternode %s is sending too many transactions %s\n", dstx.masternodeOutpoint.ToStringShort(), hashTx.ToString());
-                return true;
-                // TODO: Not an error? Could it be that someone is relaying old DSTXes
-                // we have no idea about (e.g we were offline)? How to handle them?
-            }
 
-            if(!dstx.CheckSignature(mn.pubKeyMasternode)) {
-                LogPrint("privatesend", "DSTX -- CheckSignature() failed for %s\n", hashTx.ToString());
-                return false;
-            }
 
             LogPrintf("DSTX -- Got Masternode transaction %s\n", hashTx.ToString());
             mempool.PrioritiseTransaction(hashTx, hashTx.ToString(), 1000, 0.1*COIN);
@@ -1994,11 +1968,7 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
 
         if (!AlreadyHave(inv) && AcceptToMemoryPool(mempool, state, ptx, true, &fMissingInputs, &lRemovedTxn)) {
             // Process custom txes, this changes AlreadyHave to "true"
-            if (strCommand == NetMsgType::DSTX) {
-                LogPrintf("DSTX -- Masternode transaction accepted, txid=%s, peer=%d\n",
-                        tx.GetHash().ToString(), pfrom->id);
-                CPrivateSend::AddDSTX(dstx);
-            } else if (strCommand == NetMsgType::TXLOCKREQUEST) {
+             if (strCommand == NetMsgType::TXLOCKREQUEST) {
                 LogPrintf("TXLOCKREQUEST -- Transaction Lock Request accepted, txid=%s, peer=%d\n",
                         tx.GetHash().ToString(), pfrom->id);
                 instantsend.AcceptLockRequest(txLockRequest);
@@ -2833,9 +2803,7 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
         {
             //probably one the extensions
 #ifdef ENABLE_WALLET
-            privateSendClient.ProcessMessage(pfrom, strCommand, vRecv, connman);
 #endif // ENABLE_WALLET
-            privateSendServer.ProcessMessage(pfrom, strCommand, vRecv, connman);
             mnodeman.ProcessMessage(pfrom, strCommand, vRecv, connman);
             mnpayments.ProcessMessage(pfrom, strCommand, vRecv, connman);
             instantsend.ProcessMessage(pfrom, strCommand, vRecv, connman);
@@ -2852,6 +2820,7 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
 
     return true;
 }
+
 
 static bool SendRejectsAndCheckIfBanned(CNode* pnode, CConnman& connman)
 {

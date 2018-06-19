@@ -2979,7 +2979,7 @@ bool CWallet::FundTransaction(CMutableTransaction& tx, CAmount& nFeeRet, bool ov
         {
             tx.vin.push_back(txin);
 
-            if (lockUnspents)
+            if (lockUnspents)GetCollateralTxDSIn
             {
               LOCK2(cs_main, cs_wallet);
               LockCoin(txin.prevout);
@@ -2994,7 +2994,7 @@ bool CWallet::FundTransaction(CMutableTransaction& tx, CAmount& nFeeRet, bool ov
     return true;
 }
 
-bool CWallet::SelectCoinsByDenominations(int nDenom, CAmount nValueMin, CAmount nValueMax, std::vector<CTxDSIn>& vecTxDSInRet, std::vector<COutput>& vCoinsRet, CAmount& nValueRet, int nPrivateSendRoundsMin, int nPrivateSendRoundsMax)
+bool CWallet::SelectCoinsByDenominations(int nDenom, CAmount nValueMin, CAmount nValueMax, std::vector<CTxIn>& vecTxDSInRet, std::vector<COutput>& vCoinsRet, CAmount& nValueRet, int nPrivateSendRoundsMin, int nPrivateSendRoundsMax)
 {
     vecTxDSInRet.clear();
     vCoinsRet.clear();
@@ -3190,7 +3190,7 @@ bool CWallet::SelectCoinsDark(CAmount nValueMin, CAmount nValueMax, std::vector<
     return nValueRet >= nValueMin;
 }
 
-bool CWallet::GetCollateralTxDSIn(CTxDSIn& txdsinRet, CAmount& nValueRet) const
+bool CWallet::GetCollateralTxDSIn(CTxIn& txdsinRet, CAmount& nValueRet) const
 {
     LOCK2(cs_main, cs_wallet);
 

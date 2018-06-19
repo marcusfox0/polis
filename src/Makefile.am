@@ -243,8 +243,6 @@ libpolis_server_a_SOURCES = \
   policy/fees.cpp \
   policy/policy.cpp \
   pow.cpp \
-  privatesend.cpp \
-  privatesend-server.cpp \
   rest.cpp \
   rpc/blockchain.cpp \
   rpc/masternode.cpp \
