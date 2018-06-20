@@ -116,74 +116,6 @@ When a new block is found on the network, a masternode quorum will be determined
 | ? | payeeAddress | CScript | The address to pay to
 | 71-73 | sig | char[] | Signature of the masternode which is signing the message
 
-### DSTX - "dstx"
-
-CDarksendBroadcastTx
-
-Masternodes can broadcast subsidised transactions without fees for the sake of security in mixing. This is done via the DSTX message.
-
-| Field Size | Field Name | Data type | Description |
-| ---------- | ----------- | --------- | ---------- |
-| # | tx | [CTransaction](#ctransaction) | The transaction
-| 36 | masternodeOutpoint | [COutPoint](#coutpoint) | The unspent output of the masternode which is signing the message
-| 71-73 | vchSig | char[] | Signature of this message by masternode (verifiable via pubKeyMasternode)
-| 8 | sigTime | int64_t | Time this message was signed
-
-### DSSTATUSUPDATE - "dssu"
-
-Mixing pool status update
-
-| Field Size | Field Name | Data type | Description |
-| ---------- | ----------- | --------- | ---------- |
-| 4 | nMsgSessionID | int | Session ID
-| 4 | nMsgState | int | Current state of mixing process
-| 4 | nMsgEntriesCount | int | Number of entries in the mixing pool
-| 4 | nMsgStatusUpdate | int | Update state and/or signal if entry was accepted or not
-| 4 | nMsgMessageID | int | ID of the typical masternode reply message
-
-### DSQUEUE - "dsq"
-
-CDarksendQueue
-
-Asks users to sign final mixing tx message.
-
-| Field Size | Field Name | Data type | Description |
-| ---------- | ----------- | --------- | ---------- |
-| 4 | nDenom | int | Which denomination is allowed in this mixing session
-| 36 | masternodeOutpoint | [COutPoint](#coutpoint) | The unspent output of the masternode which is hosting this session
-| 8 | nTime | int64_t | the time this DSQ was created
-| 1 | fReady | bool | if the mixing pool is ready to be executed
-| 66 | vchSig | char[] | Signature of this message by masternode (verifiable via pubKeyMasternode)
-
-### DSACCEPT - "dsa"
-
-Response to DSQ message which allows the user to join a mixing pool
-
-| Field Size | Field Name | Data type | Description |
-| ---------- | ----------- | --------- | ---------- |
-| 4 | nDenom | int | denomination that will be exclusively used when submitting inputs into the pool
-| 216+ | txCollateral | [CTransaction](#ctransaction) | collateral tx that will be charged if this client acts maliciously
-
-### DSVIN - "dsi"
-
-CDarkSendEntry
-
-When queue is ready user is expected to send his entry to start actual mixing
-
-| Field Size | Field Name | Data type | Description |
-| ---------- | ----------- | --------- | ---------- |
-| ? | vecTxDSIn | CTxDSIn[] | vector of users inputs (CTxDSIn serialization is equal to [CTxIn](#ctxin) serialization)
-| 216+ | txCollateral | [CTransaction](#ctransaction) | Collateral transaction which is used to prevent misbehavior and also to charge fees randomly
-| ? | vecTxOut | [CTxOut](#ctxout)[] | vector of user outputs
-
-### DSSIGNFINALTX - "dss"
-
-User's signed inputs for a group transaction in a mixing session
-
-| Field Size | Field Name | Data type | Description |
-| ---------- | ----------- | --------- | ---------- |
-| # | inputs | [CTxIn](#ctxin)[] | signed inputs for mixing session
-
 
 ### TXLOCKREQUEST - "ix"
 
@@ -250,8 +182,8 @@ Spork
 | 66* | vchSig | char[] | Unclear if 66 is the correct size, but this is what it appears to be in most cases |
 
 #### Defined Sporks (per src/sporks.h)
- 
-| Spork ID | Number | Name | Description | 
+
+| Spork ID | Number | Name | Description |
 | ---------- | ---------- | ----------- | ----------- |
 | 10001 | 2 | INSTANTSEND_ENABLED | Turns on and off InstantSend network wide
 | 10002 | 3 | INSTANTSEND_BLOCK_FILTERING | Turns on and off InstantSend block filtering
@@ -262,7 +194,7 @@ Spork
 | 10009 | 10 | MASTERNODE_PAY_UPDATED_NODES | Only current protocol version masternode's will be paid (not older nodes)
 | 10011 | 12 | RECONSIDER_BLOCKS | |
 | 10012 | 13 | OLD_SUPERBLOCK_FLAG | |
-| 10013 | 14 | REQUIRE_SENTINEL_FLAG | Only masternode's running sentinel will be paid 
+| 10013 | 14 | REQUIRE_SENTINEL_FLAG | Only masternode's running sentinel will be paid
 
 ## Undocumented messages
 
