@@ -112,10 +112,6 @@ BITCOIN_CORE_H = \
   evo/deterministicmns.h \
   evo/cbtx.h \
   evo/simplifiedmns.h \
-  privatesend.h \
-  privatesend-client.h \
-  privatesend-server.h \
-  privatesend-util.h \
   dsnotificationinterface.h \
   governance.h \
   governance-classes.h \
@@ -254,8 +250,6 @@ libpolis_server_a_SOURCES = \
   policy/fees.cpp \
   policy/policy.cpp \
   pow.cpp \
-  privatesend.cpp \
-  privatesend-server.cpp \
   rest.cpp \
   rpc/blockchain.cpp \
   rpc/masternode.cpp \
@@ -296,8 +290,6 @@ libpolis_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libpolis_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libpolis_wallet_a_SOURCES = \
   keepass.cpp \
-  privatesend-client.cpp \
-  privatesend-util.cpp \
   wallet/crypter.cpp \
   wallet/db.cpp \
   wallet/rpcdump.cpp \
