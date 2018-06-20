@@ -50,9 +50,6 @@ public:
         ShowMasternodesTab,     // bool
         ShowAdvancedPSUI,       // bool
         LowKeysWarning,         // bool
-        PrivateSendRounds,      // int
-        PrivateSendAmount,      // int
-        PrivateSendMultiSession,// bool
         Listen,                 // bool
         OptionIDRowCount,
     };

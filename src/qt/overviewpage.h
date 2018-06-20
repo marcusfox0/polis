@@ -38,8 +38,7 @@ public:
     void showOutOfSyncWarning(bool fShow);
 
 public Q_SLOTS:
-    void privateSendStatus();
-    void setBalance(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance, const CAmount& anonymizedBalance,
+    void setBalance(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance,
                     const CAmount& watchOnlyBalance, const CAmount& watchUnconfBalance, const CAmount& watchImmatureBalance);
 
 Q_SIGNALS:
@@ -68,12 +67,7 @@ private:
     void DisablePrivateSendCompletely();
 
 private Q_SLOTS:
-    void togglePrivateSend();
-    void privateSendAuto();
-    void privateSendReset();
-    void privateSendInfo();
     void updateDisplayUnit();
-    void updatePrivateSendProgress();
     void updateAdvancedPSUI(bool fShowAdvancedPSUI);
     void handleTransactionClicked(const QModelIndex &index);
     void updateAlerts(const QString &warnings);

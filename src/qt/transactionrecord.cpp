@@ -92,7 +92,6 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
         BOOST_FOREACH(const CTxIn& txin, wtx.tx->vin)
         {
             if(wallet->IsMine(txin)) {
-                fAllFromMeDenom = fAllFromMeDenom && wallet->IsDenominated(txin.prevout);
                 nFromMe++;
             }
             isminetype mine = wallet->IsMine(txin);
@@ -105,7 +104,6 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
         int nToMe = 0;
         BOOST_FOREACH(const CTxOut& txout, wtx.tx->vout) {
             if(wallet->IsMine(txout)) {
-                fAllToMeDenom = fAllToMeDenom && CPrivateSend::IsDenominatedAmount(txout.nValue);
                 nToMe++;
             }
             isminetype mine = wallet->IsMine(txout);
@@ -150,9 +148,6 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                     const CTxOut& txout = wtx.tx->vout[nOut];
                     sub.idx = parts.size();
 
-                    if(txout.nValue == CPrivateSend::GetMaxCollateralAmount()) sub.type = TransactionRecord::PrivateSendMakeCollaterals;
-                    if(CPrivateSend::IsDenominatedAmount(txout.nValue)) sub.type = TransactionRecord::PrivateSendCreateDenominations;
-                    if(nDebit - wtx.tx->GetValueOut() == CPrivateSend::GetCollateralAmount()) sub.type = TransactionRecord::PrivateSendCollateralPayment;
                 }
             }
 

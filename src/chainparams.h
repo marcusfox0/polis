@@ -141,6 +141,5 @@ void UpdateRegtestBIP9Parameters(Consensus::DeploymentPos d, int64_t nStartTime,
 /**
  * Allows modifying the budget regtest parameters.
  */
-void UpdateRegtestBudgetParameters(int nMasternodePaymentsStartBlock, int nBudgetPaymentsStartBlock, int nSuperblockStartBlock);
 
 #endif // BITCOIN_CHAINPARAMS_H

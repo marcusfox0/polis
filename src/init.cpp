@@ -1275,7 +1275,6 @@ bool AppInitParameterInteraction()
         if (!ParseInt32(vBudgetParams[2], &nSuperblockStartBlock)) {
             return InitError(strprintf("Invalid nSuperblockStartBlock (%s)", vBudgetParams[2]));
         }
-        UpdateRegtestBudgetParameters(nMasternodePaymentsStartBlock, nBudgetPaymentsStartBlock, nSuperblockStartBlock);
     }
 
     return true;

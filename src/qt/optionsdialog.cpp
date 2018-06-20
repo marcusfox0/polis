@@ -83,21 +83,21 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
 
     /* Display elements init */
-    
+
     /* Number of displayed decimal digits selector */
     QString digits;
     for(int index = 2; index <=8; index++){
         digits.setNum(index);
         ui->digits->addItem(digits, digits);
     }
-    
+
     /* Theme selector */
     ui->theme->addItem(QString("POLIS-light"), QVariant("light"));
     ui->theme->addItem(QString("POLIS-light-hires"), QVariant("light-hires"));
     ui->theme->addItem(QString("POLIS-blue"), QVariant("drkblue"));
     ui->theme->addItem(QString("POLIS-Crownium"), QVariant("crownium"));
     ui->theme->addItem(QString("POLIS-traditional"), QVariant("trad"));
-    
+
     /* Language selector */
     QDir translations(":translations");
 
@@ -210,10 +210,7 @@ void OptionsDialog::setMapper()
     mapper->addMapping(ui->showMasternodesTab, OptionsModel::ShowMasternodesTab);
     mapper->addMapping(ui->showAdvancedPSUI, OptionsModel::ShowAdvancedPSUI);
     mapper->addMapping(ui->lowKeysWarning, OptionsModel::LowKeysWarning);
-    mapper->addMapping(ui->privateSendMultiSession, OptionsModel::PrivateSendMultiSession);
     mapper->addMapping(ui->spendZeroConfChange, OptionsModel::SpendZeroConfChange);
-    mapper->addMapping(ui->privateSendRounds, OptionsModel::PrivateSendRounds);
-    mapper->addMapping(ui->privateSendAmount, OptionsModel::PrivateSendAmount);
 
     /* Network */
     mapper->addMapping(ui->mapPortUpnp, OptionsModel::MapPortUPnP);
@@ -270,7 +267,6 @@ void OptionsDialog::on_okButton_clicked()
 {
     mapper->submit();
 #ifdef ENABLE_WALLET
-    privateSendClient.nCachedNumBlocks = std::numeric_limits<int>::max();
     if(pwalletMain)
         pwalletMain->MarkDirty();
 #endif // ENABLE_WALLET

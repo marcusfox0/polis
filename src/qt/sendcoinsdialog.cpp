@@ -169,9 +169,9 @@ void SendCoinsDialog::setModel(WalletModel *_model)
             }
         }
 
-        setBalance(_model->getBalance(), _model->getUnconfirmedBalance(), _model->getImmatureBalance(), _model->getAnonymizedBalance(),
+        setBalance(_model->getBalance(), _model->getUnconfirmedBalance(), _model->getImmatureBalance(),
                    _model->getWatchBalance(), _model->getWatchUnconfirmedBalance(), _model->getWatchImmatureBalance());
-        connect(_model, SIGNAL(balanceChanged(CAmount,CAmount,CAmount,CAmount,CAmount,CAmount,CAmount)), this, SLOT(setBalance(CAmount,CAmount,CAmount,CAmount,CAmount,CAmount,CAmount)));
+        connect(_model, SIGNAL(balanceChanged(CAmount,CAmount,CAmount,CAmount,CAmount,CAmount)), this, SLOT(setBalance(CAmount,CAmount,CAmount,CAmount,CAmount,CAmount)));
         connect(_model->getOptionsModel(), SIGNAL(displayUnitChanged(int)), this, SLOT(updateDisplayUnit()));
         updateDisplayUnit();
 
@@ -257,19 +257,6 @@ void SendCoinsDialog::on_sendButton_clicked()
     QString strFee = "";
     recipients[0].inputType = ONLY_DENOMINATED;
 
-    if(ui->checkUsePrivateSend->isChecked()) {
-        recipients[0].inputType = ONLY_DENOMINATED;
-        strFunds = tr("using") + " <b>" + tr("anonymous funds") + "</b>";
-        QString strNearestAmount(
-            BitcoinUnits::formatWithUnit(
-                model->getOptionsModel()->getDisplayUnit(), CPrivateSend::GetSmallestDenomination()));
-        strFee = QString(tr(
-            "(privatesend requires this amount to be rounded up to the nearest %1)."
-        ).arg(strNearestAmount));
-    } else {
-        recipients[0].inputType = ALL_COINS;
-        strFunds = tr("using") + " <b>" + tr("any available funds (not anonymous)") + "</b>";
-    }
 
     if(ui->checkUseInstantSend->isChecked()) {
         recipients[0].fUseInstantSend = true;
@@ -572,12 +559,11 @@ bool SendCoinsDialog::handlePaymentRequest(const SendCoinsRecipient &rv)
     return true;
 }
 
-void SendCoinsDialog::setBalance(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance, const CAmount& anonymizedBalance,
+void SendCoinsDialog::setBalance(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance,
                                  const CAmount& watchBalance, const CAmount& watchUnconfirmedBalance, const CAmount& watchImmatureBalance)
 {
     Q_UNUSED(unconfirmedBalance);
     Q_UNUSED(immatureBalance);
-    Q_UNUSED(anonymizedBalance);
     Q_UNUSED(watchBalance);
     Q_UNUSED(watchUnconfirmedBalance);
     Q_UNUSED(watchImmatureBalance);
@@ -587,11 +573,8 @@ void SendCoinsDialog::setBalance(const CAmount& balance, const CAmount& unconfir
 	    uint64_t bal = 0;
         QSettings settings;
         settings.setValue("bUseDarkSend", ui->checkUsePrivateSend->isChecked());
-	    if(ui->checkUsePrivateSend->isChecked()) {
-		    bal = anonymizedBalance;
-	    } else {
 		    bal = balance;
-	    }
+	    
 
         ui->labelBalance->setText(BitcoinUnits::formatWithUnit(model->getOptionsModel()->getDisplayUnit(), bal));
     }
@@ -599,7 +582,7 @@ void SendCoinsDialog::setBalance(const CAmount& balance, const CAmount& unconfir
 
 void SendCoinsDialog::updateDisplayUnit()
 {
-    setBalance(model->getBalance(), model->getUnconfirmedBalance(), model->getImmatureBalance(), model->getAnonymizedBalance(),
+    setBalance(model->getBalance(), model->getUnconfirmedBalance(), model->getImmatureBalance(),
                    model->getWatchBalance(), model->getWatchUnconfirmedBalance(), model->getWatchImmatureBalance());
     CoinControlDialog::coinControl->fUsePrivateSend = ui->checkUsePrivateSend->isChecked();
     coinControlUpdateLabels();
