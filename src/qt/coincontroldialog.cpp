@@ -771,10 +771,6 @@ void CoinControlDialog::updateView()
             itemOutput->setData(COLUMN_DATE, Qt::UserRole, QVariant((qlonglong)out.tx->GetTxTime()));
 
 
-            // PrivateSend rounds
-            COutPoint outpoint = COutPoint(out.tx->tx->GetHash(), out.i);
-            int nRounds = pwalletMain->GetOutpointPrivateSendRounds(outpoint);
-
 
             // confirmations
             itemOutput->setText(COLUMN_CONFIRMATIONS, QString::number(out.nDepth));

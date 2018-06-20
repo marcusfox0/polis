@@ -871,8 +871,7 @@ void PeerLogicValidation::BlockChecked(const CBlock& block, const CValidationSta
     else if (state.IsValid() &&
              !IsInitialBlockDownload() &&
              mapBlocksInFlight.count(hash) == mapBlocksInFlight.size()) {
-        if (it != mapBlockSource.end()) {nTimeReceived
-
+        if (it != mapBlockSource.end()) {
             MaybeSetPeerAsAnnouncingHeaderAndIDs(it->second.first, *connman);
         }
     }
@@ -1339,7 +1338,7 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
         }
     }
 
-    if (strCommand == NetMsgType::VERSION)
+    else if (strCommand == NetMsgType::VERSION)
     {
         // Each connection can only send one version message
         if (pfrom->nVersion != 0)
@@ -1950,91 +1949,11 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
 
         std::list<CTransactionRef> lRemovedTxn;
 
-        if (fMissingInputs)
-        {
-            bool fRejectedParents = false; // It may be the case that the orphans parents have all been rejected
-            BOOST_FOREACH(const CTxIn& txin, tx.vin) {
-                if (recentRejects->contains(txin.prevout.hash)) {
-                    fRejectedParents = true;
-                    break;
-                }
-            }
-            if (!fRejectedParents) {
-                BOOST_FOREACH(const CTxIn& txin, tx.vin) {
-                    CInv _inv(MSG_TX, txin.prevout.hash);
-                    pfrom->AddInventoryKnown(_inv);
-                    if (!AlreadyHave(_inv)) pfrom->AskFor(_inv);
-                }
-                AddOrphanTx(ptx, pfrom->GetId());
-
-                // DoS prevention: do not allow mapOrphanTransactions to grow unbounded
-                unsigned int nMaxOrphanTx = (unsigned int)std::max((int64_t)0, GetArg("-maxorphantx", DEFAULT_MAX_ORPHAN_TRANSACTIONS));
-                unsigned int nEvicted = LimitOrphanTxSize(nMaxOrphanTx);
-                if (nEvicted > 0)
-                    LogPrint("mempool", "mapOrphan overflow, removed %u tx\n", nEvicted);
-            } else {
-                LogPrint("mempool", "not keeping orphan with rejected parents %s\n",tx.GetHash().ToString());
-                // We will continue to reject this tx since it has rejected
-                // parents so avoid re-requesting it from other peers.
-                recentRejects->insert(tx.GetHash());
-            }
-        } else {
-            if (!state.CorruptionPossible()) {
-                assert(recentRejects);
-                recentRejects->insert(tx.GetHash());
-                if (RecursiveDynamicUsage(*ptx) < 100000) {
-                    AddToCompactExtraTransactions(ptx);
-                }
-            }
-
-            if (strCommand == NetMsgType::TXLOCKREQUEST && !AlreadyHave(inv)) {
-                // i.e. AcceptToMemoryPool failed, probably because it's conflicting
-                // with existing normal tx or tx lock for another tx. For the same tx lock
-                // AlreadyHave would have return "true" already.
-
-                // It's the first time we failed for this tx lock request,
-                // this should switch AlreadyHave to "true".
-                instantsend.RejectLockRequest(txLockRequest);
-                // this lets other nodes to create lock request candidate i.e.
-                // this allows multiple conflicting lock requests to compete for votes
-                connman.RelayTransaction(tx);
-            }
-
-            if (pfrom->fWhitelisted && GetBoolArg("-whitelistforcerelay", DEFAULT_WHITELISTFORCERELAY)) {
-                // Always relay transactions received from whitelisted peers, even
-                // if they were already in the mempool or rejected from it due
-                // to policy, allowing the node to function as a gateway for
-                // nodes hidden behind it.
-                //
-                // Never relay transactions that we would assign a non-zero DoS
-                // score for, as we expect peers to do the same with us in that
-                // case.
-                int nDoS = 0;
-                if (!state.IsInvalid(nDoS) || nDoS == 0) {
-                    LogPrintf("Force relaying tx %s from whitelisted peer=%d\n", tx.GetHash().ToString(), pfrom->id);
-                    connman.RelayTransaction(tx);
-                } else {
-                    LogPrintf("Not relaying invalid transaction %s from whitelisted peer=%d (%s)\n", tx.GetHash().ToString(), pfrom->id, FormatStateMessage(state));
-                }
-            }
-        }
 
         for (const CTransactionRef& removedTx : lRemovedTxn)
             AddToCompactExtraTransactions(removedTx);
 
-        int nDoS = 0;
-        if (state.IsInvalid(nDoS))
-        {
-            LogPrint("mempoolrej", "%s from peer=%d was not accepted: %s\n", tx.GetHash().ToString(),
-                pfrom->id,
-                FormatStateMessage(state));
-            if (state.GetRejectCode() < REJECT_INTERNAL) // Never send AcceptToMemoryPool's internal codes over P2P
-                connman.PushMessage(pfrom, msgMaker.Make(NetMsgType::REJECT, strCommand, (unsigned char)state.GetRejectCode(),
-                                   state.GetRejectReason().substr(0, MAX_REJECT_MESSAGE_LENGTH), inv.hash));
-            if (nDoS > 0) {
-                Misbehaving(pfrom->GetId(), nDoS);
-            }
-        }
+
 
 
     if (strCommand == NetMsgType::CMPCTBLOCK && !fImporting && !fReindex) // Ignore blocks received while importing
