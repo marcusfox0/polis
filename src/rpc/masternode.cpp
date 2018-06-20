@@ -32,7 +32,6 @@ UniValue masternodelist(const JSONRPCRequest& request);
 
 bool EnsureWalletIsAvailable(bool avoidException);
 
-#ifdef ENABLE_WALLET
 void EnsureWalletIsUnlocked();
 
 UniValue masternode(const JSONRPCRequest& request)
