@@ -2814,10 +2814,6 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
         if (found)
         {
             //probably one the extensions
-#ifdef ENABLE_WALLET
-            privateSendClient.ProcessMessage(pfrom, strCommand, vRecv, connman);
-#endif // ENABLE_WALLET
-            privateSendServer.ProcessMessage(pfrom, strCommand, vRecv, connman);
             mnodeman.ProcessMessage(pfrom, strCommand, vRecv, connman);
             mnpayments.ProcessMessage(pfrom, strCommand, vRecv, connman);
             instantsend.ProcessMessage(pfrom, strCommand, vRecv, connman);

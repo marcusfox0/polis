@@ -128,8 +128,7 @@ def filterbyasn(ips, max_per_asn, max_total):
 
 def main():
     js = json.load(sys.stdin)
-    ips = [parseline(line) for collateral, line in js.items()]
-
+    ips = [parseline(line) for lst in js for collateral, line in lst.items()]
     cur_time = int(time.time())
 
     # Skip entries with valid address.
