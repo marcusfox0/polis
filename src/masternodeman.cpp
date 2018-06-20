@@ -23,7 +23,7 @@
 /** Masternode manager */
 CMasternodeMan mnodeman;
 
-const std::string CMasternodeMan::SERIALIZATION_VERSION_STRING = "CMasternodeMan-Version-8";
+const std::string CMasternodeMan::SERIALIZATION_VERSION_STRING = "CMasternodeMan-Version-7";
 const int CMasternodeMan::LAST_PAID_SCAN_BLOCKS = 100;
 
 struct CompareLastPaidBlock
@@ -720,16 +720,13 @@ void CMasternodeMan::ProcessMasternodeConnections(CConnman& connman)
 
     connman.ForEachNode(CConnman::AllNodes, [](CNode* pnode) {
 #ifdef ENABLE_WALLET
-        if(pnode->fMasternode) {
-#else
-        if(pnode->fMasternode) {
+            if(pnode->fMasternode) {
 #endif // ENABLE_WALLET
             LogPrintf("Closing Masternode connection: peer=%d, addr=%s\n", pnode->id, pnode->addr.ToString());
             pnode->fDisconnect = true;
         }
     });
 }
-
 std::pair<CService, std::set<uint256> > CMasternodeMan::PopScheduledMnbRequestConnection()
 {
     LOCK(cs);
