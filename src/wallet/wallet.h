@@ -44,6 +44,28 @@ extern unsigned int nTxConfirmTarget;
 extern bool bSpendZeroConfChange;
 extern bool fSendFreeTransactions;
 extern bool bBIP69Enabled;
+class CTxDSIn : public CTxIn
+{
+public:
+    // memory only
+    CScript prevPubKey;
+    bool fHasSig; // flag to indicate if signed
+    int nSentTimes; //times we've sent this anonymously
+
+    CTxDSIn(const CTxIn& txin, const CScript& script) :
+            CTxIn(txin),
+            prevPubKey(script),
+            fHasSig(false),
+            nSentTimes(0)
+    {}
+
+    CTxDSIn() :
+            CTxIn(),
+            prevPubKey(),
+            fHasSig(false),
+            nSentTimes(0)
+    {}
+};
 
 static const unsigned int DEFAULT_KEYPOOL_SIZE = 1000;
 //! -paytxfee default
