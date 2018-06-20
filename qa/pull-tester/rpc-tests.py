@@ -113,7 +113,7 @@ testScripts = [
     'wallet-hd.py',
     'walletbackup.py',
     # vv Tests less than 5m vv
-    'p2p-fullblocktest.py', # NOTE: needs polis_hash to pass
+    'p2p-fullblocktest.py', # NOTE: needs dash_hash to pass
     'fundrawtransaction.py',
     'fundrawtransaction-hd.py',
     # vv Tests less than 2m vv
@@ -122,7 +122,7 @@ testScripts = [
     'wallet-dump.py',
     'listtransactions.py',
     # vv Tests less than 60s vv
-    'sendheaders.py', # NOTE: needs polis_hash to pass
+    'sendheaders.py', # NOTE: needs dash_hash to pass
     'zapwallettxes.py',
     'importmulti.py',
     'mempool_limit.py',
@@ -155,8 +155,8 @@ testScripts = [
     'keypool-hd.py',
     'p2p-mempool.py',
     'prioritise_transaction.py',
-    'invalidblockrequest.py', # NOTE: needs polis_hash to pass
-    'invalidtxrequest.py', # NOTE: needs polis_hash to pass
+    'invalidblockrequest.py', # NOTE: needs dash_hash to pass
+    'invalidtxrequest.py', # NOTE: needs dash_hash to pass
     'p2p-versionbits-warning.py',
     'preciousblock.py',
     'importprunedfunds.py',
@@ -187,8 +187,8 @@ testScriptsExt = [
     'rpcbind_test.py',
     # vv Tests less than 30s vv
     'bip65-cltv.py',
-    'bip65-cltv-p2p.py', # NOTE: needs polis_hash to pass
-    'bipdersig-p2p.py', # NOTE: needs polis_hash to pass
+    'bip65-cltv-p2p.py', # NOTE: needs dash_hash to pass
+    'bipdersig-p2p.py', # NOTE: needs dash_hash to pass
     'bipdersig.py',
     'getblocktemplate_proposals.py',
     'txn_doublespend.py',
@@ -196,7 +196,7 @@ testScriptsExt = [
     'forknotify.py',
     'invalidateblock.py',
     'maxblocksinflight.py',
-    'p2p-acceptblock.py', # NOTE: needs polis_hash to pass
+    'p2p-acceptblock.py', # NOTE: needs dash_hash to pass
     # 'replace-by-fee.py', # RBF is disabled in Polis Core
 ]
 
