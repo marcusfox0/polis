@@ -20,7 +20,6 @@
 #include "wallet/walletdb.h"
 #include "wallet/rpcwallet.h"
 
-#include "privatesend.h"
 
 #include <algorithm>
 #include <atomic>
@@ -86,7 +85,25 @@ class CReserveKey;
 class CScript;
 class CTxMemPool;
 class CWalletTx;
+class CTxDSIn : public CTxIn
+{
+public:
+    // memory only
+    CScript prevPubKey;
+    bool fHasSig; // flag to indicate if signed
 
+    CTxDSIn(const CTxIn& txin, const CScript& script) :
+        CTxIn(txin),
+        prevPubKey(script),
+        fHasSig(false)
+        {}
+
+    CTxDSIn() :
+        CTxIn(),
+        prevPubKey(),
+        fHasSig(false)
+        {}
+};
 /** (client) version numbers for particular wallet features */
 enum WalletFeature
 {
@@ -285,7 +302,7 @@ public:
     bool IsCoinBase() const { return tx->IsCoinBase(); }
 };
 
-/** 
+/**
  * A transaction with a bunch of additional info that only the owner cares about.
  * It includes any unrecorded transactions needed to link it back to the block chain.
  */
@@ -622,7 +639,7 @@ private:
 };
 
 
-/** 
+/**
  * A CWallet is an extension of a keystore, which also maintains a set of transactions and balances,
  * and provides the ability to create new transactions.
  */
@@ -734,7 +751,7 @@ public:
         SetNull();
     }
 
-    CWallet(const std::string& strWalletFileIn) 
+    CWallet(const std::string& strWalletFileIn)
     : strWalletFile(strWalletFileIn)
     {
         SetNull();
@@ -889,7 +906,7 @@ public:
 
     void GetKeyBirthTimes(std::map<CTxDestination, int64_t> &mapKeyBirth) const;
 
-    /** 
+    /**
      * Increment the next transaction order id
      * @return next transaction order id
      */
@@ -1028,7 +1045,7 @@ public:
         LOCK(cs_wallet);
         mapRequestCount[hash] = 0;
     };
-    
+
     unsigned int GetKeyPoolSize()
     {
         AssertLockHeld(cs_wallet); // set{Ex,In}ternalKeyPool
@@ -1054,8 +1071,8 @@ public:
 
     //! Verify the wallet database and perform salvage if required
     static bool Verify();
-    
-    /** 
+
+    /**
      * Address book entry changed.
      * @note called with lock cs_wallet held.
      */
@@ -1064,7 +1081,7 @@ public:
             const std::string &purpose,
             ChangeType status)> NotifyAddressBookChanged;
 
-    /** 
+    /**
      * Wallet transaction added, removed or updated.
      * @note called with lock cs_wallet held.
      */
@@ -1148,7 +1165,7 @@ public:
 };
 
 
-/** 
+/**
  * Account information.
  * Stored in wallet with key "acc"+string account name.
  */

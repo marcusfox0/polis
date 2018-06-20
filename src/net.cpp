@@ -27,7 +27,6 @@
 #include "instantx.h"
 #include "masternode-sync.h"
 #include "masternodeman.h"
-#include "privatesend.h"
 
 #ifdef WIN32
 #include <string.h>
@@ -1763,9 +1762,9 @@ void CConnman::ThreadOpenConnections()
         //  * Increase the number of connectable addresses in the tried table.
         //
         // Method:
-        //  * Choose a random address from new and attempt to connect to it if we can connect 
+        //  * Choose a random address from new and attempt to connect to it if we can connect
         //    successfully it is added to tried.
-        //  * Start attempting feeler connections only after node finishes making outbound 
+        //  * Start attempting feeler connections only after node finishes making outbound
         //    connections.
         //  * Only make a feeler connection once every few minutes.
         //
@@ -2618,8 +2617,7 @@ bool CConnman::DisconnectNode(NodeId id)
 void CConnman::RelayTransaction(const CTransaction& tx)
 {
     uint256 hash = tx.GetHash();
-    int nInv = static_cast<bool>(CPrivateSend::GetDSTX(hash)) ? MSG_DSTX :
-                (instantsend.HasTxLockRequest(hash) ? MSG_TXLOCK_REQUEST : MSG_TX);
+    int nInv = static_cast<bool>(instantsend.HasTxLockRequest(hash) ? MSG_TXLOCK_REQUEST : MSG_TX);
     CInv inv(nInv, hash);
     LOCK(cs_vNodes);
     BOOST_FOREACH(CNode* pnode, vNodes)
