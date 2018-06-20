@@ -366,8 +366,8 @@ BOOST_AUTO_TEST_CASE(CreateNewBlock_validity)
 
     // subsidy changing
     // int nHeight = chainActive.Height();
-    // // Create an actual 209999-long block chain (without valid blocks).
-    // while (chainActive.Tip()->nHeight < 209999) {
+    // // Create an actual 2024126-long block chain (without valid blocks).
+    // while (chainActive.Tip()->nHeight < 2024126) {
     //     CBlockIndex* prev = chainActive.Tip();
     //     CBlockIndex* next = new CBlockIndex();
     //     next->phashBlock = new uint256(GetRandHash());

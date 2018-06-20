@@ -49,9 +49,9 @@ BOOST_AUTO_TEST_CASE(block_subsidy_test)
     nSubsidy = GetBlockSubsidy(nPrevBits, nPrevHeight, consensusParams, false);
     BOOST_CHECK_EQUAL(nSubsidy, 6100000000ULL);
 
-    // details for block 99999 (subsidy returned will be for block 100000)
+    // details for block 241269 (subsidy returned will be for block 100000)
     nPrevBits = 0x1b10cf42;
-    nPrevHeight = 99999;
+    nPrevHeight = 241269;
     nSubsidy = GetBlockSubsidy(nPrevBits, nPrevHeight, consensusParams, false);
     BOOST_CHECK_EQUAL(nSubsidy, 500000000ULL);
 
