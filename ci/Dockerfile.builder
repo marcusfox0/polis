@@ -22,9 +22,9 @@ RUN apt-get update && apt-get install -y \
 # Python stuff
 RUN pip3 install pyzmq # really needed?
 
-# dash_hash
-RUN git clone https://github.com/dashpay/dash_hash
-RUN cd dash_hash && python3 setup.py install
+# polis_hash
+RUN git clone https://github.com/polispay/polis_hash
+RUN cd polis_hash && python3 setup.py install
 
 ARG USER_ID=1000
 ARG GROUP_ID=1000
@@ -32,8 +32,8 @@ ARG GROUP_ID=1000
 # add user with specified (or default) user/group ids
 ENV USER_ID ${USER_ID}
 ENV GROUP_ID ${GROUP_ID}
-RUN groupadd -g ${GROUP_ID} dash
-RUN useradd -u ${USER_ID} -g dash -s /bin/bash -m -d /dash dash
+RUN groupadd -g ${GROUP_ID} polis
+RUN useradd -u ${USER_ID} -g polis -s /bin/bash -m -d /polis polis
 
 # Extra packages
 ARG DPKG_ADD_ARCH=""
@@ -50,5 +50,5 @@ RUN \
   update-alternatives --set x86_64-w64-mingw32-g++  /usr/bin/x86_64-w64-mingw32-g++-posix; \
   exit 0
 
-USER dash
-WORKDIR /dash
+USER polis
+WORKDIR /polis

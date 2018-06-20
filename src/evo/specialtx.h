@@ -1,9 +1,9 @@
-// Copyright (c) 2017 The Dash Core developers
+// Copyright (c) 2017 The Polis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DASH_SPECIALTX_H
-#define DASH_SPECIALTX_H
+#ifndef POLIS_SPECIALTX_H
+#define POLIS_SPECIALTX_H
 
 #include "streams.h"
 #include "version.h"
@@ -51,4 +51,4 @@ void SetTxPayload(CMutableTransaction& tx, const T& payload)
 
 uint256 CalcTxInputsHash(const CTransaction& tx);
 
-#endif//DASH_SPECIALTX_H
+#endif//POLIS_SPECIALTX_H

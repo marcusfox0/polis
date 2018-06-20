@@ -50,11 +50,11 @@ env:
 
 before_cache:
   # Save builder image
-  - docker save dash-builder-$BUILD_TARGET $(docker history -q dash-builder-$BUILD_TARGET | grep -v \<missing\>) | gzip -2 > $HOME/docker/dash-builder-$BUILD_TARGET.tar.gz
+  - docker save polis-builder-$BUILD_TARGET $(docker history -q polis-builder-$BUILD_TARGET | grep -v \<missing\>) | gzip -2 > $HOME/docker/polis-builder-$BUILD_TARGET.tar.gz
 
 install:
     # Load cached builder image
-    - if [ -f $HOME/docker/dash-builder-$BUILD_TARGET.tar.gz ]; then zcat $HOME/docker/dash-builder-$BUILD_TARGET.tar.gz | docker load || true; fi
+    - if [ -f $HOME/docker/polis-builder-$BUILD_TARGET.tar.gz ]; then zcat $HOME/docker/polis-builder-$BUILD_TARGET.tar.gz | docker load || true; fi
     - ./ci/build_builder.sh
 #    - export PATH=$(echo $PATH | tr ':' "\n" | sed '/\/opt\/python/d' | tr "\n" ":" | sed "s|::|:|g")
 before_script:
@@ -72,7 +72,7 @@ script:
     - ./ci/build_src.sh
     - if [ "$RUN_TESTS" = "true" ]; then travis_wait 30 ./ci/test_unittests.sh; fi
     - if [ "$RUN_TESTS" = "true" ]; then ./ci/test_integrationtests.sh; fi
-    - if [ "$DOCKER_BUILD" = "true" ]; then BUILD_DIR=build-ci/dashcore-$BUILD_TARGET ./docker/build-docker.sh; fi
+    - if [ "$DOCKER_BUILD" = "true" ]; then BUILD_DIR=build-ci/poliscore-$BUILD_TARGET ./docker/build-docker.sh; fi
 after_script:
     - echo $TRAVIS_COMMIT_RANGE
     - echo $TRAVIS_COMMIT_LOG

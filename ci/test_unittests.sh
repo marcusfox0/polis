@@ -14,4 +14,4 @@ docker run -t --rm \
   -e BUILD_DIR="$BUILD_DIR" \
   -e BUILD_TARGET="$BUILD_TARGET" \
   -e TRAVIS_BUILD_ID="$TRAVIS_BUILD_ID" \
-  dash-builder-$BUILD_TARGET ./ci/test_unittests_in_builder.sh
+  polis-builder-$BUILD_TARGET ./ci/test_unittests_in_builder.sh

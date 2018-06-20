@@ -8,6 +8,6 @@ source ./ci/matrix.sh
 
 export LD_LIBRARY_PATH=$BUILD_DIR/depends/$HOST/lib
 
-cd build-ci/dashcore-$BUILD_TARGET
+cd build-ci/poliscore-$BUILD_TARGET
 
 ./qa/pull-tester/rpc-tests.py --coverage

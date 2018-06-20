@@ -25,4 +25,4 @@ docker run -t --rm \
   -e BUILD_DIR="$BUILD_DIR" \
   -e BUILD_TARGET="$BUILD_TARGET" \
   -e CCACHE_DIR=$CCACHE_DIR \
-  dash-builder-$BUILD_TARGET ./ci/build_src_in_builder.sh
+  polis-builder-$BUILD_TARGET ./ci/build_src_in_builder.sh

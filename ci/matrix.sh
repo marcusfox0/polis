@@ -38,14 +38,14 @@ elif [ "$BUILD_TARGET" = "linux32" ]; then
   export PACKAGES="g++-multilib bc python3-zmq"
   export DEP_OPTS="NO_QT=1"
   export BITCOIN_CONFIG="--enable-zmq --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++"
-  export USE_SHELL="/bin/dash"
+  export USE_SHELL="/bin/polis"
   export PYZMQ=true
 elif [ "$BUILD_TARGET" = "linux64" ]; then
   export HOST=x86_64-unknown-linux-gnu
   export PACKAGES="bc python3-zmq"
   export DEP_OPTS="NO_QT=1 NO_UPNP=1 DEBUG=1"
   export BITCOIN_CONFIG="--enable-zmq --enable-glibc-back-compat --enable-reduce-exports"
-  export CPPFLAGS="-DDEBUG_LOCKORDER -DENABLE_DASH_DEBUG"
+  export CPPFLAGS="-DDEBUG_LOCKORDER -DENABLE_POLIS_DEBUG"
   export PYZMQ=true
 elif [ "$BUILD_TARGET" = "linux64_nowallet" ]; then
   export HOST=x86_64-unknown-linux-gnu

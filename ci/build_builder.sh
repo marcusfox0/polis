@@ -7,7 +7,7 @@ source $DIR/matrix.sh
 
 docker build \
   --pull \
-  -t dash-builder-$BUILD_TARGET \
+  -t polis-builder-$BUILD_TARGET \
   --build-arg USER_ID=$UID --build-arg GROUP_ID=$UID \
   --build-arg DPKG_ADD_ARCH="$DPKG_ADD_ARCH" \
   --build-arg PACKAGES="$PACKAGES" \
