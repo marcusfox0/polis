@@ -33,7 +33,7 @@ Check out the source code in the following directory hierarchy.
 	git clone https://github.com/devrandom/gitian-builder.git
 	git clone https://github.com/polispay/polis.git
 
-### polis Core maintainers/release engineers, update (commit) version in sources
+### Polis Core maintainers/release engineers, update (commit) version in sources
 
 
 - `configure.ac`:
@@ -120,7 +120,7 @@ NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from 
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign polis Core for Linux, Raspberry Pi, Windows, and OS X:
+### Build and sign Polis Core for Linux, Raspberry Pi, Windows, and OS X:
 
 	Linux
 

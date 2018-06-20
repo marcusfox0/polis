@@ -1,7 +1,7 @@
 Masternode config
 =======================
 
-polis Core allows controlling multiple remote masternodes from a single wallet. The wallet needs to have a valid collateral output of 1000 coins for each masternode and uses a configuration file named `masternode.conf` which can be found in the following data directory (depending on your operating system):
+Polis Core allows controlling multiple remote masternodes from a single wallet. The wallet needs to have a valid collateral output of 1000 coins for each masternode and uses a configuration file named `masternode.conf` which can be found in the following data directory (depending on your operating system):
  * Windows: %APPDATA%\polisCore\
  * Mac OS: ~/Library/Application Support/polisCore/
  * Unix/Linux: ~/.poliscore/

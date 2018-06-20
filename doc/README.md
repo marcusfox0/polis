@@ -3,7 +3,7 @@
 Polis Core 1.3.0
 =====================
 
-This is the official reference wallet for polis digital currency and comprises the backbone of the polis peer-to-peer network. You can [download polis Core](https://www.polis.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for polis digital currency and comprises the backbone of the polis peer-to-peer network. You can [download Polis Core](https://www.polis.org/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
@@ -33,7 +33,7 @@ for help and more information.
 
 Building
 ---------------------
-The following are developer notes on how to build polis Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Polis Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -43,7 +43,7 @@ The following are developer notes on how to build polis Core on your native plat
 
 Development
 ---------------------
-The polis Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Polis Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)

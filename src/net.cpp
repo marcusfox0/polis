@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The polis Core developers
+// Copyright (c) 2014-2017 The Polis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1477,7 +1477,7 @@ void ThreadMapPort()
             }
         }
 
-        std::string strDesc = "polis Core " + FormatFullVersion();
+        std::string strDesc = "Polis Core " + FormatFullVersion();
 
         try {
             while (true) {

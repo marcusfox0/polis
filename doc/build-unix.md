@@ -1,6 +1,6 @@
 UNIX BUILD NOTES
 ====================
-Some notes on how to build polis Core in Unix.
+Some notes on how to build Polis Core in Unix.
 
 (for OpenBSD specific instructions, see [build-openbsd.md](build-openbsd.md))
 
@@ -96,7 +96,7 @@ BerkeleyDB 5.1 or later, which break binary wallet compatibility with the distri
 are based on BerkeleyDB 4.8. If you do not care about wallet compatibility,
 pass `--with-incompatible-bdb` to configure.
 
-See the section "Disable-wallet mode" to build polis Core without wallet.
+See the section "Disable-wallet mode" to build Polis Core without wallet.
 
 Optional (see --with-miniupnpc and --enable-upnp-default):
 
@@ -188,7 +188,7 @@ cd db-4.8.30.NC/build_unix/
 ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
 make install
 
-# Configure polis Core to use our own-built instance of BDB
+# Configure Polis Core to use our own-built instance of BDB
 cd $polis_ROOT
 ./autogen.sh
 ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/" # (other args...)
@@ -240,7 +240,7 @@ Hardening enables the following features:
 
 * Non-executable Stack
     If the stack is executable then trivial stack based buffer overflow exploits are possible if
-    vulnerable buffers are found. By default, polis Core should be built with a non-executable stack
+    vulnerable buffers are found. By default, Polis Core should be built with a non-executable stack
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.
@@ -256,7 +256,7 @@ Hardening enables the following features:
 
 Disable-wallet mode
 --------------------
-When the intention is to run only a P2P node without a wallet, polis Core may be compiled in
+When the intention is to run only a P2P node without a wallet, Polis Core may be compiled in
 disable-wallet mode with:
 
     ./configure --disable-wallet

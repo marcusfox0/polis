@@ -40,7 +40,7 @@ Do not use `pkg_add boost`! The boost version installed thus is compiled using t
     ...
     Segmentation fault (core dumped)
 
-This makes it necessary to build boost, or at least the parts used by polis Core, manually:
+This makes it necessary to build boost, or at least the parts used by Polis Core, manually:
 
 ```
 # Pick some path to install boost to, here we create a directory within the polis directory

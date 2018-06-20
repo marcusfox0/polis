@@ -17,7 +17,7 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "polis"
-            VALUE "FileDescription",    "polis-cli (JSON-RPC client for polis Core)"
+            VALUE "FileDescription",    "polis-cli (JSON-RPC client for Polis Core)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "polis-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR

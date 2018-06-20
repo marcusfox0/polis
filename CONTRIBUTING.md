@@ -1,4 +1,4 @@
-Contributing to polis Core
+Contributing to Polis Core
 ============================
 
 The Polis Core project operates an open contributor model where anyone is

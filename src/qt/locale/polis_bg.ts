@@ -242,11 +242,11 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. polis Core can no longer continue safely and will quit.</source>
-        <translation>Възникна фатална грешка. polis Core не може да продължи безопасно и ще се изключи.</translation>
+        <source>A fatal error occurred. Polis Core can no longer continue safely and will quit.</source>
+        <translation>Възникна фатална грешка. Polis Core не може да продължи безопасно и ще се изключи.</translation>
     </message>
     <message>
-        <source>polis Core</source>
+        <source>Polis Core</source>
         <translation>polis Ядро</translation>
     </message>
     <message>
@@ -1329,8 +1329,8 @@
         <translation>Тази сума действа като лимит, за да се изключи PrivateSend, когато веднъж бъде достигнат.</translation>
     </message>
     <message>
-        <source>Automatically open the polis Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваря порта за polis Core клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
+        <source>Automatically open the Polis Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваря порта за Polis Core клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1929,8 +1929,8 @@ https://www.transifex.com/projects/p/polis/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>polis Core</source>
-        <translation>polis Core</translation>
+        <source>Polis Core</source>
+        <translation>Polis Core</translation>
     </message>
     <message>
         <source>%1 didn't yet exit safely...</source>

@@ -37,7 +37,7 @@ Description: peer-to-peer network based digital currency - daemon
  polis is an experimental new digital currency that enables anonymous, instant
  payments to anyone, anywhere in the world. polis uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. polis Core
+ and issuing money are carried out collectively by the network. Polis Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides the daemon, polisd, and the CLI tool
@@ -50,7 +50,7 @@ Description: peer-to-peer network based digital currency - Qt GUI
  polis is an experimental new digital currency that enables anonymous, instant
  payments to anyone, anywhere in the world. polis uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. polis Core
+ and issuing money are carried out collectively by the network. Polis Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides Polis-Qt, a GUI for polis based on Qt.
@@ -62,7 +62,7 @@ Description: peer-to-peer digital currency - standalone transaction tool
  polis is an experimental new digital currency that enables anonymous, instant
  payments to anyone, anywhere in the world. polis uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. polis Core
+ and issuing money are carried out collectively by the network. Polis Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides polis-tx, a command-line transaction creation

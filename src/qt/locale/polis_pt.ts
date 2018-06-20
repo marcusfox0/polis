@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>polis Core</source>
-        <translation>polis Core</translation>
+        <source>Polis Core</source>
+        <translation>Polis Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Sair da aplicação</translation>
     </message>
     <message>
-        <source>&amp;About polis Core</source>
-        <translation>&amp;Acerca do polis Core</translation>
+        <source>&amp;About Polis Core</source>
+        <translation>&amp;Acerca do Polis Core</translation>
     </message>
     <message>
-        <source>Show information about polis Core</source>
-        <translation>Mostra informação acerca do polis Core</translation>
+        <source>Show information about Polis Core</source>
+        <translation>Mostra informação acerca do Polis Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,16 +451,16 @@
         <translation>Opções de linha de &amp;comandos</translation>
     </message>
     <message>
-        <source>polis Core client</source>
-        <translation>Cliente polis Core</translation>
+        <source>Polis Core client</source>
+        <translation>Cliente Polis Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
         <translation><numerusform>%n bloco do histórico de transacções processado.</numerusform><numerusform>%n blocos do histórico de transacções processados.</numerusform></translation>
     </message>
     <message>
-        <source>Show the polis Core help message to get a list with possible polis command-line options</source>
-        <translation>Mostra a mensagem de ajuda do polis Core para obter a lista com as possíveis opções de linha de comandos</translation>
+        <source>Show the Polis Core help message to get a list with possible polis command-line options</source>
+        <translation>Mostra a mensagem de ajuda do Polis Core para obter a lista com as possíveis opções de linha de comandos</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -985,8 +985,8 @@ Endereço: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>polis Core</source>
-        <translation>polis Core</translation>
+        <source>Polis Core</source>
+        <translation>Polis Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -997,8 +997,8 @@ Endereço: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About polis Core</source>
-        <translation>Acerca do polis Core</translation>
+        <source>About Polis Core</source>
+        <translation>Acerca do Polis Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1044,16 +1044,16 @@ Endereço: %4
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to polis Core.</source>
-        <translation>Bem-vindo ao polis Core.</translation>
+        <source>Welcome to Polis Core.</source>
+        <translation>Bem-vindo ao Polis Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where polis Core will store its data.</source>
-        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente polis Core irá guardar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where Polis Core will store its data.</source>
+        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente Polis Core irá guardar os seus dados.</translation>
     </message>
     <message>
-        <source>polis Core will download and store a copy of the polis block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O cliente polis Core irá descarregar e guardar uma copia da cadeia de blocos polis. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
+        <source>Polis Core will download and store a copy of the polis block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O cliente Polis Core irá descarregar e guardar uma copia da cadeia de blocos polis. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1064,8 +1064,8 @@ Endereço: %4
         <translation>Usar uma pasta de dados personalizada</translation>
     </message>
     <message>
-        <source>polis Core</source>
-        <translation>polis Core</translation>
+        <source>Polis Core</source>
+        <translation>Polis Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2570,8 +2570,8 @@ https://www.transifex.com/projects/p/polis/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>polis Core is shutting down...</source>
-        <translation>O polis Core está a desligar...</translation>
+        <source>Polis Core is shutting down...</source>
+        <translation>O Polis Core está a desligar...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2720,8 +2720,8 @@ https://www.transifex.com/projects/p/polis/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>polis Core</source>
-        <translation>polis Core</translation>
+        <source>Polis Core</source>
+        <translation>Polis Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2732,8 +2732,8 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Os programadores Bitcoin Core</translation>
     </message>
     <message>
-        <source>The polis Core developers</source>
-        <translation>Os programadores polis Core</translation>
+        <source>The Polis Core developers</source>
+        <translation>Os programadores Polis Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3310,8 +3310,8 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Vincular a um determinado endereço e ouvir sempre aí. Use a notação [endereço]:porta para IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. polis Core is probably already running.</source>
-        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o polis Core já se encontra em execução.</translation>
+        <source>Cannot obtain a lock on data directory %s. Polis Core is probably already running.</source>
+        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o Polis Core já se encontra em execução.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3366,8 +3366,8 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Esta é uma compilação prévia de teste - use por sua conta e risco - não use para minar nem em aplicações comerciais</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. polis Core is probably already running.</source>
-        <translation>Não foi possível vincular a %s neste computador. Provavelmente o polis Core já está a ser executado.</translation>
+        <source>Unable to bind to %s on this computer. Polis Core is probably already running.</source>
+        <translation>Não foi possível vincular a %s neste computador. Provavelmente o Polis Core já está a ser executado.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3650,8 +3650,8 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Aviso: -maxtxfee é demasiado alta! Taxas deste tamanho podem ser pagas em apenas uma transacção.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong polis Core will not work properly.</source>
-        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o polis Core não vai funcionar correctamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Polis Core will not work properly.</source>
+        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o Polis Core não vai funcionar correctamente.</translation>
     </message>
     <message>
         <source>(9999 could be used only on mainnet)</source>
@@ -3696,8 +3696,8 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The polis Core Developers</source>
-        <translation>Copyright (C) 2014-%i polis Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Polis Core Developers</source>
+        <translation>Copyright (C) 2014-%i Polis Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3728,8 +3728,8 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Erro conectando ao Masternode</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of polis Core</source>
-        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do polis Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Polis Core</source>
+        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do Polis Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3800,8 +3800,8 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Informação</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. polis Core is shutting down.</source>
-        <translation>A verificação de consistência no arranque falhou. O polis Core está a encerrar.</translation>
+        <source>Initialization sanity check failed. Polis Core is shutting down.</source>
+        <translation>A verificação de consistência no arranque falhou. O Polis Core está a encerrar.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4044,8 +4044,8 @@ https://www.transifex.com/projects/p/polis/</translation>
         <translation>Utilize UPNP para mapear porta de escuta (default: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart polis Core to complete</source>
-        <translation>Carteira necessita de ser re-escrita: reinicie polis Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart Polis Core to complete</source>
+        <translation>Carteira necessita de ser re-escrita: reinicie Polis Core para completar</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
