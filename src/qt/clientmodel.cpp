@@ -19,6 +19,7 @@
 #include "txmempool.h"
 #include "ui_interface.h"
 #include "util.h"
+#include "rpc/server.h"
 
 #include "masternodeman.h"
 #include "masternode-sync.h"

@@ -95,10 +95,6 @@ void OptionsModel::Init(bool resetSettings)
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
 
-    // PrivateSend
-    if (!settings.contains("fShowAdvancedPSUI"))
-        settings.setValue("fShowAdvancedPSUI", false);
-    fShowAdvancedPSUI = settings.value("fShowAdvancedPSUI", false).toBool();
 
     if (!settings.contains("fLowKeysWarning"))
         settings.setValue("fLowKeysWarning", true);
@@ -130,29 +126,6 @@ void OptionsModel::Init(bool resetSettings)
     if (!SoftSetBoolArg("-spendzeroconfchange", settings.value("bSpendZeroConfChange").toBool()))
         addOverriddenOption("-spendzeroconfchange");
 
-    // PrivateSend
-    if (!settings.contains("nPrivateSendRounds"))
-        settings.setValue("nPrivateSendRounds", DEFAULT_PRIVATESEND_ROUNDS);
-    if (!SoftSetArg("-privatesendrounds", settings.value("nPrivateSendRounds").toString().toStdString()))
-        addOverriddenOption("-privatesendrounds");
-    privateSendClient.nPrivateSendRounds = settings.value("nPrivateSendRounds").toInt();
-
-    if (!settings.contains("nPrivateSendAmount")) {
-        // for migration from old settings
-        if (!settings.contains("nAnonymizepolisAmount"))
-            settings.setValue("nPrivateSendAmount", DEFAULT_PRIVATESEND_AMOUNT);
-        else
-            settings.setValue("nPrivateSendAmount", settings.value("nAnonymizepolisAmount").toInt());
-    }
-    if (!SoftSetArg("-privatesendamount", settings.value("nPrivateSendAmount").toString().toStdString()))
-        addOverriddenOption("-privatesendamount");
-    privateSendClient.nPrivateSendAmount = settings.value("nPrivateSendAmount").toInt();
-
-    if (!settings.contains("fPrivateSendMultiSession"))
-        settings.setValue("fPrivateSendMultiSession", DEFAULT_PRIVATESEND_MULTISESSION);
-    if (!SoftSetBoolArg("-privatesendmultisession", settings.value("fPrivateSendMultiSession").toBool()))
-        addOverriddenOption("-privatesendmultisession");
-    privateSendClient.fPrivateSendMultiSession = settings.value("fPrivateSendMultiSession").toBool();
 #endif
 
     // Network
@@ -273,12 +246,6 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return fShowAdvancedPSUI;
         case LowKeysWarning:
             return settings.value("fLowKeysWarning");
-        case PrivateSendRounds:
-            return settings.value("nPrivateSendRounds");
-        case PrivateSendAmount:
-            return settings.value("nPrivateSendAmount");
-        case PrivateSendMultiSession:
-            return settings.value("fPrivateSendMultiSession");
 #endif
         case DisplayUnit:
             return nDisplayUnit;
@@ -423,29 +390,6 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
             break;
         case LowKeysWarning:
             settings.setValue("fLowKeysWarning", value);
-            break;
-        case PrivateSendRounds:
-            if (settings.value("nPrivateSendRounds") != value)
-            {
-                privateSendClient.nPrivateSendRounds = value.toInt();
-                settings.setValue("nPrivateSendRounds", privateSendClient.nPrivateSendRounds);
-                Q_EMIT privateSendRoundsChanged();
-            }
-            break;
-        case PrivateSendAmount:
-            if (settings.value("nPrivateSendAmount") != value)
-            {
-                privateSendClient.nPrivateSendAmount = value.toInt();
-                settings.setValue("nPrivateSendAmount", privateSendClient.nPrivateSendAmount);
-                Q_EMIT privateSentAmountChanged();
-            }
-            break;
-        case PrivateSendMultiSession:
-            if (settings.value("fPrivateSendMultiSession") != value)
-            {
-                privateSendClient.fPrivateSendMultiSession = value.toBool();
-                settings.setValue("fPrivateSendMultiSession", privateSendClient.fPrivateSendMultiSession);
-            }
             break;
 #endif
         case DisplayUnit:
