@@ -152,7 +152,6 @@ OverviewPage::OverviewPage(const PlatformStyle *platformStyle, QWidget *parent) 
     ui->labelTransactionsStatus->setText("(" + tr("out of sync") + ")");
 
     // hide PS frame (helps to preserve saved size)
-    // we'll setup and make it visible in updateAdvancedPSUI() later if we are not in litemode
 
     // start with displaying the "out of sync" warnings
     showOutOfSyncWarning(true);
@@ -256,8 +255,9 @@ void OverviewPage::setWalletModel(WalletModel *model)
         // Keep up to date with wallet
         setBalance(model->getBalance(), model->getUnconfirmedBalance(), model->getImmatureBalance(),
                    model->getWatchBalance(), model->getWatchUnconfirmedBalance(), model->getWatchImmatureBalance());
-        connect(model, SIGNAL(balanceChanged(CAmount,CAmount,CAmount,CAmount,CAmount,CAmount,CAmount)), this, SLOT(setBalance(CAmount,CAmount,CAmount,CAmount,CAmount,CAmount)));
-
+        connect(model, SIGNAL(balanceChanged(CAmount,CAmount,CAmount,CAmount,CAmount,CAmount)), this, SLOT(setBalance(CAmount,CAmount,CAmount,CAmount,CAmount,CAmount)));
+        updateAdvancedPSUI(model->getOptionsModel()->getShowAdvancedPSUI());
+        connect(model->getOptionsModel(), SIGNAL(advancedPSUIChanged(bool)), this, SLOT(updateAdvancedPSUI(bool)));
         connect(model->getOptionsModel(), SIGNAL(displayUnitChanged(int)), this, SLOT(updateDisplayUnit()));
         updateWatchOnlyLabels(model->haveWatchOnly());
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
@@ -265,9 +265,14 @@ void OverviewPage::setWalletModel(WalletModel *model)
 
         // that's it for litemode
         if(fLiteMode) return;
-        connect(model->getOptionsModel(), SIGNAL(advancedPSUIChanged(bool)), this, SLOT(updateAdvancedPSUI(bool)));
 
     }
+}
+
+void OverviewPage::updateAdvancedPSUI(bool fShowAdvancedPSUI) {
+    this->fShowAdvancedPSUI = fShowAdvancedPSUI;
+    int nNumItems = (fLiteMode) ? NUM_ITEMS : NUM_ITEMS_ADV;
+    SetupTransactionList(nNumItems);
 }
 
 void OverviewPage::updateDisplayUnit()
